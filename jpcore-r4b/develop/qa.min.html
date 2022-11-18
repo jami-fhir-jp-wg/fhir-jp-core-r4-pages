@@ -1,0 +1,224 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = errors = 1, warn = 9, info = 0, 10 -->
+<head>
+  <title>FHIRJPCoreImplementationGuide : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for FHIRJPCoreImplementationGuide</h1>
+ <p>Generated Fri Nov 18 00:48:59 UTC 2022, FHIR version 4.3.0 for hl7.fhir.jp.core#2.0.0a (canonical = <a href="http://jpfhir.jp/fhir/core">http://jpfhir.jp/fhir/core</a> (<a href="http://jpfhir.jp/fhir/core/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.2.12, which is out of date. The current version is v1.2.15 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = hl7.fhir.jp.core, Canonical = http://jpfhir.jp/fhir/core</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>2.0.0a: <span stlye="color: marron; font-weight: bold">Version does not conform to semver rules</span></td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">16 Suppressed Issues</a>
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.jp.core</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2.0.0a</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.3.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://jpfhir.jp/fhir/core</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="background-color: #ffcccc">4.0.1</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.0.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">FHIR Version Mismatch</td></tr>
+</table><para>Templates: hl7.fhir.jp.core.ig-template#null -&gt; fhir.base.template#0.2.2</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+ <br/><br/>The copyrightYear parameter ('2022+') in the IG resource is good</td></tr>
+ <tr><td>HTA Analysis:</td><td><a href="qa-hta.html">All OK</a></td></tr>
+ <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://jpfhir.jp/fhir/core (Problem #1 with package-list.json at http://jpfhir.jp/fhir/core: Invalid HTTP response 404 from https://jpfhir.jp/fhir/core/package-list.json?nocache=1668731951898 (Not Found) (content in /tmp/fhir-http-3.log))</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+<tr><td>Validation Suppressed</td><td><a href="null">ImplementationGuide/hl7.fhir.jp.core</a>, <a href="null">ImplementationGuide/hl7.fhir.jp.core</a> <tr><td>Summary:</td><td> errors = 1, warn = 9, info = 0, broken links = 10</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>11</b></td><td><b>4</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-female-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-1</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-male-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-male-1</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-practitioner"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-practitioner</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b>PractitionerRole.code</b></td><td><b>error</b></td><td title=""><b>The reference http://hl7.org/fhir/ValueSet/practitioner-role could not be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner-definitions.html#l3698">output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 856, column 136</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner-definitions.html#l4731">output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 1026, column 298</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner-definitions.html#l5509">output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 1122, column 298</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner-definitions.html#l8635">output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/a at Line 1653, column 107</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l2823">output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 585, column 858</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l4388">output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 689, column 225</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l6787">output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/tr/td/span/div/div/div/table/tr/td/a at Line 1045, column 858</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l8348">output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/span/tr/td/span/div/div/table/tr/td/a at Line 1270, column 225</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitionerrole-definitions.html#l733">output/StructureDefinition-jp-practitionerrole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 338, column 280</a></b></td><td><b>error</b></td><td><b>The link 'practitioner-role.html' for &quot;practitioner-role&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitionerrole-definitions.html#l2028">output/StructureDefinition-jp-practitionerrole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 556, column 280</a></b></td><td><b>error</b></td><td><b>The link 'practitioner-role.html' for &quot;practitioner-role&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>1</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>2</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>3</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>4</b></td><td><b>warning</b></td><td title=""><b>The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-female-1"> </a>
+<h2><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-jp-practitioner.html">JP Core Practitioner Profile</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner.qualification[0].code (l47/c20)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner.qualification[1].code (l63/c20)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner.qualification[2].code (l79/c20)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-male-1"> </a>
+<h2><a href="Practitioner-jp-practitioner-example-male-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-male-1.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-jp-practitioner.html">JP Core Practitioner Profile</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner.qualification[0].code (l47/c20)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-practitioner"> </a>
+<h2><a href="StructureDefinition-jp-practitioner.html">fsh-generated/resources/StructureDefinition-jp-practitioner.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.snapshot.element[41].binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://terminology.hl7.org/ValueSet/v2-2.7-0360 on element Practitioner.qualification.code could not be resolved</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p><b> Local CodeSystems Warnings</b></p><ul>
+ <li>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' is unknown so the code cannot be validated <span style="color: navy">(5110 uses)<span></li>
+ <li>Code System URI 'http://abc-hospital.local/fhir/ObservationOrder/localcode' is unknown so the code cannot be validated <span style="color: navy">(730 uses)<span></li>
+ <li>Code System URI 'http://abc-hospital.local/fhir/devide/local-device-type' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>CodeSystem Content Level #Example or #Fragment Warnings</b></p><ul>
+ <li>Error from server: Unable to provide support for code system % <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>Country code system 'urn:iso:std:iso:3166' is unknown due to unresoloved reason</b></p><ul>
+ <li>Code System URI 'urn:iso:std:iso:3166' is unknown so the code cannot be validated <span style="color: navy">(145273 uses)<span></li>
+</ul>
+<p><b>Example Existence Warnings</b></p><ul>
+ <li>%The Implementation Guide contains no examples% <span style="color: navy">(10950 uses)<span></li>
+</ul>
+<p><b>External Terminologies Existence Warnings</b></p><ul>
+ <li>Code System URI 'http://loinc.org' is unknown so the code cannot be validated <span style="color: navy">(5110 uses)<span></li>
+ <li>Code System URI 'urn:ietf:rfc:3986' is unknown so the code cannot be validated <span style="color: navy">(730 uses)<span></li>
+ <li>The valueSet reference http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1 on element ImagingStudy.series.instance.sopClass could not be resolved <span style="color: navy">(730 uses)<span></li>
+ <li>The valueSet reference http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html on element ImagingStudy.modality could not be resolved <span style="color: navy">(730 uses)<span></li>
+ <li>The valueSet reference http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html on element ImagingStudy.series.modality could not be resolved <span style="color: navy">(730 uses)<span></li>
+ <li>The valueSet reference http://playbook.radlex.org/playbook/SearchRadlexAction on element ImagingStudy.procedureCode could not be resolved <span style="color: navy">(1460 uses)<span></li>
+ <li>ValueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1 not found by validator <span style="color: navy">(730 uses)<span></li>
+ <li>ValueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html not found by validator <span style="color: navy">(730 uses)<span></li>
+ <li>ValueSet http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_33.html not found by validator <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>OID CodeSystem not found Warnings (only registered NamingSystem)</b></p><ul>
+ <li>Code System URI 'urn:oid:1.2.392.200119.4.101.6' is unknown so the code cannot be validated <span style="color: navy">(730 uses)<span></li>
+</ul>
+<a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Terminology_TX_ValueSet_NotFound"> </a>
+<h2>Terminology_TX_ValueSet_NotFound</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-male-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-male-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found by validator</b></td>
+   </tr>
+</table>
+</body>
+</html>
