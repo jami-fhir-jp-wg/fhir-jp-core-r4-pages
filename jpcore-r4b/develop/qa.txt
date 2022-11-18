@@ -2,8 +2,8 @@
 =========================================
 
 err = 1, warn = 9, info = 0
-IG Publisher Version: 1.2.12 Out of date - current version is 1.2.15
-Generated Fri Nov 18 00:49:00 UTC 2022. FHIR version 4.3.0 for hl7.fhir.jp.core#2.0.0a (canonical = http://jpfhir.jp/fhir/core)
+IG Publisher Version: 1.2.15
+Generated Fri Nov 18 03:36:38 UTC 2022. FHIR version 4.3.0 for hl7.fhir.jp.core#2.0.0a (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 11 / 4 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 0 / 2
@@ -260,8 +260,8 @@ ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinit
 ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitionerrole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 338, column 280: The link 'practitioner-role.html' for "practitioner-role" cannot be resolved
 ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitionerrole-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 556, column 280: The link 'practitioner-role.html' for "practitioner-role" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1.json ==
 == fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement.json ==
