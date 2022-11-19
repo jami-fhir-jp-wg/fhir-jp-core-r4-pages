@@ -3,7 +3,7 @@
   "name": "FHIRJPCoreImplementationGuide",
   "package-id": "hl7.fhir.jp.core",
   "ig-ver": "2.0.0a",
-  "date": "Fri, 18 Nov, 2022 03:26:36 +0000",
+  "date": "Sat, 19 Nov, 2022 05:01:54 +0000",
   "errs": 1,
   "warnings": 9,
   "hints": 0,

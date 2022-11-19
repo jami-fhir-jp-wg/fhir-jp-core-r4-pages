@@ -2,8 +2,8 @@
 =========================================
 
 err = 1, warn = 9, info = 0
-IG Publisher Version: 1.2.15
-Generated Fri Nov 18 03:36:38 UTC 2022. FHIR version 4.3.0 for hl7.fhir.jp.core#2.0.0a (canonical = http://jpfhir.jp/fhir/core)
+IG Publisher Version: 1.2.15 Out of date - current version is 1.2.17
+Generated Sat Nov 19 05:10:49 UTC 2022. FHIR version 4.3.0 for hl7.fhir.jp.core#2.0.0a (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 11 / 4 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 0 / 2

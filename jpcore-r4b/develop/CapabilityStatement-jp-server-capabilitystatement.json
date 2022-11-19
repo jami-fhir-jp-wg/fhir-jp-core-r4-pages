@@ -44,7 +44,7 @@
   "instantiates": [
     "http://jpfhir.jp/fhir/core/CapabilityStatement/JP_Server_CapabilityStatement"
   ],
-  "fhirVersion": "4.0.1",
+  "fhirVersion": "4.3.0",
   "format": [
     "xml",
     "json"
