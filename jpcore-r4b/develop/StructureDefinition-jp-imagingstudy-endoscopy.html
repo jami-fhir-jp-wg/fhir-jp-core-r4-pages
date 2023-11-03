@@ -1070,7 +1070,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <p>ImagingStudyはDICOM tagとの対応が重要である。各エレメントとDICOM tagのマッピングについては<a href="https://hl7.org/fhir/R4/imagingstudy-mappings.html#dicom">Resource ImagingStudy - Mappings - DICOM Tag Mapping</a>を参照すること。</p>
 
 <h3 id="reasoncode">reasonCode</h3>
-<p>消化器内視鏡検査のDICOMフォーマットのデータを扱う際、ImagingStudy.reasonCodeには[JP Core ReasonCode JED ValueSet][JP_ReasonCodesJed_VS]をbindした。これは <a href="https://www.jges.net/">日本消化器内視鏡学会</a>が推進する<a href="https://jedproject.jges.net/">JED (Japan Endoscopy Database) Project</a>で定義されている<a href="https://jedproject.jges.net/about/terms-about/">JED用語集</a>のコード集であり、このうち、基本用語集の”検査目的”、”治療目的”のコード値を設定することを強く推奨する。</p>
+<p>消化器内視鏡検査のDICOMフォーマットのデータを扱う際、ImagingStudy.reasonCodeには<a href="ValueSet-jp-reason-codes-jed-vs.html">JP Core ReasonCode JED ValueSet</a>をbindした。これは <a href="https://www.jges.net/">日本消化器内視鏡学会</a>が推進する<a href="https://jedproject.jges.net/">JED (Japan Endoscopy Database) Project</a>で定義されている<a href="https://jedproject.jges.net/about/terms-about/">JED用語集</a>のコード集であり、このうち、基本用語集の”検査目的”、”治療目的”のコード値を設定することを強く推奨する。</p>
 
 <h2 id="利用方法">利用方法</h2>
 
@@ -1223,7 +1223,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 4.3.0</a>. Generated <span title="Fri, Nov 3, 2023 09:17+0000">2023-11-03</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 4.3.0</a>. Generated <span title="Fri, Nov 3, 2023 09:39+0000">2023-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

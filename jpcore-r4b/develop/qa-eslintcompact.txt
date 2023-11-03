@@ -241,4 +241,4 @@ FHIRJPCoreImplementationGuide : Validation Results
 
 err = 4, warn = 213, info = 21
 IG Publisher Version: 1.5.1
-Generated Fri Nov 03 09:23:51 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0 (canonical = http://jpfhir.jp/fhir/core)
+Generated Fri Nov 03 09:45:04 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0 (canonical = http://jpfhir.jp/fhir/core)
