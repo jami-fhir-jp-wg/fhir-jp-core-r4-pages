@@ -10,8 +10,8 @@
       "oids" : ["1.2.840.10008.2.16.4"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_RadiologyModality_VS" : "JP Core Radiology Modality ValueSet",
-      "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType"
+      "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType",
+      "ValueSet-jp-radiologymodality-vs.html" : "JP Core Radiology Modality ValueSet"
     },
     {
       "url" : "http://hl7.org/fhir/event-status",
@@ -27,91 +27,91 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleDosageComment_CS",
       "title" : "JP Core Medication Example DosageComment CodeSystem",
       "description" : "注射用法コメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageComment_VS" : "JP Core Medication Example DosageComment ValueSet"
+      "ValueSet-jp-medication-example-dosagecomment-vs.html" : "JP Core Medication Example DosageComment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageLineComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleLineComment_CS",
       "title" : "JP Core Medication Example LineComment CodeSystem",
       "description" : "注射ラインコメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageLineComment_VS" : "JP Core Medication Example LineComment ValueSet"
+      "ValueSet-jp-medication-example-linecomment-vs.html" : "JP Core Medication Example LineComment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageMethodComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleMethodComment_CS",
       "title" : "JP Core Medication Example MethodComment CodeSystem",
       "description" : "注射手技コメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageMethodComment_VS" : "JP Core Medication Example MethodComment ValueSet"
+      "ValueSet-jp-medication-example-methodcomment-vs.html" : "JP Core Medication Example MethodComment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageRateComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleRateComment_CS",
       "title" : "JP Core Medication Example RateComment CodeSystem",
       "description" : "注射投与速度コメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageRateComment_VS" : "JP Core Medication Example RateComment ValueSet"
+      "ValueSet-jp-medication-example-ratecomment-vs.html" : "JP Core Medication Example RateComment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageRouteComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleRouteComment_CS",
       "title" : "JP Core Medication Example RouteComment CodeSystem",
       "description" : "注射投与経路コメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageRouteComment_VS" : "JP Core Medication Example RouteComment ValueSet"
+      "ValueSet-jp-medication-example-routecomment-vs.html" : "JP Core Medication Example RouteComment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageSiteComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleSiteComment_CS",
       "title" : "JP Core Medication Example SiteComment CodeSystem",
       "description" : "注射投与部位コメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageSiteComment_VS" : "JP Core Medication Example SiteComment ValueSet"
+      "ValueSet-jp-medication-example-sitecomment-vs.html" : "JP Core Medication Example SiteComment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationUncategorizedComment_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleUncategorizedComment_CS",
       "title" : "JP Core MedicationAdministration Example Uncategorized Comment CodeSystem",
       "description" : "注射実施未分類コメントのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationUncategorizedComment_VS" : "JP Core MedicationAdministration Example Uncategorized Comment ValueSet"
+      "ValueSet-jp-medication-example-uncategorized-comment-vs.html" : "JP Core MedicationAdministration Example Uncategorized Comment ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationRequestDosageInstructionLine_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MedicationExampleLine_CS",
       "title" : "JP Core Medication Example Line CodeSystem",
       "description" : "投与ラインのコードシステム例",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationRequestDosageInstructionLine_VS" : "JP Core Medication Example Line ValueSet"
+      "ValueSet-jp-medication-example-line-vs.html" : "JP Core Medication Example Line ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/HL70241",
@@ -122,8 +122,8 @@
       "description" : "HL7表0241-Patient Outcome コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet",
-      "ValueSet-jp-condition-disease-outcome-hl70241-vs.html" : "JP Core Condition Disease Outcome HL70241 ValueSet"
+      "ValueSet-jp-condition-disease-outcome-hl70241-vs.html" : "JP Core Condition Disease Outcome HL70241 ValueSet",
+      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006",
@@ -158,7 +158,7 @@
       "description" : "JAHIS処方データ交換規約Ver.3.0C JHSP表0002調剤特別指示のコードシステム",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationInstructionForDispenseJHSP0002_VS" : "JP Core Medication JHSP0002 Instruction For Dispense ValueSet"
+      "ValueSet-jp-medication-instruction-for-dispense-jhsp0002-vs.html" : "JP Core Medication JHSP0002 Instruction For Dispense ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSP0007",
@@ -226,19 +226,19 @@
       "description" : "Conditionの重症度を示すコードシステム（HL70421 Severity of Illness Code）",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionSeverity_VS" : "JP Core Condition Severity ValueSet"
+      "ValueSet-jp-condition-severity-vs.html" : "JP Core Condition Severity ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DocumentCodes_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_DocumentCodes_CS",
       "title" : "JP Core Document Codes CodeSystem",
       "description" : "SS MIX 標準文書コード表",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DocumentCodes_DiagnosticReport_VS" : "JP Core Document Codes DiagnosticReport ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DocumentCodes_Endoscopy_VS" : "JP Core Document Codes Endoscopy ValueSet"
+      "ValueSet-jp-documentcodes-endoscopy-vs.html" : "JP Core Document Codes Endoscopy ValueSet",
+      "ValueSet-jp-documentcodes-diagnosticreport-vs.html" : "JP Core Document Codes DiagnosticReport ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_JfagyFoodAllergen_CS",
@@ -282,7 +282,7 @@
       "description" : "医療関連免許証明に関するコードシステム。（現在作成中、今後医療系免許に関する情報追加する予定です。）",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicalLicenseCertificate_VS" : "JP Core MedicalLicense Certificate ValueSet"
+      "ValueSet-jp-medicallicensecertificate-vs.html" : "JP Core MedicalLicense Certificate ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_MedicationAsNeededConditionJAMI_CS",
@@ -331,36 +331,47 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_MicrobiologyCategory_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_MicrobiologyCategory_CS",
       "title" : "JP Core MicrobiologyCategory CodeSystem",
       "description" : "微生物学検査カテゴリコードシステム",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MicrobiologyCategory_VS" : "JP Core MicrobiologyCategory ValueSet"
+      "ValueSet-jp-microbiology-category-vs.html" : "JP Core MicrobiologyCategory ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCategory_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCategory_CS",
       "title" : "JP Core Observation BodyMeasurement Category CodeSystem",
       "description" : "Observation（身体計測）で使用する分類のコード",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationBodyMeasurementCategory_VS" : "JP Core Observation BodyMeasurement Category ValueSet"
+      "ValueSet-jp-observation-bodymeasurement-category-vs.html" : "JP Core Observation BodyMeasurement Category ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCode_CS",
       "title" : "JP Core Observation BodyMeasurement Code CodeSystem",
       "description" : "Observation（身体計測）で使用する項目コードのコードシステム",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationBodyMeasurementCode_VS" : "JP Core Observation BodyMeasurement Code ValueSet"
+      "ValueSet-jp-observation-bodymeasurement-code-vs.html" : "JP Core Observation BodyMeasurement Code ValueSet"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodySite_CS",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ObservationBodySite_CS",
+      "title" : "JP Core Observation BodySite CodeSystem",
+      "description" : "Observationで使用する身体部位のコード",
+      "uses" : {
+      },
+      "ValueSet-jp-observation-bodysite-vs.html" : "JP Core Observation BodySite ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationPhysicalExamBodySite_CS",
@@ -408,14 +419,14 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_PhysicalExamCode_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_PhysicalExamCode_CS",
       "title" : "JP Core Physical Exam Code CodeSystem",
       "description" : "身体所見の区分を表すコード",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS" : "JP Core Physical Exam Code ValueSet"
+      "ValueSet-jp-physicalexamcode-vs.html" : "JP Core Physical Exam Code ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_PractitionerRole_CS",
@@ -426,19 +437,19 @@
       "description" : "実施者のロール（役割・職種））を示すコード",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_PractitionerRole_VS" : "JP Core PractitionerRole ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedurePerformerRole_VS" : "JP Core Procedure Performer Role ValueSet"
+      "ValueSet-jp-procedure-performer-role-vs.html" : "JP Core Procedure Performer Role ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_PractitionerRole_VS" : "JP Core PractitionerRole ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureBodySite_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_ProcedureBodySite_CS",
       "title" : "JP Core Procedure BodySite CodeSystem",
       "description" : "処置の対象となる身体部位のコード（今後用語を実装予定）",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureBodySite_VS" : "JP Core Procedure BodySite ValueSet"
+      "ValueSet-jp-procedure-body-site-vs.html" : "JP Core Procedure BodySite ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureCategory_CS",
@@ -464,36 +475,53 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureNotPerformedReason_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_ProcedureNotPerformedReason_CS",
       "title" : "JP Core Procedure Not Performed Reason CodeSystem",
       "description" : "処置が実施されなかった理由、または開始された処置が完了しなかった理由を示すコード（より適切なコードと用語に見直し必要）",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS" : "JP Core Procedure Not Performed Reason ValueSet"
+      "ValueSet-jp-procedure-not-performed-reason-vs.html" : "JP Core Procedure Not Performed Reason ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureOutcome_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_ProcedureOutcome_CS",
       "title" : "JP Core Procedure Outcome CodeSystem",
       "description" : "処置が実施されたアウトカムを示すコードシステム（より適切なコードと用語に見直し必要）",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS" : "JP Core Procedure Outcome ValueSet"
+      "ValueSet-jp-procedure-outcome-vs.html" : "JP Core Procedure Outcome ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_SimpleObservationCategory_CS",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_SimpleObservationCategory_CS",
       "title" : "JP Core Simple Observation Category CodeSystem",
       "description" : "JP Coreにて定義したObservationリソースに関する分類コード",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS" : "JP Core Simple Observation Category ValueSet"
+      "ValueSet-jp-simpleobservationcategory-vs.html" : "JP Core Simple Observation Category ValueSet"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_Undefined_CS",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_Undefined_CS",
+      "title" : "JP Core Undefined CodeSystem",
+      "description" : "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。",
+      "uses" : {
+      },
+      "ValueSet-jp-procedure-codes-ichi-vs.html" : "JP Core Procedure Codes ICHI ValueSet",
+      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
+      "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet",
+      "ValueSet-jp-procedure-devicekind-vs.html" : "JP Core Procedure Device Kind ValueSet",
+      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
+      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
+      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/route-codes",
@@ -542,9 +570,9 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DiagnosticReportCategory_VS" : "JP Core Diagnostic Report Category ValueSet",
+      "ValueSet-jp-diagnosticreportcategory-vs.html" : "JP Core Diagnostic Report Category ValueSet",
       "http://hl7.org/fhir/R4B/valueset-consent-category.html" : "Consent Category Codes",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationCategory_Microbiology_VS" : "JP Core MicrobiologyCategory ValueSet"
+      "ValueSet-jp-microbiology-category-laboratory-vs.html" : "JP Core MicrobiologyCategory ValueSet"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -703,7 +731,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.100495.10.3.100.5.11.5.2",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_Microbiology_AntiMicrobialDrug_CS",
       "title" : "JP Core Microbiology AntiMicrobial Drug CodeSystem",
@@ -711,11 +739,11 @@
       "oids" : ["1.2.392.100495.10.3.100.5.11.5.2"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_Microbiology_AntiMicrobialDrug_VS" : "JP Core Microbiology AntiMicrobial Drug ValueSet"
+      "ValueSet-jp-microbiology-anti-microbial-drug-vs.html" : "JP Core Microbiology AntiMicrobial Drug ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.100495.10.3.100.5.27.6.1",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_Microbiology_InfectiousAgent_CS",
       "title" : "JP Core Microbiology InfectiousAgent CodeSystem",
@@ -723,7 +751,7 @@
       "oids" : ["1.2.392.100495.10.3.100.5.27.6.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_Microbiology_InfectiousAgent_VS" : "JP Core Microbiology Infectious Agent ValueSet"
+      "ValueSet-jp-microbiology-infectious-agent-vs.html" : "JP Core Microbiology Infectious Agent ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.100495.20.1.73",
@@ -735,8 +763,8 @@
       "oids" : ["1.2.392.100495.20.1.73"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.100495.20.1.81",
@@ -868,8 +896,8 @@
       "oids" : ["1.2.392.200119.4.402.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.403.1",
@@ -881,8 +909,8 @@
       "oids" : ["1.2.392.200119.4.403.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.403.2",
@@ -1006,7 +1034,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.200270.4.1000.1",
-      "version" : null,
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "JP_EndoscopyTerminologyCodesJED_CS",
       "title" : "JP Core Endoscopy JED CodeSystem",
@@ -1014,8 +1042,8 @@
       "oids" : ["1.2.392.200270.4.1000.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ConclusionCodesJed_VS" : "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ReasonCodesJed_VS" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet"
+      "ValueSet-jp-conclusion-codes-jed-vs.html" : "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet",
+      "ValueSet-jp-reason-codes-jed-vs.html" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet"
     }
   ]
 }

@@ -8590,6 +8590,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-condition-severity-vs"
+      },
+      "name" : "JP Core Condition Severity ValueSet",
+      "description" : "Conditionの重症度を示す値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -8662,6 +8674,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-diagnosticreportcategory-vs"
+      },
+      "name" : "JP Core Diagnostic Report Category ValueSet",
+      "description" : "DiagnosticReportカテゴリ 値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -8669,6 +8693,18 @@
       },
       "name" : "JP Core DiagnosticReport Common Profile",
       "description" : "このプロファイルはDiagnosticReportリソースに対して、データを送受信するための共通の制約と拡張を定めたものである。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-conclusion-codes-jed-vs"
+      },
+      "name" : "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet",
+      "description" : "日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectのコード値セットのうち主に「質的診断」に該当するコード",
       "exampleBoolean" : false
     },
     {
@@ -8794,6 +8830,42 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-documentcodes-cs"
+      },
+      "name" : "JP Core Document Codes CodeSystem",
+      "description" : "SS MIX 標準文書コード表",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-documentcodes-diagnosticreport-vs"
+      },
+      "name" : "JP Core Document Codes DiagnosticReport ValueSet",
+      "description" : "Document Codes DiagnosticReport 値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-documentcodes-endoscopy-vs"
+      },
+      "name" : "JP Core Document Codes Endoscopy ValueSet",
+      "description" : "Document Codes Endoscopy 値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Encounter"
       }],
       "reference" : {
@@ -8813,6 +8885,18 @@
       },
       "name" : "JP Core Encounter Profile",
       "description" : "このプロファイルはEncounterリソースに対して、来院/入院情報のデータを送受信するための基礎となる制約と拡張を定めたものである。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-endoscopyterminology-codes-jed-cs"
+      },
+      "name" : "JP Core Endoscopy JED CodeSystem",
+      "description" : "日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectで定義されるコードシステム",
       "exampleBoolean" : false
     },
     {
@@ -8873,6 +8957,18 @@
       },
       "name" : "JP Core ImagingStudy Endoscopy Profile",
       "description" : "このプロファイルはImagingStudyリソースに対して、主に内視鏡検査で撮影された画像に関わるデータを送受信するための制約と拡張を定めたものである。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-reason-codes-jed-vs"
+      },
+      "name" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet",
+      "description" : "日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectのコード値セットのうち「検査目的」、「治療目的」に該当するコード",
       "exampleBoolean" : false
     },
     {
@@ -9034,6 +9130,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medicallicensecertificate-vs"
+      },
+      "name" : "JP Core MedicalLicense Certificate ValueSet",
+      "description" : "医療関連免許証明に関する値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -9154,6 +9262,174 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-dosagecomment-cs"
+      },
+      "name" : "JP Core Medication Example DosageComment CodeSystem",
+      "description" : "注射用法コメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-dosagecomment-vs"
+      },
+      "name" : "JP Core Medication Example DosageComment ValueSet",
+      "description" : "注射用法コメントの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-line-cs"
+      },
+      "name" : "JP Core Medication Example Line CodeSystem",
+      "description" : "投与ラインのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-line-vs"
+      },
+      "name" : "JP Core Medication Example Line ValueSet",
+      "description" : "投与ラインの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-linecomment-cs"
+      },
+      "name" : "JP Core Medication Example LineComment CodeSystem",
+      "description" : "注射ラインコメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-linecomment-vs"
+      },
+      "name" : "JP Core Medication Example LineComment ValueSet",
+      "description" : "注射ラインコメントの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-methodcomment-cs"
+      },
+      "name" : "JP Core Medication Example MethodComment CodeSystem",
+      "description" : "注射手技コメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-methodcomment-vs"
+      },
+      "name" : "JP Core Medication Example MethodComment ValueSet",
+      "description" : "注射手技コメントの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-ratecomment-cs"
+      },
+      "name" : "JP Core Medication Example RateComment CodeSystem",
+      "description" : "注射投与速度コメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-ratecomment-vs"
+      },
+      "name" : "JP Core Medication Example RateComment ValueSet",
+      "description" : "注射投与速度コメントの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-routecomment-cs"
+      },
+      "name" : "JP Core Medication Example RouteComment CodeSystem",
+      "description" : "注射投与経路コメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-routecomment-vs"
+      },
+      "name" : "JP Core Medication Example RouteComment ValueSet",
+      "description" : "注射投与経路コメントの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-sitecomment-cs"
+      },
+      "name" : "JP Core Medication Example SiteComment CodeSystem",
+      "description" : "注射投与部位コメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-sitecomment-vs"
+      },
+      "name" : "JP Core Medication Example SiteComment ValueSet",
+      "description" : "注射投与部位コメントの値セット例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Medication"
       }],
       "reference" : {
@@ -9197,6 +9473,18 @@
       },
       "name" : "JP Core Medication IngredientStrength StrengthType Extension",
       "description" : "投与量が製剤単位か成分単位かを格納する拡張",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-instruction-for-dispense-jhsp0002-vs"
+      },
+      "name" : "JP Core Medication JHSP0002 Instruction For Dispense ValueSet",
+      "description" : "JAHIS処方データ交換規約Ver.3.0C JHSP表0002調剤特別指示の値セット",
       "exampleBoolean" : false
     },
     {
@@ -9305,6 +9593,30 @@
       },
       "name" : "JP Core Medication Timing DataType",
       "description" : "このデータタイプはTiming DataTypeに対して、薬剤に関するタイミング定義を行なったものである",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-medication-example-uncategorized-comment-cs"
+      },
+      "name" : "JP Core MedicationAdministration Example Uncategorized Comment CodeSystem",
+      "description" : "注射実施未分類コメントのコードシステム例",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-medication-example-uncategorized-comment-vs"
+      },
+      "name" : "JP Core MedicationAdministration Example Uncategorized Comment ValueSet",
+      "description" : "注射実施未分類コメントの値セット例",
       "exampleBoolean" : false
     },
     {
@@ -9706,6 +10018,138 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-microbiology-anti-microbial-drug-cs"
+      },
+      "name" : "JP Core Microbiology AntiMicrobial Drug CodeSystem",
+      "description" : "微生物学的検査抗菌薬コード(Ver.5.2)  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-microbiology-anti-microbial-drug-vs"
+      },
+      "name" : "JP Core Microbiology AntiMicrobial Drug ValueSet",
+      "description" : "微生物学検査 抗微生物学的薬剤値セット  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-microbiology-infectious-agent-vs"
+      },
+      "name" : "JP Core Microbiology Infectious Agent ValueSet",
+      "description" : "微生物学的検査感染性物質値セット  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-microbiology-infectious-agent-cs"
+      },
+      "name" : "JP Core Microbiology InfectiousAgent CodeSystem",
+      "description" : "微生物学的検査感染性物質コード  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-microbiology-category-cs"
+      },
+      "name" : "JP Core MicrobiologyCategory CodeSystem",
+      "description" : "微生物学検査カテゴリコードシステム",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-microbiology-category-vs"
+      },
+      "name" : "JP Core MicrobiologyCategory ValueSet",
+      "description" : "微生物学検査カテゴリ値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-microbiology-category-laboratory-vs"
+      },
+      "name" : "JP Core MicrobiologyCategory ValueSet",
+      "description" : "微生物学検査カテゴリ値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-observation-bodymeasurement-category-cs"
+      },
+      "name" : "JP Core Observation BodyMeasurement Category CodeSystem",
+      "description" : "Observation（身体計測）で使用する分類のコード",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-observation-bodymeasurement-category-vs"
+      },
+      "name" : "JP Core Observation BodyMeasurement Category ValueSet",
+      "description" : "Observation（身体計測）カテゴリで使用する分類の値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-observation-bodymeasurement-code-cs"
+      },
+      "name" : "JP Core Observation BodyMeasurement Code CodeSystem",
+      "description" : "Observation（身体計測）で使用する項目コードのコードシステム",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-observation-bodymeasurement-code-vs"
+      },
+      "name" : "JP Core Observation BodyMeasurement Code ValueSet",
+      "description" : "Observation（身体計測）コードで使用する項目値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Observation"
       }],
       "reference" : {
@@ -9725,6 +10169,30 @@
       },
       "name" : "JP Core Observation BodyMeasurement Profile",
       "description" : "このプロファイルはObservationリソースに対して、身体計測のデータを送受信するための制約と拡張を定めたものである。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-observation-bodysite-cs"
+      },
+      "name" : "JP Core Observation BodySite CodeSystem",
+      "description" : "Observationで使用する身体部位のコード",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-observation-bodysite-vs"
+      },
+      "name" : "JP Core Observation BodySite ValueSet",
+      "description" : "Observationで使用する身体部位の値セット",
       "exampleBoolean" : false
     },
     {
@@ -9982,6 +10450,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-physicalexamcode-cs"
+      },
+      "name" : "JP Core Physical Exam Code CodeSystem",
+      "description" : "身体所見の区分を表すコード",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-physicalexamcode-vs"
+      },
+      "name" : "JP Core Physical Exam Code ValueSet",
+      "description" : "身体所見の区分を表す値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Practitioner"
       }],
       "reference" : {
@@ -10054,6 +10546,78 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-procedure-body-site-cs"
+      },
+      "name" : "JP Core Procedure BodySite CodeSystem",
+      "description" : "処置の対象となる身体部位のコード（今後用語を実装予定）",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-body-site-vs"
+      },
+      "name" : "JP Core Procedure BodySite ValueSet",
+      "description" : "処置の対象となる身体部位のコード",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-codes-ichi-vs"
+      },
+      "name" : "JP Core Procedure Codes ICHI ValueSet",
+      "description" : "処置のコード:ICHI(International Classification of Health Interventions)の値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-condition-vs"
+      },
+      "name" : "JP Core Procedure Condition ValueSet",
+      "description" : "処置中もしくは処置の後に発生した合併症を示すコード(Condition/Problem/Diagnosis)の値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-device-action-vs"
+      },
+      "name" : "JP Core Procedure Device Action ValueSet",
+      "description" : "処置の実施中に機器に起こった変化を示す値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-devicekind-vs"
+      },
+      "name" : "JP Core Procedure Device Kind ValueSet",
+      "description" : "処置の実施に利用された医療機器を識別する値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Procedure"
       }],
       "reference" : {
@@ -10066,6 +10630,78 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-followup-vs"
+      },
+      "name" : "JP Core Procedure Follow Up ValueSet",
+      "description" : "処置のフォローアップとして実施される処置の値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-procedure-not-performed-reason-cs"
+      },
+      "name" : "JP Core Procedure Not Performed Reason CodeSystem",
+      "description" : "処置が実施されなかった理由、または開始された処置が完了しなかった理由を示すコード（より適切なコードと用語に見直し必要）",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-not-performed-reason-vs"
+      },
+      "name" : "JP Core Procedure Not Performed Reason ValueSet",
+      "description" : "処置が実施されなかった理由、または開始された処置が完了しなかった理由を示す値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-procedure-outcome-cs"
+      },
+      "name" : "JP Core Procedure Outcome CodeSystem",
+      "description" : "処置が実施されたアウトカムを示すコードシステム（より適切なコードと用語に見直し必要）",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-outcome-vs"
+      },
+      "name" : "JP Core Procedure Outcome ValueSet",
+      "description" : "処置が実施されたアウトカムを示す値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-performer-role-vs"
+      },
+      "name" : "JP Core Procedure Performer Role ValueSet",
+      "description" : "処置を実施した者の役割（ロール）を示す値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -10073,6 +10709,18 @@
       },
       "name" : "JP Core Procedure Profile",
       "description" : "このプロファイルはProcedureリソースに対して、患者に対する医療的な処置のデータを送受信するための共通の制約と拡張を定めたものである。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-procedure-reason-vs"
+      },
+      "name" : "JP Core Procedure Reason ValueSet",
+      "description" : "処置が実施された理由を示す値セット",
       "exampleBoolean" : false
     },
     {
@@ -10090,6 +10738,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-radiologymodality-vs"
+      },
+      "name" : "JP Core Radiology Modality ValueSet",
+      "description" : "放射線モダリテに対する 値セット",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CapabilityStatement"
       }],
       "reference" : {
@@ -10097,6 +10757,30 @@
       },
       "name" : "JP Core Server CapabilityStatement",
       "description" : "JP Core実装ガイドを利用したサイトを作成する際にサーバ側で規定するCapabilityStatementのOperationsおよびSearch Parametersのリスト例を提示する。JP Core ServerがサポートするFHIRプロファイルに限定しているため、FHIR Baseのプロファイルを利用する際などは必要な項目を追記すること。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-simpleobservationcategory-cs"
+      },
+      "name" : "JP Core Simple Observation Category CodeSystem",
+      "description" : "JP Coreにて定義したObservationリソースに関する分類コード",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-simpleobservationcategory-vs"
+      },
+      "name" : "JP Core Simple Observation Category ValueSet",
+      "description" : "JP Coreにて定義したObservationリソースに関する分類の値セット",
       "exampleBoolean" : false
     },
     {
@@ -10134,6 +10818,30 @@
       "name" : "JP Core Specimen Example 検体材料（血液）",
       "description" : "検体材料（血液）",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/jp-undefined-cs"
+      },
+      "name" : "JP Core Undefined CodeSystem",
+      "description" : "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jp-undefined-vs"
+      },
+      "name" : "JP Core Undefined ValueSet",
+      "description" : "未定義の値セット。使用する予定のコードシステムが利用できない場合や方針未決定の場合に割り振る特別なリソースである。",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

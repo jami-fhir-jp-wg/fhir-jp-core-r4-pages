@@ -7128,6 +7128,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-condition-severity-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-condition-severity-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Condition Severity ValueSet" ] ;
+       fhir:description [ fhir:v "Conditionの重症度を示す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -7203,6 +7215,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-diagnosticreportcategory-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-diagnosticreportcategory-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Diagnostic Report Category ValueSet" ] ;
+       fhir:description [ fhir:v "DiagnosticReportカテゴリ 値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -7211,6 +7235,18 @@
        ] ;
        fhir:name [ fhir:v "JP Core DiagnosticReport Common Profile" ] ;
        fhir:description [ fhir:v "このプロファイルはDiagnosticReportリソースに対して、データを送受信するための共通の制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-conclusion-codes-jed-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-conclusion-codes-jed-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet" ] ;
+       fhir:description [ fhir:v "日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectのコード値セットのうち主に「質的診断」に該当するコード" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -7347,6 +7383,42 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-documentcodes-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-documentcodes-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Document Codes CodeSystem" ] ;
+       fhir:description [ fhir:v "SS MIX 標準文書コード表" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-documentcodes-diagnosticreport-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-documentcodes-diagnosticreport-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Document Codes DiagnosticReport ValueSet" ] ;
+       fhir:description [ fhir:v "Document Codes DiagnosticReport 値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-documentcodes-endoscopy-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-documentcodes-endoscopy-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Document Codes Endoscopy ValueSet" ] ;
+       fhir:description [ fhir:v "Document Codes Endoscopy 値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Encounter" ]
        ] ) ;
        fhir:reference [
@@ -7370,6 +7442,18 @@
        ] ;
        fhir:name [ fhir:v "JP Core Encounter Profile" ] ;
        fhir:description [ fhir:v "このプロファイルはEncounterリソースに対して、来院/入院情報のデータを送受信するための基礎となる制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-endoscopyterminology-codes-jed-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-endoscopyterminology-codes-jed-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Endoscopy JED CodeSystem" ] ;
+       fhir:description [ fhir:v "日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectで定義されるコードシステム" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -7436,6 +7520,18 @@
        ] ;
        fhir:name [ fhir:v "JP Core ImagingStudy Endoscopy Profile" ] ;
        fhir:description [ fhir:v "このプロファイルはImagingStudyリソースに対して、主に内視鏡検査で撮影された画像に関わるデータを送受信するための制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-reason-codes-jed-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-reason-codes-jed-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet" ] ;
+       fhir:description [ fhir:v "日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectのコード値セットのうち「検査目的」、「治療目的」に該当するコード" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -7614,6 +7710,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medicallicensecertificate-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medicallicensecertificate-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core MedicalLicense Certificate ValueSet" ] ;
+       fhir:description [ fhir:v "医療関連免許証明に関する値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -7734,6 +7842,174 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-dosagecomment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-dosagecomment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example DosageComment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射用法コメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-dosagecomment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-dosagecomment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example DosageComment ValueSet" ] ;
+       fhir:description [ fhir:v "注射用法コメントの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-line-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-line-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example Line CodeSystem" ] ;
+       fhir:description [ fhir:v "投与ラインのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-line-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-line-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example Line ValueSet" ] ;
+       fhir:description [ fhir:v "投与ラインの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-linecomment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-linecomment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example LineComment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射ラインコメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-linecomment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-linecomment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example LineComment ValueSet" ] ;
+       fhir:description [ fhir:v "注射ラインコメントの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-methodcomment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-methodcomment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example MethodComment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射手技コメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-methodcomment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-methodcomment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example MethodComment ValueSet" ] ;
+       fhir:description [ fhir:v "注射手技コメントの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-ratecomment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-ratecomment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example RateComment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射投与速度コメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-ratecomment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-ratecomment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example RateComment ValueSet" ] ;
+       fhir:description [ fhir:v "注射投与速度コメントの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-routecomment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-routecomment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example RouteComment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射投与経路コメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-routecomment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-routecomment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example RouteComment ValueSet" ] ;
+       fhir:description [ fhir:v "注射投与経路コメントの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-sitecomment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-sitecomment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example SiteComment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射投与部位コメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-sitecomment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-sitecomment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication Example SiteComment ValueSet" ] ;
+       fhir:description [ fhir:v "注射投与部位コメントの値セット例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Medication" ]
        ] ) ;
        fhir:reference [
@@ -7784,6 +8060,18 @@
        ] ;
        fhir:name [ fhir:v "JP Core Medication IngredientStrength StrengthType Extension" ] ;
        fhir:description [ fhir:v "投与量が製剤単位か成分単位かを格納する拡張" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-instruction-for-dispense-jhsp0002-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-instruction-for-dispense-jhsp0002-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication JHSP0002 Instruction For Dispense ValueSet" ] ;
+       fhir:description [ fhir:v "JAHIS処方データ交換規約Ver.3.0C JHSP表0002調剤特別指示の値セット" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -7892,6 +8180,30 @@
        ] ;
        fhir:name [ fhir:v "JP Core Medication Timing DataType" ] ;
        fhir:description [ fhir:v "このデータタイプはTiming DataTypeに対して、薬剤に関するタイミング定義を行なったものである" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-medication-example-uncategorized-comment-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-medication-example-uncategorized-comment-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core MedicationAdministration Example Uncategorized Comment CodeSystem" ] ;
+       fhir:description [ fhir:v "注射実施未分類コメントのコードシステム例" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-medication-example-uncategorized-comment-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-medication-example-uncategorized-comment-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core MedicationAdministration Example Uncategorized Comment ValueSet" ] ;
+       fhir:description [ fhir:v "注射実施未分類コメントの値セット例" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -8328,6 +8640,138 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-microbiology-anti-microbial-drug-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-microbiology-anti-microbial-drug-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Microbiology AntiMicrobial Drug CodeSystem" ] ;
+       fhir:description [ fhir:v "微生物学的検査抗菌薬コード(Ver.5.2)  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-microbiology-anti-microbial-drug-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-microbiology-anti-microbial-drug-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Microbiology AntiMicrobial Drug ValueSet" ] ;
+       fhir:description [ fhir:v "微生物学検査 抗微生物学的薬剤値セット  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-microbiology-infectious-agent-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-microbiology-infectious-agent-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Microbiology Infectious Agent ValueSet" ] ;
+       fhir:description [ fhir:v "微生物学的検査感染性物質値セット  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-microbiology-infectious-agent-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-microbiology-infectious-agent-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Microbiology InfectiousAgent CodeSystem" ] ;
+       fhir:description [ fhir:v "微生物学的検査感染性物質コード  \n本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-microbiology-category-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-microbiology-category-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core MicrobiologyCategory CodeSystem" ] ;
+       fhir:description [ fhir:v "微生物学検査カテゴリコードシステム" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-microbiology-category-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-microbiology-category-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core MicrobiologyCategory ValueSet" ] ;
+       fhir:description [ fhir:v "微生物学検査カテゴリ値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-microbiology-category-laboratory-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-microbiology-category-laboratory-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core MicrobiologyCategory ValueSet" ] ;
+       fhir:description [ fhir:v "微生物学検査カテゴリ値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-observation-bodymeasurement-category-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-observation-bodymeasurement-category-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Observation BodyMeasurement Category CodeSystem" ] ;
+       fhir:description [ fhir:v "Observation（身体計測）で使用する分類のコード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-observation-bodymeasurement-category-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-observation-bodymeasurement-category-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Observation BodyMeasurement Category ValueSet" ] ;
+       fhir:description [ fhir:v "Observation（身体計測）カテゴリで使用する分類の値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-observation-bodymeasurement-code-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-observation-bodymeasurement-code-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Observation BodyMeasurement Code CodeSystem" ] ;
+       fhir:description [ fhir:v "Observation（身体計測）で使用する項目コードのコードシステム" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-observation-bodymeasurement-code-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-observation-bodymeasurement-code-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Observation BodyMeasurement Code ValueSet" ] ;
+       fhir:description [ fhir:v "Observation（身体計測）コードで使用する項目値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
@@ -8351,6 +8795,30 @@
        ] ;
        fhir:name [ fhir:v "JP Core Observation BodyMeasurement Profile" ] ;
        fhir:description [ fhir:v "このプロファイルはObservationリソースに対して、身体計測のデータを送受信するための制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-observation-bodysite-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-observation-bodysite-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Observation BodySite CodeSystem" ] ;
+       fhir:description [ fhir:v "Observationで使用する身体部位のコード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-observation-bodysite-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-observation-bodysite-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Observation BodySite ValueSet" ] ;
+       fhir:description [ fhir:v "Observationで使用する身体部位の値セット" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -8634,6 +9102,30 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-physicalexamcode-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-physicalexamcode-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Physical Exam Code CodeSystem" ] ;
+       fhir:description [ fhir:v "身体所見の区分を表すコード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-physicalexamcode-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-physicalexamcode-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Physical Exam Code ValueSet" ] ;
+       fhir:description [ fhir:v "身体所見の区分を表す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Practitioner" ]
        ] ) ;
        fhir:reference [
@@ -8718,6 +9210,78 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-procedure-body-site-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-procedure-body-site-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure BodySite CodeSystem" ] ;
+       fhir:description [ fhir:v "処置の対象となる身体部位のコード（今後用語を実装予定）" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-body-site-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-body-site-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure BodySite ValueSet" ] ;
+       fhir:description [ fhir:v "処置の対象となる身体部位のコード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-codes-ichi-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-codes-ichi-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Codes ICHI ValueSet" ] ;
+       fhir:description [ fhir:v "処置のコード:ICHI(International Classification of Health Interventions)の値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-condition-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-condition-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Condition ValueSet" ] ;
+       fhir:description [ fhir:v "処置中もしくは処置の後に発生した合併症を示すコード(Condition/Problem/Diagnosis)の値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-device-action-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-device-action-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Device Action ValueSet" ] ;
+       fhir:description [ fhir:v "処置の実施中に機器に起こった変化を示す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-devicekind-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-devicekind-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Device Kind ValueSet" ] ;
+       fhir:description [ fhir:v "処置の実施に利用された医療機器を識別する値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Procedure" ]
        ] ) ;
        fhir:reference [
@@ -8733,6 +9297,78 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-followup-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-followup-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Follow Up ValueSet" ] ;
+       fhir:description [ fhir:v "処置のフォローアップとして実施される処置の値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-procedure-not-performed-reason-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-procedure-not-performed-reason-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Not Performed Reason CodeSystem" ] ;
+       fhir:description [ fhir:v "処置が実施されなかった理由、または開始された処置が完了しなかった理由を示すコード（より適切なコードと用語に見直し必要）" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-not-performed-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-not-performed-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Not Performed Reason ValueSet" ] ;
+       fhir:description [ fhir:v "処置が実施されなかった理由、または開始された処置が完了しなかった理由を示す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-procedure-outcome-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-procedure-outcome-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Outcome CodeSystem" ] ;
+       fhir:description [ fhir:v "処置が実施されたアウトカムを示すコードシステム（より適切なコードと用語に見直し必要）" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-outcome-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-outcome-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Outcome ValueSet" ] ;
+       fhir:description [ fhir:v "処置が実施されたアウトカムを示す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-performer-role-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-performer-role-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Performer Role ValueSet" ] ;
+       fhir:description [ fhir:v "処置を実施した者の役割（ロール）を示す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
@@ -8741,6 +9377,18 @@
        ] ;
        fhir:name [ fhir:v "JP Core Procedure Profile" ] ;
        fhir:description [ fhir:v "このプロファイルはProcedureリソースに対して、患者に対する医療的な処置のデータを送受信するための共通の制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-procedure-reason-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-procedure-reason-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Procedure Reason ValueSet" ] ;
+       fhir:description [ fhir:v "処置が実施された理由を示す値セット" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -8760,6 +9408,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-radiologymodality-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-radiologymodality-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Radiology Modality ValueSet" ] ;
+       fhir:description [ fhir:v "放射線モダリテに対する 値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CapabilityStatement" ]
        ] ) ;
        fhir:reference [
@@ -8768,6 +9428,30 @@
        ] ;
        fhir:name [ fhir:v "JP Core Server CapabilityStatement" ] ;
        fhir:description [ fhir:v "JP Core実装ガイドを利用したサイトを作成する際にサーバ側で規定するCapabilityStatementのOperationsおよびSearch Parametersのリスト例を提示する。JP Core ServerがサポートするFHIRプロファイルに限定しているため、FHIR Baseのプロファイルを利用する際などは必要な項目を追記すること。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-simpleobservationcategory-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-simpleobservationcategory-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Simple Observation Category CodeSystem" ] ;
+       fhir:description [ fhir:v "JP Coreにて定義したObservationリソースに関する分類コード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-simpleobservationcategory-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-simpleobservationcategory-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Simple Observation Category ValueSet" ] ;
+       fhir:description [ fhir:v "JP Coreにて定義したObservationリソースに関する分類の値セット" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -8805,6 +9489,30 @@
        fhir:name [ fhir:v "JP Core Specimen Example 検体材料（血液）" ] ;
        fhir:description [ fhir:v "検体材料（血液）" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-undefined-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-undefined-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Undefined CodeSystem" ] ;
+       fhir:description [ fhir:v "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-undefined-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-undefined-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Undefined ValueSet" ] ;
+       fhir:description [ fhir:v "未定義の値セット。使用する予定のコードシステムが利用できない場合や方針未決定の場合に割り振る特別なリソースである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
