@@ -1,0 +1,88 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/HL70241",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDieaseOutcomeHL70241_CS",
+      "title" : "JP Core Condition Disease Outcome HL7 Table 0241 - Patient Outcome CodeSystem",
+      "description" : "HL7表0241-Patient Outcome コードシステム"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDieaseOutcomeJHSD0006_CS",
+      "title" : "JP Core Condition Disease Outcome JHSD0006 CodeSystem",
+      "description" : "JAHIS病名情報データ交換規約Ver.3.1C JHSD表00006-転帰区分 コードシステム"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeICD10_CS",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDiseaseCodeICD10_CS",
+      "title" : "JP Core Condition Disease Code ICD-10 CodeSystem",
+      "description" : "ICD-10 コードシステム"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeReceipt_CS",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDieaseCodeReceipt_CS",
+      "title" : "JP Core Condition Disease Code Receipt System CodeSystem",
+      "description" : "レセプト電算用傷病名マスター コードシステム"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDieaseModifierReceipt_CS",
+      "title" : "JP Core Condition Disease Modifier Receipt System CodeSystem",
+      "description" : "レセプト電算用修飾語マスター コードシステム"
+    },
+    {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeReceipt_CS",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDieaseOutcomeReceipt_CS",
+      "title" : "JP Core Condition Disease Outcome Receipt CodeSystem",
+      "description" : "レセプト電算システム 転帰区分 コードシステム"
+    },
+    {
+      "url" : "urn:oid:1.2.392.200119.4.101.2",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDiseaseCodeMEDISRecordNo_CS",
+      "title" : "JP Core Condition Disease Code MEDIS Record No CodeSystem",
+      "description" : "MEDIS ICD10対応標準病名マスター(管理番号) コードシステム",
+      "oids" : ["1.2.392.200119.4.101.2"]
+    },
+    {
+      "url" : "urn:oid:1.2.392.200119.4.101.6",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDiseaseCodeMEDISExchange_CS",
+      "title" : "JP Core Condition Disease Code MEDIS Exchange CodeSystem",
+      "description" : "MEDIS ICD10対応標準病名マスター(交換用コード) コードシステム",
+      "oids" : ["1.2.392.200119.4.101.6"]
+    },
+    {
+      "url" : "urn:oid:1.2.392.200119.4.201.2",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDiseaseModifierMEDISRecordNo_CS",
+      "title" : "JP Core Condition Disease Modifier MEDIS Record CodeSystem",
+      "description" : "MEDIS ICD10対応標準病名マスター(修飾語管理番号) コードシステム",
+      "oids" : ["1.2.392.200119.4.201.2"]
+    },
+    {
+      "url" : "urn:oid:1.2.392.200119.4.201.5",
+      "version" : "2.0.0",
+      "status" : "active",
+      "name" : "JP_ConditionDiseaseModifierMEDISExchange_CS",
+      "title" : "JP Core Condition Disease Modifier MEDIS Exchange CodeSystem",
+      "description" : "MEDIS ICD10対応標準病名マスター(修飾語交換用コード) コードシステム",
+      "oids" : ["1.2.392.200119.4.201.5"]
+    }
+  ]
+}

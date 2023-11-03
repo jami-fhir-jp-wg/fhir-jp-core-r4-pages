@@ -5,7 +5,7 @@
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <!-- <title>HL7.FHIR.JP.CORE\JP Core Specimen Example 検体材料（血液） - TTL Representation - FHIR v4.3.0</title> -->
+    <!-- <title>JPFHIR.JP.CORE\JP Core Specimen Example 検体材料（血液） - TTL Representation - FHIR v4.3.0</title> -->
     <title>Specimen Example 検体材料（血液） - TTL Representation - FHIR v4.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -45,8 +45,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"6.240"}
-    h3,h4,h5,h6{--heading-prefix:"6.240"}</style>
+    <style type="text/css">h2{--heading-prefix:"6.197"}
+    h3,h4,h5,h6{--heading-prefix:"6.197"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -60,11 +60,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">HL7 FHIR JP Core ImplementationGuide</span>
             <br/>
-            <span style="display:inline-block;">2.0.0a - ci-build
+            <span style="display:inline-block;">2.0.0 - ci-build
 
 
 
-  <img alt="Japan flag" src="assets/images/jpn.svg" height="16" title="Japan"/>
+  Japan
 
 
             </span>
@@ -86,7 +86,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -175,8 +175,7 @@
           <div class="inner-wrapper">
 
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">HL7 FHIR JP Core ImplementationGuide - Local Development build (v2.0.0a). See the <a href="http://jpfhir.jp/fhir/core/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-
+<!--ReleaseHeader--><p id="publish-box">HL7 FHIR JP Core ImplementationGuide - Local Development build (v2.0.0). See the <a href="http://jpfhir.jp/fhir/core/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -217,18 +216,6 @@
 
 
 <h2 id="root">: JP Core Specimen Example 検体材料（血液） - TTL Representation</h2>
-  <table class="colsi">
-    <tr>
-
-      <td colspan="2">
-        
-          
-          
-        
-      </td>
-
-    </tr>
-  </table>
 
 
 <p><a href="Specimen-jp-specimen-example-2.ttl" no-download="true">Raw ttl</a> | <a href="Specimen-jp-specimen-example-2.ttl" download>Download</a></p>
@@ -246,54 +233,45 @@
 
 # - resource -------------------------------------------------------------------
 
- a fhir:Specimen;
-  <a href="http://build.fhir.org/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#id">fhir:value</a> &quot;jp-specimen-example-2&quot;];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:value</a> &quot;generated&quot; ];
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Specimen&lt;/b&gt;&lt;a name=\&quot;jp-specimen-example-2\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Specimen \&quot;jp-specimen-example-2\&quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 23234352357&lt;/p&gt;&lt;p&gt;&lt;b&gt;accessionIdentifier&lt;/b&gt;: id: X352357&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: available&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Whole blood &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/4.0.0/CodeSystem-v2-0487.html\&quot;&gt;specimenType&lt;/a&gt;#BLD)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;Patient/jp-patient-example-1&lt;/a&gt; \&quot; 山田\&quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;receivedTime&lt;/b&gt;: 2021-08-11 11:03:00+0900&lt;/p&gt;&lt;h3&gt;Containers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Identifier&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Capacity&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;SpecimenQuantity&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;*&lt;/td&gt;&lt;td&gt;id: 48736-15394-75467&lt;/td&gt;&lt;td&gt;採血菅&lt;/td&gt;&lt;td&gt;採血菅 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ()&lt;/span&gt;&lt;/td&gt;&lt;td&gt;20 mL&lt;/td&gt;&lt;td&gt;18 mL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
-  ];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.identifier">fhir:Specimen.identifier</a> [
-     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:value</a> &quot;http://abc-hospital.local/identifiers/collections&quot; ];
-     <a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;23234352357&quot; ]
-  ];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.accessionIdentifier">fhir:Specimen.accessionIdentifier</a> [
-     <a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:value</a> &quot;http://abc-hospital.local/specimens/2011&quot; ];
-     <a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;X352357&quot; ]
-  ];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.status">fhir:Specimen.status</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:value</a> &quot;available&quot;];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.type">fhir:Specimen.type</a> [
-     <a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
-       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0487&quot; ];
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:value</a> &quot;BLD&quot; ];
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.display">fhir:Coding.display</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;Whole blood&quot; ]     ]
-  ];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.subject">fhir:Specimen.subject</a> [
-     <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;Patient/jp-patient-example-1&quot; ]
-  ];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.receivedTime">fhir:Specimen.receivedTime</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:value</a> &quot;2021-08-11T11:03:00+09:00&quot;^^xsd:dateTime];
-  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container">fhir:Specimen.container</a> [
-     <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.identifier">fhir:Specimen.container.identifier</a> [
-       <a href="http://build.fhir.org/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;48736-15394-75467&quot; ]     ];
-     <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.description">fhir:Specimen.container.description</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;採血菅&quot; ];
-     <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.type">fhir:Specimen.container.type</a> [
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:CodeableConcept.text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;採血菅&quot; ]     ];
-     <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.capacity">fhir:Specimen.container.capacity</a> [
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:value</a> &quot;20&quot;^^xsd:decimal ];
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;mL&quot; ]     ];
-     <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.specimenQuantity">fhir:Specimen.container.specimenQuantity</a> [
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:Quantity.value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:value</a> &quot;18&quot;^^xsd:decimal ];
-       <a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.unit">fhir:Quantity.unit</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:value</a> &quot;mL&quot; ]     ]
-  ].
-
-# - ontology header ------------------------------------------------------------
-
- a owl:Ontology;
-  owl:imports fhir:fhir.ttl.
+ a fhir:Specimen ;
+  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#id">fhir:v</a> &quot;jp-specimen-example-2&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Specimen&lt;/b&gt;&lt;a name=\&quot;jp-specimen-example-2\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Specimen &amp;quot;jp-specimen-example-2&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: id: 23234352357&lt;/p&gt;&lt;p&gt;&lt;b&gt;accessionIdentifier&lt;/b&gt;: id: X352357&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: available&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Whole blood &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-v2-0487.html\&quot;&gt;specimenType&lt;/a&gt;#BLD)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;Patient/jp-patient-example-1&lt;/a&gt; &amp;quot; 山田&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;receivedTime&lt;/b&gt;: 2021-08-11 11:03:00+0900&lt;/p&gt;&lt;h3&gt;Containers&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Identifier&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Capacity&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;SpecimenQuantity&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;id: 48736-15394-75467&lt;/td&gt;&lt;td&gt;採血菅&lt;/td&gt;&lt;td&gt;採血菅 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; ()&lt;/span&gt;&lt;/td&gt;&lt;td&gt;20 mL&lt;/td&gt;&lt;td&gt;18 mL&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;http://abc-hospital.local/identifiers/collections&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;23234352357&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.accessionIdentifier">fhir:accessionIdentifier</a> [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;http://abc-hospital.local/specimens/2011&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;X352357&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;available&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.type">fhir:type</a> [
+    ( <a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0487&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;BLD&quot; ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Whole blood&quot; ]     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.subject">fhir:subject</a> [
+<a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Patient/jp-patient-example-1&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.receivedTime">fhir:receivedTime</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:v</a> &quot;2021-08-11T11:03:00+09:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container">fhir:container</a> ( [
+    ( <a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.identifier">fhir:identifier</a> [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;48736-15394-75467&quot; ]     ] ) ;
+<a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;採血菅&quot; ] ;
+<a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.type">fhir:type</a> [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;採血菅&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.capacity">fhir:capacity</a> [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;20&quot;^^xsd:decimal ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;mL&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4B/specimen.html#Specimen.container.specimenQuantity">fhir:specimenQuantity</a> [
+<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;18&quot;^^xsd:decimal ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;mL&quot; ]     ]
+  ] ) . # 
 
 </code></pre>
 
@@ -326,9 +304,9 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package hl7.fhir.jp.core#2.0.0a based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Thu, Nov 24, 2022 02:48+0000">2022-11-24</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 4.3.0</a>. Generated <span title="Fri, Nov 3, 2023 08:55+0000">2023-11-03</span>
           <br/>
-          <span style="color: var(--footer-highlight-text-color)"></span>
+          <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
                  <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
