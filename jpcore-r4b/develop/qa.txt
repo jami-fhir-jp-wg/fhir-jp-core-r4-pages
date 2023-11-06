@@ -3,7 +3,7 @@
 
 err = 4, warn = 8, info = 21
 IG Publisher Version: 1.5.1
-Generated Mon Nov 06 09:14:40 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0 (canonical = http://jpfhir.jp/fhir/core)
+Generated Mon Nov 06 09:53:13 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0 (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 6 / 1 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 1 / 2
