@@ -2,12 +2,12 @@
   "url" : "http://jpfhir.jp/fhir/core/ImplementationGuide/jpfhir.jp.core",
   "name" : "FHIRJPCoreImplementationGuide",
   "package-id" : "jpfhir.jp.core",
-  "ig-ver" : "2.0.0",
-  "date" : "Mon, 06 Nov, 2023 09:48:34 +0000",
-  "errs" : 4,
+  "ig-ver" : "2.0.0-dev",
+  "date" : "Sun, 10 Dec, 2023 23:36:16 +0000",
+  "errs" : 3,
   "warnings" : 8,
-  "hints" : 21,
+  "hints" : 39,
   "version" : "4.3.0",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 4487155608
+  "maxMemory" : 3237198560
 }

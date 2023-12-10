@@ -35,7 +35,7 @@
 <tr><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter"/>
-  <version value="2.0.0"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_Encounter"/>
   <title value="JP Core Encounter Profile"/>
   <status value="active"/>
@@ -273,9 +273,6 @@
         </extension>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="Language"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="IETF language tag"/>
@@ -567,9 +564,6 @@
       </mapping>
     </element>
     <element id="Encounter.statusHistory">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="StatusHistory"/>
-      </extension>
       <path value="Encounter.statusHistory"/>
       <short value="過去のEncounterのステータス一覧【詳細参照】"/>
       <definition value="ステータス履歴(status History)は、リソースの歴史的なバージョンを読み込んだり、サーバに保存させたりすることなく、Encounterリソースがステータス履歴を含むことを可能にする。"/>
@@ -826,9 +820,6 @@
       </mapping>
     </element>
     <element id="Encounter.classHistory">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="ClassHistory"/>
-      </extension>
       <path value="Encounter.classHistory"/>
       <short value="過去のEncounter classのリスト【詳細参照】"/>
       <definition value="クラスの履歴は、リソースの履歴を経由することなく、Encounterの遷移を追跡することを可能にする。これは、入院患者が緊急時にEncounterした後、入院患者のシナリオに移行する場合に使用される。このようにして、新しいEncounterを再開しないようにすることで、検査/診断結果がより簡単に患者を追跡することができ、再処理を必要とせず、救急から入院への退院の際に紛失したりキャンセルされたりすることがないことを保証する。"/>
@@ -1804,9 +1795,6 @@
       </mapping>
     </element>
     <element id="Encounter.diagnosis">
-      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name">
-        <valueString value="Diagnosis"/>
-      </extension>
       <path value="Encounter.diagnosis"/>
       <short value="The list of diagnosis relevant to this encounter"/>
       <definition value="The list of diagnosis relevant to this encounter."/>
@@ -2020,9 +2008,6 @@
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="DiagnosisRole"/>
-        </extension>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
-          <valueBoolean value="true"/>
         </extension>
         <strength value="preferred"/>
         <description value="The type of diagnosis this condition represents."/>

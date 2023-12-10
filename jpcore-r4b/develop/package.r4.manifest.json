@@ -1,6 +1,6 @@
 {
-  "version" : "2.0.0",
-  "date" : "20231106094624",
+  "version" : "2.0.0-dev",
+  "date" : "20231210233433",
   "notForPublication" : true,
   "name" : "jpfhir.jp.core.r4"
 }

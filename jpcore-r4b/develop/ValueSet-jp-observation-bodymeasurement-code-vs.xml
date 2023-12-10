@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-jp-observation-bodymeasurement-code-cs.html"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS</code></a></li></ul></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationBodyMeasurementCode_VS"/>
-  <version value="2.0.0"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_ObservationBodyMeasurementCode_VS"/>
   <title value="JP Core Observation BodyMeasurement Code ValueSet"/>
   <status value="active"/>
@@ -31,7 +31,7 @@
       <code value="JP"/>
     </coding>
   </jurisdiction>
-  <copyright value="Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG"/>
+  <copyright value="Copyright MEDIS-DC 医療情報システム開発センター"/>
   <compose>
     <include>
       <system value="http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS"/>

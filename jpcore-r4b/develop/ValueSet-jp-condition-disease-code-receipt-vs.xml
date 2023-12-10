@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-jp-condition-disease-code-receipt-cs.html"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeReceipt_CS</code></a></li></ul></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeReceipt_VS"/>
-  <version value="2.0.0"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_ConditionDiseaseCodeReceipt_VS"/>
   <title value="JP Core Condition Disease Code Receipt System ValueSet"/>
   <status value="active"/>

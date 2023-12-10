@@ -1,6 +1,6 @@
 {
   "package": "jpfhir.jp.core",
-  "version": "2.0.0",
+  "version": "2.0.0-dev",
   "fhirVersion": "4.3.0",
   "jurisdiction": "JP",
   "extensions": [
@@ -638,9 +638,6 @@
       "StructureDefinition.differential.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
@@ -662,9 +659,6 @@
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [

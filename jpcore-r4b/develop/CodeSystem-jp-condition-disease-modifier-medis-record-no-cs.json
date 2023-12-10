@@ -2,7 +2,7 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-modifier-medis-record-no-cs",
   "url" : "urn:oid:1.2.392.200119.4.201.2",
-  "version" : "2.0.0",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseModifierMEDISRecordNo_CS",
   "title" : "JP Core Condition Disease Modifier MEDIS Record CodeSystem",
   "status" : "active",

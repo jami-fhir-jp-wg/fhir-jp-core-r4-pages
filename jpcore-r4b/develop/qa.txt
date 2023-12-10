@@ -1,9 +1,9 @@
 ﻿FHIRJPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 4, warn = 8, info = 21
-IG Publisher Version: 1.5.1
-Generated Mon Nov 06 09:53:13 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0 (canonical = http://jpfhir.jp/fhir/core)
+err = 3, warn = 8, info = 39
+IG Publisher Version: 1.5.5
+Generated Sun Dec 10 23:39:53 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 6 / 1 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 1 / 2
@@ -109,7 +109,7 @@ Generated Mon Nov 06 09:53:13 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-male-1 : 0 / 1 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-male-2 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/PractitionerRole-jp-practitionerrole-example-1 : 0 / 0 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Procedure-jp-procedure-example-1 : 1 / 0 / 2
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Procedure-jp-procedure-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/SearchParameter-jp-coverage-insuredpersonnumber-sp : 0 / 1 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/SearchParameter-jp-coverage-insuredpersonsubnumber-sp : 0 / 1 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/SearchParameter-jp-coverage-insuredpersonsymbol-sp : 0 / 1 / 2
@@ -265,8 +265,8 @@ Generated Mon Nov 06 09:53:13 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.
 </table>
 == n/a ==
 WARNING: ImplementationGuide.dependency[2].url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
-ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/span/a at Line 746, column 427: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
-ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 1062, column 1816: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
+ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/span/a at Line 811, column 427: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
+ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/span/a at Line 1226, column 290: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
 ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 550, column 1772: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
 ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 648, column 226: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
 ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 956, column 1772: The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for "http://terminology.hl7.org/ValueSet/v2-2.7-0360" cannot be resolved
@@ -307,34 +307,48 @@ ERROR: /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/output/StructureDefinit
 == fsh-generated/resources/CodeSystem-jp-simpleobservationcategory-cs.json ==
 == fsh-generated/resources/CodeSystem-jp-undefined-cs.json ==
 == fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json ==
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[1]: Code System URI 'http://terminology.sample.com/CodeSystem/disease-outcome' is unknown so the code cannot be validated
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[2]: Code System URI 'http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeJHSD0006_CS' is unknown so the code cannot be validated
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[1]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[2]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:1.2.392.200119.4.102.5' is unknown so the code cannot be validated
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[0].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePrefixModifier|2.0.0
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:1.2.392.200119.4.102.5' is unknown so the code cannot be validated
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[1].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier|2.0.0
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[2].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:1.2.392.200119.4.102.5' is unknown so the code cannot be validated
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[2].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier|2.0.0
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.coding[0]: Code System URI 'http://terminology.sample.com/CodeSystem/disease/1311234567' is unknown so the code cannot be validated
-INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[1]: Code System URI 'http://terminology.sample.com/CodeSystem/disease-outcome' could not be found so the code cannot be validated
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[2]: Code System URI 'http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeJHSD0006_CS' could not be found so the code cannot be validated
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[1]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.clinicalStatus.coding[2]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[0].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:1.2.392.200119.4.102.5' could not be found so the code cannot be validated
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[0].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePrefixModifier|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[1].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:1.2.392.200119.4.102.5' could not be found so the code cannot be validated
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[1].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[2].value.ofType(CodeableConcept).coding[0]: Code System URI 'urn:oid:1.2.392.200119.4.102.5' could not be found so the code cannot be validated
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.extension[2].value.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.coding[0]: Code System URI 'http://terminology.sample.com/CodeSystem/disease/1311234567' could not be found so the code cannot be validated
+INFORMATION: Condition/jp-condition-diagnosis-example-1: Condition.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Condition-jp-condition-example-1.json ==
 == fsh-generated/resources/Coverage-jp-coverage-example-1.json ==
 == fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-endoscopy-example-1.json ==
 == fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-labresult-example-1.json ==
+INFORMATION: DiagnosticReport/jp-diagnosticreport-labresult-example-1: DiagnosticReport.contained[0]/*Observation/inner-observation-labresult-1*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
+INFORMATION: DiagnosticReport/jp-diagnosticreport-labresult-example-1: DiagnosticReport.contained[1]/*Observation/inner-observation-labresult-2*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
+INFORMATION: DiagnosticReport/jp-diagnosticreport-labresult-example-1: DiagnosticReport.contained[2]/*Observation/inner-observation-labresult-3*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
 == fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-microbiology-example-1.json ==
-INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[0]/*Observation/gram-strain1*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0
-INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[1]/*Observation/gram-strain2*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0
-INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[2]/*Observation/gram-strain3*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0
-INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[3]/*Observation/gram-strain4*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[0]/*Observation/gram-strain1*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[0]/*Observation/gram-strain1*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[1]/*Observation/gram-strain2*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[1]/*Observation/gram-strain2*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[2]/*Observation/gram-strain3*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[2]/*Observation/gram-strain3*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[3]/*Observation/gram-strain4*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[3]/*Observation/gram-strain4*/.code.coding[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Microbiology|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
+INFORMATION: DiagnosticReport/jp-diagnosticreport-microbiology-example-1: DiagnosticReport.contained[30]/*ServiceRequest/jp-servicerequest-example-1*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/ObservationOrder/localcode' could not be found so the code cannot be validated
 == fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-radiology-example-1.json ==
 == fsh-generated/resources/Encounter-jp-encounter-example-1.json ==
 == fsh-generated/resources/Endpoint-endpoint-dicom-wadors-example.json ==
 == fsh-generated/resources/FamilyMemberHistory-jp-familymemberhistory-example-1.json ==
 == fsh-generated/resources/ImagingStudy-jp-imagingstudy-endoscopy-example-1.json ==
+INFORMATION: ImagingStudy/jp-imagingstudy-endoscopy-example-1: ImagingStudy.series[0].instance[0].sopClass: Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated
+INFORMATION: ImagingStudy/jp-imagingstudy-endoscopy-example-1: ImagingStudy.series[0].instance[1].sopClass: Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated
+INFORMATION: ImagingStudy/jp-imagingstudy-endoscopy-example-1: ImagingStudy.series[0].instance[2].sopClass: Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated
+INFORMATION: ImagingStudy/jp-imagingstudy-endoscopy-example-1: ImagingStudy.series[0].instance[3].sopClass: Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated
+INFORMATION: ImagingStudy/jp-imagingstudy-endoscopy-example-1: ImagingStudy.series[0].instance[4].sopClass: Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated
 == fsh-generated/resources/ImagingStudy-jp-imagingstudy-radiology-example-1.json ==
+INFORMATION: ImagingStudy/jp-imagingstudy-radiology-example-1: ImagingStudy.series[0].instance[0].sopClass: Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated
 == fsh-generated/resources/Immunization-jp-immunization-example-1.json ==
 INFORMATION: Immunization/jp-immunization-example-1: Immunization.status: Reference to experimental item http://hl7.org/fhir/event-status|4.3.0
 == fsh-generated/resources/ImplementationGuide-jpfhir.jp.core.json ==
@@ -379,14 +393,19 @@ INFORMATION: Immunization/jp-immunization-example-1: Immunization.status: Refere
 == fsh-generated/resources/NamingSystem-jp-observation-vitalsignscode-namingsystem.json ==
 == fsh-generated/resources/NamingSystem-jp-prefecturenumber-namingsystem.json ==
 == fsh-generated/resources/Observation-jp-observation-bodyMeasurement-example-1.json ==
+INFORMATION: Observation/jp-observation-bodyMeasurement-example-1: Observation.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
 == fsh-generated/resources/Observation-jp-observation-labresult-example-1.json ==
+INFORMATION: Observation/jp-observation-labresult-example-1: Observation.contained[0]/*ServiceRequest/jp-servicerequest-example-1*/.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/ObservationOrder/localcode' could not be found so the code cannot be validated
+INFORMATION: Observation/jp-observation-labresult-example-1: Observation.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
 == fsh-generated/resources/Observation-jp-observation-physicalexam-example-1.json ==
 == fsh-generated/resources/Observation-jp-observation-socialhistory-example-1.json ==
+INFORMATION: Observation/jp-observation-socialhistory-example-1: Observation.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
 == fsh-generated/resources/Observation-jp-observation-vitalsigns-example-1.json ==
+INFORMATION: Observation/jp-observation-vitalsigns-example-1: Observation.code.coding[0]: Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated
 == fsh-generated/resources/Organization-jp-organization-example-clinic.json ==
 == fsh-generated/resources/Organization-jp-organization-example-hospital.json ==
 == fsh-generated/resources/Organization-jp-organization-example-inspection.json ==
-INFORMATION: Organization/jp-organization-example-inspection: Organization.identifier[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Organization|2.0.0
+INFORMATION: Organization/jp-organization-example-inspection: Organization.identifier[0]: This element does not match any known slice defined in the profile http://jpfhir.jp/fhir/core/StructureDefinition/JP_Organization|2.0.0-dev (this may not be a problem, but you should check that it's not intended to match a slice)
 == fsh-generated/resources/Organization-jp-organization-example-payer.json ==
 == fsh-generated/resources/Patient-jp-patient-example-1.json ==
 == fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json ==
@@ -399,8 +418,6 @@ WARNING: Practitioner/jp-practitioner-example-male-1: Practitioner.qualification
 == fsh-generated/resources/Practitioner-jp-practitioner-example-male-2.json ==
 == fsh-generated/resources/PractitionerRole-jp-practitionerrole-example-1.json ==
 == fsh-generated/resources/Procedure-jp-procedure-example-1.json ==
-INFORMATION: Procedure/jp-procedure-example-1: Procedure.code.coding[0]: Code System URI 'http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureCodesMedical_CS' is unknown so the code cannot be validated
-ERROR: Procedure/jp-procedure-example-1: Procedure.code.coding[0]: The Coding provided (http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureCodesMedical_CS#140000610) is not in the value set 'JP Core Procedure Codes Medical ValueSet' (http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCodesMedical_VS|1.1.0a), and a code is required from this value set.  (error message = The provided code 'http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureCodesMedical_CS#140000610' is not in the value set 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCodesMedical_VS|1.1.0a')
 == fsh-generated/resources/SearchParameter-jp-coverage-insuredpersonnumber-sp.json ==
 == fsh-generated/resources/SearchParameter-jp-coverage-insuredpersonsubnumber-sp.json ==
 == fsh-generated/resources/SearchParameter-jp-coverage-insuredpersonsymbol-sp.json ==

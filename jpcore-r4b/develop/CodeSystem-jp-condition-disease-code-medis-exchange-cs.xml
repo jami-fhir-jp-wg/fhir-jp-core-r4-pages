@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="jp-condition-disease-code-medis-exchange-cs"/>
   <url value="urn:oid:1.2.392.200119.4.101.6"/>
-  <version value="2.0.0"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_ConditionDiseaseCodeMEDISExchange_CS"/>
   <title value="JP Core Condition Disease Code MEDIS Exchange CodeSystem"/>
   <status value="active"/>

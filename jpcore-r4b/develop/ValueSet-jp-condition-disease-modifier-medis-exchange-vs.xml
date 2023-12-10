@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-jp-condition-disease-modifier-medis-exchange-cs.html"><code>urn:oid:1.2.392.200119.4.201.5</code></a></li><li>Include all codes defined in <a href="CodeSystem-jp-condition-disease-modifier-receipt-cs.html"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS</code></a></li></ul></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISExchange_VS"/>
-  <version value="2.0.0"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_ConditionDiseaseModifierMEDISExchange_VS"/>
   <title value="JP Core Condition Disease Modifier MEDIS Exchange ValueSet"/>
   <status value="active"/>

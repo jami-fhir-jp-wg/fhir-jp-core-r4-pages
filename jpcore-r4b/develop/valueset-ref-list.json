@@ -138,13 +138,13 @@
       "sources" : ["2.16.840.1.113883.4.642.3.77"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType",
+      "StructureDefinition-jp-medicationrange-unitoftime.html" : "JP Core Medication Range DataType",
       "StructureDefinition-jp-medicationratio-doseperday.html" : "JP Core Medication Rate Ratio DosePerDay DataType",
-      "StructureDefinition-jp-medicationrange-unitoftime.html" : "JP Core Medication Range DataType"
+      "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleDosageComment_VS",
       "title" : "JP Core Medication Example DosageComment ValueSet",
@@ -158,7 +158,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageLineComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleLineComment_VS",
       "title" : "JP Core Medication Example LineComment ValueSet",
@@ -172,7 +172,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageMethodComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleMethodComment_VS",
       "title" : "JP Core Medication Example MethodComment ValueSet",
@@ -186,7 +186,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageRateComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleRateComment_VS",
       "title" : "JP Core Medication Example RateComment ValueSet",
@@ -200,7 +200,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageRouteComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleRouteComment_VS",
       "title" : "JP Core Medication Example RouteComment ValueSet",
@@ -214,7 +214,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageSiteComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleSiteComment_VS",
       "title" : "JP Core Medication Example SiteComment ValueSet",
@@ -228,7 +228,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationUncategorizedComment_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleUncategorizedComment_VS",
       "title" : "JP Core MedicationAdministration Example Uncategorized Comment ValueSet",
@@ -242,7 +242,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationInstructionForDispenseJHSP0002_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationInstructionForDispenseJHSP0002_VS",
       "title" : "JP Core Medication JHSP0002 Instruction For Dispense ValueSet",
@@ -250,12 +250,12 @@
       "systems" : ["http://jpfhir.jp/fhir/core/CodeSystem/JHSP0002"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispense-preparation.html" : "JP Core MedicationDispense Preparation Extension",
-      "StructureDefinition-jp-medicationrequest-dispenserequest-instructionfordispense.html" : "JP Core MedicationRequest DispenseRequest InstructionForDispense Extension"
+      "StructureDefinition-jp-medicationrequest-dispenserequest-instructionfordispense.html" : "JP Core MedicationRequest DispenseRequest InstructionForDispense Extension",
+      "StructureDefinition-jp-medicationdispense-preparation.html" : "JP Core MedicationDispense Preparation Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationRequestDosageInstructionLine_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicationExampleLine_VS",
       "title" : "JP Core Medication Example Line ValueSet",
@@ -285,7 +285,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConclusionCodesJed_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConclusionCodesJed_VS",
       "title" : "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet",
@@ -297,7 +297,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeICD10_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeICD10_VS",
       "title" : "JP Core Condition Disease Code ICD-10 ValueSet",
@@ -311,7 +311,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISExchange_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeMEDISExchange_VS",
       "title" : "JP Core Condition Disease Code MEDIS Exchange ValueSet",
@@ -323,7 +323,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISRecordNo_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeMEDISRecordNo_VS",
       "title" : "JP Core Condition Disease Code MEDIS RecordNo ValueSet",
@@ -335,7 +335,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeReceipt_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeReceipt_VS",
       "title" : "JP Core Condition Disease Code Receipt System ValueSet",
@@ -349,7 +349,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISExchange_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseModifierMEDISExchange_VS",
       "title" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet",
@@ -360,12 +360,12 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension",
-      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension"
+      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension",
+      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISRecordNo_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseModifierMEDISRecordNo_VS",
       "title" : "JP Core Condition Disease Modifier MEDIS Record No ValueSet",
@@ -373,12 +373,12 @@
       "systems" : ["urn:oid:1.2.392.200119.4.201.2"],
       "uses" : {
       },
-      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension",
-      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension"
+      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension",
+      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierReceipt_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseModifierReceipt_VS",
       "title" : "JP Core Condition Disease Modifier Receipt System ValueSet",
@@ -388,12 +388,12 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension",
-      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension"
+      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension",
+      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS",
       "title" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet",
@@ -405,7 +405,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseOutcomeHL70241_VS",
       "title" : "JP Core Condition Disease Outcome HL70241 ValueSet",
@@ -417,7 +417,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeJHSD0006_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseOutcomeJHSD0006_VS",
       "title" : "JP Core Condition Disease Outcome JHSD0006 ValueSet",
@@ -429,7 +429,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeReceipt_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseOutcomeReceipt_VS",
       "title" : "JP Core Condition Disease Outcome Receipt System ValueSet",
@@ -443,7 +443,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionSeverity_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionSeverity_VS",
       "title" : "JP Core Condition Severity ValueSet",
@@ -469,7 +469,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_DiagnosticReportCategory_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DiagnosticReportCategory_VS",
       "title" : "JP Core Diagnostic Report Category ValueSet",
@@ -478,13 +478,13 @@
       "uses" : {
       },
       "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile",
-      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
+      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
       "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_DocumentCodes_DiagnosticReport_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DocumentCodes_DiagnosticReport_VS",
       "title" : "JP Core Document Codes DiagnosticReport ValueSet",
@@ -496,7 +496,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_DocumentCodes_Endoscopy_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DocumentCodes_Endoscopy_VS",
       "title" : "JP Core Document Codes Endoscopy ValueSet",
@@ -520,7 +520,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicalLicenseCertificate_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MedicalLicenseCertificate_VS",
       "title" : "JP Core MedicalLicense Certificate ValueSet",
@@ -542,9 +542,9 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.32"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCategoryInjeciton_VS",
@@ -610,11 +610,11 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-medication.html" : "JP Core Medication Profile",
-      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
       "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile"
+      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
+      "StructureDefinition-jp-medication.html" : "JP Core Medication Profile",
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationFormMERIT9_VS",
@@ -640,8 +640,8 @@
       "systems" : ["urn:oid:1.2.392.100495.20.2.22"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medication-ingredientstrength-strengthtype.html" : "JP Core Medication IngredientStrength StrengthType Extension"
+      "StructureDefinition-jp-medication-ingredientstrength-strengthtype.html" : "JP Core Medication IngredientStrength StrengthType Extension",
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationMethodJAMIBasicUsage_VS",
@@ -653,9 +653,9 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.30"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationMethodJAMIDetailUsage_VS",
@@ -667,9 +667,9 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.40"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationRouteHL70162_VS",
@@ -681,8 +681,8 @@
       "systems" : ["http://jpfhir.jp/fhir/core/CodeSystem/route-codes"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationSubstitutionNotAllowedReason_VS",
@@ -694,8 +694,8 @@
       "systems" : ["urn:oid:1.2.392.100495.20.2.41"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile"
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationUnitMERIT9_VS",
@@ -707,8 +707,8 @@
       "systems" : ["urn:oid:1.2.392.100495.20.2.101"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationquantity.html" : "JP Core Medication Quantity DataType",
-      "StructureDefinition-jp-medicationsimplequantity.html" : "JP Core Medication Quantity DataType"
+      "StructureDefinition-jp-medicationsimplequantity.html" : "JP Core Medication Quantity DataType",
+      "StructureDefinition-jp-medicationquantity.html" : "JP Core Medication Quantity DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationUsageInjection_VS",
@@ -751,7 +751,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MicrobiologyCategory_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_MicrobiologyCategory_VS",
       "title" : "JP Core MicrobiologyCategory ValueSet",
@@ -765,7 +765,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_Microbiology_AntiMicrobialDrug_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_Microbiology_AntiMicrobialDrug_VS",
       "title" : "JP Core Microbiology AntiMicrobial Drug ValueSet",
@@ -777,7 +777,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_Microbiology_InfectiousAgent_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_Microbiology_InfectiousAgent_VS",
       "title" : "JP Core Microbiology Infectious Agent ValueSet",
@@ -789,7 +789,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationBodyMeasurementCategory_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCategory_VS",
       "title" : "JP Core Observation BodyMeasurement Category ValueSet",
@@ -803,7 +803,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationBodyMeasurementCode_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCode_VS",
       "title" : "JP Core Observation BodyMeasurement Code ValueSet",
@@ -817,7 +817,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationBodySite_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationBodySite_VS",
       "title" : "JP Core Observation BodySite ValueSet",
@@ -828,7 +828,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationCategory_Microbiology_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationCategory_Microbiology_VS",
       "title" : "JP Core MicrobiologyCategory ValueSet",
@@ -848,8 +848,8 @@
       "systems" : ["urn:oid:1.2.392.200119.4.504"],
       "uses" : {
       },
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile"
+      "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationPhysicalExamBodySite_VS",
@@ -921,7 +921,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_PhysicalExamCode_VS",
       "title" : "JP Core Physical Exam Code ValueSet",
@@ -945,9 +945,9 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
       "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile",
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile"
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PrefectureNumber_VS",
@@ -963,7 +963,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureBodySite_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureBodySite_VS",
       "title" : "JP Core Procedure BodySite ValueSet",
@@ -1005,7 +1005,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCodesICHI_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureCodesICHI_VS",
       "title" : "JP Core Procedure Codes ICHI ValueSet",
@@ -1057,7 +1057,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCondition_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureCondition_VS",
       "title" : "JP Core Procedure Condition ValueSet",
@@ -1069,7 +1069,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceAction_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureDeviceAction_VS",
       "title" : "JP Core Procedure Device Action ValueSet",
@@ -1081,7 +1081,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceKind_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureDeviceKind_VS",
       "title" : "JP Core Procedure Device Kind ValueSet",
@@ -1093,7 +1093,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureFollowUp_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureFollowUp_VS",
       "title" : "JP Core Procedure Follow Up ValueSet",
@@ -1105,7 +1105,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureNotPerformedReason_VS",
       "title" : "JP Core Procedure Not Performed Reason ValueSet",
@@ -1119,7 +1119,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureOutcome_VS",
       "title" : "JP Core Procedure Outcome ValueSet",
@@ -1133,7 +1133,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedurePerformerRole_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedurePerformerRole_VS",
       "title" : "JP Core Procedure Performer Role ValueSet",
@@ -1147,7 +1147,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureReason_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureReason_VS",
       "title" : "JP Core Procedure Reason ValueSet",
@@ -1159,7 +1159,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_RadiologyModality_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_RadiologyModality_VS",
       "title" : "JP Core Radiology Modality ValueSet",
@@ -1171,7 +1171,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ReasonCodesJed_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ReasonCodesJed_VS",
       "title" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet",
@@ -1183,7 +1183,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_SimpleObservationCategory_VS",
       "title" : "JP Core Simple Observation Category ValueSet",
@@ -1193,17 +1193,17 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
+      "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
       "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile"
+      "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_Undefined_VS",
-      "version" : "2.0.0",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_Undefined_VS",
       "title" : "JP Core Undefined ValueSet",

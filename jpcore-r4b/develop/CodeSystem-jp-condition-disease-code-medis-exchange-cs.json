@@ -2,7 +2,7 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-code-medis-exchange-cs",
   "url" : "urn:oid:1.2.392.200119.4.101.6",
-  "version" : "2.0.0",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseCodeMEDISExchange_CS",
   "title" : "JP Core Condition Disease Code MEDIS Exchange CodeSystem",
   "status" : "active",
