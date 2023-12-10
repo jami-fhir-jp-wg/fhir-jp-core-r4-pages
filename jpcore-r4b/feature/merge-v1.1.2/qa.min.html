@@ -1,0 +1,683 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 6, errors = 3, warn = 8, info = 39-->
+<head>
+  <title>FHIRJPCoreImplementationGuide : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+    span.toggle  { background-color: #e6f2ff; color: black; border: solid 1px #0056b3; padding: 2px; font-size: 10px }
+    span.toggle  { font-size: 10px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+    function toggle(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Validation Information') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Validation Information';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Validation Information';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for FHIRJPCoreImplementationGuide</h1>
+ <p>Generated Sun Dec 10 22:25:54 UTC 2023, FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = <a href="http://jpfhir.jp/fhir/core">http://jpfhir.jp/fhir/core</a> (<a href="http://jpfhir.jp/fhir/core/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.5.5</span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = jpfhir.jp.core, Canonical = http://jpfhir.jp/fhir/core</td></tr>
+ <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from https://jpfhir.jp/fhir/core/package-list.json?nocache=1702247150109 (Not Found) (content in /tmp/http-log/fhir-http-5.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+<li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
+</ul>
+</td></tr>
+ <tr><td>Supressed Messages:</td><td><a href="#suppressed">14 Suppressed Issues</a>
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> jpfhir.jp.core</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">2.0.0-dev</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B">R4B</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://jpfhir.jp/fhir/core</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.terminology.r4</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">5.3.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Outdated Release">O</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="background-color: #ffcccc" href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://terminology.hl7.org/5.3.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">FHIR Version Mismatch. Latest Release is 5.4.0</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzI3XJ6V3QAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+2RsQ0AIAzDav7/2VzQwoCY4iWbZSmo1QGoUgNMghvWaIejPQW/CrrNCylIwcOCDYfLNRcNer4SAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.uv.extensions.r4</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.0.0 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: green" title="Latest Milestone Release">M</span></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="background-color: #ffcccc" href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/extensions/1.0.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">FHIR Version Mismatch</td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> jpfhir-terminology</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1.1.1 <span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="Not yet released">U</span></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="background-color: #ffcccc" href="http://hl7.org/fhir/R4">R4</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://jpfhir.jp/fhir/jpfhir-terminology</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://jpfhir.jp/fhir/jpfhir-terminology</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">FHIR Version Mismatch</td></tr>
+</table><para>Templates: jpfhir.jp.core.ig-template#null -&gt; fhir.base.template#current. Tools: current</para></div></td></tr>
+ <tr><td>Dependent IGs:</td><td><a href="qa-dep.html">no references</a></td></tr>
+ <tr><td>Global Profiles:</td><td>(none declared)</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>R5 Dependencies:</td><td><ul><li><a href="http://build.fhir.org/namingsystem.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version</a></li><li><a href="http://build.fhir.org/namingsystem.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url</a></li></ul></td></tr>
+ <tr><td>Draft Dependencies:</td><td><ul>
+  <li>
+hl7.fhir.r4b.core#4.3.0:     <a href="http://hl7.org/fhir/R4B/codesystem-guide-parameter-code.html">GuideParameterCode</a>
+ (17 uses),     <a href="http://hl7.org/fhir/R4B/codesystem-allergy-intolerance-type.html">AllergyIntoleranceType</a>
+ (1 uses),     <code>identifier</code>
+ (2 uses),     <code>name</code>
+ (2 uses),     <code>family</code>
+ (2 uses),     <code>given</code>
+ (2 uses),     <code>birthdate</code>
+ (2 uses),     <code>gender</code>
+ (2 uses),     <code>phone</code>
+ (2 uses),     <code>address-postalcode</code>
+ (2 uses),     <code>beneficiary</code>
+ (2 uses),     <code>class-type</code>
+ (2 uses),     <code>class-value</code>
+ (2 uses),     <code>dependent</code>
+ (2 uses),     <code>identifier</code>
+ (2 uses),     <code>patient</code>
+ (2 uses),     <code>payor</code>
+ (2 uses),     <code>policy-holder</code>
+ (2 uses),     <code>status</code>
+ (2 uses),     <code>subscriber</code>
+ (2 uses),     <code>type</code>
+ (2 uses),     <code>patient</code>
+ (24 uses),     <code>identifier</code>
+ (24 uses),     <code>class</code>
+ (2 uses),     <code>date</code>
+ (12 uses),     <code>status</code>
+ (2 uses),     <code>type</code>
+ (4 uses),     <code>identifier</code>
+ (2 uses),     <code>name</code>
+ (2 uses),     <code>address</code>
+ (2 uses),     <code>address-city</code>
+ (2 uses),     <code>address-state</code>
+ (2 uses),     <code>address-postalcode</code>
+ (2 uses),     <code>identifier</code>
+ (2 uses),     <code>name</code>
+ (2 uses),     <code>address</code>
+ (2 uses),     <code>identifier</code>
+ (2 uses),     <code>name</code>
+ (2 uses),     <code>identifier</code>
+ (2 uses),     <code>specialty</code>
+ (2 uses),     <code>practitioner</code>
+ (2 uses),     <code>identifier</code>
+ (2 uses),     <code>authoredon</code>
+ (2 uses),     <code>date</code>
+ (2 uses),     <code>category</code>
+ (2 uses),     <code>code</code>
+ (10 uses),     <code>requester</code>
+ (2 uses),     <code>whenhandedover</code>
+ (2 uses),     <code>whenprepared</code>
+ (2 uses),     <code>performer</code>
+ (2 uses),     <code>context</code>
+ (2 uses),     <code>effective-time</code>
+ (2 uses),     <code>performer</code>
+ (2 uses),     <code>request</code>
+ (2 uses),     <code>category</code>
+ (2 uses),     <code>encounter</code>
+ (4 uses),     <code>value-quantity</code>
+ (2 uses),     <code>value-concept</code>
+ (2 uses),     <code>value-string</code>
+ (2 uses),     <code>based-on</code>
+ (2 uses),     <code>modality</code>
+ (2 uses),     <code>bodysite</code>
+ (2 uses),     <code>started</code>
+ (2 uses),     <code>encounter</code>
+ (2 uses),     <code>based-on</code>
+ (2 uses),     <code>category</code>
+ (2 uses),     <code>conclusion</code>
+ (2 uses),     <code>issued</code>
+ (2 uses),     <code>media</code>
+ (2 uses),     <code>performer</code>
+ (2 uses),     <code>result</code>
+ (2 uses),     <code>results-interpreter</code>
+ (2 uses),     <code>specimen</code>
+ (2 uses),     <code>status</code>
+ (2 uses),     <code>clinical-status</code>
+ (2 uses),     <code>category</code>
+ (2 uses),     <code>verification-status</code>
+ (2 uses),     <code>criticality</code>
+ (2 uses),     <code>clinical-status</code>
+ (2 uses),     <code>onset-date</code>
+ (2 uses),     <code>category</code>
+ (2 uses),     <code>verification-status</code>
+ (2 uses),     <code>status</code>
+ (2 uses),     <code>relationship</code>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/extension-bodysite.html">BodyStructure Reference</a>
+ (10 uses),     <a href="http://hl7.org/fhir/R4B/extension-patient-religion.html">religion</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/extension-patient-birthplace.html">birthPlace</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/extension-iso21090-en-representation.html">EN-representation</a>
+ (12 uses),     <a href="http://hl7.org/fhir/R4B/extension-capabilitystatement-expectation.html">expectation</a>
+ (14 uses),     <a href="http://hl7.org/fhir/R4B/extension-structuredefinition-fhir-type.html">fhir-type</a>
+ (396 uses),     <a href="http://hl7.org/fhir/R4B/extension-elementdefinition-bindingname.html">bindingName</a>
+ (492 uses),     <a href="http://hl7.org/fhir/R4B/valueset-common-tags.html">CommonTags</a>
+ (8 uses),     <a href="http://hl7.org/fhir/R4B/extension-elementdefinition-maxvalueset.html">maxValueSet</a>
+ (52 uses),     <a href="http://hl7.org/fhir/R4B/valueset-languages.html">CommonLanguages</a>
+ (52 uses),     <a href="http://hl7.org/fhir/R4B/device.html">Device</a>
+ (64 uses),     <a href="http://hl7.org/fhir/R4B/extension-elementdefinition-bestpractice.html">bestpractice</a>
+ (50 uses),     <a href="http://hl7.org/fhir/R4B/extension-elementdefinition-bestpractice-explanation.html">bestpractice-explanation</a>
+ (50 uses),     <a href="http://hl7.org/fhir/R4B/devicedefinition.html">DeviceDefinition</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-udi-entry-type.html">UDIEntryType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-device-status.html">FHIRDeviceStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-device-status-reason.html">FHIRDeviceStatusReason</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-device-nametype.html">DeviceNameType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-device-type.html">DeviceType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/organization.html">Organization</a>
+ (46 uses),     <a href="http://hl7.org/fhir/R4B/location.html">Location</a>
+ (9 uses),     <a href="http://hl7.org/fhir/R4B/documentreference.html">DocumentReference</a>
+ (28 uses),     <a href="http://hl7.org/fhir/R4B/valueset-document-reference-status.html">DocumentReferenceStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-composition-status.html">CompositionStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-doc-typecodes.html">FHIRDocumentTypeCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-doc-classcodes.html">DocumentClassValueSet</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/practitioner.html">Practitioner</a>
+ (18 uses),     <a href="http://hl7.org/fhir/R4B/group.html">Group</a>
+ (18 uses),     <a href="http://hl7.org/fhir/R4B/practitionerrole.html">PractitionerRole</a>
+ (18 uses),     <a href="http://hl7.org/fhir/R4B/relatedperson.html">RelatedPerson</a>
+ (76 uses),     <a href="http://hl7.org/fhir/R4B/valueset-document-relationship-type.html">DocumentRelationshipType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/encounter.html">Encounter</a>
+ (8 uses),     <a href="http://hl7.org/fhir/R4B/episodeofcare.html">EpisodeOfCare</a>
+ (12 uses),     <a href="http://hl7.org/fhir/R4B/valueset-c80-facilitycodes.html">FacilityTypeCodeValueSet</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-c80-practice-codes.html">PracticeSettingCodeValueSet</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-relatedperson-relationshiptype.html">PatientRelationshipType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/researchstudy.html">ResearchStudy</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/plandefinition.html">PlanDefinition</a>
+ (6 uses),     <a href="http://hl7.org/fhir/R4B/valueset-research-study-status.html">ResearchStudyStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-research-study-prim-purp-type.html">ResearchStudyPrimaryPurposeType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-research-study-phase.html">ResearchStudyPhase</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-code.html">Condition/Problem/DiagnosisCodes</a>
+ (8 uses),     <a href="http://hl7.org/fhir/R4B/valueset-research-study-reason-stopped.html">ResearchStudyReasonStopped</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-research-study-objective-type.html">ResearchStudyObjectiveType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/researchsubject.html">ResearchSubject</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-research-subject-status.html">ResearchSubjectStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/consent.html">Consent</a>
+ (9 uses),     <a href="http://hl7.org/fhir/R4B/servicerequest.html">ServiceRequest</a>
+ (33 uses),     <a href="http://hl7.org/fhir/R4B/activitydefinition.html">ActivityDefinition</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4B/careplan.html">CarePlan</a>
+ (24 uses),     <a href="http://hl7.org/fhir/R4B/medicationrequest.html">MedicationRequest</a>
+ (15 uses),     <a href="http://hl7.org/fhir/R4B/valueset-request-status.html">RequestStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-request-intent.html">RequestIntent</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-servicerequest-category.html">ServiceRequestCategoryCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-request-priority.html">RequestPriority</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-procedure-code.html">ProcedureCodes(SNOMEDCT)</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-servicerequest-orderdetail.html">ServiceRequestOrderDetailsCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-as-needed-reason.html">SNOMEDCTMedicationAsNeededReasonCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/careteam.html">CareTeam</a>
+ (34 uses),     <a href="http://hl7.org/fhir/R4B/healthcareservice.html">HealthcareService</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/valueset-procedure-reason.html">ProcedureReasonCodes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/condition.html">Condition</a>
+ (19 uses),     <a href="http://hl7.org/fhir/R4B/diagnosticreport.html">DiagnosticReport</a>
+ (12 uses),     <a href="http://hl7.org/fhir/R4B/coverage.html">Coverage</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/claimresponse.html">ClaimResponse</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4B/specimen.html">Specimen</a>
+ (18 uses),     <a href="http://hl7.org/fhir/R4B/valueset-body-site.html">SNOMEDCTBodyStructures</a>
+ (14 uses),     <a href="http://hl7.org/fhir/R4B/provenance.html">Provenance</a>
+ (9 uses),     <a href="http://hl7.org/fhir/R4B/valueset-specimen-status.html">SpecimenStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/substance.html">Substance</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-specimen-collection-method.html">FHIRSpecimenCollectionMethod</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-specimen-processing-procedure.html">SpecimenProcessingProcedure</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-specimen-container-type.html">SpecimenContainer</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/allergyintolerance.html">AllergyIntolerance</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/valueset-allergyintolerance-clinical.html">AllergyIntoleranceClinicalStatusCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-allergyintolerance-verification.html">AllergyIntoleranceVerificationStatusCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-allergy-intolerance-type.html">AllergyIntoleranceType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-allergy-intolerance-category.html">AllergyIntoleranceCategory</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-allergy-intolerance-criticality.html">AllergyIntoleranceCriticality</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-substance-code.html">SubstanceCode</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-clinical-findings.html">SNOMEDCTClinicalFindings</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-reaction-event-severity.html">AllergyIntoleranceSeverity</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-route-codes.html">SNOMEDCTRouteCodes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/questionnaire.html">Questionnaire</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/measure.html">Measure</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/extension-structuredefinition-hierarchy.html">hierarchy</a>
+ (14 uses),     <a href="http://hl7.org/fhir/R4B/valueset-care-plan-intent.html">CarePlanIntent</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-care-plan-category.html">CarePlanCategory</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/goal.html">Goal</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-care-plan-activity-outcome.html">CarePlanActivityOutcome</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/appointment.html">Appointment</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4B/communicationrequest.html">CommunicationRequest</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/devicerequest.html">DeviceRequest</a>
+ (8 uses),     <a href="http://hl7.org/fhir/R4B/nutritionorder.html">NutritionOrder</a>
+ (14 uses),     <a href="http://hl7.org/fhir/R4B/task.html">Task</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/visionprescription.html">VisionPrescription</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/requestgroup.html">RequestGroup</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-care-plan-activity-kind.html">CarePlanActivityKind</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-care-plan-activity-status.html">CarePlanActivityStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-codes.html">SNOMEDCTMedicationCodes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-clinical.html">ConditionClinicalStatusCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/extension-elementdefinition-translatable.html">translatable</a>
+ (199 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-ver-status.html">ConditionVerificationStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-category.html">ConditionCategoryCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-stage.html">ConditionStage</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/clinicalimpression.html">ClinicalImpression</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-stage-type.html">ConditionStageType</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-manifestation-or-symptom.html">ManifestationAndSymptomCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-state-codes.html">ConsentState</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-scope.html">ConsentScopeCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-category.html">ConsentCategoryCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/contract.html">Contract</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/questionnaireresponse.html">QuestionnaireResponse</a>
+ (26 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-policy.html">ConsentPolicyRuleCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-provision-type.html">ConsentProvisionType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-security-role-type.html">SecurityRoleType</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-action.html">ConsentActionCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-content-class.html">ConsentContentClass</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-content-code.html">ConsentContentCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-consent-data-meaning.html">ConsentDataMeaning</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-fm-status.html">FinancialResourceStatusCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-coverage-type.html">CoverageTypeAndSelf-PayCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-subscriber-relationship.html">SubscriberRelationshipCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-coverage-class.html">CoverageClassCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-coverage-copay-type.html">CoverageCopayTypeCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-coverage-financial-exception.html">ExampleCoverageFinancialExceptionCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/immunizationrecommendation.html">ImmunizationRecommendation</a>
+ (16 uses),     <a href="http://hl7.org/fhir/R4B/valueset-diagnostic-report-status.html">DiagnosticReportStatus</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4B/valueset-diagnostic-service-sections.html">DiagnosticServiceSectionCodes</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4B/imagingstudy.html">ImagingStudy</a>
+ (27 uses),     <a href="http://hl7.org/fhir/R4B/media.html">Media</a>
+ (21 uses),     <a href="http://hl7.org/fhir/R4B/extension-encounter-associatedencounter.html">associatedEncounter</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-status.html">EncounterStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-type.html">EncounterType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-service-type.html">ServiceType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-participant-type.html">ParticipantType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-reason.html">EncounterReasonCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-diagnosis-role.html">DiagnosisRole</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/account.html">Account</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-admit-source.html">AdmitSource</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-diet.html">Diet</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-special-courtesy.html">SpecialCourtesy</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-special-arrangements.html">SpecialArrangements</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-discharge-disposition.html">DischargeDisposition</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-location-status.html">EncounterLocationStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-location-physical-type.html">LocationType</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/familymemberhistory.html">FamilyMemberHistory</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/valueset-history-status.html">FamilyHistoryStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-history-absent-reason.html">FamilyHistoryAbsentReason</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-condition-outcome.html">ConditionOutcomeCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-imagingstudy-status.html">ImagingStudyStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/extension-structuredefinition-display-hint.html">display-hint</a>
+ (11 uses),     <a href="http://hl7.org/fhir/R4B/appointmentresponse.html">AppointmentResponse</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/endpoint.html">Endpoint</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-bodysite-laterality.html">Laterality</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-series-performer-function.html">ImagingStudySeriesPerformerFunction</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/immunization.html">Immunization</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-status.html">ImmunizationStatusCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-status-reason.html">ImmunizationStatusReasonCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-origin.html">ImmunizationOriginCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-site.html">CodesForImmunizationSiteOfAdministration</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-route.html">ImmunizationRouteCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-function.html">ImmunizationFunctionCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-reason.html">ImmunizationReasonCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-subpotent-reason.html">ImmunizationSubpotentReason</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-program-eligibility.html">ImmunizationProgramEligibility</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-funding-source.html">ImmunizationFundingSource</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-immunization-target-disease.html">ImmunizationTargetDiseaseCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-location-status.html">LocationStatus</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-location-mode.html">LocationMode</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-event-status.html">EventStatus</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-media-type.html">MediaType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-media-modality.html">MediaModality</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-media-view.html">MediaCollectionView/Projection</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/devicemetric.html">DeviceMetric</a>
+ (8 uses),     <a href="http://hl7.org/fhir/R4B/medication.html">Medication</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-status.html">Medication Status Codes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/medicationadministration.html">MedicationAdministration</a>
+ (12 uses),     <a href="http://hl7.org/fhir/R4B/procedure.html">Procedure</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-admin-status.html">MedicationAdministration Status Codes</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4B/valueset-reason-medication-not-given-codes.html">SNOMEDCTReasonMedicationNotGivenCodes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-admin-category.html">MedicationAdministration Category Codes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-med-admin-perform-function.html">MedicationAdministration Performer Function Codes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-reason-medication-given-codes.html">ReasonMedicationGivenCodes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-administration-method-codes.html">SNOMEDCTAdministrationMethodCodes</a>
+ (6 uses),     <a href="http://hl7.org/fhir/R4B/valueset-approach-site-codes.html">SNOMEDCTAnatomicalStructureForAdministrationSiteCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/medicationdispense.html">MedicationDispense</a>
+ (9 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationdispense-status.html">MedicationDispense Status Codes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/detectedissue.html">DetectedIssue</a>
+ (8 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationdispense-status-reason.html">MedicationDispense Status Reason Codes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationdispense-category.html">MedicationDispense Category Codes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationdispense-performer-function.html">MedicationDispense Performer Function Codes</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4B/dosage.html#Dosage">Dosage</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationrequest-status.html">medicationrequest Status</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationrequest-status-reason.html">medicationRequest Status Reason Codes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationrequest-intent.html">medicationRequest Intent</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medicationrequest-course-of-therapy.html">medicationRequest Course of Therapy Codes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/medicationstatement.html">MedicationStatement</a>
+ (14 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-statement-status.html">MedicationStatement Status Codes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-reason-medication-status-codes.html">SNOMEDCTDrugTherapyStatusCodes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-medication-statement-category.html">Medication usage category codes</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-timing-abbreviation.html">TimingAbbreviation</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-observation-status.html">ObservationStatus</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-observation-methods.html">ObservationMethods</a>
+ (6 uses),     <a href="http://hl7.org/fhir/R4B/valueset-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-referencerange-appliesto.html">ObservationReferenceRangeAppliesToCodes</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/molecularsequence.html">MolecularSequence</a>
+ (22 uses),     <a href="http://hl7.org/fhir/R4B/valueset-observation-codes.html">LOINCCodes</a>
+ (7 uses),     <a href="http://hl7.org/fhir/R4B/valueset-organization-type.html">OrganizationType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-contactentity-type.html">ContactEntityType</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4B/composition.html">Composition</a>
+ (2 uses)
+  </li>
+  <li>
+hl7.fhir.uv.tools#1.0.0-candidate:     <a href="https://build.fhir.org/ig/FHIR/fhir-tools-ig//StructureDefinition-resource-sort.html">ResourceSortExt</a>
+ (256 uses)
+  </li>
+  <li>
+hl7.terminology.r4#5.3.0:     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntoleranceClinicalStatusCodes</a>
+ (1 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-allergyintolerance-verification.html">AllergyIntoleranceVerificationStatus</a>
+ (1 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-ver-status.html">ConditionVerificationStatus</a>
+ (2 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-condition-category.html">ConditionCategoryCodes</a>
+ (2 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-endpoint-connection-type.html">EndpointConnectionType</a>
+ (1 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-location-physical-type.html">LocationType</a>
+ (3 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-med-admin-perform-function.html">MedicationAdministrationPerformerFunctionCodes</a>
+ (3 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-medicationdispense-performer-function.html">MedicationDispensePerformerFunctionCodes</a>
+ (2 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
+ (1 uses),     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-organization-type.html">OrganizationType</a>
+ (2 uses),     <a href="http://terminology.hl7.org/5.3.0/ValueSet-action-participant-role.html">ActionParticipantRole</a>
+ (1 uses)
+  </li>
+</ul>
+</td></tr>
+ <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://jpfhir.jp/fhir/core (Problem #1 with package-list.json at http://jpfhir.jp/fhir/core: Invalid HTTP response 404 from https://jpfhir.jp/fhir/core/package-list.json?nocache=1702246922548 (Not Found) (content in /tmp/http-log/fhir-http-2.log))</td></tr>
+ <tr><td>IPA Comparison:</td><td> n/a</td></tr>
+ <tr><td>IPS Comparison:</td><td> n/a</td></tr>
+<tr><td>Narratives Suppressed</td><td><a href="CodeSystem-jp-condition-disease-code-icd10-cs.html">CodeSystem/jp-condition-disease-code-icd10-cs</a>, <a href="CodeSystem-jp-condition-disease-code-medis-exchange-cs.html">CodeSystem/jp-condition-disease-code-medis-exchange-cs</a>, <a href="CodeSystem-jp-condition-disease-code-medis-record-no-cs.html">CodeSystem/jp-condition-disease-code-medis-record-no-cs</a>, <a href="CodeSystem-jp-condition-disease-code-receipt-cs.html">CodeSystem/jp-condition-disease-code-receipt-cs</a>, <a href="CodeSystem-jp-condition-disease-modifier-medis-exchange-cs.html">CodeSystem/jp-condition-disease-modifier-medis-exchange-cs</a>, <a href="CodeSystem-jp-condition-disease-modifier-medis-record-no-cs.html">CodeSystem/jp-condition-disease-modifier-medis-record-no-cs</a>, <a href="CodeSystem-jp-condition-disease-modifier-receipt-cs.html">CodeSystem/jp-condition-disease-modifier-receipt-cs</a>, <a href="CodeSystem-jp-condition-disease-outcome-hl70241-cs.html">CodeSystem/jp-condition-disease-outcome-hl70241-cs</a>, <a href="CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.html">CodeSystem/jp-condition-disease-outcome-jhsd0006-cs</a>, <a href="CodeSystem-jp-condition-disease-outcome-receipt-cs.html">CodeSystem/jp-condition-disease-outcome-receipt-cs</a>, <a href="CodeSystem-jp-documentcodes-cs.html">CodeSystem/jp-documentcodes-cs</a>, <a href="CodeSystem-jp-endoscopyterminology-codes-jed-cs.html">CodeSystem/jp-endoscopyterminology-codes-jed-cs</a>, <a href="CodeSystem-jp-medication-example-dosagecomment-cs.html">CodeSystem/jp-medication-example-dosagecomment-cs</a>, <a href="CodeSystem-jp-medication-example-line-cs.html">CodeSystem/jp-medication-example-line-cs</a>, <a href="CodeSystem-jp-medication-example-linecomment-cs.html">CodeSystem/jp-medication-example-linecomment-cs</a>, <a href="CodeSystem-jp-medication-example-methodcomment-cs.html">CodeSystem/jp-medication-example-methodcomment-cs</a>, <a href="CodeSystem-jp-medication-example-ratecomment-cs.html">CodeSystem/jp-medication-example-ratecomment-cs</a>, <a href="CodeSystem-jp-medication-example-routecomment-cs.html">CodeSystem/jp-medication-example-routecomment-cs</a>, <a href="CodeSystem-jp-medication-example-sitecomment-cs.html">CodeSystem/jp-medication-example-sitecomment-cs</a>, <a href="CodeSystem-jp-medication-example-uncategorized-comment-cs.html">CodeSystem/jp-medication-example-uncategorized-comment-cs</a>, <a href="CodeSystem-jp-microbiology-anti-microbial-drug-cs.html">CodeSystem/jp-microbiology-anti-microbial-drug-cs</a>, <a href="CodeSystem-jp-microbiology-category-cs.html">CodeSystem/jp-microbiology-category-cs</a>, <a href="CodeSystem-jp-microbiology-infectious-agent-cs.html">CodeSystem/jp-microbiology-infectious-agent-cs</a>, <a href="CodeSystem-jp-observation-bodymeasurement-category-cs.html">CodeSystem/jp-observation-bodymeasurement-category-cs</a>, <a href="CodeSystem-jp-observation-bodymeasurement-code-cs.html">CodeSystem/jp-observation-bodymeasurement-code-cs</a>, <a href="CodeSystem-jp-observation-bodysite-cs.html">CodeSystem/jp-observation-bodysite-cs</a>, <a href="CodeSystem-jp-physicalexamcode-cs.html">CodeSystem/jp-physicalexamcode-cs</a>, <a href="CodeSystem-jp-procedure-body-site-cs.html">CodeSystem/jp-procedure-body-site-cs</a>, <a href="CodeSystem-jp-procedure-not-performed-reason-cs.html">CodeSystem/jp-procedure-not-performed-reason-cs</a>, <a href="CodeSystem-jp-procedure-outcome-cs.html">CodeSystem/jp-procedure-outcome-cs</a>, <a href="CodeSystem-jp-simpleobservationcategory-cs.html">CodeSystem/jp-simpleobservationcategory-cs</a>, <a href="CodeSystem-jp-undefined-cs.html">CodeSystem/jp-undefined-cs</a><tr><td>Validation Suppressed</td><td><a href="null">ImplementationGuide/jpfhir.jp.core</a>, <a href="null">ImplementationGuide/jpfhir.jp.core</a> <tr><td>Summary:</td><td> errors = 3, warn = 8, info = 39, broken links = 6</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>6</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-female-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-1</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-male-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-male-1</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-consent"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-consent</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-practitioner"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-practitioner</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_ValueSet-jp-condition-disease-code-medis-exchange-vs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/ValueSet-jp-condition-disease-code-medis-exchange-vs</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_ValueSet-jp-condition-disease-code-medis-record-no-vs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/ValueSet-jp-condition-disease-code-medis-record-no-vs</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_ValueSet-jp-condition-disease-modifier-medis-record-no-vs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/ValueSet-jp-condition-disease-modifier-medis-record-no-vs</b></a></td><td><b>1</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
+ <div style="border: 1px grey solid; display: none" id="v"></div>
+ <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide.dependency[2].url</b></td><td><b>warning</b></td><td title=""><b>The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner-definitions.html#l5021">output&#8203;/StructureDefinition-jp-practitioner-definitions&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/span&#8203;/span&#8203;/a at Line 811, column 427</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner-definitions.html#l10623">output&#8203;/StructureDefinition-jp-practitioner-definitions&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/span&#8203;/a at Line 1226, column 290</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l3211">output&#8203;/StructureDefinition-jp-practitioner&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 550, column 1772</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l4776">output&#8203;/StructureDefinition-jp-practitioner&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 648, column 226</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l7566">output&#8203;/StructureDefinition-jp-practitioner&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 956, column 1772</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-jp-practitioner.html#l9127">output&#8203;/StructureDefinition-jp-practitioner&#8203;.html&#8203;#&#8203;/html&#8203;/body&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/div&#8203;/table&#8203;/tr&#8203;/td&#8203;/a at Line 1157, column 226</a></b></td><td><b>error</b></td><td><b>The link 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' for &quot;http://terminology.hl7.org/ValueSet/v2-2.7-0360&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-female-1"> </a>
+<h2><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-jp-practitioner.html">JP Core Practitioner Profile</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner&#8203;.qualification[0]&#8203;.code (l46&#8203;/c8)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner&#8203;.qualification[1]&#8203;.code (l62&#8203;/c8)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner&#8203;.qualification[2]&#8203;.code (l78&#8203;/c8)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-male-1"> </a>
+<h2><a href="Practitioner-jp-practitioner-example-male-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-male-1.json</a> <span id="svi2" class="toggle" onclick="toggle('vi2')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi2')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi2"><ul style="font-size: 7px"><li>Practitioner: Validated against <i>this.</i><a href="StructureDefinition-jp-practitioner.html">JP Core Practitioner Profile</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>Practitioner&#8203;.qualification[0]&#8203;.code (l46&#8203;/c8)</b></td><td><b>warning</b></td><td title="Terminology_TX_ValueSet_NotFound"><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-consent"> </a>
+<h2><a href="StructureDefinition-jp-consent.html">fsh-generated/resources/StructureDefinition-jp-consent.json</a> <span id="svi3" class="toggle" onclick="toggle('vi3')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi3')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi3"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[11]&#8203;.short (l1&#8203;/c66164)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)'</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition&#8203;.differential&#8203;.element[1]&#8203;.short (l1&#8203;/c118884)</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)'</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-practitioner"> </a>
+<h2><a href="StructureDefinition-jp-practitioner.html">fsh-generated/resources/StructureDefinition-jp-practitioner.json</a> <span id="svi4" class="toggle" onclick="toggle('vi4')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi4')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi4"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/structuredefinition.html">StructureDefinition</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[41]&#8203;.binding</b></td><td><b>warning</b></td><td title=""><b>The valueSet reference http://terminology.hl7.org/ValueSet/v2-2.7-0360 on element Practitioner.qualification.code could not be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_ValueSet-jp-condition-disease-code-medis-exchange-vs"> </a>
+<h2><a href="ValueSet-jp-condition-disease-code-medis-exchange-vs.html">fsh-generated/resources/ValueSet-jp-condition-disease-code-medis-exchange-vs.json</a> <span id="svi5" class="toggle" onclick="toggle('vi5')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi5')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi5"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet&#8203;.where(id = 'jp-condition-disease-code-medis-exchange-vs')</b></td><td><b>error</b></td><td title=""><b>The value set http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISExchange_VS has too many codes to display (&gt;1000)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_ValueSet-jp-condition-disease-code-medis-record-no-vs"> </a>
+<h2><a href="ValueSet-jp-condition-disease-code-medis-record-no-vs.html">fsh-generated/resources/ValueSet-jp-condition-disease-code-medis-record-no-vs.json</a> <span id="svi6" class="toggle" onclick="toggle('vi6')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi6')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi6"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet&#8203;.where(id = 'jp-condition-disease-code-medis-record-no-vs')</b></td><td><b>error</b></td><td title=""><b>The value set http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISRecordNo_VS has too many codes to display (&gt;1000)</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_ValueSet-jp-condition-disease-modifier-medis-record-no-vs"> </a>
+<h2><a href="ValueSet-jp-condition-disease-modifier-medis-record-no-vs.html">fsh-generated/resources/ValueSet-jp-condition-disease-modifier-medis-record-no-vs.json</a> <span id="svi7" class="toggle" onclick="toggle('vi7')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi7')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi7"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/valueset.html">ValueSet</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>ValueSet&#8203;.where(id = 'jp-condition-disease-modifier-medis-record-no-vs')</b></td><td><b>error</b></td><td title=""><b>The value set http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISRecordNo_VS has too many codes to display (&gt;1000)</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p><b> Local CodeSystems Warnings</b></p><ul>
+ <li>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>Code System URI 'http://abc-hospital.local/fhir/ObservationOrder/localcode' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+ <li>Code System URI 'http://abc-hospital.local/fhir/devide/local-device-type' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>DICOM関係</b></p><ul>
+ <li>The valueSet reference http://dicom.nema.org/medical/dicom/current/output/chtml/part04/sect_B.5.html#table_B.5-1 on element ImagingStudy.series.instance.sopClass could not be resolved <span style="color: navy">(2 uses)<span></li>
+ <li>The valueSet reference http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html on element ImagingStudy.modality could not be resolved <span style="color: navy">(2 uses)<span></li>
+ <li>The valueSet reference http://dicom.nema.org/medical/dicom/current/output/chtml/part16/sect_CID_29.html on element ImagingStudy.series.modality could not be resolved <span style="color: navy">(2 uses)<span></li>
+ <li>The valueSet reference http://playbook.radlex.org/playbook/SearchRadlexAction on element ImagingStudy.procedureCode could not be resolved <span style="color: navy">(4 uses)<span></li>
+ <li>ValueSet http://dicom% <span style="color: navy">(9 uses)<span></li>
+</ul>
+<p><b>Example Existence Warnings</b></p><ul>
+ <li>%The Implementation Guide contains no examples% <span style="color: navy">(14 uses)<span></li>
+</ul>
+<p><b>Uniform Reource Locator はValidation不要</b></p><ul>
+ <li>Code System URI 'urn:ietf:rfc:3986' is unknown so the code cannot be validated <span style="color: maroon">(0 uses)<span></li>
+</ul>
+<p><b>Wrong Display Name</b></p><ul>
+ <li>Wrong Display Name% <span style="color: navy">(27 uses)<span></li>
+</ul>
+<p><b>jurisdiction ValueSet</b></p><ul>
+ <li>Unable to check whether the code is in the value set http://hl7.org/fhir/ValueSet/jurisdiction|4.3.0 <span style="color: navy">(205 uses)<span></li>
+</ul>
+<p><b>ベストプラクティス</b></p><ul>
+ <li>Constraint failed: dom-6% <span style="color: navy">(32 uses)<span></li>
+</ul>
+<p><b>下記のurn:iso:std:iso:3166関連警告はなぜ出るかわからないが実害はない</b></p><ul>
+ <li>The definition for the Code System with URI 'urn:iso:std:iso:3166' doesnt provide any codes so the code cannot be validated <span style="color: navy">(205 uses)<span></li>
+</ul>
+<a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-jp-condition-diagnosis-example-1.html">fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json</a></td><td><b>Code System URI 'http://terminology.sample.com/CodeSystem/disease-outcome' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-jp-condition-diagnosis-example-1.html">fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json</a></td><td><b>Code System URI 'http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeJHSD0006_CS' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-jp-condition-diagnosis-example-1.html">fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json</a></td><td><b>Code System URI 'urn:oid:1.2.392.200119.4.102.5' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-jp-condition-diagnosis-example-1.html">fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json</a></td><td><b>Code System URI 'urn:oid:1.2.392.200119.4.102.5' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-jp-condition-diagnosis-example-1.html">fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json</a></td><td><b>Code System URI 'urn:oid:1.2.392.200119.4.102.5' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Condition-jp-condition-diagnosis-example-1.html">fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json</a></td><td><b>Code System URI 'http://terminology.sample.com/CodeSystem/disease/1311234567' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-labresult-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-labresult-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-labresult-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-labresult-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-labresult-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-labresult-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-microbiology-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-microbiology-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-microbiology-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-microbiology-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-microbiology-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-microbiology-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-microbiology-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-microbiology-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="DiagnosticReport-jp-diagnosticreport-microbiology-example-1.html">fsh-generated/resources/DiagnosticReport-jp-diagnosticreport-microbiology-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/ObservationOrder/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImagingStudy-jp-imagingstudy-endoscopy-example-1.html">fsh-generated/resources/ImagingStudy-jp-imagingstudy-endoscopy-example-1.json</a></td><td><b>Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImagingStudy-jp-imagingstudy-endoscopy-example-1.html">fsh-generated/resources/ImagingStudy-jp-imagingstudy-endoscopy-example-1.json</a></td><td><b>Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImagingStudy-jp-imagingstudy-endoscopy-example-1.html">fsh-generated/resources/ImagingStudy-jp-imagingstudy-endoscopy-example-1.json</a></td><td><b>Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImagingStudy-jp-imagingstudy-endoscopy-example-1.html">fsh-generated/resources/ImagingStudy-jp-imagingstudy-endoscopy-example-1.json</a></td><td><b>Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImagingStudy-jp-imagingstudy-endoscopy-example-1.html">fsh-generated/resources/ImagingStudy-jp-imagingstudy-endoscopy-example-1.json</a></td><td><b>Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="ImagingStudy-jp-imagingstudy-radiology-example-1.html">fsh-generated/resources/ImagingStudy-jp-imagingstudy-radiology-example-1.json</a></td><td><b>Code System URI 'urn:ietf:rfc:3986' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-jp-observation-bodyMeasurement-example-1.html">fsh-generated/resources/Observation-jp-observation-bodyMeasurement-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-jp-observation-labresult-example-1.html">fsh-generated/resources/Observation-jp-observation-labresult-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/ObservationOrder/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-jp-observation-labresult-example-1.html">fsh-generated/resources/Observation-jp-observation-labresult-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-jp-observation-socialhistory-example-1.html">fsh-generated/resources/Observation-jp-observation-socialhistory-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="Observation-jp-observation-vitalsigns-example-1.html">fsh-generated/resources/Observation-jp-observation-vitalsigns-example-1.json</a></td><td><b>Code System URI 'http://abc-hospital.local/fhir/Observation/localcode' could not be found so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_ValueSet_NotFound"> </a>
+<h2>Terminology_TX_ValueSet_NotFound</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-female-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="Practitioner-jp-practitioner-example-male-1.html">fsh-generated/resources/Practitioner-jp-practitioner-example-male-1.json</a></td><td><b>ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_String_WS"> </a>
+<h2>Type_Specific_Checks_DT_String_WS</h2>
+ <table class="grid">
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-jp-consent.html">fsh-generated/resources/StructureDefinition-jp-consent.json</a></td><td><b>value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)'</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="StructureDefinition-jp-consent.html">fsh-generated/resources/StructureDefinition-jp-consent.json</a></td><td><b>value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)'</b></td>
+   </tr>
+</table>
+</body>
+</html>
