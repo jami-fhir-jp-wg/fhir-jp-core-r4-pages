@@ -1,9 +1,9 @@
 ﻿FHIRJPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 3, warn = 8, info = 39
+err = 3, warn = 6, info = 39
 IG Publisher Version: 1.5.5
-Generated Sun Dec 10 23:39:53 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
+Generated Tue Dec 12 12:01:22 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 6 / 1 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 1 / 2
@@ -135,7 +135,7 @@ Generated Sun Dec 10 23:39:53 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-condition-diagnosis : 0 / 1 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-condition-disease-postfix-modifier : 0 / 1 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-condition-disease-prefix-modifier : 0 / 1 / 2
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-consent : 0 / 4 / 2
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-consent : 0 / 2 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-coverage : 0 / 1 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-coverage-insuredpersonnumber : 0 / 1 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-coverage-insuredpersonsubnumber : 0 / 1 / 2
@@ -444,8 +444,6 @@ WARNING: Practitioner/jp-practitioner-example-male-1: Practitioner.qualification
 == fsh-generated/resources/StructureDefinition-jp-condition-disease-postfix-modifier.json ==
 == fsh-generated/resources/StructureDefinition-jp-condition-disease-prefix-modifier.json ==
 == fsh-generated/resources/StructureDefinition-jp-consent.json ==
-WARNING: StructureDefinition/jp-consent: StructureDefinition.snapshot.element[11].short: value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)'
-WARNING: StructureDefinition/jp-consent: StructureDefinition.differential.element[1].short: value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)'
 == fsh-generated/resources/StructureDefinition-jp-coverage.json ==
 == fsh-generated/resources/StructureDefinition-jp-coverage-insuredpersonnumber.json ==
 == fsh-generated/resources/StructureDefinition-jp-coverage-insuredpersonsubnumber.json ==

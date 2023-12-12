@@ -1,6 +1,6 @@
 {
   "version" : "2.0.0-dev",
   "fhirVersion" : ["4.3.0"],
-  "date" : "20231210233433",
+  "date" : "20231212115601",
   "name" : "jpfhir.jp.core"
 }

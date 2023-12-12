@@ -40,8 +40,6 @@
 /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json: line 62, col 8, Warning - ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found (CODEINVALID)
 /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json: line 78, col 8, Warning - ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found (CODEINVALID)
 /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-male-1.json: line 46, col 8, Warning - ValueSet http://terminology.hl7.org/ValueSet/v2-2.7-0360 not found (CODEINVALID)
-/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-consent.json: line 1, col 66164, Warning - value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)' (INVALID)
-/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-consent.json: line 1, col 118884, Warning - value should not start or finish with whitespace '\tWhich of the four areas this resource covers (extensible)' (INVALID)
 /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-observation-microbiology.json: line 0, col 0, Info - The Implementation Guide contains no explicitly linked examples for this profile (BUSINESSRULE)
 /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-practitioner.json: line 0, col 0, Warning - The valueSet reference http://terminology.hl7.org/ValueSet/v2-2.7-0360 on element Practitioner.qualification.code could not be resolved (BUSINESSRULE)
 /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/ValueSet-jp-condition-disease-code-medis-exchange-vs.json: line 0, col 0, Error - The value set http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISExchange_VS has too many codes to display (>1000) (EXCEPTION)
@@ -51,6 +49,6 @@
 FHIRJPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 3, warn = 8, info = 39
+err = 3, warn = 6, info = 39
 IG Publisher Version: 1.5.5
-Generated Sun Dec 10 23:39:53 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
+Generated Tue Dec 12 12:01:22 UTC 2023. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
