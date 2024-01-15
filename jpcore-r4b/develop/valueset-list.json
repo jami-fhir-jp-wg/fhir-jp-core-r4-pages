@@ -98,6 +98,17 @@
       ]
     },
     {
+      "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ChemotherapyRegimen_RegimenType_VS",
+      "version" : "2.0.0-dev",
+      "status" : "draft",
+      "name" : "JP_ChemotherapyRegimen_RegimenType_VS",
+      "title" : "JP Core PlanDefinition ChemotherapyRegimen RegimenType ValueSet",
+      "description" : "【仮】レジメン種別コード",
+      "systems" : [
+        "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS"
+      ]
+    },
+    {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConclusionCodesJed_VS",
       "version" : "2.0.0-dev",
       "status" : "active",

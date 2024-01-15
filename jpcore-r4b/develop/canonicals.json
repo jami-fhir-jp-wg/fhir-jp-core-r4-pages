@@ -1,5 +1,12 @@
 [
   {
+    "id" : "jp-plandefinition-chemotherapyregimen-timingdaysofcycle",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle",
+    "version" : "2.0.0-dev",
+    "name" : "JP_PlanDefinition_ChemotherapyRegimen_TimingDaysOfCycle"
+  },
+  {
     "id" : "jp-medication-example-dosagecomment-cs",
     "type" : "CodeSystem",
     "url" : "http://jpfhir.jp/fhir/Examples/CodeSystem/JP_MedicationAdministrationDosageComment_CS",
@@ -145,6 +152,13 @@
     "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006",
     "version" : "2.0.0-dev",
     "name" : "JP_ConditionDieaseOutcomeJHSD0006_CS"
+  },
+  {
+    "id" : "jp-chemotherapyregimen-regimentype-cs",
+    "type" : "CodeSystem",
+    "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
+    "version" : "2.0.0-dev",
+    "name" : "JP_ChemotherapyRegimen_RegimenType_CS"
   },
   {
     "id" : "jp-condition-disease-code-icd10-cs",
@@ -476,6 +490,13 @@
     "name" : "JP_Patient_Race"
   },
   {
+    "id" : "jp-plandefinition-chemotherapyregimen-regimentype",
+    "type" : "StructureDefinition",
+    "url" : "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen_RegimenType",
+    "version" : "2.0.0-dev",
+    "name" : "JP_PlanDefinition_ChemotherapyRegimen_RegimenType"
+  },
+  {
     "id" : "jpfhir.jp.core",
     "type" : "ImplementationGuide",
     "url" : "http://jpfhir.jp/fhir/core/ImplementationGuide/jpfhir.jp.core",
@@ -691,6 +712,20 @@
     "url" : "http://jpfhir.jp/fhir/core/SearchParameter/JP_Patient_KanaSort_SP",
     "version" : "2.0.0-dev",
     "name" : "JP_Patient_KanaSort_SP"
+  },
+  {
+    "id" : "jp-activitydefinition-chemotherapyregimen-injection",
+    "type" : "StructureDefinition",
+    "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection",
+    "version" : "2.0.0-dev",
+    "name" : "JP_ActivityDefinition_ChemotherapyRegimen_Injection"
+  },
+  {
+    "id" : "jp-activitydefinition-chemotherapyregimen-oral",
+    "type" : "StructureDefinition",
+    "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Oral",
+    "version" : "2.0.0-dev",
+    "name" : "JP_ActivityDefinition_ChemotherapyRegimen_Oral"
   },
   {
     "id" : "jp-allergyintolerance",
@@ -1064,6 +1099,13 @@
     "name" : "JP_Patient"
   },
   {
+    "id" : "jp-plandefinition-chemotherapyregimen",
+    "type" : "StructureDefinition",
+    "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen",
+    "version" : "2.0.0-dev",
+    "name" : "JP_PlanDefinition_ChemotherapyRegimen"
+  },
+  {
     "id" : "jp-practitioner",
     "type" : "StructureDefinition",
     "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Practitioner",
@@ -1118,6 +1160,13 @@
     "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Specimen",
     "version" : "2.0.0-dev",
     "name" : "JP_Specimen"
+  },
+  {
+    "id" : "jp-chemotherapyregimen-regimentype-vs",
+    "type" : "ValueSet",
+    "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ChemotherapyRegimen_RegimenType_VS",
+    "version" : "2.0.0-dev",
+    "name" : "JP_ChemotherapyRegimen_RegimenType_VS"
   },
   {
     "id" : "jp-conclusion-codes-jed-vs",

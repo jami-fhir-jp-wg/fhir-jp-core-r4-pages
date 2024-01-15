@@ -845,6 +845,33 @@
          fhir:value [ fhir:v "special-url" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "special-url" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "special-url" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Oral" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "special-url" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -3946,7 +3973,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -4710,6 +4737,33 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Procedure" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "special-url" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "special-url" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "special-url" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Oral" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -7833,6 +7887,30 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/jp-activitydefinition-chemotherapyregimen-injection> ;
+         fhir:reference [ fhir:v "StructureDefinition/jp-activitydefinition-chemotherapyregimen-injection" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile" ] ;
+       fhir:description [ fhir:v "このプロファイルはActivityDefinitionリソースに対して、化学療法レジメンの定義に関する情報を送受信するための共通の制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/jp-activitydefinition-chemotherapyregimen-oral> ;
+         fhir:reference [ fhir:v "StructureDefinition/jp-activitydefinition-chemotherapyregimen-oral" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile" ] ;
+       fhir:description [ fhir:v "このプロファイルはActivityDefinitionリソースに対して、化学療法レジメンの定義に関する情報を送受信するための共通の制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "AllergyIntolerance" ]
        ] ) ;
        fhir:reference [
@@ -10184,6 +10262,66 @@
        ] ;
        fhir:name [ fhir:v "JP Core Physical Exam Code ValueSet" ] ;
        fhir:description [ fhir:v "身体所見の区分を表す値セット" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/jp-plandefinition-chemotherapyregimen> ;
+         fhir:reference [ fhir:v "StructureDefinition/jp-plandefinition-chemotherapyregimen" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen Profile" ] ;
+       fhir:description [ fhir:v "このプロファイルはPlanDefinitionリソースに対して、化学療法レジメンの定義に関する情報を送受信するための共通の制約と拡張を定めたものである。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/CodeSystem/jp-chemotherapyregimen-regimentype-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/jp-chemotherapyregimen-regimentype-cs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen RegimenType CodeSystem" ] ;
+       fhir:description [ fhir:v "【仮】レジメン種別コード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/jp-plandefinition-chemotherapyregimen-regimentype> ;
+         fhir:reference [ fhir:v "StructureDefinition/jp-plandefinition-chemotherapyregimen-regimentype" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen RegimenType Extension" ] ;
+       fhir:description [ fhir:v "レジメン種別に関する情報を格納するためのExtension。" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/ValueSet/jp-chemotherapyregimen-regimentype-vs> ;
+         fhir:reference [ fhir:v "ValueSet/jp-chemotherapyregimen-regimentype-vs" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen RegimenType ValueSet" ] ;
+       fhir:description [ fhir:v "【仮】レジメン種別コード" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/jp-plandefinition-chemotherapyregimen-timingdaysofcycle> ;
+         fhir:reference [ fhir:v "StructureDefinition/jp-plandefinition-chemotherapyregimen-timingdaysofcycle" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension" ] ;
+       fhir:description [ fhir:v "周期の日数に関する情報を格納するためのExtension。" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

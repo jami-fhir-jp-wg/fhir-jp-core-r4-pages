@@ -1,4 +1,6 @@
 [endpoint-dicom-wadors-example]: Endpoint-endpoint-dicom-wadors-example.html
+[JP_ActivityDefinition_ChemotherapyRegimen_Injection]: StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html
+[JP_ActivityDefinition_ChemotherapyRegimen_Oral]: StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html
 [jp-allergyintolerance-example-1]: AllergyIntolerance-jp-allergyintolerance-example-1.html
 [JP_AllergyIntolerance]: StructureDefinition-jp-allergyintolerance.html
 [JP_CarePlan]: StructureDefinition-jp-careplan.html
@@ -185,6 +187,11 @@
 [JP_Patient_Race]: StructureDefinition-jp-patient-race.html
 [JP_PhysicalExamCode_CS]: CodeSystem-jp-physicalexamcode-cs.html
 [JP_PhysicalExamCode_VS]: ValueSet-jp-physicalexamcode-vs.html
+[JP_PlanDefinition_ChemotherapyRegimen]: StructureDefinition-jp-plandefinition-chemotherapyregimen.html
+[JP_ChemotherapyRegimen_RegimenType_CS]: CodeSystem-jp-chemotherapyregimen-regimentype-cs.html
+[JP_PlanDefinition_ChemotherapyRegimen_RegimenType]: StructureDefinition-jp-plandefinition-chemotherapyregimen-regimentype.html
+[JP_ChemotherapyRegimen_RegimenType_VS]: ValueSet-jp-chemotherapyregimen-regimentype-vs.html
+[JP_PlanDefinition_ChemotherapyRegimen_TimingDaysOfCycle]: StructureDefinition-jp-plandefinition-chemotherapyregimen-timingdaysofcycle.html
 [jp-practitioner-example-female-1]: Practitioner-jp-practitioner-example-female-1.html
 [jp-practitioner-example-male-1]: Practitioner-jp-practitioner-example-male-1.html
 [jp-practitioner-example-female-2]: Practitioner-jp-practitioner-example-female-2.html

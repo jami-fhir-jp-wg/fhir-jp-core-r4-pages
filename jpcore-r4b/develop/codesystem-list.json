@@ -81,6 +81,14 @@
       "description" : "JAHIS病名情報データ交換規約Ver.3.1C JHSD表00006-転帰区分 コードシステム"
     },
     {
+      "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
+      "version" : "2.0.0-dev",
+      "status" : "draft",
+      "name" : "JP_ChemotherapyRegimen_RegimenType_CS",
+      "title" : "JP Core PlanDefinition ChemotherapyRegimen RegimenType CodeSystem",
+      "description" : "【仮】レジメン種別コード"
+    },
+    {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeICD10_CS",
       "version" : "2.0.0-dev",
       "status" : "active",

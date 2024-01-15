@@ -5,6 +5,13 @@
   "jurisdiction": "JP",
   "extensions": [
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle",
+      "title": "JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension",
+      "types": [
+        "integer"
+      ]
+    },
+    {
       "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier",
       "title": "JP Core Disease Postfix Modifier Extension",
       "types": [
@@ -348,9 +355,26 @@
       "types": [
         "CodeableConcept"
       ]
+    },
+    {
+      "url": "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen_RegimenType",
+      "title": "JP Core PlanDefinition ChemotherapyRegimen RegimenType Extension",
+      "types": [
+        "CodeableConcept"
+      ]
     }
   ],
   "profiles": {
+    "ActivityDefinition": [
+      {
+        "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection",
+        "title": "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile"
+      },
+      {
+        "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Oral",
+        "title": "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
+      }
+    ],
     "AllergyIntolerance": [
       {
         "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_AllergyIntolerance",
@@ -561,6 +585,12 @@
         "title": "JP Core Patient Profile"
       }
     ],
+    "PlanDefinition": [
+      {
+        "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen",
+        "title": "JP Core PlanDefinition ChemotherapyRegimen Profile"
+      }
+    ],
     "Practitioner": [
       {
         "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Practitioner",
@@ -667,6 +697,9 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle": [
+      "PlanDefinition.action"
     ],
     "http://hl7.org/fhir/build/StructureDefinition/binding-definition": [
       "StructureDefinition.snapshot.element.binding"
@@ -800,6 +833,9 @@
     ],
     "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Patient_Race": [
       "Patient"
+    ],
+    "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen_RegimenType": [
+      "PlanDefinition"
     ]
   }
 }
