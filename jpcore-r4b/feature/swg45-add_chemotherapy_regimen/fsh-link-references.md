@@ -76,6 +76,7 @@
 [jp-media-endoscopy-example-1]: Media-jp-media-endoscopy-example-1.html
 [JP_Media_Endoscopy]: StructureDefinition-jp-media-endoscopy.html
 [JP_MedicalLicenseCertificate_VS]: ValueSet-jp-medicallicensecertificate-vs.html
+[JP_Medication_ChemotherapyRegimen]: StructureDefinition-jp-medication-chemotherapyregimen.html
 [JP_MedicationDosage_Device]: StructureDefinition-jp-medicationdosage-device.html
 [JP_MedicationDosage_DosageComment]: StructureDefinition-jp-medicationdosage-dosagecomment.html
 [JP_MedicationDosage_Line]: StructureDefinition-jp-medicationdosage-line.html
@@ -187,6 +188,7 @@
 [JP_Patient_Race]: StructureDefinition-jp-patient-race.html
 [JP_PhysicalExamCode_CS]: CodeSystem-jp-physicalexamcode-cs.html
 [JP_PhysicalExamCode_VS]: ValueSet-jp-physicalexamcode-vs.html
+[jp-plandefinition-chemotherapyregimen-example-1]: PlanDefinition-jp-plandefinition-chemotherapyregimen-example-1.html
 [JP_PlanDefinition_ChemotherapyRegimen]: StructureDefinition-jp-plandefinition-chemotherapyregimen.html
 [JP_ChemotherapyRegimen_RegimenType_CS]: CodeSystem-jp-chemotherapyregimen-regimentype-cs.html
 [JP_PlanDefinition_ChemotherapyRegimen_RegimenType]: StructureDefinition-jp-plandefinition-chemotherapyregimen-regimentype.html

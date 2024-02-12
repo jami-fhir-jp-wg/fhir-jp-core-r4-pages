@@ -3973,7 +3973,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#current" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
@@ -8862,6 +8862,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/jp-medication-chemotherapyregimen> ;
+         fhir:reference [ fhir:v "StructureDefinition/jp-medication-chemotherapyregimen" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core Medication ChemotherapyRegimen Profile" ] ;
+       fhir:description [ fhir:v "hoge" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -10263,6 +10275,21 @@
        fhir:name [ fhir:v "JP Core Physical Exam Code ValueSet" ] ;
        fhir:description [ fhir:v "身体所見の区分を表す値セット" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "PlanDefinition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://jpfhir.jp/fhir/core/PlanDefinition/jp-plandefinition-chemotherapyregimen-example-1> ;
+         fhir:reference [ fhir:v "PlanDefinition/jp-plandefinition-chemotherapyregimen-example-1" ]
+       ] ;
+       fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen Example 化学療法レジメン（大腸癌 mFOLFOX6）" ] ;
+       fhir:description [ fhir:v "化学療法レジメン（大腸癌 mFOLFOX6）" ] ;
+       fhir:example [
+         fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen"^^xsd:anyURI ;
+         fhir:link <http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

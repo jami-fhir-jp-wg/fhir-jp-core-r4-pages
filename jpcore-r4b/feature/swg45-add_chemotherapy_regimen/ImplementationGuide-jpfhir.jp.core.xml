@@ -3522,7 +3522,7 @@
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
-      <valueCode value="hl7.fhir.uv.tools#current"/>
+      <valueCode value="hl7.fhir.uv.tools#0.1.0"/>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -7848,6 +7848,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/jp-medication-chemotherapyregimen"/>
+      </reference>
+      <name value="JP Core Medication ChemotherapyRegimen Profile"/>
+      <description value="hoge"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -9066,6 +9077,17 @@
       <name value="JP Core Physical Exam Code ValueSet"/>
       <description value="身体所見の区分を表す値セット"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="PlanDefinition"/>
+      </extension>
+      <reference>
+        <reference value="PlanDefinition/jp-plandefinition-chemotherapyregimen-example-1"/>
+      </reference>
+      <name value="JP Core PlanDefinition ChemotherapyRegimen Example 化学療法レジメン（大腸癌 mFOLFOX6）"/>
+      <description value="化学療法レジメン（大腸癌 mFOLFOX6）"/>
+      <exampleCanonical value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

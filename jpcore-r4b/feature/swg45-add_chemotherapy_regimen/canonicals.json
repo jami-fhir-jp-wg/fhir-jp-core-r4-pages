@@ -658,6 +658,12 @@
     "name" : "JP_PrefectureNumber_NamingSystem"
   },
   {
+    "id" : "jp-plandefinition-chemotherapyregimen-example-1",
+    "type" : "PlanDefinition",
+    "url" : "http://jpfhir.jp/fhir/core/PlanDefinition/jp-plandefinition-chemotherapyregimen-example-1",
+    "version" : "2.0.0-dev"
+  },
+  {
     "id" : "jp-coverage-insuredpersonnumber-sp",
     "type" : "SearchParameter",
     "url" : "http://jpfhir.jp/fhir/core/SearchParameter/JP_Coverage_InsuredPersonNumber_SP",
@@ -1034,6 +1040,13 @@
     "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationTiming",
     "version" : "2.0.0-dev",
     "name" : "JP_MedicationTiming"
+  },
+  {
+    "id" : "jp-medication-chemotherapyregimen",
+    "type" : "StructureDefinition",
+    "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication_ChemotherapyRegimen",
+    "version" : "2.0.0-dev",
+    "name" : "JP_Medication_ChemotherapyRegimen"
   },
   {
     "id" : "jp-observation-bodymeasurement",

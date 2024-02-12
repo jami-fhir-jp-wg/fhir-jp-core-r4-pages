@@ -491,8 +491,8 @@
     ],
     "Medication": [
       {
-        "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication",
-        "title": "JP Core Medication Profile"
+        "url": "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication_ChemotherapyRegimen",
+        "title": "JP Core Medication ChemotherapyRegimen Profile"
       }
     ],
     "MedicationAdministration": [
@@ -641,6 +641,15 @@
     ]
   },
   "usage": {
+    "JP_MedicationDosage_Device": [
+      "PlanDefinition.contained.dosage"
+    ],
+    "JP_MedicationExampleRateComment_CS": [
+      "PlanDefinition.contained.dosage.doseAndRate"
+    ],
+    "JP_PlanDefinition_ChemotherapyRegimen_RegimenType": [
+      "PlanDefinition"
+    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
       "NamingSystem"
     ],
@@ -699,7 +708,8 @@
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle": [
-      "PlanDefinition.action"
+      "PlanDefinition.action",
+      "PlanDefinition.action.action"
     ],
     "http://hl7.org/fhir/build/StructureDefinition/binding-definition": [
       "StructureDefinition.snapshot.element.binding"

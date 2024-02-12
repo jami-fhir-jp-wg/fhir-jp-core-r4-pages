@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="jp-plandefinition-chemotherapyregimen-example-1"/>
+  <meta>
+    <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_PlanDefinition_ChemotherapyRegimen"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: PlanDefinition</b><a name="jp-plandefinition-chemotherapyregimen-example-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource PlanDefinition &quot;jp-plandefinition-chemotherapyregimen-example-1&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-jp-plandefinition-chemotherapyregimen.html">JP Core PlanDefinition ChemotherapyRegimen Profile</a></p></div><p><b>url</b>: <code>http://jpfhir.jp/fhir/core/PlanDefinition/jp-plandefinition-chemotherapyregimen-example-1</code></p><p><b>identifier</b>: <code>http://terminology.sample.com/IdSystem/regimen/1311234567</code>/123456789012345</p><p><b>version</b>: 2.0.0-dev</p><p><b>status</b>: active</p><p><b>date</b>: 2024-02-12 13:34:44+0000</p><p><b>publisher</b>: FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</p><p><b>contact</b>: FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI): <a href="http://jpfhir.jp">http://jpfhir.jp</a>,<a href="mailto:office@hlfhir.jp">office@hlfhir.jp</a></p><h3>UseContexts</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Code</b></td><td><b>Value[x]</b></td></tr><tr><td style="display: none">*</td><td>Clinical Focus (Details: http://terminology.hl7.org/CodeSystem/usage-context-type code focus = 'Clinical Focus', stated as 'Clinical Focus')</td><td>大腸癌 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.101.2">MEDIS病名管理番号 propertyなし</a>#20069739)</span></td></tr></table><p><b>jurisdiction</b>: Japan <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#JP)</span></p><p><b>copyright</b>: Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG</p><blockquote><p><b>action</b></p><p><b>textEquivalent</b>: 14日サイクルを 6回繰り返す</p><p><b>timing</b>: Count 6 times, Duration 14?ngen-7?, Once</p><h3>Actions</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Extension</b></td><td><b>Definition[x]</b></td></tr><tr><td style="display: none">*</td><td/><td><code>#jp-plandefinition-chemotherapyregimen-example-1.1</code></td></tr><tr><td style="display: none">*</td><td/><td><code>#jp-plandefinition-chemotherapyregimen-example-1.2</code></td></tr><tr><td style="display: none">*</td><td/><td><code>#jp-plandefinition-chemotherapyregimen-example-1.3</code></td></tr><tr><td style="display: none">*</td><td/><td><code>#jp-plandefinition-chemotherapyregimen-example-1.4</code></td></tr></table></blockquote><hr/><blockquote><p><b>Generated Narrative: ActivityDefinition #jp-plandefinition-chemotherapyregimen-example-1.1</b><a name="jp-plandefinition-chemotherapyregimen-example-1.1"> </a></p><p><b>identifier</b>: <code>urn:oid:1.2.392.100495.20.3.81</code>/1</p><p><b>status</b>: active</p><blockquote><p><b>dosage</b></p><p><b>method</b>: 静脈注射 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200250.2.2.20.40">JP Core Medication JAMI Detail Usage Type CodeSystem</a>#30)</span></p><blockquote><p><b>doseAndRate</b></p></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: Medication #jp-plandefinition-chemotherapyregimen-medication-example-1.1</b><a name="jp-plandefinition-chemotherapyregimen-medication-example-1.1"> </a></p><p><b>status</b>: active</p><blockquote><p><b>ingredient</b></p><p><b>item</b>: 大塚糖液５％　２５０ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#107359101)</span></p><p><b>strength</b>: 250 ml<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code ML = 'ｍＬ')</span>/1 回<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code TIME = '回')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: アイソボリン点滴静注用１００ｍｇ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#117534901)</span></p><p><b>strength</b>: 200 mg<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code MG = 'ｍｇ')</span>/1 m2</p></blockquote></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: ActivityDefinition #jp-plandefinition-chemotherapyregimen-example-1.2</b><a name="jp-plandefinition-chemotherapyregimen-example-1.2"> </a></p><p><b>identifier</b>: <code>urn:oid:1.2.392.100495.20.3.81</code>/2</p><p><b>status</b>: active</p><blockquote><p><b>dosage</b></p><p><b>method</b>: 静脈注射 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200250.2.2.20.40">JP Core Medication JAMI Detail Usage Type CodeSystem</a>#30)</span></p><blockquote><p><b>doseAndRate</b></p></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: Medication #jp-plandefinition-chemotherapyregimen-medication-example-1.2</b><a name="jp-plandefinition-chemotherapyregimen-medication-example-1.2"> </a></p><p><b>status</b>: active</p><blockquote><p><b>ingredient</b></p><p><b>item</b>: 大塚糖液５％　２５０ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#107359101)</span></p><p><b>strength</b>: 250 ml<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code ML = 'ｍＬ')</span>/1 回<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code TIME = '回')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: エルプラット点滴静注液１００ｍｇ　２０ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#119323701)</span></p><p><b>strength</b>: 85 mg<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code MG = 'ｍｇ')</span>/1 m2</p></blockquote></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: ActivityDefinition #jp-plandefinition-chemotherapyregimen-example-1.3</b><a name="jp-plandefinition-chemotherapyregimen-example-1.3"> </a></p><p><b>identifier</b>: <code>urn:oid:1.2.392.100495.20.3.81</code>/3</p><p><b>status</b>: active</p><blockquote><p><b>dosage</b></p><p><b>method</b>: 静脈注射 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200250.2.2.20.40">JP Core Medication JAMI Detail Usage Type CodeSystem</a>#30)</span></p><blockquote><p><b>doseAndRate</b></p></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: Medication #jp-plandefinition-chemotherapyregimen-medication-example-1.3</b><a name="jp-plandefinition-chemotherapyregimen-medication-example-1.3"> </a></p><p><b>status</b>: active</p><blockquote><p><b>ingredient</b></p><p><b>item</b>: 大塚生食注　１００ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#107667701)</span></p><p><b>strength</b>: 50 ml<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code ML = 'ｍＬ')</span>/1 回<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code TIME = '回')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: エルプラット点滴静注液１００ｍｇ　２０ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#120479701)</span></p><p><b>strength</b>: 400 mg<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code MG = 'ｍｇ')</span>/1 m2</p></blockquote></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: ActivityDefinition #jp-plandefinition-chemotherapyregimen-example-1.4</b><a name="jp-plandefinition-chemotherapyregimen-example-1.4"> </a></p><p><b>identifier</b>: <code>urn:oid:1.2.392.100495.20.3.81</code>/4</p><p><b>status</b>: active</p><blockquote><p><b>dosage</b></p><p><b>method</b>: 中心静脈注射 <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200250.2.2.20.40">JP Core Medication JAMI Detail Usage Type CodeSystem</a>#31)</span></p><blockquote><p><b>doseAndRate</b></p></blockquote></blockquote><hr/><blockquote><p><b>Generated Narrative: Medication #jp-plandefinition-chemotherapyregimen-medication-example-1.4</b><a name="jp-plandefinition-chemotherapyregimen-medication-example-1.4"> </a></p><p><b>status</b>: active</p><blockquote><p><b>ingredient</b></p><p><b>item</b>: 大塚生食注　１００ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#107667701)</span></p><p><b>strength</b>: 100 ml<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code ML = 'ｍＬ')</span>/1 回<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code TIME = '回')</span></p></blockquote><blockquote><p><b>ingredient</b></p><p><b>item</b>: エルプラット点滴静注液１００ｍｇ　２０ｍＬ <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.403.1">MEDIS 基準番号（ＨＯＴ９）</a>#120479701)</span></p><p><b>strength</b>: 2400 mg<span style="background: LightGoldenRodYellow"> (Details: urn:oid:1.2.392.100495.20.2.101 code MG = 'ｍｇ')</span>/1 m2</p></blockquote></blockquote></blockquote></div>
+  </text>
+  <contained>
+    <ActivityDefinition>
+      <id value="jp-plandefinition-chemotherapyregimen-example-1.1"/>
+      <meta>
+        <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection"/>
+      </meta>
+      <contained>
+        <Medication>
+          <id value="jp-plandefinition-chemotherapyregimen-medication-example-1.1"/>
+          <meta>
+            <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication"/>
+          </meta>
+          <status value="active"/>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="107359101"/>
+                <display value="大塚糖液５％　２５０ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="250"/>
+                <unit value="ml"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="ML"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="回"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="TIME"/>
+              </denominator>
+            </strength>
+          </ingredient>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="117534901"/>
+                <display value="アイソボリン点滴静注用１００ｍｇ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="200"/>
+                <unit value="mg"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="MG"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="m2"/>
+              </denominator>
+            </strength>
+          </ingredient>
+        </Medication>
+      </contained>
+      <identifier>
+        <system value="urn:oid:1.2.392.100495.20.3.81"/>
+        <value value="1"/>
+      </identifier>
+      <status value="active"/>
+      <dosage>
+        <method>
+          <coding>
+            <system value="urn:oid:1.2.392.200250.2.2.20.40"/>
+            <code value="30"/>
+            <display value="静脈注射"/>
+          </coding>
+        </method>
+        <doseAndRate>
+          <rateQuantity>
+            <value value="2"/>
+            <unit value="時間"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="h"/>
+          </rateQuantity>
+        </doseAndRate>
+      </dosage>
+    </ActivityDefinition>
+  </contained>
+  <contained>
+    <ActivityDefinition>
+      <id value="jp-plandefinition-chemotherapyregimen-example-1.2"/>
+      <meta>
+        <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection"/>
+      </meta>
+      <contained>
+        <Medication>
+          <id value="jp-plandefinition-chemotherapyregimen-medication-example-1.2"/>
+          <meta>
+            <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication"/>
+          </meta>
+          <status value="active"/>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="107359101"/>
+                <display value="大塚糖液５％　２５０ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="250"/>
+                <unit value="ml"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="ML"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="回"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="TIME"/>
+              </denominator>
+            </strength>
+          </ingredient>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="119323701"/>
+                <display value="エルプラット点滴静注液１００ｍｇ　２０ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="85"/>
+                <unit value="mg"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="MG"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="m2"/>
+              </denominator>
+            </strength>
+          </ingredient>
+        </Medication>
+      </contained>
+      <identifier>
+        <system value="urn:oid:1.2.392.100495.20.3.81"/>
+        <value value="2"/>
+      </identifier>
+      <status value="active"/>
+      <dosage>
+        <method>
+          <coding>
+            <system value="urn:oid:1.2.392.200250.2.2.20.40"/>
+            <code value="30"/>
+            <display value="静脈注射"/>
+          </coding>
+        </method>
+        <doseAndRate>
+          <rateQuantity>
+            <value value="2"/>
+            <unit value="時間"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="h"/>
+          </rateQuantity>
+        </doseAndRate>
+      </dosage>
+    </ActivityDefinition>
+  </contained>
+  <contained>
+    <ActivityDefinition>
+      <id value="jp-plandefinition-chemotherapyregimen-example-1.3"/>
+      <meta>
+        <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection"/>
+      </meta>
+      <contained>
+        <Medication>
+          <id value="jp-plandefinition-chemotherapyregimen-medication-example-1.3"/>
+          <meta>
+            <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication"/>
+          </meta>
+          <status value="active"/>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="107667701"/>
+                <display value="大塚生食注　１００ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="50"/>
+                <unit value="ml"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="ML"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="回"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="TIME"/>
+              </denominator>
+            </strength>
+          </ingredient>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="120479701"/>
+                <display value="エルプラット点滴静注液１００ｍｇ　２０ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="400"/>
+                <unit value="mg"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="MG"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="m2"/>
+              </denominator>
+            </strength>
+          </ingredient>
+        </Medication>
+      </contained>
+      <identifier>
+        <system value="urn:oid:1.2.392.100495.20.3.81"/>
+        <value value="3"/>
+      </identifier>
+      <status value="active"/>
+      <dosage>
+        <method>
+          <coding>
+            <system value="urn:oid:1.2.392.200250.2.2.20.40"/>
+            <code value="30"/>
+            <display value="静脈注射"/>
+          </coding>
+        </method>
+        <doseAndRate>
+          <extension url="JP_MedicationExampleRateComment_CS">
+            <valueCodeableConcept>
+              <text value="全開で"/>
+            </valueCodeableConcept>
+          </extension>
+        </doseAndRate>
+      </dosage>
+    </ActivityDefinition>
+  </contained>
+  <contained>
+    <ActivityDefinition>
+      <id value="jp-plandefinition-chemotherapyregimen-example-1.4"/>
+      <meta>
+        <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection"/>
+      </meta>
+      <contained>
+        <Medication>
+          <id value="jp-plandefinition-chemotherapyregimen-medication-example-1.4"/>
+          <meta>
+            <profile value="http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication"/>
+          </meta>
+          <status value="active"/>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="107667701"/>
+                <display value="大塚生食注　１００ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="100"/>
+                <unit value="ml"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="ML"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="回"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="TIME"/>
+              </denominator>
+            </strength>
+          </ingredient>
+          <ingredient>
+            <itemCodeableConcept>
+              <coding>
+                <system value="urn:oid:1.2.392.200119.4.403.1"/>
+                <code value="120479701"/>
+                <display value="エルプラット点滴静注液１００ｍｇ　２０ｍＬ"/>
+              </coding>
+            </itemCodeableConcept>
+            <strength>
+              <numerator>
+                <value value="2400"/>
+                <unit value="mg"/>
+                <system value="urn:oid:1.2.392.100495.20.2.101"/>
+                <code value="MG"/>
+              </numerator>
+              <denominator>
+                <value value="1"/>
+                <unit value="m2"/>
+              </denominator>
+            </strength>
+          </ingredient>
+        </Medication>
+      </contained>
+      <identifier>
+        <system value="urn:oid:1.2.392.100495.20.3.81"/>
+        <value value="4"/>
+      </identifier>
+      <status value="active"/>
+      <dosage>
+        <extension url="JP_MedicationDosage_Device">
+          <valueReference>
+            <type value="Device"/>
+            <display value="インフューザーポンプ"/>
+          </valueReference>
+        </extension>
+        <method>
+          <coding>
+            <system value="urn:oid:1.2.392.200250.2.2.20.40"/>
+            <code value="31"/>
+            <display value="中心静脈注射"/>
+          </coding>
+        </method>
+        <doseAndRate>
+          <rateQuantity>
+            <value value="46"/>
+            <unit value="時間"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="h"/>
+          </rateQuantity>
+        </doseAndRate>
+      </dosage>
+    </ActivityDefinition>
+  </contained>
+  <extension url="JP_PlanDefinition_ChemotherapyRegimen_RegimenType">
+    <valueCodeableConcept>
+      <text value="mFOLFOX6"/>
+    </valueCodeableConcept>
+  </extension>
+  <url value="http://jpfhir.jp/fhir/core/PlanDefinition/jp-plandefinition-chemotherapyregimen-example-1"/>
+  <identifier>
+    <system value="http://terminology.sample.com/IdSystem/regimen/1311234567"/>
+    <value value="123456789012345"/>
+  </identifier>
+  <version value="2.0.0-dev"/>
+  <status value="active"/>
+  <date value="2024-02-12T13:34:44+00:00"/>
+  <publisher value="FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)"/>
+  <contact>
+    <name value="FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://jpfhir.jp"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@hlfhir.jp"/>
+    </telecom>
+  </contact>
+  <useContext>
+    <code>
+      <system value="http://terminology.hl7.org/CodeSystem/usage-context-type"/>
+      <code value="focus"/>
+      <display value="Clinical Focus"/>
+    </code>
+    <valueCodeableConcept>
+      <coding>
+        <system value="urn:oid:1.2.392.200119.4.101.2"/>
+        <code value="20069739"/>
+        <display value="大腸癌"/>
+      </coding>
+    </valueCodeableConcept>
+  </useContext>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="JP"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG"/>
+  <action>
+    <textEquivalent value="14日サイクルを 6回繰り返す"/>
+    <timingTiming>
+      <repeat>
+        <count value="6"/>
+        <duration value="14"/>
+        <durationUnit value="d"/>
+      </repeat>
+    </timingTiming>
+    <action>
+      <extension url="http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle">
+        <extension url="day">
+          <valueInteger value="1"/>
+        </extension>
+      </extension>
+      <definitionCanonical value="#jp-plandefinition-chemotherapyregimen-example-1.1"/>
+    </action>
+    <action>
+      <extension url="http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle">
+        <extension url="day">
+          <valueInteger value="1"/>
+        </extension>
+      </extension>
+      <definitionCanonical value="#jp-plandefinition-chemotherapyregimen-example-1.2"/>
+    </action>
+    <action>
+      <extension url="http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle">
+        <extension url="day">
+          <valueInteger value="1"/>
+        </extension>
+      </extension>
+      <definitionCanonical value="#jp-plandefinition-chemotherapyregimen-example-1.3"/>
+    </action>
+    <action>
+      <extension url="http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle">
+        <extension url="day">
+          <valueInteger value="1"/>
+        </extension>
+      </extension>
+      <definitionCanonical value="#jp-plandefinition-chemotherapyregimen-example-1.4"/>
+    </action>
+  </action>
+</PlanDefinition>
