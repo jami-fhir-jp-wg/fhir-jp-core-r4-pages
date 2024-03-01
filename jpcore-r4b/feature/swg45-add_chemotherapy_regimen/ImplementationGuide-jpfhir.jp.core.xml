@@ -9119,7 +9119,7 @@
         <reference value="StructureDefinition/jp-plandefinition-chemotherapyregimen-regimentype"/>
       </reference>
       <name value="JP Core PlanDefinition ChemotherapyRegimen RegimenType Extension"/>
-      <description value="レジメン種別に関する情報を格納するためのExtension。"/>
+      <description value="レジメン種別に関する情報を格納するためのExtension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -9141,7 +9141,7 @@
         <reference value="StructureDefinition/jp-plandefinition-chemotherapyregimen-timingdaysofcycle"/>
       </reference>
       <name value="JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension"/>
-      <description value="周期の日数に関する情報を格納するためのExtension。"/>
+      <description value="周期の日数に関する情報を格納するためのExtension"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

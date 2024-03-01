@@ -10324,7 +10324,7 @@
          fhir:reference [ fhir:v "StructureDefinition/jp-plandefinition-chemotherapyregimen-regimentype" ]
        ] ;
        fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen RegimenType Extension" ] ;
-       fhir:description [ fhir:v "レジメン種別に関する情報を格納するためのExtension。" ] ;
+       fhir:description [ fhir:v "レジメン種別に関する情報を格納するためのExtension" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -10348,7 +10348,7 @@
          fhir:reference [ fhir:v "StructureDefinition/jp-plandefinition-chemotherapyregimen-timingdaysofcycle" ]
        ] ;
        fhir:name [ fhir:v "JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension" ] ;
-       fhir:description [ fhir:v "周期の日数に関する情報を格納するためのExtension。" ] ;
+       fhir:description [ fhir:v "周期の日数に関する情報を格納するためのExtension" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

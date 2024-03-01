@@ -641,6 +641,9 @@
     ]
   },
   "usage": {
+    "JP_Condition_DiseasePrefixModifier": [
+      "PlanDefinition.useContext.valueCodeableConcept"
+    ],
     "JP_MedicationDosage_Device": [
       "PlanDefinition.contained.dosage"
     ],
@@ -730,10 +733,12 @@
       "ImplementationGuide.definition.resource"
     ],
     "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePostfixModifier": [
-      "Condition.code"
+      "Condition.code",
+      "PlanDefinition.useContext.value[x]"
     ],
     "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Condition_DiseasePrefixModifier": [
-      "Condition.code"
+      "Condition.code",
+      "PlanDefinition.useContext.value[x]"
     ],
     "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Coverage_InsuredPersonNumber": [
       "Coverage"

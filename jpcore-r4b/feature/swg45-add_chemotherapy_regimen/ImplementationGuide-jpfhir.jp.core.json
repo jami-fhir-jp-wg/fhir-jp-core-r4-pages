@@ -11916,7 +11916,7 @@
         "reference" : "StructureDefinition/jp-plandefinition-chemotherapyregimen-regimentype"
       },
       "name" : "JP Core PlanDefinition ChemotherapyRegimen RegimenType Extension",
-      "description" : "レジメン種別に関する情報を格納するためのExtension。",
+      "description" : "レジメン種別に関する情報を格納するためのExtension",
       "exampleBoolean" : false
     },
     {
@@ -11940,7 +11940,7 @@
         "reference" : "StructureDefinition/jp-plandefinition-chemotherapyregimen-timingdaysofcycle"
       },
       "name" : "JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension",
-      "description" : "周期の日数に関する情報を格納するためのExtension。",
+      "description" : "周期の日数に関する情報を格納するためのExtension",
       "exampleBoolean" : false
     },
     {
