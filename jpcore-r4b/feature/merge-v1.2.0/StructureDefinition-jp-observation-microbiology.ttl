@@ -2395,7 +2395,7 @@
        ] ;
        fhir:short [ fhir:v "このObservationの対象を特定するコード" ] ;
        fhir:definition [ fhir:v "このObservationの対象を特定するコード" ] ;
-       fhir:comment [ fhir:v "【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  \n基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい" ] ;
+       fhir:comment [ fhir:v "【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  \n基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい" ] ;
        fhir:requirements [ fhir:v "Allows for alternative encodings within a code system, and translations to other code systems." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -5237,7 +5237,7 @@
        ] ;
        fhir:short [ fhir:v "このObservationの対象を特定するコード" ] ;
        fhir:definition [ fhir:v "このObservationの対象を特定するコード" ] ;
-       fhir:comment [ fhir:v "【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  \n基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい" ]
+       fhir:comment [ fhir:v "【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  \n基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい" ]
      ] [
        fhir:id [ fhir:v "Observation.code.coding:infectious-agent" ] ;
        fhir:path [ fhir:v "Observation.code.coding" ] ;

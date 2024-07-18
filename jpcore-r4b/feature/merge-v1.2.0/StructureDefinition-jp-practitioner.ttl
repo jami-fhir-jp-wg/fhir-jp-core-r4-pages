@@ -1899,7 +1899,7 @@
        fhir:path [ fhir:v "Practitioner.qualification.period" ] ;
        fhir:short [ fhir:v "Period during which the qualification is valid" ] ;
        fhir:definition [ fhir:v "資格が有効な期間。" ] ;
-       fhir:comment [ fhir:v "使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  \n期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4/datatypes.html#Duration)を参照のこと。" ] ;
+       fhir:comment [ fhir:v "使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  \n期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration)を参照のこと。" ] ;
        fhir:requirements [ fhir:v "資格は期間限定のものが多く、取り消されることもある。" ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -3529,7 +3529,7 @@
        fhir:id [ fhir:v "Practitioner.qualification.period" ] ;
        fhir:path [ fhir:v "Practitioner.qualification.period" ] ;
        fhir:definition [ fhir:v "資格が有効な期間。" ] ;
-       fhir:comment [ fhir:v "使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  \n期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4/datatypes.html#Duration)を参照のこと。" ] ;
+       fhir:comment [ fhir:v "使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  \n期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration)を参照のこと。" ] ;
        fhir:requirements [ fhir:v "資格は期間限定のものが多く、取り消されることもある。" ]
      ] [
        fhir:id [ fhir:v "Practitioner.qualification.issuer" ] ;

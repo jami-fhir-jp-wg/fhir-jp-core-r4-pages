@@ -2738,7 +2738,7 @@
       "path" : "Observation.interpretation",
       "short" : "High, low, normal, etc. 高、低、正常など",
       "definition" : "検査結果値の、（高、低、正常）といったカテゴリー評価。結果報告書に記載されることもある情報。",
-      "comment" : "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4/valueset-observation-interpretation.html",
+      "comment" : "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4B/valueset-observation-interpretation.html",
       "requirements" : "特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。",
       "alias" : ["Abnormal Flag"],
       "min" : 0,
@@ -4376,7 +4376,7 @@
       "path" : "Observation.interpretation",
       "short" : "High, low, normal, etc. 高、低、正常など",
       "definition" : "検査結果値の、（高、低、正常）といったカテゴリー評価。結果報告書に記載されることもある情報。",
-      "comment" : "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4/valueset-observation-interpretation.html",
+      "comment" : "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4B/valueset-observation-interpretation.html",
       "requirements" : "特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。"
     },
     {

@@ -1844,7 +1844,7 @@
       <path value="Practitioner.qualification.period"/>
       <short value="Period during which the qualification is valid"/>
       <definition value="資格が有効な期間。"/>
-      <comment value="使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  &#xA;期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4/datatypes.html#Duration)を参照のこと。"/>
+      <comment value="使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  &#xA;期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration)を参照のこと。"/>
       <requirements value="資格は期間限定のものが多く、取り消されることもある。"/>
       <min value="0"/>
       <max value="1"/>
@@ -3354,7 +3354,7 @@
     <element id="Practitioner.qualification.period">
       <path value="Practitioner.qualification.period"/>
       <definition value="資格が有効な期間。"/>
-      <comment value="使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  &#xA;期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4/datatypes.html#Duration)を参照のこと。"/>
+      <comment value="使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  &#xA;期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration)を参照のこと。"/>
       <requirements value="資格は期間限定のものが多く、取り消されることもある。"/>
     </element>
     <element id="Practitioner.qualification.issuer">

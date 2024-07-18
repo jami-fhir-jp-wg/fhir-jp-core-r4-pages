@@ -2818,7 +2818,7 @@
        fhir:path [ fhir:v "Observation.interpretation" ] ;
        fhir:short [ fhir:v "High, low, normal, etc. 高、低、正常など" ] ;
        fhir:definition [ fhir:v "検査結果値の、（高、低、正常）といったカテゴリー評価。結果報告書に記載されることもある情報。" ] ;
-       fhir:comment [ fhir:v "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4/valueset-observation-interpretation.html" ] ;
+       fhir:comment [ fhir:v "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4B/valueset-observation-interpretation.html" ] ;
        fhir:requirements [ fhir:v "特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。" ] ;
        fhir:alias ( [ fhir:v "Abnormal Flag" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
@@ -4510,7 +4510,7 @@
        fhir:path [ fhir:v "Observation.interpretation" ] ;
        fhir:short [ fhir:v "High, low, normal, etc. 高、低、正常など" ] ;
        fhir:definition [ fhir:v "検査結果値の、（高、低、正常）といったカテゴリー評価。結果報告書に記載されることもある情報。" ] ;
-       fhir:comment [ fhir:v "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4/valueset-observation-interpretation.html" ] ;
+       fhir:comment [ fhir:v "【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  \nコード表が大きいため、下記参照。  \nhttps://www.hl7.org/fhir/R4B/valueset-observation-interpretation.html" ] ;
        fhir:requirements [ fhir:v "特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。" ]
      ] [
        fhir:id [ fhir:v "Observation.note" ] ;

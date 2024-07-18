@@ -3086,7 +3086,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "jp-coverage","Coverage.period","Coverage.period","","","",0,1,"","","Y","Period {[]} {[]}
 ","Coverage start and end dates","Time period during which the coverage is in force. A missing start date indicates the start date isn't known, a missing end date means the coverage is continuing to be in force.  
 補償範囲が有効である期間。開始日が欠落している場合は、開始日が不明であることを示す。終了日が欠落している場合は、補償範囲が引き続き有効であることを意味する。","A Period specifies a range of time; the context of use will specify whether the entire range applies (e.g. ""the patient was an inpatient of the hospital for this time range"") or one value from the range applies (e.g. ""give to the patient between these two times"").
-Period is not used for a duration (a measure of elapsed time). See [Duration](http://hl7.org/fhir/R4/datatypes.html#Duration).  
+Period is not used for a duration (a measure of elapsed time). See [Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration).  
 Period（期間）は時間の範囲を指定する。使用状況は、範囲全体が適用されるか（たとえば、「患者はこの時間範囲で入院していた」）、範囲から1つの値が適用されるか（たとえば、「この2回の間に患者に投与する」）を指定する。  
 Period（期間）は、Duration（時間区間＝経過時間の測定値）には使用されない。 [Duration]（datatypes.html＃Duration）を参照のこと。  
 This is not a duration - that's a measure of time (a separate type), but a duration that occurs at a fixed value of time. A Period specifies a range of time; the context of use will specify whether the entire range applies (e.g. ""the patient was an inpatient of the hospital for this time range"") or one value from the range applies (e.g. ""give to the patient between these two times""). If duration is required, specify the type as Interval|Duration.  
@@ -10624,7 +10624,7 @@ textのみでの使用は基本的に不可とし、必ずcodingを設定する�
 ","",0,*,"","","","CodeableConcept {[]} {[]}
 ","High, low, normal, etc. 高、低、正常など","検査結果値の、（高、低、正常）といったカテゴリー評価。結果報告書に記載されることもある情報。","【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  
 コード表が大きいため、下記参照。  
-https://www.hl7.org/fhir/R4/valueset-observation-interpretation.html","特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。","","","","","","","",,"extensible","Codes identifying interpretations of observations.","http://hl7.org/fhir/ValueSet/observation-interpretation","",,,,"Observation.interpretation",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+https://www.hl7.org/fhir/R4B/valueset-observation-interpretation.html","特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。","","","","","","","",,"extensible","Codes identifying interpretations of observations.","http://hl7.org/fhir/ValueSet/observation-interpretation","",,,,"Observation.interpretation",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "jp-observation-labresult","Observation.note","Observation.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","このObservationに関するコメント","検査、あるいは結果に関するコメント。フリーテキストの追加情報として使用可能。","May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation.","Need to be able to provide free text additional information.  
@@ -10913,7 +10913,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "jp-observation-microbiology","Observation.code.coding","Observation.code.coding","","","",0,*,"","","Y","Coding {[]} {[]}
-","このObservationの対象を特定するコード","このObservationの対象を特定するコード","【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  
+","このObservationの対象を特定するコード","このObservationの対象を特定するコード","【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  
 基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"","value:system}
 ","",,"open","CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -13315,7 +13315,7 @@ Periodにはその資格の開始日・終了日を入力する。（例：麻�
 "
 "jp-practitioner","Practitioner.qualification.period","Practitioner.qualification.period","","","",0,1,"","","","Period {[]} {[]}
 ","Period during which the qualification is valid","資格が有効な期間。","使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  
-期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4/datatypes.html#Duration)を参照のこと。","資格は期間限定のものが多く、取り消されることもある。","","","","","","","",,,,,"",,,,"Practitioner.qualification.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration)を参照のこと。","資格は期間限定のものが多く、取り消されることもある。","","","","","","","",,,,,"",,,,"Practitioner.qualification.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "jp-practitioner","Practitioner.qualification.issuer","Practitioner.qualification.issuer","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Organization that regulates and issues the qualification","資格を規制し、発行する機関","参照は実際のFHIRリソースへの参照でなければならず、解決可能でなければならない。解決は URL からの検索、またはリソースタイプによって、絶対参照を正規の URL として扱い、ローカルのレジストリ/リポジトリで検索することで行うことができる。","","","","","","","","",,,,,"",,,,"Practitioner.qualification.issuer",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -13664,7 +13664,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "jp-procedure","Procedure.partOf","Procedure.partOf","","container
 ","",0,*,"","","Y","Reference {[]} {[CanonicalType[http://jpfhir.jp/fhir/core/StructureDefinition/JP_Procedure], CanonicalType[http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_Common], CanonicalType[http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationAdministration]]}
-","このプロシジャーが構成要素やステップとなるより大きな医療行為","【JP Core仕様】https://www.hl7.org/fhir/R4/procedure.htmlを参照","MedicationAdministrationリソースにはProcedureへのpartOf参照があるが、これは循環参照ではない。たとえば、麻酔MedicationAdministrationは外科的処置の一部である（MedicationAdministration.partOf = Procedure）。  
+","このプロシジャーが構成要素やステップとなるより大きな医療行為","【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照","MedicationAdministrationリソースにはProcedureへのpartOf参照があるが、これは循環参照ではない。たとえば、麻酔MedicationAdministrationは外科的処置の一部である（MedicationAdministration.partOf = Procedure）。  
 また、たとえば、IV投薬管理用にIVポートを挿入する手順は、投薬管理の一部である（Procedure.partOf = MedicationAdministration）。  
 【JP Core仕様】Observation_LabResultにならい、任意。","","","","","","","","",,,,,"",,,,"Procedure.partOf",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
@@ -13923,10 +13923,10 @@ user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).","","","","","","","",,,,,"",,,,"BackboneElement.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "jp-procedure","Procedure.focalDevice.action","Procedure.focalDevice.action","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","Kind of change to device","Procedure中にデバイスに起こった変化の種類。【JP Core仕様】https://www.hl7.org/fhir/R4/procedure.htmlを参照","","","","","","","","","",,"preferred","","http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceAction_VS","",,,,"Procedure.focalDevice.action",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Kind of change to device","Procedure中にデバイスに起こった変化の種類。【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照","","","","","","","","","",,"preferred","","http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceAction_VS","",,,,"Procedure.focalDevice.action",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "jp-procedure","Procedure.focalDevice.manipulated","Procedure.focalDevice.manipulated","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device]]}
-","Device that was changed","Procedure中に操作（変更）されたデバイス。【JP Core仕様】https://www.hl7.org/fhir/R4/procedure.htmlを参照","","","","","","","","","",,,,,"",,,,"Procedure.focalDevice.manipulated",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Device that was changed","Procedure中に操作（変更）されたデバイス。【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照","","","","","","","","","",,,,,"",,,,"Procedure.focalDevice.manipulated",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "jp-procedure","Procedure.usedReference","Procedure.usedReference","","","",0,*,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Device], CanonicalType[http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication], CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance]]}
 ","プロシジャー中に使用されるアイテム","プロシジャーの一部として使用される薬剤、機器およびその他の物質を特定する。","実際に埋め込まれた、または取り外されたデバイスについては、Procedure.deviceを使用すること。","Used for tracking contamination, etc.","","","","","","","",,,,,"",,,,"Procedure.usedReference",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
