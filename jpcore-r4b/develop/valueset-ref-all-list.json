@@ -168,9 +168,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.69"],
       "uses" : {
       },
+      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
       "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
-      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile"
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/address-use",
@@ -184,9 +184,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.67"],
       "uses" : {
       },
+      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
       "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
-      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile"
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administration-method-codes",
@@ -200,12 +200,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.97"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -220,9 +220,9 @@
       "uses" : {
       },
       "StructureDefinition-JP-RelatedPerson.html" : "JP_RelatedPerson",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
       "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
-      "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile"
+      "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile",
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
@@ -325,20 +325,20 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile",
-      "StructureDefinition-jp-condition.html" : "JP Core Condition Profile",
-      "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile",
-      "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile",
-      "StructureDefinition-jp-imagingstudy-radiology.html" : "JP Core ImagingStudy Radiology Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
-      "StructureDefinition-jp-imagingstudy-endoscopy.html" : "JP Core ImagingStudy Endoscopy Profile",
-      "StructureDefinition-JP-Specimen.html" : "JP_Specimen",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
+      "StructureDefinition-jp-condition.html" : "JP Core Condition Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
+      "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
+      "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-JP-Specimen.html" : "JP_Specimen",
+      "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-imagingstudy-radiology.html" : "JP Core ImagingStudy Radiology Profile",
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile",
+      "StructureDefinition-jp-imagingstudy-endoscopy.html" : "JP Core ImagingStudy Endoscopy Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/bodysite-laterality",
@@ -381,8 +381,8 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
-      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile",
-      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference"
+      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference",
+      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
@@ -466,12 +466,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.232"],
       "uses" : {
       },
-      "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
       "StructureDefinition-jp-careplan.html" : "JP Core CarePlan Profile",
+      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
+      "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
       "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
       "StructureDefinition-jp-allergyintolerance.html" : "JP Core AllergyIntolerance Profile",
-      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
       "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile",
       "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile"
     },
@@ -487,14 +487,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.79"],
       "uses" : {
       },
-      "StructureDefinition-JP-Device.html" : "JP_Device",
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
-      "StructureDefinition-JP-Binary.html" : "JP_Binary",
+      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference",
       "StructureDefinition-JP-RelatedPerson.html" : "JP_RelatedPerson",
       "StructureDefinition-JP-ResearchSubject.html" : "JP_ResearchSubject",
-      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
+      "StructureDefinition-JP-Binary.html" : "JP_Binary",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-JP-Specimen.html" : "JP_Specimen",
-      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference"
+      "StructureDefinition-JP-Device.html" : "JP_Device",
+      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -553,14 +553,14 @@
       "uses" : {
       },
       "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
-      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile",
       "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile",
-      "StructureDefinition-jp-condition.html" : "JP Core Condition Profile",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
       "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
       "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
-      "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile"
+      "StructureDefinition-jp-condition.html" : "JP Core Condition Profile",
+      "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile",
+      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
+      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/condition-outcome",
@@ -768,9 +768,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
+      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
       "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
-      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile"
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -784,9 +784,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
+      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
       "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
-      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile"
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -876,12 +876,12 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -895,11 +895,11 @@
       "sources" : ["2.16.840.1.113883.4.642.3.512"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationtiming.html" : "JP Core Medication Timing DataType",
-      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
       "StructureDefinition-jp-location.html" : "JP Core Location Profile",
-      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile"
+      "StructureDefinition-jp-medicationtiming.html" : "JP Core Medication Timing DataType",
+      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile",
+      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/definition-topic",
@@ -1000,10 +1000,10 @@
       "uses" : {
       },
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
-      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile",
-      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
       "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
-      "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile"
+      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
+      "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile",
+      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/diagnostic-service-sections",
@@ -1018,10 +1018,10 @@
       "uses" : {
       },
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
-      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile",
-      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
       "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
-      "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile"
+      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
+      "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile",
+      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/doc-classcodes",
@@ -1241,8 +1241,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.109"],
       "uses" : {
       },
-      "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile",
-      "StructureDefinition-jp-procedure.html" : "JP Core Procedure Profile"
+      "StructureDefinition-jp-procedure.html" : "JP Core Procedure Profile",
+      "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/event-timing",
@@ -1259,9 +1259,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.75"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
       "StructureDefinition-jp-medicationtiming.html" : "JP Core Medication Timing DataType",
-      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType"
+      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/fm-status",
@@ -1375,19 +1375,19 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
-      "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-organization-insuranceorganizationno.html" : "JP Core Organization InsuranceOrganizationNo Extension",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
       "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
+      "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
       "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-organization-insuranceorganizationno.html" : "JP Core Organization InsuranceOrganizationNo Extension",
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
+      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -1401,19 +1401,19 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
-      "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-organization-insuranceorganizationno.html" : "JP Core Organization InsuranceOrganizationNo Extension",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
       "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
+      "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
       "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-organization-insuranceorganizationno.html" : "JP Core Organization InsuranceOrganizationNo Extension",
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
+      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/imagingstudy-status",
@@ -1612,8 +1612,8 @@
       "uses" : {
       },
       "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
-      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
     },
     {
@@ -1628,58 +1628,58 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-jp-careplan.html" : "JP Core CarePlan Profile",
-      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
-      "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile",
-      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile",
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-JP-ResearchSubject.html" : "JP_ResearchSubject",
-      "StructureDefinition-jp-location.html" : "JP Core Location Profile",
-      "StructureDefinition-jp-immunization.html" : "JP Core Immunization Profile",
-      "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
-      "StructureDefinition-JP-Device.html" : "JP_Device",
-      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile",
-      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
-      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference",
-      "StructureDefinition-JP-Specimen.html" : "JP_Specimen",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
-      "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile",
       "StructureDefinition-jp-condition.html" : "JP Core Condition Profile",
-      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile",
-      "StructureDefinition-jp-coverage.html" : "JP Core Coverage Profile",
-      "StructureDefinition-jp-consent.html" : "JP Core Consent Profile",
-      "StructureDefinition-jp-imagingstudy-radiology.html" : "JP Core ImagingStudy Radiology Profile",
-      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile",
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
-      "StructureDefinition-JP-RelatedPerson.html" : "JP_RelatedPerson",
-      "StructureDefinition-jp-imagingstudy-endoscopy.html" : "JP Core ImagingStudy Endoscopy Profile",
-      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile",
-      "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
-      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
+      "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile",
       "StructureDefinition-jp-encounter.html" : "JP Core Encounter Profile",
+      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference",
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
-      "StructureDefinition-jp-medication.html" : "JP Core Medication Profile",
-      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-JP-Binary.html" : "JP_Binary",
+      "StructureDefinition-JP-ResearchSubject.html" : "JP_ResearchSubject",
+      "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-consent.html" : "JP Core Consent Profile",
+      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
+      "StructureDefinition-jp-patient.html" : "JP Core Patient Profile",
+      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
+      "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
       "StructureDefinition-jp-allergyintolerance.html" : "JP Core AllergyIntolerance Profile",
-      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
+      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile",
+      "StructureDefinition-jp-immunization.html" : "JP Core Immunization Profile",
+      "StructureDefinition-jp-location.html" : "JP Core Location Profile",
+      "StructureDefinition-JP-RelatedPerson.html" : "JP_RelatedPerson",
+      "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
+      "StructureDefinition-JP-Device.html" : "JP_Device",
       "StructureDefinition-jp-procedure.html" : "JP Core Procedure Profile",
-      "StructureDefinition-jp-familymemberhistory.html" : "JP Core FamilyMemberHistory Profile"
+      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile",
+      "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
+      "StructureDefinition-jp-practitioner.html" : "JP Core Practitioner Profile",
+      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
+      "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile",
+      "StructureDefinition-jp-organization.html" : "JP Core Organization Profile",
+      "StructureDefinition-JP-Binary.html" : "JP_Binary",
+      "StructureDefinition-jp-coverage.html" : "JP Core Coverage Profile",
+      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile",
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-imagingstudy-endoscopy.html" : "JP Core ImagingStudy Endoscopy Profile",
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-medication.html" : "JP Core Medication Profile",
+      "StructureDefinition-jp-careplan.html" : "JP Core CarePlan Profile",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
+      "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
+      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile",
+      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-JP-Specimen.html" : "JP_Specimen",
+      "StructureDefinition-jp-imagingstudy-radiology.html" : "JP Core ImagingStudy Radiology Profile",
+      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -1786,9 +1786,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.349"],
       "uses" : {
       },
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/media-modality",
@@ -1846,9 +1846,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.347"],
       "uses" : {
       },
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-admin-status",
@@ -1864,9 +1864,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.340"],
       "uses" : {
       },
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-as-needed-reason",
@@ -1894,9 +1894,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.375"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
       "StructureDefinition-jp-careplan.html" : "JP Core CarePlan Profile",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-category",
@@ -1912,8 +1912,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.370"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile",
-      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile"
+      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
+      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
@@ -1927,8 +1927,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.367"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile",
-      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile"
+      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
+      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medication-status",
@@ -1958,9 +1958,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1314"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-performer-function",
@@ -1976,9 +1976,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1318"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-status",
@@ -1994,9 +1994,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1312"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationdispense-status-reason",
@@ -2012,9 +2012,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1316"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/medicationrequest-course-of-therapy",
@@ -2120,12 +2120,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.396"],
       "uses" : {
       },
-      "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
+      "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
-      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile"
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
+      "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -2142,12 +2142,12 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -2162,11 +2162,11 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -2181,12 +2181,12 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -2243,8 +2243,8 @@
       "uses" : {
       },
       "StructureDefinition-jp-careplan.html" : "JP Core CarePlan Profile",
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
     },
     {
@@ -2259,8 +2259,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.432"],
       "uses" : {
       },
-      "StructureDefinition-jp-imagingstudy-radiology.html" : "JP Core ImagingStudy Radiology Profile",
       "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
+      "StructureDefinition-jp-imagingstudy-radiology.html" : "JP Core ImagingStudy Radiology Profile",
       "StructureDefinition-jp-media-endoscopy.html" : "JP Core media Endoscopy Profile"
     },
     {
@@ -2291,15 +2291,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.59"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationquantity.html" : "JP Core Medication Quantity DataType",
-      "StructureDefinition-jp-medicationratio-doseperday.html" : "JP Core Medication Rate Ratio DosePerDay DataType",
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
+      "StructureDefinition-jp-medicationdosage-usageduration.html" : "JP Core Medication Dosage UsageDuration Extension",
       "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType",
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-medicationsimplequantity.html" : "JP Core Medication Quantity DataType",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
       "StructureDefinition-jp-medicationrange-unitoftime.html" : "JP Core Medication Range DataType",
-      "StructureDefinition-jp-medicationdosage-usageduration.html" : "JP Core Medication Dosage UsageDuration Extension"
+      "StructureDefinition-jp-medicationratio-doseperday.html" : "JP Core Medication Rate Ratio DosePerDay DataType",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
+      "StructureDefinition-jp-medicationquantity.html" : "JP Core Medication Quantity DataType",
+      "StructureDefinition-jp-medicationsimplequantity.html" : "JP Core Medication Quantity DataType"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
@@ -2329,9 +2329,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.344"],
       "uses" : {
       },
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/reason-medication-not-given-codes",
@@ -2345,9 +2345,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.342"],
       "uses" : {
       },
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
-      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministrationBase.html" : "JP Core MedicationAdministrationBase Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
@@ -2361,8 +2361,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.369"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile",
-      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile"
+      "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
+      "StructureDefinition-jp-medicationstatement-injection.html" : "JP Core MedicationStatement Injection Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -2380,12 +2380,12 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -2402,12 +2402,12 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype",
@@ -2438,8 +2438,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.113"],
       "uses" : {
       },
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
     },
     {
@@ -2455,10 +2455,10 @@
       "uses" : {
       },
       "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
-      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
+      "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
     },
     {
@@ -2614,15 +2614,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.47"],
       "uses" : {
       },
-      "StructureDefinition-JP-Device.html" : "JP_Device",
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
-      "StructureDefinition-JP-Binary.html" : "JP_Binary",
+      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference",
       "StructureDefinition-JP-RelatedPerson.html" : "JP_RelatedPerson",
       "StructureDefinition-JP-ResearchSubject.html" : "JP_ResearchSubject",
-      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
+      "StructureDefinition-JP-Binary.html" : "JP_Binary",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-JP-Specimen.html" : "JP_Specimen",
-      "StructureDefinition-jp-consent.html" : "JP Core Consent Profile",
-      "StructureDefinition-JP-DocumentReference.html" : "JP_DocumentReference"
+      "StructureDefinition-JP-Device.html" : "JP_Device",
+      "StructureDefinition-JP-ResearchStudy.html" : "JP_ResearchStudy",
+      "StructureDefinition-jp-consent.html" : "JP Core Consent Profile"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-role-type",
@@ -2845,12 +2845,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.77"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationratio-doseperday.html" : "JP Core Medication Rate Ratio DosePerDay DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType",
       "StructureDefinition-jp-medicationtiming.html" : "JP Core Medication Timing DataType",
+      "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
-      "StructureDefinition-jp-medicationrange-unitoftime.html" : "JP Core Medication Range DataType"
+      "StructureDefinition-jp-medicationrange-unitoftime.html" : "JP Core Medication Range DataType",
+      "StructureDefinition-jp-medicationratio-doseperday.html" : "JP Core Medication Rate Ratio DosePerDay DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/Examples/ValueSet/JP_MedicationAdministrationDosageComment_VS",
@@ -3084,8 +3084,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension",
-      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension"
+      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension",
+      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISRecordNo_VS",
@@ -3097,8 +3097,8 @@
       "systems" : ["urn:oid:1.2.392.200119.4.201.2"],
       "uses" : {
       },
-      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension",
-      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension"
+      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension",
+      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierReceipt_VS",
@@ -3112,8 +3112,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension",
-      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension"
+      "StructureDefinition-jp-condition-disease-prefix-modifier.html" : "JP Core Disease Prefix Modifier Extension",
+      "StructureDefinition-jp-condition-disease-postfix-modifier.html" : "JP Core Disease Postfix Modifier Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS",
@@ -3177,8 +3177,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-condition.html" : "JP Core Condition Profile",
-      "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile"
+      "StructureDefinition-jp-condition-diagnosis.html" : "JP Core Condition Diagnosis Profile",
+      "StructureDefinition-jp-condition.html" : "JP Core Condition Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_Department_SsMix_VS",
@@ -3203,9 +3203,9 @@
       "uses" : {
       },
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
-      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile",
+      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
       "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
-      "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile"
+      "StructureDefinition-jp-diagnosticreport-endoscopy.html" : "JP Core DiagnosticReport Endoscopy Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_DocumentCodes_DiagnosticReport_VS",
@@ -3218,8 +3218,8 @@
       "uses" : {
       },
       "StructureDefinition-jp-diagnosticreport-microbiology.html" : "JP Core DiagnosticReport Microbiology Profile",
-      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
       "StructureDefinition-jp-diagnosticreport-radiology.html" : "JP Core DiagnosticReport Radiology Profile",
+      "StructureDefinition-jp-diagnosticreport-labresult.html" : "JP Core DiagnosticReport LabResult Profile",
       "StructureDefinition-jp-diagnosticreport-common.html" : "JP Core DiagnosticReport Common Profile"
     },
     {
@@ -3270,11 +3270,11 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.32"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCategoryInjeciton_VS",
@@ -3340,12 +3340,12 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-jp-medication.html" : "JP Core Medication Profile",
       "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
       "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
       "StructureDefinition-jp-medicationstatement.html" : "JP Core MedicationStatement Profile",
-      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
+      "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile",
+      "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
+      "StructureDefinition-jp-medication.html" : "JP Core Medication Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationFormMERIT9_VS",
@@ -3371,10 +3371,10 @@
       "systems" : ["urn:oid:1.2.392.100495.20.2.22"],
       "uses" : {
       },
-      "StructureDefinition-jp-medication-ingredientstrength-strengthtype.html" : "JP Core Medication IngredientStrength StrengthType Extension",
+      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
       "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
       "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType"
+      "StructureDefinition-jp-medication-ingredientstrength-strengthtype.html" : "JP Core Medication IngredientStrength StrengthType Extension"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationMethodJAMIBasicUsage_VS",
@@ -3386,11 +3386,11 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.30"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationMethodJAMIDetailUsage_VS",
@@ -3402,15 +3402,15 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.40"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationadministration.html" : "JP Core MedicationAdministration Profile",
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationRouteHL70162_VS",
-      "version" : "1.1.1",
+      "version" : "1.2.0",
       "status" : "active",
       "name" : "JP_MedicationRouteHL70162_VS",
       "title" : "JP Core Medication HL70162-based Route ValueSet",
@@ -3418,10 +3418,10 @@
       "systems" : ["http://jpfhir.jp/fhir/core/CodeSystem/route-codes"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
+      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile",
       "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
-      "StructureDefinition-jp-medicationadministration-injection.html" : "JP Core MedicationAdministration Injection Profile"
+      "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationSubstitutionNotAllowedReason_VS",
@@ -3446,10 +3446,10 @@
       "systems" : ["urn:oid:1.2.392.100495.20.2.101"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationquantity.html" : "JP Core Medication Quantity DataType",
+      "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType",
       "StructureDefinition-jp-medicationratio-doseperday.html" : "JP Core Medication Rate Ratio DosePerDay DataType",
-      "StructureDefinition-jp-medicationsimplequantity.html" : "JP Core Medication Quantity DataType",
-      "StructureDefinition-jp-medicationratio-doseperperiod.html" : "JP Core Medication Rate Ratio DataType"
+      "StructureDefinition-jp-medicationquantity.html" : "JP Core Medication Quantity DataType",
+      "StructureDefinition-jp-medicationsimplequantity.html" : "JP Core Medication Quantity DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationUsageInjection_VS",
@@ -3476,9 +3476,9 @@
       "systems" : ["urn:oid:1.2.392.200250.2.2.20.22"],
       "uses" : {
       },
+      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType",
       "StructureDefinition-jp-medicationdosagebase.html" : "JP Core MedicationDosage Base DataType",
-      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType",
-      "StructureDefinition-jp-medicationdosage.html" : "JP Core MedicationDosage DataType"
+      "StructureDefinition-jp-medicationdosage-injection.html" : "JP Core MedicationDosage Injection DataType"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationUsageJAMI_VS",
@@ -3688,9 +3688,9 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile",
       "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
-      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
-      "StructureDefinition-jp-practitionerrole.html" : "JP Core PractitionerRole Profile"
+      "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PrefectureNumber_VS",
@@ -3937,12 +3937,12 @@
       "uses" : {
       },
       "StructureDefinition-jp-observation-microbiology.html" : "JP Core Observation Microbiology Profile",
-      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
-      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile",
-      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-common.html" : "JP Core Observation Common Profile",
+      "StructureDefinition-jp-observation-socialhistory.html" : "JP Core Observation SocialHistory Profile",
       "StructureDefinition-jp-observation-labresult.html" : "JP Core Observation LabResult Profile",
-      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile"
+      "StructureDefinition-jp-observation-vitalsigns.html" : "JP Core Observation VitalSigns Profile",
+      "StructureDefinition-jp-observation-physicalexam.html" : "JP Core Observation PhysicalExam Profile",
+      "StructureDefinition-jp-observation-bodymeasurement.html" : "JP Core Observation BodyMeasurement Profile"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_Undefined_VS",
@@ -3955,7 +3955,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/action-participant-role",
-      "version" : "0.2.0",
+      "version" : "1.0.0",
       "status" : "draft",
       "name" : "ActionParticipantRole",
       "title" : "Action Participant Role",
@@ -3967,8 +3967,8 @@
       "uses" : {
       },
       "StructureDefinition-jp-plandefinition-chemotherapyregimen.html" : "JP Core PlanDefinition ChemotherapyRegimen Profile",
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-injection.html" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
       "StructureDefinition-jp-activitydefinition-chemotherapyregimen-oral.html" : "JP Core ActivityDefinition ChemotherapyRegimen Oral Profile"
     },
     {
@@ -4071,7 +4071,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActCode",
       "title" : "v3 Code System ActCode",
@@ -4083,19 +4083,21 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
-      "version" : "2.0.1",
+      "version" : "3.0.0",
       "status" : "active",
-      "name" : "HL7_v3_ActEncounterCode_VS",
-      "title" : "HL7 V3 ActEncounterCode Value Set",
-      "description" : "A valueset specifying for the Encounter kind of Act that the Act-instance represents within its class.",
+      "name" : "ActEncounterCode",
+      "title" : "ActEncounterCode",
+      "description" : "Domain provides codes that qualify the ActEncounterClass (ENC)",
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+      "oids" : ["2.16.840.1.113883.1.11.13955"],
+      "sources" : ["2.16.840.1.113883.1.11.13955"],
       "uses" : {
       },
       "StructureDefinition-jp-encounter.html" : "JP Core Encounter Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActPharmacySupplyType",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActPharmacySupplyType",
       "title" : "ActPharmacySupplyType",
@@ -4105,13 +4107,13 @@
       "sources" : ["2.16.840.1.113883.1.11.16208"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActPriority",
       "title" : "ActPriority",
@@ -4125,7 +4127,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActSubstanceAdminSubstitutionCode",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActSubstanceAdminSubstitutionCode",
       "title" : "ActSubstanceAdminSubstitutionCode",
@@ -4137,13 +4139,13 @@
       "sources" : ["2.16.840.1.113883.1.11.16621"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-FamilyMember",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "FamilyMember",
       "title" : "FamilyMember",
@@ -4157,7 +4159,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-PurposeOfUse",
-      "version" : "2.0.0",
+      "version" : "3.1.0",
       "status" : "active",
       "name" : "PurposeOfUse",
       "title" : "PurposeOfUse",
@@ -4171,7 +4173,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-Race",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "Race",
       "title" : "Race",
@@ -4185,7 +4187,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ServiceDeliveryLocationRoleType",
       "title" : "ServiceDeliveryLocationRoleType",
@@ -4195,12 +4197,12 @@
       "sources" : ["2.16.840.1.113883.1.11.17660"],
       "uses" : {
       },
-      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest",
-      "StructureDefinition-jp-location.html" : "JP Core Location Profile"
+      "StructureDefinition-jp-location.html" : "JP Core Location Profile",
+      "StructureDefinition-JP-ServiceRequest.html" : "JP_ServiceRequest"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-SubstanceAdminSubstitutionReason",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "SubstanceAdminSubstitutionReason",
       "title" : "SubstanceAdminSubstitutionReason",
@@ -4210,11 +4212,11 @@
       "sources" : ["2.16.840.1.113883.1.11.19377"],
       "uses" : {
       },
-      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile",
       "StructureDefinition-jp-medicationrequest-injection.html" : "JP Core MedicationRequest Injection Profile",
       "StructureDefinition-jp-medicationrequest.html" : "JP Core MedicationRequest Profile",
+      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile",
       "StructureDefinition-jp-medicationdispense.html" : "JP Core MedicationDispense Profile",
-      "StructureDefinition-jp-medicationdispense-injection.html" : "JP Core MedicationDispense Injection Profile"
+      "StructureDefinition-jp-medicationdispensebase.html" : "JP Core MedicationDispenseBase Profile"
     }
   ]
 }

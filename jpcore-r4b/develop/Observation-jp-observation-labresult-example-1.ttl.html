@@ -5,8 +5,7 @@
 <html xml:lang="ja" xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <!-- <title>JPFHIR.JP.CORE\JP Core Observation LabResult Example 検体検査（尿） - TTL Representation - FHIR v4.3.0</title> -->
-    <title>Observation LabResult Example 検体検査（尿） - TTL Representation - FHIR v4.3.0</title>
+    <title>JP Core Observation LabResult Example 検体検査（尿酸） - TTL Representation - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -35,10 +34,10 @@
     <![endif]-->
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
     <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body onload="document.body.style.opacity='1'">
@@ -62,11 +61,7 @@
             <br/>
             <span style="display:inline-block;">2.0.0-dev - ci-build
 
-
-
-  Japan
-
-
+              <img alt="Japan flag" src="assets/images/jpn.svg" height="16" title="Japan"/>
             </span>
           </p>
         </div>
@@ -86,7 +81,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R5/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4B/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <!-- menu.xml  -->
 
@@ -162,7 +157,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>JP Core Observation LabResult Example 検体検査（尿）</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>JP Core Observation LabResult Example 検体検査（尿酸）</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -215,7 +210,7 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: JP Core Observation LabResult Example 検体検査（尿） - TTL Representation</h2>
+<h2 id="root">: JP Core Observation LabResult Example 検体検査（尿酸） - TTL Representation</h2>
 
 
 <p><a href="Observation-jp-observation-labresult-example-1.ttl" no-download="true">Raw ttl</a> | <a href="Observation-jp-observation-labresult-example-1.ttl" download>Download</a></p>
@@ -234,16 +229,16 @@
 # - resource -------------------------------------------------------------------
 
  a fhir:Observation ;
-  <a href="http://hl7.org/fhir/R5/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4B/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#id">fhir:v</a> &quot;jp-observation-labresult-example-1&quot;] ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.meta">fhir:meta</a> [
     ( <a href="http://hl7.org/fhir/R4B/resource.html#Meta#Meta.profile">fhir:profile</a> [
 <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">fhir:v</a> &quot;http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_LabResult&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R5/rdf.html#reference">fhir:link</a> &lt;http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_LabResult&gt;     ] )
+<a href="http://hl7.org/fhir/R4B/rdf.html#reference">fhir:link</a> &lt;http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_LabResult&gt;     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Observation&lt;/b&gt;&lt;a name=\&quot;jp-observation-labresult-example-1\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource Observation &amp;quot;jp-observation-labresult-example-1&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-jp-observation-labresult.html\&quot;&gt;JP Core Observation LabResult Profile&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;basedOn&lt;/b&gt;: &lt;a name=\&quot;jp-servicerequest-example-1\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;blockquote&gt;&lt;p/&gt;&lt;p&gt;&lt;a name=\&quot;jp-servicerequest-example-1\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: original-order&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: 尿検査 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (localcode#12345678)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;Patient/jp-patient-example-1&lt;/a&gt; &amp;quot; 山田&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Encounter-jp-encounter-example-1.html\&quot;&gt;Encounter/jp-encounter-example-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2021-10-10 17:39:00+0900&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-female-1.html\&quot;&gt;Practitioner/jp-practitioner-example-female-1&lt;/a&gt; &amp;quot; 東京&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-male-2.html\&quot;&gt;Practitioner/jp-practitioner-example-male-2&lt;/a&gt; &amp;quot; 愛知&amp;quot;&lt;/p&gt;&lt;/blockquote&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: Laboratory &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;CodeSystem-jp-simpleobservationcategory-cs.html\&quot;&gt;JP Core Simple Observation Category CodeSystem&lt;/a&gt;#laboratory)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: 検査項目コード &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (localcode#05104 &amp;quot;尿酸&amp;quot;; &lt;a href=\&quot;urn:oid:1.2.392.200119.4.504\&quot;&gt;JP Core Observation LabResult Code CodeSystem&lt;/a&gt;#3C020000002327101)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;Patient/jp-patient-example-1&lt;/a&gt; &amp;quot; 山田&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-10-19 17:39:00+0900&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-female-1.html\&quot;&gt;Practitioner/jp-practitioner-example-female-1&lt;/a&gt; &amp;quot; 東京&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 3.5 mg/dL&lt;/p&gt;&lt;p&gt;&lt;b&gt;interpretation&lt;/b&gt;: HLマーク &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-v3-ObservationInterpretation.html\&quot;&gt;ObservationInterpretation&lt;/a&gt;#L &amp;quot;Low&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specimen&lt;/b&gt;: &lt;a href=\&quot;Specimen-jp-specimen-example-1.html\&quot;&gt;Specimen/jp-specimen-example-1&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;ReferenceRanges&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Low&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;High&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;3.7&lt;/td&gt;&lt;td&gt;7.8&lt;/td&gt;&lt;td&gt;Normal Range &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-referencerange-meaning.html\&quot;&gt;Observation Reference Range Meaning Codes&lt;/a&gt;#normal)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;hr/&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: ServiceRequest #jp-servicerequest-example-1&lt;/b&gt;&lt;a name=\&quot;jp-servicerequest-example-1\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: original-order&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: 尿検査 &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (localcode#12345678)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;Patient/jp-patient-example-1&lt;/a&gt; &amp;quot; 山田&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Encounter-jp-encounter-example-1.html\&quot;&gt;Encounter/jp-encounter-example-1&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2021-10-10 17:39:00+0900&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-female-1.html\&quot;&gt;Practitioner/jp-practitioner-example-female-1&lt;/a&gt; &amp;quot; 東京&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-male-2.html\&quot;&gt;Practitioner/jp-practitioner-example-male-2&lt;/a&gt; &amp;quot; 愛知&amp;quot;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: Observation jp-observation-labresult-example-1&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;jp-observation-labresult-example-1\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcjp-observation-labresult-example-1\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;jp-observation-labresult-example-1-ja\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;basedOn&lt;/b&gt;: &lt;a href=\&quot;#hcjp-observation-labresult-example-1/jp-servicerequest-example-1\&quot;&gt;ServiceRequest 12345678&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Final&lt;/p&gt;&lt;p&gt;&lt;b&gt;category&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://jpfhir.jp/fhir/core/CodeSystem/JP_SimpleObservationCategory_CS laboratory}\&quot;&gt;Laboratory&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://abc-hospital.local/fhir/Observation/localcode 05104}, {urn:oid:1.2.392.200119.4.504 3C020000002327101}\&quot;&gt;尿酸&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;山田 太郎 Male, DoB: 1970-01-01 ( urn:oid:1.2.392.100495.20.3.51.11311234567#00000010)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;effective&lt;/b&gt;: 2021-10-19 02:20:00+0900&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-female-1.html\&quot;&gt;Practitioner 東京 春子&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;value&lt;/b&gt;: 8.5 mg/dL&lt;/p&gt;&lt;p&gt;&lt;b&gt;interpretation&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation H}\&quot;&gt;H&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;specimen&lt;/b&gt;: &lt;a href=\&quot;Specimen-jp-specimen-example-1.html\&quot;&gt;Specimen: identifier = http://abc-hospital.local/identifiers/collections#23234352356; accessionIdentifier = http://abc-hospital.local/specimens/2011#X352356; status = available; type = Urine; receivedTime = 2021-10-11 11:03:00+0900&lt;/a&gt;&lt;/p&gt;&lt;h3&gt;ReferenceRanges&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Low&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;High&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;2.1&lt;/td&gt;&lt;td&gt;7&lt;/td&gt;&lt;td&gt;&lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/referencerange-meaning normal}\&quot;&gt;Normal Range&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;hr/&gt;&lt;blockquote&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ServiceRequest  #jp-servicerequest-example-1&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;jp-observation-labresult-example-1/jp-servicerequest-example-1\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcjp-observation-labresult-example-1/jp-servicerequest-example-1\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;jp-observation-labresult-example-1/jp-servicerequest-example-1-ja\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: Active&lt;/p&gt;&lt;p&gt;&lt;b&gt;intent&lt;/b&gt;: Original Order&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://abc-hospital.local/fhir/ObservationOrder/localcode 12345678}\&quot;&gt;生化学検査&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=\&quot;Patient-jp-patient-example-1.html\&quot;&gt;山田 太郎 Male, DoB: 1970-01-01 ( urn:oid:1.2.392.100495.20.3.51.11311234567#00000010)&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;encounter&lt;/b&gt;: &lt;a href=\&quot;Encounter-jp-encounter-example-1.html\&quot;&gt;Encounter: status = finished; class = ambulatory (ActCode#AMB); period = 2022-05-08 13:08:24+0900 --&amp;gt; 2022-05-08 13:23:24+0900&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;occurrence&lt;/b&gt;: 2021-10-19 01:15:00+0900&lt;/p&gt;&lt;p&gt;&lt;b&gt;requester&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-female-1.html\&quot;&gt;Practitioner 東京 春子&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;performer&lt;/b&gt;: &lt;a href=\&quot;Practitioner-jp-practitioner-example-male-2.html\&quot;&gt;Practitioner 愛知 太郎&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest">fhir:contained</a> ( [
 <a href="http://hl7.org/fhir/R4B/servicerequest.html">a</a> fhir:ServiceRequest ;
@@ -254,12 +249,12 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
       ( <a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;http://abc-hospital.local/fhir/ObservationOrder/localcode&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;12345678&quot; ]       ] ) ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;尿検査&quot; ]     ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;生化学検査&quot; ]     ] ;
 <a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest.subject">fhir:subject</a> [
 <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Patient/jp-patient-example-1&quot; ]     ] ;
 <a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest.encounter">fhir:encounter</a> [
 <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Encounter/jp-encounter-example-1&quot; ]     ] ;
-<a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest.occurrence[x]">fhir:occurrence</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:v</a> &quot;2021-10-10T17:39:00+09:00&quot;^^xsd:dateTime ] ;
+<a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest.occurrence[x]">fhir:occurrence</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:v</a> &quot;2021-10-19T01:15:00+09:00&quot;^^xsd:dateTime ] ;
 <a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest.requester">fhir:requester</a> [
 <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Practitioner/jp-practitioner-example-female-1&quot; ]     ] ;
     ( <a href="http://hl7.org/fhir/R4B/servicerequest.html#ServiceRequest.performer">fhir:performer</a> [
@@ -281,35 +276,35 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;尿酸&quot; ]     ] [
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;urn:oid:1.2.392.200119.4.504&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;3C020000002327101&quot; ]     ] ) ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;検査項目コード&quot; ]
+<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;尿酸&quot; ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.subject">fhir:subject</a> [
 <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Patient/jp-patient-example-1&quot; ]
   ] ; # 
-  <a href="http://hl7.org/fhir/R4B/observation.html#Observation.effective[x]">fhir:effective</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:v</a> &quot;2021-10-19T17:39:00+09:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4B/observation.html#Observation.effective[x]">fhir:effective</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">fhir:v</a> &quot;2021-10-19T02:20:00+09:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.performer">fhir:performer</a> ( [
 <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Practitioner/jp-practitioner-example-female-1&quot; ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Quantity">a</a> fhir:Quantity ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;3.5&quot;^^xsd:decimal ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Quantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;8.5&quot;^^xsd:decimal ] ;
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Quantity#Quantity.unit">fhir:unit</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;mg/dL&quot; ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.interpretation">fhir:interpretation</a> ( [
     ( <a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;L&quot; ] ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Low&quot; ]     ] ) ;
-<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;HLマーク&quot; ]
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#code">fhir:v</a> &quot;H&quot; ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;High&quot; ]     ] ) ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;H&quot; ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.specimen">fhir:specimen</a> [
 <a href="http://hl7.org/fhir/R4B/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#string">fhir:v</a> &quot;Specimen/jp-specimen-example-1&quot; ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4B/observation.html#Observation.referenceRange">fhir:referenceRange</a> ( [
 <a href="http://hl7.org/fhir/R4B/observation.html#Observation.referenceRange.low">fhir:low</a> [
-<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;3.7&quot;^^xsd:decimal ]     ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;2.1&quot;^^xsd:decimal ]     ] ;
 <a href="http://hl7.org/fhir/R4B/observation.html#Observation.referenceRange.high">fhir:high</a> [
-<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;7.8&quot;^^xsd:decimal ]     ] ;
+<a href="http://hl7.org/fhir/R4B/datatypes.html#SimpleQuantity#Quantity.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#decimal">fhir:v</a> &quot;7&quot;^^xsd:decimal ]     ] ;
 <a href="http://hl7.org/fhir/R4B/observation.html#Observation.referenceRange.type">fhir:type</a> [
       ( <a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/referencerange-meaning&quot;^^xsd:anyURI ] ;
@@ -335,20 +330,14 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0-dev based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R5/">FHIR 4.3.0</a>. Generated <span title="Fri, Jan 19, 2024 06:24+0000">2024-01-19</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0-dev based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4B/">FHIR 4.3.0</a>. Generated <span title="Thu, Jul 18, 2024 12:02+0000">2024-07-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -375,15 +364,11 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-
-<!-- / feedback form  -->
+  <html>
+    <body>本実装ガイドへのご質問・ご指摘については、<a href="https://github.com/jami-fhir-jp-wg/jp-core-v1x/issues">GitHub Issue</a>および<a href="https://github.com/jami-fhir-jp-wg/jp-core-v1x/pulls">GitHub PullRequest</a>にて受け付けております。</body>
+</html>
 
   <!-- Analytics Below
   ================================================== -->
