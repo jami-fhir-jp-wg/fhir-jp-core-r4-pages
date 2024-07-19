@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "jp-condition-disease-outcome-jhsd0006-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.html\"><code>http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jp-condition-disease-outcome-jhsd0006-vs</b></p><a name=\"jp-condition-disease-outcome-jhsd0006-vs\"> </a><a name=\"hcjp-condition-disease-outcome-jhsd0006-vs\"> </a><a name=\"jp-condition-disease-outcome-jhsd0006-vs-ja\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.html\"><code>http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeJHSD0006_VS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2.0.0-dev"] ; # 
@@ -34,7 +34,8 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "JP" ]
+       fhir:code [ fhir:v "JP" ] ;
+       fhir:display [ fhir:v "Japan" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Copyright Japanese  Association of Healthcare Information Systems Industry(JAHIS)  一般社団法人保健医療福祉情報システム工業会"] ; # 

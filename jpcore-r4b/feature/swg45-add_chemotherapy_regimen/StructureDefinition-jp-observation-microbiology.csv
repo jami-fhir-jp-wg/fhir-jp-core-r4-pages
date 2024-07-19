@@ -177,7 +177,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Observation.code.coding","Observation.code.coding","","","",0,*,"","","Y","Coding {[]} {[]}
-","このObservationの対象を特定するコード","このObservationの対象を特定するコード","【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  
+","このObservationの対象を特定するコード","このObservationの対象を特定するコード","【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  
 基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"","value:system}
 ","",,"open","CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","C*E.1-8, C*E.10-22","union(., ./translation)"

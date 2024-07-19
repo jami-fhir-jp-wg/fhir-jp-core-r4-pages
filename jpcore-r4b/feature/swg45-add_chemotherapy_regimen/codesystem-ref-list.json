@@ -253,7 +253,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_JfagyFoodAllergen_CS",
-      "version" : null,
+      "version" : "20240709",
       "status" : "active",
       "name" : "JP_JfagyFoodAllergen_CS",
       "title" : "JP Core JFAGY Food Allergen CodeSystem",
@@ -264,7 +264,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_JfagyMedicationAllergen_CS",
-      "version" : null,
+      "version" : "20240601",
       "status" : "active",
       "name" : "JP_JfagyMedicationAllergen_CS",
       "title" : "JP Core JFAGY Medication Allergen CodeSystem",
@@ -275,7 +275,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_JfagyNonFoodNonMedicationAllergen_CS",
-      "version" : null,
+      "version" : "20240709",
       "status" : "active",
       "name" : "JP_JfagyNonFoodNonMedicationAllergen_CS",
       "title" : "JP Core JFAGY Non Food None Medication Allergen CodeSystem",
@@ -448,8 +448,8 @@
       "description" : "実施者のロール（役割・職種））を示すコード",
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_PractitionerRole_VS" : "JP Core PractitionerRole ValueSet",
-      "ValueSet-jp-procedure-performer-role-vs.html" : "JP Core Procedure Performer Role ValueSet"
+      "ValueSet-jp-procedure-performer-role-vs.html" : "JP Core Procedure Performer Role ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_PractitionerRole_VS" : "JP Core PractitionerRole ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureBodySite_CS",
@@ -526,13 +526,13 @@
       "description" : "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。",
       "uses" : {
       },
-      "ValueSet-jp-procedure-devicekind-vs.html" : "JP Core Procedure Device Kind ValueSet",
-      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet",
-      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
-      "ValueSet-jp-procedure-codes-ichi-vs.html" : "JP Core Procedure Codes ICHI ValueSet",
       "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet",
+      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet",
+      "ValueSet-jp-procedure-devicekind-vs.html" : "JP Core Procedure Device Kind ValueSet",
+      "ValueSet-jp-procedure-codes-ichi-vs.html" : "JP Core Procedure Codes ICHI ValueSet",
       "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
-      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet"
+      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
+      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/route-codes",
@@ -580,9 +580,9 @@
       "description" : "LOINC PART file + Core Table(donwloaded from official site) version 2.74",
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
-      "ValueSet-jp-diagnosticreportcategory-vs.html" : "JP Core Diagnostic Report Category ValueSet",
       "http://hl7.org/fhir/R4B/valueset-consent-category.html" : "Consent Category Codes",
+      "ValueSet-jp-diagnosticreportcategory-vs.html" : "JP Core Diagnostic Report Category ValueSet",
+      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
       "ValueSet-jp-microbiology-category-laboratory-vs.html" : "JP Core MicrobiologyCategory ValueSet"
     },
     {
@@ -600,8 +600,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/consentcategorycodes",
-      "version" : "0.1.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ConsentCategoryCodes",
       "title" : "Consent Category Codes",
       "description" : "This value set includes sample Consent Directive Type codes, including several consent directive related LOINC codes; HL7 VALUE SET: ActConsentType(2.16.840.1.113883.1.11.19897); examples of US realm consent directive legal descriptions and references to online and/or downloadable forms such as the SSA-827 Authorization to Disclose Information to the Social Security Administration; and other anticipated consent directives related to participation in a clinical trial, medical procedures, reproductive procedures; health care directive (Living Will); advance directive, do not resuscitate (DNR); Physician Orders for Life-Sustaining Treatment (POLST)",
@@ -612,8 +612,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/consentscope",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "2.0.1",
+      "status" : "active",
       "name" : "ConsentScopeCodes",
       "title" : "Consent Scope Codes",
       "description" : "This value set includes the four Consent scope codes.",
@@ -624,8 +624,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/contractsignertypecodes",
-      "version" : "0.1.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "ContractSignerTypeCodes",
       "title" : "Contract Signer Type Codes",
       "description" : "This value set includes sample Contract Signer Type codes.",
@@ -636,8 +636,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/extra-security-role-type",
-      "version" : "0.2.0",
-      "status" : "draft",
+      "version" : "1.0.1",
+      "status" : "active",
       "name" : "SecurityRoleType",
       "title" : "Security Role Type",
       "description" : "This CodeSystem contains Additional FHIR-defined Security Role types not defined elsewhere",
@@ -659,7 +659,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
-      "version" : "2.1.0",
+      "version" : "2.0.0",
       "status" : "active",
       "name" : "ExpandedYesNoIndicator",
       "title" : "expandedYes-NoIndicator",
@@ -667,11 +667,11 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
+      "http://terminology.hl7.org/6.0.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
-      "version" : "2.1.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ParticipationFunction",
       "title" : "ParticipationFunction",
@@ -683,7 +683,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-      "version" : "4.0.0",
+      "version" : "5.0.0",
       "status" : "active",
       "name" : "ParticipationType",
       "title" : "ParticipationType",
@@ -695,7 +695,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Race",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "Race",
       "title" : "Race",
@@ -703,11 +703,11 @@
       "oids" : ["2.16.840.1.113883.5.104"],
       "uses" : {
       },
-      "http://terminology.hl7.org/5.3.0/ValueSet-v3-Race.html" : "Race"
+      "http://terminology.hl7.org/6.0.0/ValueSet-v3-Race.html" : "Race"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-      "version" : "3.1.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "RoleClass",
       "title" : "RoleClass",
@@ -719,7 +719,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "version" : "2.2.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "RoleCode",
       "title" : "RoleCode",
@@ -766,7 +766,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.100495.20.1.73",
-      "version" : null,
+      "version" : "20240601",
       "status" : "active",
       "name" : "JP_MedicationCodeYJ_CS",
       "title" : "JP Core YJ コード（個別医薬品コード）",
@@ -774,13 +774,13 @@
       "oids" : ["1.2.392.100495.20.1.73"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
       "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCodeYJ_VS" : "JP Core Medication YJ ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCodeYJ_VS" : "JP Core Medication YJ ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.100495.20.1.81",
-      "version" : null,
+      "version" : "20201211",
       "status" : "active",
       "name" : "JP_MedicationCodeCommon_CS",
       "title" : "JP Core MedicationCode Common CodeSystem",
@@ -908,8 +908,8 @@
       "oids" : ["1.2.392.200119.4.402.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.403.1",
@@ -921,9 +921,9 @@
       "oids" : ["1.2.392.200119.4.403.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
       "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCodeHOT9_VS" : "JP Core MedicationCode HOT9 ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.403.2",

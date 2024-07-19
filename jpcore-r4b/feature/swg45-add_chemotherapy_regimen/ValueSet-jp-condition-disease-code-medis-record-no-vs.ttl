@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "jp-condition-disease-code-medis-record-no-vs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.101.2\"><code>urn:oid:1.2.392.200119.4.101.2</code></a></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jp-condition-disease-code-medis-record-no-vs</b></p><a name=\"jp-condition-disease-code-medis-record-no-vs\"> </a><a name=\"hcjp-condition-disease-code-medis-record-no-vs\"> </a><a name=\"jp-condition-disease-code-medis-record-no-vs-ja\"> </a><ul><li>Include all codes defined in <a href=\"https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&amp;canonical=urn:oid:1.2.392.200119.4.101.2\"><code>urn:oid:1.2.392.200119.4.101.2</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISRecordNo_VS"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "2.0.0-dev"] ; # 
@@ -34,7 +34,8 @@
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "JP" ]
+       fhir:code [ fhir:v "JP" ] ;
+       fhir:display [ fhir:v "Japan" ]
      ] )
   ] ) ; # 
   fhir:copyright [ fhir:v "Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG"] ; # 
