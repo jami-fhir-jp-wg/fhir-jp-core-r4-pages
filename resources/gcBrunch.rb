@@ -17,7 +17,7 @@ def isExpired(h)
     prnum = h['pullrequest_url'].split('/').last
     octokitClient = Octokit::Client.new(access_token: ARGV[0])
 
-    pr = octokitClient.pull_request("jami-fhir-jp-wg/jp-core-v1x", prnum)
+    pr = octokitClient.pull_request("jami-fhir-jp-wg/fhir-jp-core-r4", prnum)
 
     if(pr[:state] != "closed")
         return false
