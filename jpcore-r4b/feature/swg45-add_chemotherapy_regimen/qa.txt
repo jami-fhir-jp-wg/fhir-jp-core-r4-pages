@@ -3,7 +3,7 @@ FHIRJPCoreImplementationGuide : Validation Results
 
 err = 57, warn = 461, info = 50
 IG Publisher Version: 1.6.18
-Generated Fri Jul 19 01:15:14 UTC 2024. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
+Generated Fri Jul 19 01:29:56 UTC 2024. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 10 / 1 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 2 / 1
