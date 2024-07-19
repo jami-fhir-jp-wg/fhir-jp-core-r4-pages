@@ -7,8 +7,8 @@
   "status" : "active",
   "package-id" : "jpfhir.jp.core",
   "ig-ver" : "2.0.0-dev",
-  "date" : "Fri, 19 Jul, 2024 02:29:01 +0000",
-  "dateISO8601" : "2024-07-19T02:29:01+00:00",
+  "date" : "Fri, 19 Jul, 2024 05:36:29 +0000",
+  "dateISO8601" : "2024-07-19T05:36:29+00:00",
   "errs" : 57,
   "warnings" : 461,
   "hints" : 50,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 81,
   "version" : "4.3.0",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 3117185696
+  "maxMemory" : 3038826024
 }
