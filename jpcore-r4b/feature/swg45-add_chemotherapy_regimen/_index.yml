@@ -1,10 +1,10 @@
 name: HL7-FHIR-JP-Core-R4B
 version: 2.0.0
 description: FHIR&reg Japanese Core Implementation Guide R4 by Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)
-last_published: Fri Jul 19 06:16:10 UTC 2024
+last_published: Sat Jul 20 07:31:57 UTC 2024
 group: pullrequest
 branch: feature/swg45-add_chemotherapy_regimen
 actor: findex-miyakawa
 type: draft
 pullrequest_url: https://github.com/jami-fhir-jp-wg/fhir-jp-core-r4/pull/7
-pullrequest_title: ${pull_request_title}
+pullrequest_title: 【作業中】 SWG45 化学療法レジメン関連のProfile加筆/修正
