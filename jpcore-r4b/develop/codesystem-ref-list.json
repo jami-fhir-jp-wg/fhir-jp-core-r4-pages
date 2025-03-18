@@ -134,8 +134,8 @@
       "description" : "JAHIS病名情報データ交換規約Ver.3.1C JHSD表00006-転帰区分 コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-outcome-jhsd0006-vs.html" : "JP Core Condition Disease Outcome JHSD0006 ValueSet",
-      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet"
+      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet",
+      "ValueSet-jp-condition-disease-outcome-jhsd0006-vs.html" : "JP Core Condition Disease Outcome JHSD0006 ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSI0001",
@@ -214,8 +214,8 @@
       "description" : "レセプト電算用修飾語マスター コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-modifier-medis-exchange-vs.html" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet",
-      "ValueSet-jp-condition-disease-modifier-receipt-vs.html" : "JP Core Condition Disease Modifier Receipt System ValueSet"
+      "ValueSet-jp-condition-disease-modifier-receipt-vs.html" : "JP Core Condition Disease Modifier Receipt System ValueSet",
+      "ValueSet-jp-condition-disease-modifier-medis-exchange-vs.html" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeReceipt_CS",
@@ -248,8 +248,8 @@
       "description" : "SS MIX 標準文書コード表",
       "uses" : {
       },
-      "ValueSet-jp-documentcodes-endoscopy-vs.html" : "JP Core Document Codes Endoscopy ValueSet",
-      "ValueSet-jp-documentcodes-diagnosticreport-vs.html" : "JP Core Document Codes DiagnosticReport ValueSet"
+      "ValueSet-jp-documentcodes-diagnosticreport-vs.html" : "JP Core Document Codes DiagnosticReport ValueSet",
+      "ValueSet-jp-documentcodes-endoscopy-vs.html" : "JP Core Document Codes Endoscopy ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_JfagyFoodAllergen_CS",
@@ -357,7 +357,7 @@
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCategory_CS",
       "title" : "JP Core Observation BodyMeasurement Category CodeSystem",
-      "description" : "Observation（身体計測）で使用する分類のコード\u3000（出典：看護実践用語標準マスターの概要＜看護行為編＞Ver. 3. 6）",
+      "description" : "Observation（身体計測）で使用する分類のコード　（出典：看護実践用語標準マスターの概要＜看護行為編＞Ver. 3. 6）",
       "uses" : {
       },
       "ValueSet-jp-observation-bodymeasurement-category-vs.html" : "JP Core Observation BodyMeasurement Category ValueSet"
@@ -368,7 +368,7 @@
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCode_CS",
       "title" : "JP Core Observation BodyMeasurement Code CodeSystem",
-      "description" : "Observation（身体計測）で使用する項目コードのコードシステム\u3000（出典：看護実践用語標準マスターの概要＜看護行為編＞Ver. 3. 6）",
+      "description" : "Observation（身体計測）で使用する項目コードのコードシステム　（出典：看護実践用語標準マスターの概要＜看護行為編＞Ver. 3. 6）",
       "uses" : {
       },
       "ValueSet-jp-observation-bodymeasurement-code-vs.html" : "JP Core Observation BodyMeasurement Code ValueSet"
@@ -412,7 +412,7 @@
       "status" : "active",
       "name" : "JP_ObservationSocialHistoryCode_CS",
       "title" : "JP Core Observation SocialHistory Code CodeSystem",
-      "description" : "Observation（生活背景）で使用する項目コード、電子保存された診療録情報の交換のためのデータ項目セット\u3000J-MIX([https://www2.medis.or.jp/master/jmix/file/tab1.pdf](https://www2.medis.or.jp/master/jmix/file/tab1.pdf))にて定義される",
+      "description" : "Observation（生活背景）で使用する項目コード、電子保存された診療録情報の交換のためのデータ項目セット　J-MIX([https://www2.medis.or.jp/master/jmix/file/tab1.pdf](https://www2.medis.or.jp/master/jmix/file/tab1.pdf))にて定義される",
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationSocialHistoryCode_VS" : "JP Core Observation SocialHistory Code ValueSet"
@@ -423,7 +423,7 @@
       "status" : "active",
       "name" : "JP_ObservationVitalSignsCategory_CS",
       "title" : "JP Core Observation VitalSigns Category CodeSystem",
-      "description" : "Observation（バイタルサイン）で使用する分類のコード\u3000（出典：看護実践用語標準マスターの概要＜看護行為編＞Ver. 3. 6）",
+      "description" : "Observation（バイタルサイン）で使用する分類のコード　（出典：看護実践用語標準マスターの概要＜看護行為編＞Ver. 3. 6）",
       "uses" : {
       },
       "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationVitalSignsCategory_VS" : "JP Core Observation VitalSigns Category ValueSet"
@@ -526,13 +526,13 @@
       "description" : "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。",
       "uses" : {
       },
+      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet",
+      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
       "ValueSet-jp-procedure-codes-ichi-vs.html" : "JP Core Procedure Codes ICHI ValueSet",
-      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
-      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
       "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet",
       "ValueSet-jp-procedure-devicekind-vs.html" : "JP Core Procedure Device Kind ValueSet",
-      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
-      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet"
+      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
+      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/route-codes",
@@ -581,9 +581,9 @@
       "uses" : {
       },
       "ValueSet-jp-diagnosticreportcategory-vs.html" : "JP Core Diagnostic Report Category ValueSet",
+      "ValueSet-jp-microbiology-category-laboratory-vs.html" : "JP Core MicrobiologyCategory ValueSet",
       "http://hl7.org/fhir/R4B/valueset-consent-category.html" : "Consent Category Codes",
-      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
-      "ValueSet-jp-microbiology-category-laboratory-vs.html" : "JP Core MicrobiologyCategory ValueSet"
+      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes"
     },
     {
       "url" : "http://snomed.info/sct",
@@ -667,7 +667,7 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.0.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
+      "http://terminology.hl7.org/6.2.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
@@ -703,7 +703,7 @@
       "oids" : ["2.16.840.1.113883.5.104"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.0.0/ValueSet-v3-Race.html" : "Race"
+      "http://terminology.hl7.org/6.2.0/ValueSet-v3-Race.html" : "Race"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
@@ -774,8 +774,8 @@
       "oids" : ["1.2.392.100495.20.1.73"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.100495.20.1.81",
@@ -879,7 +879,7 @@
       "status" : "active",
       "name" : "MEDIS_codeSystem_diseaseNameCodes_Modifiers",
       "title" : "MEDIS標準病名 修飾語管理番号",
-      "description" : "MEDIS標準病名 修飾語管理番号\u3000https://www2.medis.or.jp/master/hcode/",
+      "description" : "MEDIS標準病名 修飾語管理番号　https://www2.medis.or.jp/master/hcode/",
       "oids" : ["1.2.392.200119.4.201.2"],
       "uses" : {
       },
@@ -907,8 +907,8 @@
       "oids" : ["1.2.392.200119.4.402.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.403.1",
@@ -920,8 +920,8 @@
       "oids" : ["1.2.392.200119.4.403.1"],
       "uses" : {
       },
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet"
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_VS" : "JP Core MedicationCode ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.1.1&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_MedicationCode_Immunization_VS" : "JP Core MedicationCode Immunization ValueSet"
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.403.2",
@@ -941,7 +941,7 @@
       "status" : "active",
       "name" : "JP_ObservationLabResultCode_CS",
       "title" : "JP Core Observation LabResult Code CodeSystem",
-      "description" : "Observation（検体検査結果）で使用する項目コード  MEDIS\u3000臨床検査マスターまとめ表17桁、JLAC10ベースのコード表、名称は合成名称",
+      "description" : "Observation（検体検査結果）で使用する項目コード  MEDIS　臨床検査マスターまとめ表17桁、JLAC10ベースのコード表、名称は合成名称",
       "oids" : ["1.2.392.200119.4.504"],
       "uses" : {
       },
@@ -953,7 +953,7 @@
       "status" : "active",
       "name" : "JP_ProcedureCodesNurse_CS",
       "title" : "JP Core Procedure Codes Nurse CodeSystem",
-      "description" : "処置のコード:看護実践用語標準マスター(看護行為)\u30001.2.392.200119.4.701",
+      "description" : "処置のコード:看護実践用語標準マスター(看護行為)　1.2.392.200119.4.701",
       "oids" : ["1.2.392.200119.4.701"],
       "uses" : {
       },

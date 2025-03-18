@@ -7,14 +7,14 @@
   "status" : "active",
   "package-id" : "jpfhir.jp.core",
   "ig-ver" : "2.0.0-dev",
-  "date" : "Thu, 18 Jul, 2024 12:02:10 +0000",
-  "dateISO8601" : "2024-07-18T12:02:10+00:00",
-  "errs" : 27,
-  "warnings" : 457,
-  "hints" : 38,
-  "suppressed-hints" : 26,
-  "suppressed-warnings" : 60,
+  "date" : "Tue, 18 Mar, 2025 14:41:46 +0000",
+  "dateISO8601" : "2025-03-18T14:41:46+00:00",
+  "errs" : 24,
+  "warnings" : 679,
+  "hints" : 63,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 50,
   "version" : "4.3.0",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 5029439032
+  "maxMemory" : 4075720704
 }

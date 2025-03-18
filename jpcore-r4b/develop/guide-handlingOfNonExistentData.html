@@ -227,7 +227,7 @@ Readインタラクションの応答として、Cardinalityが１以上の 要�
 
 <h4 id="実装ガイドに準拠するクライアントは欠損データであることを宣言した-cardinalityが1以上のデータ要素を含むリソースインスタンスを処理できなければならない-shall">実装ガイドに準拠するクライアントは、欠損データであることを宣言した Cardinalityが1以上のデータ要素を含むリソースインスタンスを処理できなければならない (<strong>SHALL</strong>)。</h4>
 <p><strong>例)</strong>
-Patient.birthDateの値に欠損情報が付与されているリソースを、要求者は処理できなければならない。なお、birthDateはdate型というprimitive typeであり、そのextensionは”_“を先頭につけたプロパティに対して設定される(<a href="https://www.hl7.org/fhir/R4B/json.html#primitive">2.6.2.3 JSON representation of primitive elements</a>)。</p>
+Patient.birthDateの値に欠損情報が付与されているリソースを、要求者は処理できなければならない。なお、birthDateはdate型というprimitive typeであり、そのextensionは"_"を先頭につけたプロパティに対して設定される(<a href="https://www.hl7.org/fhir/R4B/json.html#primitive">2.6.2.3 JSON representation of primitive elements</a>)。</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
     </span><span class="nl">"resourceType "</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"Patient"</span><span class="p">,</span><span class="w">
@@ -274,7 +274,7 @@ Patient.birthDateの値に欠損情報が付与されているリソースを、
 信できなければならない (<strong>SHALL</strong>) 。</p>
 
 <p><strong>例)</strong>
-患者の生年月日が不明なため、Patient.birthDateに値を保持していない場合（Patient.birthDateが必須 MustSupport）、Data Absent Reason 拡張を使用して、欠損理由（＝不明）を示す。なお、birthDateはdate型というprimitive typeであり、そのextensionは”_“を先頭につけたプロパティに対して設定される(<a href="https://www.hl7.org/fhir/R4B/json.html#primitive">2.6.2.3 JSON representation of primitive elements</a>)。</p>
+患者の生年月日が不明なため、Patient.birthDateに値を保持していない場合（Patient.birthDateが必須 MustSupport）、Data Absent Reason 拡張を使用して、欠損理由（＝不明）を示す。なお、birthDateはdate型というprimitive typeであり、そのextensionは"_"を先頭につけたプロパティに対して設定される(<a href="https://www.hl7.org/fhir/R4B/json.html#primitive">2.6.2.3 JSON representation of primitive elements</a>)。</p>
 
 <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
     </span><span class="nl">"resourceType "</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"Patient"</span><span class="p">,</span><span class="w">
@@ -378,7 +378,7 @@ Patient.birthDateの値に欠損情報が付与されているリソースを、
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0-dev based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4B/">FHIR 4.3.0</a>. Generated <span title="Thu, Jul 18, 2024 12:02+0000">2024-07-18</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0-dev based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4B/">FHIR 4.3.0</a>. Generated <span title="Tue, Mar 18, 2025 14:41+0000">2025-03-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
