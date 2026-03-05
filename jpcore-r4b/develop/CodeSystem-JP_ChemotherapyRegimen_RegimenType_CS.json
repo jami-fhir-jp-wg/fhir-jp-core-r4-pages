@@ -2,7 +2,7 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-chemotherapyregimen-regimentype-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
-  "version" : "2.0.0-dev",
+  "version" : "2.0.0-dev-temp",
   "name" : "JP_ChemotherapyRegimen_RegimenType_CS",
   "title" : "JP Core PlanDefinition ChemotherapyRegimen RegimenType CodeSystem",
   "status" : "draft",

@@ -2,7 +2,7 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-undefined-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_Undefined_CS",
-  "version" : "2.0.0-dev",
+  "version" : "2.0.0-dev-temp",
   "name" : "JP_Undefined_CS",
   "title" : "JP Core Undefined CodeSystem",
   "status" : "active",
@@ -28,7 +28,7 @@
       "display" : "Japan"
     }]
   }],
-  "copyright" : "Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG",
+  "copyright" : "Copyright Japan\u00a0FHIR\u00a0Implementation Infrastructure Study Group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会FHIR国内実装基盤研究会",
   "caseSensitive" : true,
-  "content" : "complete"
+  "content" : "fragment"
 }

@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="jp-procedure-body-site-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jp-procedure-body-site-vs</b></p><a name="jp-procedure-body-site-vs"> </a><a name="hcjp-procedure-body-site-vs"> </a><a name="jp-procedure-body-site-vs-ja"> </a><ul><li>Include all codes defined in <a href="CodeSystem-jp-procedure-body-site-cs.html"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureBodySite_CS</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jp-procedure-body-site-vs</b></p><a name="jp-procedure-body-site-vs"> </a><a name="hcjp-procedure-body-site-vs"> </a><ul><li>Include all codes defined in <a href="https://simplifier.net/resolve?scope=jpfhir-terminology@1.4.0&amp;canonical=http://jpfhir.jp/fhir/core/CodeSystem/JP_BodySite_CS"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_BodySite_CS</code></a><span title="Version is not explicitly stated, which means it is fixed to 0.0.1, the version found through the package references"> version &#x1F4E6;0.0.1</span></li></ul></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureBodySite_VS"/>
-  <version value="2.0.0-dev"/>
+  <version value="2.0.0-dev-temp"/>
   <name value="JP_ProcedureBodySite_VS"/>
   <title value="JP Core Procedure BodySite ValueSet"/>
   <status value="active"/>
@@ -32,10 +32,10 @@
       <display value="Japan"/>
     </coding>
   </jurisdiction>
-  <copyright value="Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG"/>
+  <copyright value="Copyright Japan FHIR Implementation Infrastructure Study Group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会FHIR国内実装基盤研究会"/>
   <compose>
     <include>
-      <system value="http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureBodySite_CS"/>
+      <system value="http://jpfhir.jp/fhir/core/CodeSystem/JP_BodySite_CS"/>
     </include>
   </compose>
 </ValueSet>

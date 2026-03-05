@@ -3,7 +3,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="jp-undefined-cs"/>
   <url value="http://jpfhir.jp/fhir/core/CodeSystem/JP_Undefined_CS"/>
-  <version value="2.0.0-dev"/>
+  <version value="2.0.0-dev-temp"/>
   <name value="JP_Undefined_CS"/>
   <title value="JP Core Undefined CodeSystem"/>
   <status value="active"/>
@@ -29,7 +29,7 @@
       <display value="Japan"/>
     </coding>
   </jurisdiction>
-  <copyright value="Copyright FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会NeXEHRS課題研究会FHIR日本実装検討WG"/>
+  <copyright value="Copyright Japan FHIR Implementation Infrastructure Study Group in Japan Association of Medical Informatics (JAMI) 一般社団法人日本医療情報学会FHIR国内実装基盤研究会"/>
   <caseSensitive value="true"/>
-  <content value="complete"/>
+  <content value="fragment"/>
 </CodeSystem>

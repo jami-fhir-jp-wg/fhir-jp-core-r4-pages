@@ -2,12 +2,12 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-outcome-hl70241-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/HL70241",
-  "version" : "2.0.0-dev",
+  "version" : "2.0.0-dev-temp",
   "name" : "JP_ConditionDieaseOutcomeHL70241_CS",
   "title" : "JP Core Condition Disease Outcome HL7 Table 0241 - Patient Outcome CodeSystem",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-08-05",
+  "date" : "2024-12-30",
   "publisher" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
   "contact" : [{
     "name" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
@@ -28,7 +28,7 @@
       "display" : "Japan"
     }]
   }],
-  "copyright" : "copyright HL7 Japan (出典：HL7-0241)",
+  "copyright" : "Copyright HL7 Japan (出典：HL7-0241)",
   "caseSensitive" : true,
   "content" : "complete",
   "count" : 7,

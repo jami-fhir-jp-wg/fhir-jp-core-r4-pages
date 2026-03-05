@@ -1,7 +1,19 @@
+# Security and Privacy - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+
+* [**Table of Contents**](toc.md)
+* [**FHIR Contents List**](group-fhircontents.md)
+* **Security and Privacy**
+
+## Security and Privacy
+
 ### Profiles
-* [JP Core Consent （同意）プロファイル][JP_Consent]
+
+* [JP Core Consent （同意）プロファイル](StructureDefinition-jp-consent.md)
 
 ### Extensions
+
 なし
 
-{% include markdown-link-references.md %}
+本実装ガイドへのご質問・ご指摘については、
+[GitHub Issue](https://github.com/jami-fhir-jp-wg/jp-core-v1x/issues)および
+[GitHub PullRequest](https://github.com/jami-fhir-jp-wg/jp-core-v1x/pulls)にて受け付けている。

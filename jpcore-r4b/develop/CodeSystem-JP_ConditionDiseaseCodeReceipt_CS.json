@@ -2,7 +2,7 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-code-receipt-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeReceipt_CS",
-  "version" : "2.0.0-dev",
+  "version" : "2.0.0-dev-temp",
   "name" : "JP_ConditionDieaseCodeReceipt_CS",
   "title" : "JP Core Condition Disease Code Receipt System CodeSystem",
   "status" : "active",

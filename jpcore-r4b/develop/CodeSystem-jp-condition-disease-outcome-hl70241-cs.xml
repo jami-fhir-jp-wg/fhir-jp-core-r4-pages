@@ -3,12 +3,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="jp-condition-disease-outcome-hl70241-cs"/>
   <url value="http://jpfhir.jp/fhir/core/CodeSystem/HL70241"/>
-  <version value="2.0.0-dev"/>
+  <version value="2.0.0-dev-temp"/>
   <name value="JP_ConditionDieaseOutcomeHL70241_CS"/>
   <title value="JP Core Condition Disease Outcome HL7 Table 0241 - Patient Outcome CodeSystem"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-08-05"/>
+  <date value="2024-12-30"/>
   <publisher value="FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)"/>
   <contact>
     <name value="FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)"/>
@@ -29,7 +29,7 @@
       <display value="Japan"/>
     </coding>
   </jurisdiction>
-  <copyright value="copyright HL7 Japan (出典：HL7-0241)"/>
+  <copyright value="Copyright HL7 Japan (出典：HL7-0241)"/>
   <caseSensitive value="true"/>
   <content value="complete"/>
   <count value="7"/>
