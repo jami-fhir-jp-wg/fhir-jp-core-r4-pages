@@ -1,7 +1,7 @@
 FHIRJPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 16, warn = 116, info = 63
+err = 17, warn = 113, info = 63
 $--
 Generated $--. FHIR version $-- for jpfhir.jp.core#$-- (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 12 / 0 / 0
@@ -67,8 +67,8 @@ Generated $--. FHIR version $-- for jpfhir.jp.core#$-- (canonical = http://jpfhi
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationAdministration-jp-medicationadministration-injection-example-2 : 0 / 0 / 5
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationDispense-jp-medicationdispense-example-1 : 0 / 0 / 3
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationDispense-jp-medicationdispense-injection-example-1 : 0 / 0 / 4
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-department-example-01 : 0 / 3 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-department-example-02 : 0 / 3 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-department-example-01 : 0 / 2 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-department-example-02 : 1 / 1 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-example-2 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/MedicationRequest-jp-medicationrequest-injection-example-1 : 0 / 0 / 4
@@ -434,13 +434,11 @@ INFORMATION: MedicationDispense/jp-medicationdispense-example-1: MedicationDispe
 INFORMATION: MedicationDispense/jp-medicationdispense-example-1: MedicationDispense.substitution.reason[0].coding[0].display: 'regulatory requirement' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-ActReason has no Display Names found for the language ja
 == fsh-generated/resources/MedicationDispense-jp-medicationdispense-injection-example-1.json ==
 == fsh-generated/resources/MedicationRequest-jp-medicationrequest-department-example-01.json ==
-WARNING: MedicationRequest/jp-medicationrequest-department-example-01: MedicationRequest.medication.ofType(CodeableConcept).coding[0].system: !!!!!!CodeSystem urn:oid:1.2.392.100495.20.2.74は未知です
-WARNING: MedicationRequest/jp-medicationrequest-department-example-01: MedicationRequest.dosageInstruction[0].timing.code.coding[0].system: !!!!!!CodeSystem urn:oid:1.2.392.100495.20.2.31は未知です
-WARNING: MedicationRequest/jp-medicationrequest-department-example-01: MedicationRequest.dosageInstruction[0].route.coding[0].system: !!!!!!CodeSystem urn:oid:2.16.840.1.113883.3.1937.777.10.5.162は未知です
+WARNING: MedicationRequest/jp-medicationrequest-department-example-01: MedicationRequest.medication.ofType(CodeableConcept).coding[0].display: http://medis.or.jp/CodeSystem/master-HOT9#103831601 の誤ったdisplay 'カロナール錠２００' - 1 の選択肢のうちの一つであるべきです: 'カルボシステイン錠２５０ｍｇ「サワイ」' (ja) (言語 'ja' のため)
+WARNING: MedicationRequest/jp-medicationrequest-department-example-01: MedicationRequest.dosageInstruction[0].timing.code.coding[0].display: http://jami.jp/CodeSystem/MedicationUsage#1013044400000000 の誤ったdisplay '内服・経口・１日３回朝昼夕食後' - 1 の選択肢のうちの一つであるべきです: '内服 １日３回 朝昼夕食後' (言語 'ja' のため)
 == fsh-generated/resources/MedicationRequest-jp-medicationrequest-department-example-02.json ==
-WARNING: MedicationRequest/jp-medicationrequest-department-example-02: MedicationRequest.medication.ofType(CodeableConcept).coding[0].system: !!!!!!CodeSystem urn:oid:1.2.392.100495.20.2.74は未知です
-WARNING: MedicationRequest/jp-medicationrequest-department-example-02: MedicationRequest.dosageInstruction[0].timing.code.coding[0].system: !!!!!!CodeSystem urn:oid:1.2.392.100495.20.2.31は未知です
-WARNING: MedicationRequest/jp-medicationrequest-department-example-02: MedicationRequest.dosageInstruction[0].route.coding[0].system: !!!!!!CodeSystem urn:oid:2.16.840.1.113883.3.1937.777.10.5.162は未知です
+ERROR: MedicationRequest/jp-medicationrequest-department-example-02: MedicationRequest.medication.ofType(CodeableConcept).coding[0].code: system'http://medis.or.jp/CodeSystem/master-HOT9'で未知のコード'110626901'
+WARNING: MedicationRequest/jp-medicationrequest-department-example-02: MedicationRequest.dosageInstruction[0].timing.code.coding[0].display: http://jami.jp/CodeSystem/MedicationUsage#1013044400000000 の誤ったdisplay '内服・経口・１日３回朝昼夕食後' - 1 の選択肢のうちの一つであるべきです: '内服 １日３回 朝昼夕食後' (言語 'ja' のため)
 == fsh-generated/resources/MedicationRequest-jp-medicationrequest-example-1.json ==
 == fsh-generated/resources/MedicationRequest-jp-medicationrequest-example-2.json ==
 == fsh-generated/resources/MedicationRequest-jp-medicationrequest-injection-example-1.json ==

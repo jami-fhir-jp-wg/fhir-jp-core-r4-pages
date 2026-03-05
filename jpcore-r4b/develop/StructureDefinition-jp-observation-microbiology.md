@@ -341,7 +341,7 @@ Diagnostic Reportのサンプルの一部に定義しているため、これを
         },
         "short" : "このObservationの対象を特定するコード",
         "definition" : "このObservationの対象を特定するコード",
-        "comment" : "【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  \n基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい"
+        "comment" : "【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  \n基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい"
       },
       {
         "id" : "Observation.code.coding:infectious-agent",

@@ -86,7 +86,7 @@ Profile: [JP Core MedicationRequest Profile](StructureDefinition-jp-medicationre
   "medicationCodeableConcept" : {
     "coding" : [
       {
-        "system" : "urn:oid:1.2.392.100495.20.2.74",
+        "system" : "http://medis.or.jp/CodeSystem/master-HOT9",
         "code" : "110626901",
         "display" : "ロキソプロフェンNa錠６０ｍｇ「サワイ」"
       }
@@ -103,7 +103,7 @@ Profile: [JP Core MedicationRequest Profile](StructureDefinition-jp-medicationre
         "code" : {
           "coding" : [
             {
-              "system" : "urn:oid:1.2.392.100495.20.2.31",
+              "system" : "http://jami.jp/CodeSystem/MedicationUsage",
               "code" : "1013044400000000",
               "display" : "内服・経口・１日３回朝昼夕食後"
             }
@@ -113,7 +113,7 @@ Profile: [JP Core MedicationRequest Profile](StructureDefinition-jp-medicationre
       "route" : {
         "coding" : [
           {
-            "system" : "urn:oid:2.16.840.1.113883.3.1937.777.10.5.162",
+            "system" : "http://jpfhir.jp/fhir/core/CodeSystem/route-codes",
             "code" : "PO",
             "display" : "口"
           }

@@ -2291,7 +2291,7 @@
       </slicing>
       <short value="このObservationの対象を特定するコード"/>
       <definition value="このObservationの対象を特定するコード"/>
-      <comment value="【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  &#xA;基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい"/>
+      <comment value="【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  &#xA;基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい"/>
       <requirements value="Allows for alternative encodings within a code system, and translations to other code systems."/>
       <min value="0"/>
       <max value="*"/>
@@ -4927,7 +4927,7 @@
       </slicing>
       <short value="このObservationの対象を特定するコード"/>
       <definition value="このObservationの対象を特定するコード"/>
-      <comment value="【JP Core仕様】[Slicing](http://hl7.org/fhir/R4/profiling.html#slicing)を使用して複数のコード体系に対応  &#xA;基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい"/>
+      <comment value="【JP Core仕様】[Slicing](http://hl7.org/fhir/R4B/profiling.html#slicing)を使用して複数のコード体系に対応  &#xA;基本方針としてカテゴリに応じた標準コードの使用を想定しているが、ローカルコードを使用してもよい"/>
     </element>
     <element id="Observation.code.coding:infectious-agent">
       <path value="Observation.code.coding"/>
