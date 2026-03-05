@@ -429,7 +429,7 @@ GET [base]/Practitioner?name=山田
         "id" : "Practitioner.qualification.period",
         "path" : "Practitioner.qualification.period",
         "definition" : "資格が有効な期間。",
-        "comment" : "使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  \n期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4/datatypes.html#Duration)を参照のこと。",
+        "comment" : "使用のコンテキストは、範囲全体が適用されるか（例：「患者はこの時間範囲で病院の入院患者であった」）、範囲内の1つの値が適用されるか（例：「この2つの時間の間に患者に与える」）を指定する。  \n期間は、期間(経過時間の尺度)には使用されない。[Duration](http://hl7.org/fhir/R4B/datatypes.html#Duration)を参照のこと。",
         "requirements" : "資格は期間限定のものが多く、取り消されることもある。"
       },
       {

@@ -301,19 +301,6 @@ JP Core は以下の方々、および各サーブワーキンググループの
         "extension" : [
           {
             "url" : "code",
-            "valueString" : "no-narrative"
-          },
-          {
-            "url" : "value",
-            "valueString" : "CodeSystem/*"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
             "valueString" : "active-tables"
           },
           {
@@ -3553,19 +3540,6 @@ JP Core は以下の方々、および各サーブワーキンググループの
           {
             "url" : "value",
             "valueString" : "../../input/_resources/exp-params.json"
-          }
-        ],
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-      },
-      {
-        "extension" : [
-          {
-            "url" : "code",
-            "valueCode" : "no-narrative"
-          },
-          {
-            "url" : "value",
-            "valueString" : "CodeSystem/*"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"

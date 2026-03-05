@@ -1,43 +1,43 @@
 FHIRJPCoreImplementationGuide : Validation Results
 =========================================
 
-err = 34, warn = 155, info = 63
+err = 16, warn = 116, info = 63
 IG Publisher Version: 2.0.25 Out of date - current version is 2.1.2
-Generated Thu Mar 05 01:25:14 UTC 2026. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev-temp (canonical = http://jpfhir.jp/fhir/core)
+Generated Thu Mar 05 01:59:28 UTC 2026. FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev-temp (canonical = http://jpfhir.jp/fhir/core)
  Build Errors : 12 / 0 / 0
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/AllergyIntolerance-jp-allergyintolerance-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement : 0 / 0 / 61
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-server-capabilitystatement : 0 / 0 / 61
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-chemotherapyregimen-regimentype-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-icd10-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-exchange-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-record-no-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-receipt-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-exchange-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-record-no-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-receipt-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-hl70241-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-jhsd0006-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-receipt-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysite-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysitestatus-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-fundamentalstatus-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-missingteeth-observation-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-presentteeth-observation-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-rootbodystructure-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-missingteeth-observation-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-presentteeth-observation-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-surfacebodystructure-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-bodymeasurement-code-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-dental-category-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-duration-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-extracategory-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-stresstype-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-physicalexamcode-cs : 0 / 2 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-not-performed-reason-cs : 0 / 2 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-outcome-cs : 0 / 2 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-simpleobservationcategory-cs : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-undefined-cs : 0 / 1 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-chemotherapyregimen-regimentype-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-icd10-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-exchange-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-record-no-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-receipt-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-exchange-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-record-no-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-receipt-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-hl70241-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-jhsd0006-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-receipt-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysite-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysitestatus-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-fundamentalstatus-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-missingteeth-observation-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-presentteeth-observation-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-rootbodystructure-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-missingteeth-observation-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-presentteeth-observation-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-surfacebodystructure-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-bodymeasurement-code-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-dental-category-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-duration-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-extracategory-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-stresstype-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-physicalexamcode-cs : 0 / 1 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-not-performed-reason-cs : 0 / 1 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-outcome-cs : 0 / 1 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-simpleobservationcategory-cs : 0 / 0 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-undefined-cs : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Condition-jp-condition-diagnosis-example-1 : 0 / 2 / 3
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Condition-jp-condition-example-1 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Coverage-jp-coverage-example-1 : 0 / 0 / 3
@@ -155,7 +155,7 @@ Generated Thu Mar 05 01:25:14 UTC 2026. FHIR version 4.3.0 for jpfhir.jp.core#2.
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Organization-jp-organization-example-hospital : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Organization-jp-organization-example-inspection : 0 / 0 / 2
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Organization-jp-organization-example-payer : 0 / 0 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Patient-jp-patient-example-1 : 6 / 0 / 3
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Patient-jp-patient-example-1 : 0 / 0 / 3
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-1 : 0 / 3 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-2 : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-male-1 : 0 / 1 / 1
@@ -198,7 +198,7 @@ Generated Thu Mar 05 01:25:14 UTC 2026. FHIR version 4.3.0 for jpfhir.jp.core#2.
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-diagnosticreport-microbiology : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-diagnosticreport-radiology : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-documentreference : 0 / 1 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-encounter : 4 / 3 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-encounter : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-familymemberhistory : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-humanname : 0 / 0 / 3
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-imagingstudy-endoscopy : 0 / 0 / 3
@@ -279,7 +279,7 @@ Generated Thu Mar 05 01:25:14 UTC 2026. FHIR version 4.3.0 for jpfhir.jp.core#2.
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-organization-insuranceorganizationcategory : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-organization-insuranceorganizationno : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-organization-prefectureno : 0 / 0 / 1
- /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-patient : 8 / 6 / 1
+ /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-patient : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-patient-race : 0 / 0 / 1
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-plandefinition-chemotherapyregimen : 6 / 4 / 3
  /home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-plandefinition-chemotherapyregimen-regimentype : 0 / 0 / 1
@@ -360,68 +360,38 @@ ERROR: StructureDefinition-jp-practitioner.html#/html/body/div/div/div/div/div/d
 == fsh-generated/resources/CapabilityStatement-jp-client-capabilitystatement.json ==
 == fsh-generated/resources/CapabilityStatement-jp-server-capabilitystatement.json ==
 == fsh-generated/resources/CodeSystem-jp-chemotherapyregimen-regimentype-cs.json ==
-WARNING: CodeSystem/jp-chemotherapyregimen-regimentype-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-code-icd10-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-code-icd10-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-exchange-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-code-medis-exchange-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-record-no-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-code-medis-record-no-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-code-receipt-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-code-receipt-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-exchange-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-modifier-medis-exchange-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-record-no-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-modifier-medis-record-no-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-receipt-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-modifier-receipt-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-hl70241-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-outcome-hl70241-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-outcome-jhsd0006-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-receipt-cs.json ==
-WARNING: CodeSystem/jp-condition-disease-outcome-receipt-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-bodysite-cs.json ==
-WARNING: CodeSystem/jp-dental-bodysite-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-bodysitestatus-cs.json ==
-WARNING: CodeSystem/jp-dental-bodysitestatus-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-fundamentalstatus-cs.json ==
-WARNING: CodeSystem/jp-dental-fundamentalstatus-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-missingteeth-observation-cs.json ==
-WARNING: CodeSystem/jp-dental-missingteeth-observation-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-presentteeth-observation-cs.json ==
-WARNING: CodeSystem/jp-dental-presentteeth-observation-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-rootbodystructure-cs.json ==
-WARNING: CodeSystem/jp-dental-rootbodystructure-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-simple-missingteeth-observation-cs.json ==
-WARNING: CodeSystem/jp-dental-simple-missingteeth-observation-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-simple-presentteeth-observation-cs.json ==
-WARNING: CodeSystem/jp-dental-simple-presentteeth-observation-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-dental-surfacebodystructure-cs.json ==
-WARNING: CodeSystem/jp-dental-surfacebodystructure-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-observation-bodymeasurement-code-cs.json ==
-WARNING: CodeSystem/jp-observation-bodymeasurement-code-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-observation-dental-category-cs.json ==
-WARNING: CodeSystem/jp-observation-dental-category-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-duration-cs.json ==
-WARNING: CodeSystem/jp-observation-electrocardiogram-duration-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-extracategory-cs.json ==
-WARNING: CodeSystem/jp-observation-electrocardiogram-extracategory-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-stresstype-cs.json ==
-WARNING: CodeSystem/jp-observation-electrocardiogram-stresstype-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-physicalexamcode-cs.json ==
 WARNING: CodeSystem/jp-physicalexamcode-cs: CodeSystem.valueSet: There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp'
-WARNING: CodeSystem/jp-physicalexamcode-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-procedure-not-performed-reason-cs.json ==
 WARNING: CodeSystem/jp-procedure-not-performed-reason-cs: CodeSystem.valueSet: There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS|2.0.0-dev-temp'
-WARNING: CodeSystem/jp-procedure-not-performed-reason-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-procedure-outcome-cs.json ==
 WARNING: CodeSystem/jp-procedure-outcome-cs: CodeSystem.valueSet: There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS|2.0.0-dev-temp'
-WARNING: CodeSystem/jp-procedure-outcome-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-simpleobservationcategory-cs.json ==
-WARNING: CodeSystem/jp-simpleobservationcategory-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/CodeSystem-jp-undefined-cs.json ==
-WARNING: CodeSystem/jp-undefined-cs: CodeSystem: Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)
 == fsh-generated/resources/Condition-jp-condition-diagnosis-example-1.json ==
 == fsh-generated/resources/Condition-jp-condition-example-1.json ==
 == fsh-generated/resources/Coverage-jp-coverage-example-1.json ==
@@ -562,12 +532,6 @@ WARNING: Organization/jp-organization-department-example-03: Organization.type[0
 == fsh-generated/resources/Organization-jp-organization-example-inspection.json ==
 == fsh-generated/resources/Organization-jp-organization-example-payer.json ==
 == fsh-generated/resources/Patient-jp-patient-example-1.json ==
-ERROR: Patient/jp-patient-example-1: Patient.extension[0]: スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)
-ERROR: Patient/jp-patient-example-1: Patient.extension[1]: スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)
-ERROR: Patient/jp-patient-example-1: Patient.extension[2]: スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)
-ERROR: Patient/jp-patient-example-1: Patient.extension[0]: スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)
-ERROR: Patient/jp-patient-example-1: Patient.extension[1]: スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)
-ERROR: Patient/jp-patient-example-1: Patient.extension[2]: スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)
 INFORMATION: Patient/jp-patient-example-1: Patient.extension[0].value.ofType(CodeableConcept).coding[0].display: 'Shinto' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation has no Display Names found for the language ja
 INFORMATION: Patient/jp-patient-example-1: Patient.extension[2].value.ofType(CodeableConcept).coding[0].display: 'Japanese' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-Race has no Display Names found for the language ja
 == fsh-generated/resources/Practitioner-jp-practitioner-example-female-1.json ==
@@ -642,13 +606,6 @@ INFORMATION: StructureDefinition.differential.element[23].binding.valueSet: Pinn
 == fsh-generated/resources/StructureDefinition-jp-diagnosticreport-radiology.json ==
 == fsh-generated/resources/StructureDefinition-jp-documentreference.json ==
 == fsh-generated/resources/StructureDefinition-jp-encounter.json ==
-WARNING: StructureDefinition.snapshot.element[8]: The type of profile http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 cannot be checked as the profile is not known
-ERROR: StructureDefinition/jp-encounter: StructureDefinition.snapshot.element[8].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' は解決できません
-ERROR: StructureDefinition/jp-encounter: StructureDefinition.differential.element[2].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' は解決できません
-WARNING: StructureDefinition/jp-encounter: StructureDefinition.differential.element[2].type[0].profile[0]: !!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 を解決できません
-WARNING: StructureDefinition/jp-encounter: StructureDefinition.snapshot.element[8].type[0].profile[0]: !!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 を解決できません
-ERROR: jp-encounter: Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter differential Encounter.extension (associatedEncounter)
-ERROR: jp-encounter: Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter snapshot Encounter.extension (associatedEncounter)
 == fsh-generated/resources/StructureDefinition-jp-familymemberhistory.json ==
 == fsh-generated/resources/StructureDefinition-jp-humanname.json ==
 INFORMATION: StructureDefinition.snapshot.element[3].type[0].profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation to 5.2.0 from choices of 4.3.0 (hl7.fhir.r4b.core#4.3.0), 5.2.0 (hl7.fhir.uv.extensions.r4#5.2.0)
@@ -814,20 +771,6 @@ WARNING: StructureDefinition/jp-organization-department: StructureDefinition.sna
 == fsh-generated/resources/StructureDefinition-jp-organization-insuranceorganizationno.json ==
 == fsh-generated/resources/StructureDefinition-jp-organization-prefectureno.json ==
 == fsh-generated/resources/StructureDefinition-jp-patient.json ==
-WARNING: StructureDefinition.snapshot.element[8]: The type of profile http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 cannot be checked as the profile is not known
-WARNING: StructureDefinition.snapshot.element[9]: The type of profile http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 cannot be checked as the profile is not known
-ERROR: StructureDefinition/jp-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' は解決できません
-ERROR: StructureDefinition/jp-patient: StructureDefinition.snapshot.element[9].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' は解決できません
-ERROR: StructureDefinition/jp-patient: StructureDefinition.differential.element[2].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' は解決できません
-ERROR: StructureDefinition/jp-patient: StructureDefinition.differential.element[3].type[0].profile[0]: Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' は解決できません
-WARNING: StructureDefinition/jp-patient: StructureDefinition.differential.element[2].type[0].profile[0]: !!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 を解決できません
-WARNING: StructureDefinition/jp-patient: StructureDefinition.differential.element[3].type[0].profile[0]: !!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 を解決できません
-WARNING: StructureDefinition/jp-patient: StructureDefinition.snapshot.element[8].type[0].profile[0]: !!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 を解決できません
-WARNING: StructureDefinition/jp-patient: StructureDefinition.snapshot.element[9].type[0].profile[0]: !!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 を解決できません
-ERROR: jp-patient: Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient differential Patient.extension (religion)
-ERROR: jp-patient: Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient differential Patient.extension (birthPlace)
-ERROR: jp-patient: Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient snapshot Patient.extension (religion)
-ERROR: jp-patient: Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient snapshot Patient.extension (birthPlace)
 == fsh-generated/resources/StructureDefinition-jp-patient-race.json ==
 == fsh-generated/resources/StructureDefinition-jp-plandefinition-chemotherapyregimen.json ==
 ERROR: JP Core PlanDefinition ChemotherapyRegimen Profile.extension[[CanonicalType[http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle]]].PlanDefinition.action.extension: Element PlanDefinition.action.extension: derived max (*) cannot be greater than the base max (1)

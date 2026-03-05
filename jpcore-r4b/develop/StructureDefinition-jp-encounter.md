@@ -433,7 +433,7 @@ Encounterリソースは、予定情報や予約の保存には使用されな�
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1"
+              "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.3.0"
             ]
           }
         ]

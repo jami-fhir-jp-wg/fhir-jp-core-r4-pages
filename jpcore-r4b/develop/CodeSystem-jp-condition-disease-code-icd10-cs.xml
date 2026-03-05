@@ -2,6 +2,9 @@
 
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="jp-condition-disease-code-icd10-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jp-condition-disease-code-icd10-cs</b></p><a name="jp-condition-disease-code-icd10-cs"> </a><a name="hcjp-condition-disease-code-icd10-cs"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">K358<a name="jp-condition-disease-code-icd10-cs-K358"> </a></td><td>急性化膿性虫垂炎</td></tr></table></div>
+  </text>
   <url value="http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeICD10_CS"/>
   <version value="2.0.0-dev-temp"/>
   <name value="JP_ConditionDiseaseCodeICD10_CS"/>

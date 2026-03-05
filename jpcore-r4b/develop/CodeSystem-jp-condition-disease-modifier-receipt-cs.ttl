@@ -9,6 +9,10 @@
 <http://jpfhir.jp/fhir/core/CodeSystem/jp-condition-disease-modifier-receipt-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jp-condition-disease-modifier-receipt-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jp-condition-disease-modifier-receipt-cs</b></p><a name=\"jp-condition-disease-modifier-receipt-cs\"> </a><a name=\"hcjp-condition-disease-modifier-receipt-cs\"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
   fhir:url [
      fhir:v "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS"^^xsd:anyURI ;
      fhir:l <http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS>

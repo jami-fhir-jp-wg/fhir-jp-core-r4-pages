@@ -248,7 +248,7 @@ textのみでの使用は基本的に不可とし、必ずcodingを設定する�
 ","",0,*,"","","","CodeableConcept {[]} {[]}
 ","High, low, normal, etc. 高、低、正常など","検査結果値の、（高、低、正常）といったカテゴリー評価。結果報告書に記載されることもある情報。","【JP Core仕様】拡張可コード表「ObservationInterpretationCodes」を使用する。  
 コード表が大きいため、下記参照。  
-https://www.hl7.org/fhir/R4/valueset-observation-interpretation.html","特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。","","","","","","","",,"extensible","Codes identifying interpretations of observations.","http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0","",,,,"Observation.interpretation",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+https://www.hl7.org/fhir/R4B/valueset-observation-interpretation.html","特に数値結果については、結果の重要性を完全に理解するために解釈を必要とする場合がある。","","","","","","","",,"extensible","Codes identifying interpretations of observations.","http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0","",,,,"Observation.interpretation",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 260245000 |Findings values|","OBX-8","interpretationCode","363713009 |Has interpretation|"
 "Observation.note","Observation.note","","","",0,*,"","","","Annotation {[]} {[]}
 ","このObservationに関するコメント","検査、あるいは結果に関するコメント。フリーテキストの追加情報として使用可能。","May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation.","Need to be able to provide free text additional information.  

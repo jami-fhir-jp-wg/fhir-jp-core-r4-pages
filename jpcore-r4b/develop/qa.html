@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 8, errors = 34, warn = 155, info = 63-->
+<!-- broken links = 8, errors = 16, warn = 116, info = 63-->
 <head>
   <title>FHIRJPCoreImplementationGuide : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for FHIRJPCoreImplementationGuide</h1>
- <p>Generated Thu Mar 05 01:25:14 UTC 2026, FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev-temp (canonical = <a href="http://jpfhir.jp/fhir/core">http://jpfhir.jp/fhir/core</a> (<a href="http://jpfhir.jp/fhir/core/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Thu Mar 05 01:59:28 UTC 2026, FHIR version 4.3.0 for jpfhir.jp.core#2.0.0-dev-temp (canonical = <a href="http://jpfhir.jp/fhir/core">http://jpfhir.jp/fhir/core</a> (<a href="http://jpfhir.jp/fhir/core/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v2.0.25, which is out of date. The current version is v2.1.2 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = jpfhir.jp.core, Canonical = http://jpfhir.jp/fhir/core</td></tr>
@@ -293,6 +293,7 @@ hl7.fhir.r4b.core#4.3.0:     <a href="http://hl7.org/fhir/R4B/codesystem-guide-p
  (7 uses),     <a href="http://hl7.org/fhir/R4B/episodeofcare.html">EpisodeOfCare</a>
  (12 uses),     <a href="http://hl7.org/fhir/R4B/valueset-c80-facilitycodes.html">FacilityTypeCodeValueSet</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-c80-practice-codes.html">PracticeSettingCodeValueSet</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/extension-encounter-associatedencounter.html">associatedEncounter</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-status.html">EncounterStatus</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-encounter-type.html">EncounterType</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4B/valueset-service-type.html">ServiceType</a>
@@ -373,6 +374,8 @@ hl7.fhir.r4b.core#4.3.0:     <a href="http://hl7.org/fhir/R4B/codesystem-guide-p
  (33 uses),     <a href="http://hl7.org/fhir/R4B/valueset-observation-codes.html">LOINCCodes</a>
  (22 uses),     <a href="http://hl7.org/fhir/R4B/valueset-organization-type.html">OrganizationType</a>
  (4 uses),     <a href="http://hl7.org/fhir/R4B/valueset-contactentity-type.html">ContactEntityType</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/extension-patient-religion.html">religion</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4B/extension-patient-birthplace.html">birthPlace</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4B/valueset-plan-definition-type.html">PlanDefinitionType</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4B/medicinalproductdefinition.html">MedicinalProductDefinition</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4B/substancedefinition.html">SubstanceDefinition</a>
@@ -427,7 +430,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad, displayWarnings; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent</td></tr>
-<tr><td>Narratives Suppressed</td><td><a href="CodeSystem-jp-chemotherapyregimen-regimentype-cs.html">CodeSystem/jp-chemotherapyregimen-regimentype-cs</a>, <a href="CodeSystem-jp-condition-disease-code-icd10-cs.html">CodeSystem/jp-condition-disease-code-icd10-cs</a>, <a href="CodeSystem-jp-condition-disease-code-medis-exchange-cs.html">CodeSystem/jp-condition-disease-code-medis-exchange-cs</a>, <a href="CodeSystem-jp-condition-disease-code-medis-record-no-cs.html">CodeSystem/jp-condition-disease-code-medis-record-no-cs</a>, <a href="CodeSystem-jp-condition-disease-code-receipt-cs.html">CodeSystem/jp-condition-disease-code-receipt-cs</a>, <a href="CodeSystem-jp-condition-disease-modifier-medis-exchange-cs.html">CodeSystem/jp-condition-disease-modifier-medis-exchange-cs</a>, <a href="CodeSystem-jp-condition-disease-modifier-medis-record-no-cs.html">CodeSystem/jp-condition-disease-modifier-medis-record-no-cs</a>, <a href="CodeSystem-jp-condition-disease-modifier-receipt-cs.html">CodeSystem/jp-condition-disease-modifier-receipt-cs</a>, <a href="CodeSystem-jp-condition-disease-outcome-hl70241-cs.html">CodeSystem/jp-condition-disease-outcome-hl70241-cs</a>, <a href="CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.html">CodeSystem/jp-condition-disease-outcome-jhsd0006-cs</a>, <a href="CodeSystem-jp-condition-disease-outcome-receipt-cs.html">CodeSystem/jp-condition-disease-outcome-receipt-cs</a>, <a href="CodeSystem-jp-dental-bodysite-cs.html">CodeSystem/jp-dental-bodysite-cs</a>, <a href="CodeSystem-jp-dental-bodysitestatus-cs.html">CodeSystem/jp-dental-bodysitestatus-cs</a>, <a href="CodeSystem-jp-dental-fundamentalstatus-cs.html">CodeSystem/jp-dental-fundamentalstatus-cs</a>, <a href="CodeSystem-jp-dental-missingteeth-observation-cs.html">CodeSystem/jp-dental-missingteeth-observation-cs</a>, <a href="CodeSystem-jp-dental-presentteeth-observation-cs.html">CodeSystem/jp-dental-presentteeth-observation-cs</a>, <a href="CodeSystem-jp-dental-rootbodystructure-cs.html">CodeSystem/jp-dental-rootbodystructure-cs</a>, <a href="CodeSystem-jp-dental-simple-missingteeth-observation-cs.html">CodeSystem/jp-dental-simple-missingteeth-observation-cs</a>, <a href="CodeSystem-jp-dental-simple-presentteeth-observation-cs.html">CodeSystem/jp-dental-simple-presentteeth-observation-cs</a>, <a href="CodeSystem-jp-dental-surfacebodystructure-cs.html">CodeSystem/jp-dental-surfacebodystructure-cs</a>, <a href="CodeSystem-jp-observation-bodymeasurement-code-cs.html">CodeSystem/jp-observation-bodymeasurement-code-cs</a>, <a href="CodeSystem-jp-observation-dental-category-cs.html">CodeSystem/jp-observation-dental-category-cs</a>, <a href="CodeSystem-jp-observation-electrocardiogram-duration-cs.html">CodeSystem/jp-observation-electrocardiogram-duration-cs</a>, <a href="CodeSystem-jp-observation-electrocardiogram-extracategory-cs.html">CodeSystem/jp-observation-electrocardiogram-extracategory-cs</a>, <a href="CodeSystem-jp-observation-electrocardiogram-stresstype-cs.html">CodeSystem/jp-observation-electrocardiogram-stresstype-cs</a>, <a href="CodeSystem-jp-physicalexamcode-cs.html">CodeSystem/jp-physicalexamcode-cs</a>, <a href="CodeSystem-jp-procedure-not-performed-reason-cs.html">CodeSystem/jp-procedure-not-performed-reason-cs</a>, <a href="CodeSystem-jp-procedure-outcome-cs.html">CodeSystem/jp-procedure-outcome-cs</a>, <a href="CodeSystem-jp-simpleobservationcategory-cs.html">CodeSystem/jp-simpleobservationcategory-cs</a>, <a href="CodeSystem-jp-undefined-cs.html">CodeSystem/jp-undefined-cs</a><tr><td>Validation Suppressed</td><td><a href="index.html">ImplementationGuide/jpfhir.jp.core</a>, <a href="index.html">ImplementationGuide/jpfhir.jp.core</a><tr><td>CodeSystem Fragments</td><td><a href="index.html">ImplementationGuide/jpfhir.jp.core</a>, <a href="index.html">ImplementationGuide/jpfhir.jp.core</a> <tr><td>Summary:</td><td> errors = 34, warn = 155, info = 63, broken links = 8, pinned = 50 (when multiples).  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+<tr><td>Validation Suppressed</td><td><a href="index.html">ImplementationGuide/jpfhir.jp.core</a>, <a href="index.html">ImplementationGuide/jpfhir.jp.core</a><tr><td>CodeSystem Fragments</td><td><a href="index.html">ImplementationGuide/jpfhir.jp.core</a>, <a href="index.html">ImplementationGuide/jpfhir.jp.core</a> <tr><td>Summary:</td><td> errors = 16, warn = 116, info = 63, broken links = 8, pinned = 50 (when multiples).  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -446,94 +449,94 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CapabilityStatement-jp-server-capabilitystatement"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CapabilityStatement-jp-server-capabilitystatement</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-chemotherapyregimen-regimentype-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-chemotherapyregimen-regimentype-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-chemotherapyregimen-regimentype-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-chemotherapyregimen-regimentype-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-icd10-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-icd10-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-icd10-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-icd10-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-medis-exchange-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-exchange-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-medis-exchange-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-exchange-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-medis-record-no-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-record-no-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-medis-record-no-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-medis-record-no-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-receipt-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-receipt-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-code-receipt-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-code-receipt-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-modifier-medis-exchange-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-exchange-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-modifier-medis-exchange-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-exchange-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-modifier-medis-record-no-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-record-no-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-modifier-medis-record-no-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-medis-record-no-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-modifier-receipt-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-receipt-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-modifier-receipt-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-modifier-receipt-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-outcome-hl70241-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-hl70241-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-outcome-hl70241-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-hl70241-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-outcome-jhsd0006-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-jhsd0006-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-outcome-jhsd0006-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-jhsd0006-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-outcome-receipt-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-receipt-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-condition-disease-outcome-receipt-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-condition-disease-outcome-receipt-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-bodysite-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysite-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-bodysite-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysite-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-bodysitestatus-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysitestatus-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-bodysitestatus-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-bodysitestatus-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-fundamentalstatus-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-fundamentalstatus-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-fundamentalstatus-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-fundamentalstatus-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-missingteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-missingteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-missingteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-missingteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-presentteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-presentteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-presentteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-presentteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-rootbodystructure-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-rootbodystructure-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-rootbodystructure-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-rootbodystructure-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-simple-missingteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-missingteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-simple-missingteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-missingteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-simple-presentteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-presentteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-simple-presentteeth-observation-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-simple-presentteeth-observation-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-surfacebodystructure-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-surfacebodystructure-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-dental-surfacebodystructure-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-dental-surfacebodystructure-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-bodymeasurement-code-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-bodymeasurement-code-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-bodymeasurement-code-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-bodymeasurement-code-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-dental-category-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-dental-category-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-dental-category-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-dental-category-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-electrocardiogram-duration-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-duration-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-electrocardiogram-duration-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-duration-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-electrocardiogram-extracategory-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-extracategory-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-electrocardiogram-extracategory-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-extracategory-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-electrocardiogram-stresstype-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-stresstype-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-observation-electrocardiogram-stresstype-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-observation-electrocardiogram-stresstype-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-physicalexamcode-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-physicalexamcode-cs</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-physicalexamcode-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-physicalexamcode-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-procedure-not-performed-reason-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-not-performed-reason-cs</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-procedure-not-performed-reason-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-not-performed-reason-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-procedure-outcome-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-outcome-cs</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-procedure-outcome-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-procedure-outcome-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-simpleobservationcategory-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-simpleobservationcategory-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-simpleobservationcategory-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-simpleobservationcategory-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-undefined-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-undefined-cs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_CodeSystem-jp-undefined-cs"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/CodeSystem-jp-undefined-cs</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Condition-jp-condition-diagnosis-example-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Condition-jp-condition-diagnosis-example-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -886,8 +889,8 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Organization-jp-organization-example-payer"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Organization-jp-organization-example-payer</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Patient-jp-patient-example-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Patient-jp-patient-example-1</b></a></td><td><b>6</b></td><td><b>0</b></td><td><b>2</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Patient-jp-patient-example-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Patient-jp-patient-example-1</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>2</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_Practitioner-jp-practitioner-example-female-1"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/Practitioner-jp-practitioner-example-female-1</b></a></td><td><b>0</b></td><td><b>3</b></td><td><b>0</b></td>
@@ -1015,8 +1018,8 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-documentreference"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-documentreference</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-encounter"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-encounter</b></a></td><td><b>4</b></td><td><b>3</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-encounter"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-encounter</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-familymemberhistory"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-familymemberhistory</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -1258,8 +1261,8 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-organization-prefectureno"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-organization-prefectureno</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-patient"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-patient</b></a></td><td><b>8</b></td><td><b>6</b></td><td><b>0</b></td>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-patient"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-patient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_home_runner_work_fhir-jp-core-r4_fhir-jp-core-r4_fsh-generated_resources_StructureDefinition-jp-patient-race"><b>/home/runner/work/fhir-jp-core-r4/fhir-jp-core-r4/fsh-generated/resources/StructureDefinition-jp-patient-race</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -1527,10 +1530,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c981)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1540,10 +1540,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c922)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1553,10 +1550,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c986)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1566,10 +1560,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c994)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1579,10 +1570,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c958)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1592,10 +1580,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1027)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1605,10 +1590,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1036)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1618,10 +1600,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c922)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1631,10 +1610,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1160)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1644,10 +1620,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1129)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1657,10 +1630,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1058)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1670,10 +1640,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c5165)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1683,10 +1650,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1092)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1696,10 +1660,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1145)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1709,10 +1670,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c7018)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1722,10 +1680,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c15055)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1735,10 +1690,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1355)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1748,10 +1700,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c2241)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1761,10 +1710,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c2151)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1774,10 +1720,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1362)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1787,10 +1730,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c6331)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1800,10 +1740,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1296)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1813,10 +1750,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1374)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1826,10 +1760,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1653)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1839,10 +1770,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1766)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1855,10 +1783,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem.valueSet (l1/c1022)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1202)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td><b>CodeSystem.valueSet (l1/c1861)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS</span></td>
    </tr>
 </table>
 <hr/>
@@ -1871,10 +1796,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem.valueSet (l1/c1127)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS|2.0.0-dev-temp'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1378)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td><b>CodeSystem.valueSet (l1/c2378)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS|2.0.0-dev-temp'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS</span></td>
    </tr>
 </table>
 <hr/>
@@ -1887,10 +1809,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem.valueSet (l1/c1051)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS|2.0.0-dev-temp'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c1203)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td><b>CodeSystem.valueSet (l1/c1921)</b></td><td><b>warning</b></td><td><b>There are multiple different potential matches for the url 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2.0.0-dev-temp', found versions: 1.1.0, 2.0.0-dev-temp. Suggested fix: change the canonical reference from 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS' to 'http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS|2.0.0-dev-temp'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_MULTIPLE_POSSIBLE_VERSIONS</span></td>
    </tr>
 </table>
 <hr/>
@@ -1900,10 +1819,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c2814)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -1913,10 +1829,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>CodeSystem (l1/c990)</b></td><td><b>warning</b></td><td><b>Constraint failed: dom-6: 'A resource should have narrative for robust management' (defined in http://hl7.org/fhir/StructureDefinition/DomainResource) (Best Practice Recommendation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -3163,24 +3076,6 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Patient.extension[0] (l61/c6)</b></td><td><b>error</b></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SLICING_CANNOT_BE_EVALUATED</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Patient.extension[1] (l73/c6)</b></td><td><b>error</b></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SLICING_CANNOT_BE_EVALUATED</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Patient.extension[2] (l79/c6)</b></td><td><b>error</b></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SLICING_CANNOT_BE_EVALUATED</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Patient.extension[0] (l61/c6)</b></td><td><b>error</b></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SLICING_CANNOT_BE_EVALUATED</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Patient.extension[1] (l73/c6)</b></td><td><b>error</b></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SLICING_CANNOT_BE_EVALUATED</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Patient.extension[2] (l79/c6)</b></td><td><b>error</b></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SLICING_CANNOT_BE_EVALUATED</span></td>
-   </tr>
    <tr style="background-color: #ffffe6">
      <td><b>Patient&#8203;.extension[0]&#8203;.value&#8203;.ofType(CodeableConcept)&#8203;.coding[0]&#8203;.display (l63&#8203;/c8)</b></td><td><b>information</b></td><td><b>'Shinto' is the default display; the code system http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation has no Display Names found for the language ja</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_LANG_NONE</span></td>
    </tr>
@@ -3702,28 +3597,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.snapshot.element[8]</b></td><td><b>warning</b></td><td><b>The type of profile http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 cannot be checked as the profile is not known</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[8]&#8203;.type[0]&#8203;.profile[0] (l1&#8203;/c66444)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' は解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[2]&#8203;.type[0]&#8203;.profile[0] (l1&#8203;/c148870)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' は解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[2]&#8203;.type[0]&#8203;.profile[0]</b></td><td><b>warning</b></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 を解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_UNKNOWN</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[8]&#8203;.type[0]&#8203;.profile[0]</b></td><td><b>warning</b></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 を解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_UNKNOWN</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>jp-encounter</b></td><td><b>error</b></td><td><b>Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter differential Encounter.extension (associatedEncounter)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter differential Encounter.extension (associatedEncounter)</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>jp-encounter</b></td><td><b>error</b></td><td><b>Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter snapshot Encounter.extension (associatedEncounter)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Encounter snapshot Encounter.extension (associatedEncounter)</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -4785,49 +4659,7 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 </div>
  <table class="grid">
    <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.snapshot.element[8]</b></td><td><b>warning</b></td><td><b>The type of profile http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 cannot be checked as the profile is not known</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition.snapshot.element[9]</b></td><td><b>warning</b></td><td><b>The type of profile http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 cannot be checked as the profile is not known</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[8]&#8203;.type[0]&#8203;.profile[0] (l1&#8203;/c119022)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' は解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[9]&#8203;.type[0]&#8203;.profile[0] (l1&#8203;/c120045)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' は解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[2]&#8203;.type[0]&#8203;.profile[0] (l1&#8203;/c199911)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' は解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[3]&#8203;.type[0]&#8203;.profile[0] (l1&#8203;/c200268)</b></td><td><b>error</b></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' は解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[2]&#8203;.type[0]&#8203;.profile[0]</b></td><td><b>warning</b></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 を解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_UNKNOWN</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.differential&#8203;.element[3]&#8203;.type[0]&#8203;.profile[0]</b></td><td><b>warning</b></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 を解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_UNKNOWN</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[8]&#8203;.type[0]&#8203;.profile[0]</b></td><td><b>warning</b></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 を解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_UNKNOWN</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[9]&#8203;.type[0]&#8203;.profile[0]</b></td><td><b>warning</b></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 を解決できません</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">SD_ED_TYPE_PROFILE_UNKNOWN</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>jp-patient</b></td><td><b>error</b></td><td><b>Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient differential Patient.extension (religion)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient differential Patient.extension (religion)</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>jp-patient</b></td><td><b>error</b></td><td><b>Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient differential Patient.extension (birthPlace)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient differential Patient.extension (birthPlace)</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>jp-patient</b></td><td><b>error</b></td><td><b>Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient snapshot Patient.extension (religion)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient snapshot Patient.extension (religion)</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>jp-patient</b></td><td><b>error</b></td><td><b>Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient snapshot Patient.extension (birthPlace)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Unable to find Extension 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' referenced at http://jpfhir.jp/fhir/core/StructureDefinition/JP_Patient snapshot Patient.extension (birthPlace)</span></td>
+     <td>&check;</td>
    </tr>
 </table>
 <hr/>
@@ -6095,29 +5927,6 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
    </tr>
 </table>
 <hr/>
-<a name="SD_ED_TYPE_PROFILE_UNKNOWN"> </a>
-<h2>SD_ED_TYPE_PROFILE_UNKNOWN</h2>
- <table class="grid">
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-jp-encounter.html">fsh-generated/resources/StructureDefinition-jp-encounter.json</a></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 を解決できません</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-jp-encounter.html">fsh-generated/resources/StructureDefinition-jp-encounter.json</a></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1 を解決できません</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 を解決できません</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 を解決できません</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1 を解決できません</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>!!!!!!!!!!!!!!プロファイル http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1 を解決できません</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="SD_ED_TYPE_PROFILE_WRONG_TARGET"> </a>
 <h2>SD_ED_TYPE_PROFILE_WRONG_TARGET</h2>
  <table class="grid">
@@ -6152,29 +5961,6 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
    </tr>
 </table>
 <hr/>
-<a name="SLICING_CANNOT_BE_EVALUATED"> </a>
-<h2>SLICING_CANNOT_BE_EVALUATED</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Patient-jp-patient-example-1.html">fsh-generated/resources/Patient-jp-patient-example-1.json</a></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Patient-jp-patient-example-1.html">fsh-generated/resources/Patient-jp-patient-example-1.json</a></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Patient-jp-patient-example-1.html">fsh-generated/resources/Patient-jp-patient-example-1.json</a></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:religion上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1]]を解決できません (@char 1)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Patient-jp-patient-example-1.html">fsh-generated/resources/Patient-jp-patient-example-1.json</a></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Patient-jp-patient-example-1.html">fsh-generated/resources/Patient-jp-patient-example-1.json</a></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Patient-jp-patient-example-1.html">fsh-generated/resources/Patient-jp-patient-example-1.json</a></td><td><b>スライシングは評価できません：resolve()の使用に問題 - Patient.extension:birthPlace上のプロファイル[CanonicalType[http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1]]を解決できません (@char 1)</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="TERMINOLOGY_TX_NOSVC_BOUND_REQ"> </a>
 <h2>TERMINOLOGY_TX_NOSVC_BOUND_REQ</h2>
  <table class="grid">
@@ -6206,24 +5992,6 @@ jpfhir-terminology#1.4.0:     <a href="http://hl7.org/fhir/uv/imaging-service-re
 <a name="TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE"> </a>
 <h2>TYPE_SPECIFIC_CHECKS_DT_CANONICAL_RESOLVE</h2>
  <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-jp-encounter.html">fsh-generated/resources/StructureDefinition-jp-encounter.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' は解決できません</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-jp-encounter.html">fsh-generated/resources/StructureDefinition-jp-encounter.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1' は解決できません</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' は解決できません</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' は解決できません</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1' は解決できません</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-jp-patient.html">fsh-generated/resources/StructureDefinition-jp-patient.json</a></td><td><b>Canonical URL 'http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1' は解決できません</b></td>
-   </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-jp-practitioner.html">fsh-generated/resources/StructureDefinition-jp-practitioner.json</a></td><td><b>Canonical URL 'http://terminology.hl7.org/ValueSet/v2-2.7-0360' は解決できません</b></td>
    </tr>

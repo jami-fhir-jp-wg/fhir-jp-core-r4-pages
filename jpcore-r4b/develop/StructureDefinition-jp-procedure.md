@@ -296,7 +296,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "id" : "Procedure.partOf",
         "path" : "Procedure.partOf",
         "short" : "このプロシジャーが構成要素やステップとなるより大きな医療行為",
-        "definition" : "【JP Core仕様】https://www.hl7.org/fhir/R4/procedure.htmlを参照",
+        "definition" : "【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照",
         "comment" : "MedicationAdministrationリソースにはProcedureへのpartOf参照があるが、これは循環参照ではない。たとえば、麻酔MedicationAdministrationは外科的処置の一部である（MedicationAdministration.partOf = Procedure）。  \nまた、たとえば、IV投薬管理用にIVポートを挿入する手順は、投薬管理の一部である（Procedure.partOf = MedicationAdministration）。  \n【JP Core仕様】Observation_LabResultにならい、任意。",
         "type" : [
           {
@@ -702,7 +702,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
       {
         "id" : "Procedure.focalDevice.action",
         "path" : "Procedure.focalDevice.action",
-        "definition" : "Procedure中にデバイスに起こった変化の種類。【JP Core仕様】https://www.hl7.org/fhir/R4/procedure.htmlを参照",
+        "definition" : "Procedure中にデバイスに起こった変化の種類。【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照",
         "binding" : {
           "strength" : "preferred",
           "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceAction_VS|2.0.0-dev-temp"
@@ -711,7 +711,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
       {
         "id" : "Procedure.focalDevice.manipulated",
         "path" : "Procedure.focalDevice.manipulated",
-        "definition" : "Procedure中に操作（変更）されたデバイス。【JP Core仕様】https://www.hl7.org/fhir/R4/procedure.htmlを参照"
+        "definition" : "Procedure中に操作（変更）されたデバイス。【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照"
       },
       {
         "id" : "Procedure.usedReference",

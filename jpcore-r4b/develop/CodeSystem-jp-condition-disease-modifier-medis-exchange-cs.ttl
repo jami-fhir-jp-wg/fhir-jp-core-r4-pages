@@ -9,6 +9,10 @@
 <http://jpfhir.jp/fhir/core/CodeSystem/jp-condition-disease-modifier-medis-exchange-cs> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "jp-condition-disease-modifier-medis-exchange-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jp-condition-disease-modifier-medis-exchange-cs</b></p><a name=\"jp-condition-disease-modifier-medis-exchange-cs\"> </a><a name=\"hcjp-condition-disease-modifier-medis-exchange-cs\"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">3216<a name=\"jp-condition-disease-modifier-medis-exchange-cs-3216\"> </a></td><td>過敏性</td></tr><tr><td style=\"white-space:nowrap\">1111<a name=\"jp-condition-disease-modifier-medis-exchange-cs-1111\"> </a></td><td>の初期</td></tr><tr><td style=\"white-space:nowrap\">08MV<a name=\"jp-condition-disease-modifier-medis-exchange-cs-08MV\"> </a></td><td>疾患</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
   fhir:url [
      fhir:v "urn:oid:1.2.392.200119.4.201.5"^^xsd:anyURI ;
      fhir:l <urn:oid:1.2.392.200119.4.201.5>

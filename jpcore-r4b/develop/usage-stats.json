@@ -990,7 +990,7 @@
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
-    "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.0.1": [
+    "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter|4.3.0": [
       "Encounter"
     ],
     "http://hl7.org/fhir/StructureDefinition/iso21090-EN-representation": [
@@ -1003,13 +1003,13 @@
     "http://hl7.org/fhir/StructureDefinition/patient-birthPlace": [
       "Patient"
     ],
-    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1": [
+    "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.3.0": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/patient-religion": [
       "Patient"
     ],
-    "http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1": [
+    "http://hl7.org/fhir/StructureDefinition/patient-religion|4.3.0": [
       "Patient"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [

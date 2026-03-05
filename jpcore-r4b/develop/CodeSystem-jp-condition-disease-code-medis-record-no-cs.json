@@ -1,6 +1,10 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-code-medis-record-no-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jp-condition-disease-code-medis-record-no-cs</b></p><a name=\"jp-condition-disease-code-medis-record-no-cs\"> </a><a name=\"hcjp-condition-disease-code-medis-record-no-cs\"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">20058257<a name=\"jp-condition-disease-code-medis-record-no-cs-20058257\"> </a></td><td>急性化膿性虫垂炎</td></tr><tr><td style=\"white-space:nowrap\">20069737<a name=\"jp-condition-disease-code-medis-record-no-cs-20069737\"> </a></td><td>大腸炎</td></tr></table></div>"
+  },
   "url" : "urn:oid:1.2.392.200119.4.101.2",
   "version" : "2.0.0-dev-temp",
   "name" : "JP_ConditionDiseaseCodeMEDISRecordNo_CS",

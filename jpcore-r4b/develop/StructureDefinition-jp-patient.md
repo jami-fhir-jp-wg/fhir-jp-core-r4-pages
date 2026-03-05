@@ -437,7 +437,7 @@ HTTP/1.1 200 OK [other headers]
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/patient-religion|4.0.1"
+              "http://hl7.org/fhir/StructureDefinition/patient-religion|4.3.0"
             ]
           }
         ]
@@ -455,7 +455,7 @@ HTTP/1.1 200 OK [other headers]
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.0.1"
+              "http://hl7.org/fhir/StructureDefinition/patient-birthPlace|4.3.0"
             ]
           }
         ]
