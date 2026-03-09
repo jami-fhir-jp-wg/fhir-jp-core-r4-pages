@@ -1,4 +1,4 @@
-# JP Core MedicationDosage Injection DataType - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core MedicationDosage Injection DataType - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationDosage_Injection
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MedicationDosage_Injection
 * **項目**: *Title*
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-medicationdosage-
   "resourceType" : "StructureDefinition",
   "id" : "jp-medicationdosage-injection",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationDosage_Injection",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_MedicationDosage_Injection",
   "title" : "JP Core MedicationDosage Injection DataType",
   "status" : "active",

@@ -1,4 +1,4 @@
-# jp-endoscopyterminology-codes-jed-ns - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-endoscopyterminology-codes-jed-ns - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-endoscopyterminology-codes-jed-ns
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Endoscopy_TerminologyCodes_JED_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-endoscopyterminology-codes-jed-ns |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_Endoscopy_TerminologyCodes_JED_NamingSystem |
 | Status | active |
 | Definition | 日本消化器内視鏡学会が推進するJED (Japan Endoscopy Database) Projectで定義されるコード |
@@ -61,7 +61,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_Endoscopy_TerminologyCodes_JED_NamingSystem",

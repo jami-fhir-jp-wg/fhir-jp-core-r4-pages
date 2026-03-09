@@ -1,4 +1,4 @@
-# JP Core MedicationStatement Injection Example 投与申告情報 ソリタ－＋アドナ注 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core MedicationStatement Injection Example 投与申告情報 ソリタ－＋アドナ注 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

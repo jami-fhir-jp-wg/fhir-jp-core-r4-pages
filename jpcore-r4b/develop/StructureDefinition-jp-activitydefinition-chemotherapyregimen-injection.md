@@ -1,4 +1,4 @@
-# JP Core ActivityDefinition ChemotherapyRegimen Injection Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core ActivityDefinition ChemotherapyRegimen Injection Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ActivityDefinition_ChemotherapyRegimen_Injection
 * **項目**: *Title*
@@ -318,7 +318,7 @@ TBD
   "resourceType" : "StructureDefinition",
   "id" : "jp-activitydefinition-chemotherapyregimen-injection",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ActivityDefinition_ChemotherapyRegimen_Injection",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ActivityDefinition_ChemotherapyRegimen_Injection",
   "title" : "JP Core ActivityDefinition ChemotherapyRegimen Injection Profile",
   "status" : "draft",

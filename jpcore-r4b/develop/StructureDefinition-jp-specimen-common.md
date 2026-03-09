@@ -1,4 +1,4 @@
-# JP_Specimen_Common - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP_Specimen_Common - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Specimen_Common
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Specimen_Common
 * **項目**: *Status*
@@ -78,7 +78,7 @@ JP_SpecimenはFHIR US Core R4を基本としている。FHIR US Core R5ではCon
   "resourceType" : "StructureDefinition",
   "id" : "jp-specimen-common",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Specimen_Common",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Specimen_Common",
   "status" : "active",
   "date" : "2024-12-30",

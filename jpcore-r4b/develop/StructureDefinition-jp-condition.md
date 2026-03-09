@@ -1,4 +1,4 @@
-# JP Core Condition Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Condition
 * **項目**: *Title*
@@ -231,7 +231,7 @@ GET [base]/Condition?patient=Patient/123
   "resourceType" : "StructureDefinition",
   "id" : "jp-condition",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Condition",
   "title" : "JP Core Condition Profile",
   "status" : "active",
@@ -341,7 +341,7 @@ GET [base]/Condition?patient=Patient/123
         "comment" : "Coding of the severity with a terminology is preferred, where possible.  \n可能な限り、ターミノロジを用いて重症度をコーディングすることが好ましい。  \nこのプロファイルではHL70421 Severity of Illness Code（MI 軽度, MO 中度, SE 重度）を採用。",
         "binding" : {
           "strength" : "preferred",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionSeverity_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionSeverity_VS|2.0.0-dev"
         }
       },
       {

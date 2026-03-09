@@ -1,4 +1,4 @@
-# JP Core Observation Electrocardiogram Duration ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation Electrocardiogram Duration ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationElectrocardiogramDuration_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ObservationElectrocardiogramDuration_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@ JP Coreにて定義した心電図のObservationリソースに関する詳細�
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramDuration_CS`](CodeSystem-jp-observation-electrocardiogram-duration-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramDuration_CS`](CodeSystem-jp-observation-electrocardiogram-duration-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@ JP Coreにて定義した心電図のObservationリソースに関する詳細�
   "resourceType" : "ValueSet",
   "id" : "jp-observation-electrocardiogram-duration-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationElectrocardiogramDuration_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ObservationElectrocardiogramDuration_VS",
   "title" : "JP Core Observation Electrocardiogram Duration ValueSet",
   "status" : "active",

@@ -1,4 +1,4 @@
-# JP Core Common Department Extension - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Common Department Extension - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Common_Department
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Common_Department
 * **項目**: *Title*
@@ -164,7 +164,7 @@ SS-MIX2診療科コードは2桁または3桁のコードを使用する。
   "resourceType" : "StructureDefinition",
   "id" : "jp-common-department",
   "url" : "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_Common_Department",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Common_Department",
   "title" : "JP Core Common Department Extension",
   "status" : "active",

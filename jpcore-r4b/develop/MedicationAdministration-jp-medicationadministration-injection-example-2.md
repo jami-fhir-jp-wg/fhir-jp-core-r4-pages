@@ -1,4 +1,4 @@
-# JP Core MedicationAdministration Injection Example 注射実施 点滴注射 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core MedicationAdministration Injection Example 注射実施 点滴注射 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

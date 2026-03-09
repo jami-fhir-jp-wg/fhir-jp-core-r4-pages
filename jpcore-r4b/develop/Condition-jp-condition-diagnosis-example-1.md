@@ -1,4 +1,4 @@
-# JP Core Condition Diagnosis Example 病名（過敏性大腸炎の初期疾患） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Diagnosis Example 病名（過敏性大腸炎の初期疾患） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

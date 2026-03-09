@@ -1,4 +1,4 @@
-# JP Core Organization Department Example 整形外科診療科（SS-MIX2コード使用） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Organization Department Example 整形外科診療科（SS-MIX2コード使用） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# JP Core Observation Electrocardiogram Duration CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation Electrocardiogram Duration CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramDuration_CS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ObservationElectrocardiogramDuration_CS
 * **項目**: *Title*
@@ -37,7 +37,7 @@ JP Coreにて定義した心電図のObservationリソースに関する詳細�
   "resourceType" : "CodeSystem",
   "id" : "jp-observation-electrocardiogram-duration-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramDuration_CS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ObservationElectrocardiogramDuration_CS",
   "title" : "JP Core Observation Electrocardiogram Duration CodeSystem",
   "status" : "active",

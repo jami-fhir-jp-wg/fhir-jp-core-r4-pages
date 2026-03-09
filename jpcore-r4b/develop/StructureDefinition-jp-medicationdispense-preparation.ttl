@@ -17,7 +17,7 @@
      fhir:v "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationDispense_Preparation"^^xsd:anyURI ;
      fhir:l <http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationDispense_Preparation>
   ] ; # 
-  fhir:version [ fhir:v "2.0.0-dev-temp"] ; # 
+  fhir:version [ fhir:v "2.0.0-dev"] ; # 
   fhir:name [ fhir:v "JP_MedicationDispense_Preparation"] ; # 
   fhir:title [ fhir:v "JP Core MedicationDispense Preparation Extension"] ; # 
   fhir:status [ fhir:v "active"] ; # 

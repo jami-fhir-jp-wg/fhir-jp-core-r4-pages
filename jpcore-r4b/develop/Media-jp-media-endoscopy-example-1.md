@@ -1,4 +1,4 @@
-# JP Core Media Endoscopy Example 内視鏡画像 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Media Endoscopy Example 内視鏡画像 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# JP Core Patient Example 患者男性 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Patient Example 患者男性 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

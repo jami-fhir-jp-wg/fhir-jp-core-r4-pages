@@ -1,4 +1,4 @@
-# JP Core DiagnosticReport Radiology Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core DiagnosticReport Radiology Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_Radiology
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_DiagnosticReport_Radiology
 * **項目**: *Title*
@@ -265,7 +265,7 @@ GET [base]/DiagnosticReport?identifier=http://myhospital.com/fhir/diagnosticrepo
   "resourceType" : "StructureDefinition",
   "id" : "jp-diagnosticreport-radiology",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_Radiology",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_DiagnosticReport_Radiology",
   "title" : "JP Core DiagnosticReport Radiology Profile",
   "status" : "active",

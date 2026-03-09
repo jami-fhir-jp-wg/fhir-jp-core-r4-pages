@@ -1,4 +1,4 @@
-# JP Core Condition Disease Outcome JHSD0006 CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Outcome JHSD0006 CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDieaseOutcomeJHSD0006_CS
 * **項目**: *Title*
@@ -38,7 +38,7 @@ JAHIS病名情報データ交換規約Ver.3.1C JHSD表00006-転帰区分 コー�
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-outcome-jhsd0006-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDieaseOutcomeJHSD0006_CS",
   "title" : "JP Core Condition Disease Outcome JHSD0006 CodeSystem",
   "status" : "active",

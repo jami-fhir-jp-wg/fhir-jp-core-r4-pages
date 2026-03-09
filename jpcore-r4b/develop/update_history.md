@@ -1,4 +1,4 @@
-# 更新履歴 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# 更新履歴 - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**ガイダンス**](guidance.md)

@@ -1,4 +1,4 @@
-# jpfhir.jp.core#2.0.0-dev-temp: HL7 FHIR JP Core ImplementationGuide
+# jpfhir.jp.core#2.0.0-dev: HL7 FHIR JP Core ImplementationGuide
 
 ## Pages
 

@@ -1,4 +1,4 @@
-# Administration Group - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# Administration Group - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**FHIR Contents List**](group-fhircontents.md)

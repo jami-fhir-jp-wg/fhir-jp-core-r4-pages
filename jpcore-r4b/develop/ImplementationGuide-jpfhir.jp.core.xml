@@ -7,7 +7,7 @@
 </div></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ImplementationGuide/jpfhir.jp.core"/>
-  <version value="2.0.0-dev-temp"/>
+  <version value="2.0.0-dev"/>
   <name value="FHIRJPCoreImplementationGuide"/>
   <title value="HL7 FHIR JP Core ImplementationGuide"/>
   <status value="active"/>

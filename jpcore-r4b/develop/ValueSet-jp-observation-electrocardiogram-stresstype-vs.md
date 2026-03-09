@@ -1,4 +1,4 @@
-# JP Core Observation Electrocardiogram StressType ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation Electrocardiogram StressType ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationElectrocardiogramStressType_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ObservationElectrocardiogramStressType_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@ JP Coreにて定義した心電図のObservationリソースに関する詳細�
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramStressType_CS`](CodeSystem-jp-observation-electrocardiogram-stresstype-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramStressType_CS`](CodeSystem-jp-observation-electrocardiogram-stresstype-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@ JP Coreにて定義した心電図のObservationリソースに関する詳細�
   "resourceType" : "ValueSet",
   "id" : "jp-observation-electrocardiogram-stresstype-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationElectrocardiogramStressType_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ObservationElectrocardiogramStressType_VS",
   "title" : "JP Core Observation Electrocardiogram StressType ValueSet",
   "status" : "active",

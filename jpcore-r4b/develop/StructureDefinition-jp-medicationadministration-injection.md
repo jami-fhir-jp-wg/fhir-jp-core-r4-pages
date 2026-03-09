@@ -1,4 +1,4 @@
-# JP Core MedicationAdministration Injection Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core MedicationAdministration Injection Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationAdministration_Injection
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MedicationAdministration_Injection
 * **項目**: *Title*
@@ -785,7 +785,7 @@ Medication.ingredientに記述される薬剤の合計容量(mL)を dosage.dose 
   "resourceType" : "StructureDefinition",
   "id" : "jp-medicationadministration-injection",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationAdministration_Injection",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_MedicationAdministration_Injection",
   "title" : "JP Core MedicationAdministration Injection Profile",
   "status" : "active",

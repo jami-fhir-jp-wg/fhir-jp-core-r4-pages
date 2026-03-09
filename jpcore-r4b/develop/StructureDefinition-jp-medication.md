@@ -1,4 +1,4 @@
-# JP Core Medication Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Medication Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Medication
 * **項目**: *Title*
@@ -151,7 +151,7 @@ Medicationリソースを参照する上位のリソースに記述される。
   "resourceType" : "StructureDefinition",
   "id" : "jp-medication",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Medication",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Medication",
   "title" : "JP Core Medication Profile",
   "status" : "active",

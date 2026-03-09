@@ -1,4 +1,4 @@
-# JP Core Physical Exam Code ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Physical Exam Code ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_PhysicalExamCode_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_PhysicalExamCode_CS`](CodeSystem-jp-physicalexamcode-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_PhysicalExamCode_CS`](CodeSystem-jp-physicalexamcode-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@
   "resourceType" : "ValueSet",
   "id" : "jp-physicalexamcode-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_PhysicalExamCode_VS",
   "title" : "JP Core Physical Exam Code ValueSet",
   "status" : "active",

@@ -1,4 +1,4 @@
-# jp-medicationrequestdepartment-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-medicationrequestdepartment-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-medicationrequestdepartment-namingsystem
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MedicationRequestDepartment_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@ JP Core MedicationRequestDepartment NamingSystem 処方オーダ時に使用す�
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-medicationrequestdepartment-namingsystem |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_MedicationRequestDepartment_NamingSystem |
 | Status | active |
 | Definition | JP Core MedicationRequestDepartment NamingSystem 処方オーダ時に使用する診療科コード。医療機関固有の診療科コードを識別するためのコード体系。 |
@@ -61,7 +61,7 @@ JP Core MedicationRequestDepartment NamingSystem 処方オーダ時に使用す�
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_MedicationRequestDepartment_NamingSystem",

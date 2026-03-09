@@ -1,4 +1,4 @@
-# JP Core Dental TeethObservation ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Dental TeethObservation ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_DentalTeethObservation_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_DentalTeethObservation_VS
 * **項目**: *Title*
@@ -30,10 +30,10 @@ JP Coreにて定義した歯科のObservationリソースに関する歯面の�
 
 This value set includes codes based on the following rules:
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalPresentTeethObservation_CS`](CodeSystem-jp-dental-presentteeth-observation-cs.md)version 📦2.0.0-dev-temp
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimplePresentTeethObservation_CS`](CodeSystem-jp-dental-simple-presentteeth-observation-cs.md)version 📦2.0.0-dev-temp
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalMissingTeethObservation_CS`](CodeSystem-jp-dental-missingteeth-observation-cs.md)version 📦2.0.0-dev-temp
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimpleMissingTeethObservation_CS`](CodeSystem-jp-dental-simple-missingteeth-observation-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalPresentTeethObservation_CS`](CodeSystem-jp-dental-presentteeth-observation-cs.md)version 📦2.0.0-dev
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimplePresentTeethObservation_CS`](CodeSystem-jp-dental-simple-presentteeth-observation-cs.md)version 📦2.0.0-dev
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalMissingTeethObservation_CS`](CodeSystem-jp-dental-missingteeth-observation-cs.md)version 📦2.0.0-dev
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimpleMissingTeethObservation_CS`](CodeSystem-jp-dental-simple-missingteeth-observation-cs.md)version 📦2.0.0-dev
 
  
 
@@ -65,7 +65,7 @@ This value set contains 439 concepts
   "resourceType" : "ValueSet",
   "id" : "jp-dental-teethobservation-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_DentalTeethObservation_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_DentalTeethObservation_VS",
   "title" : "JP Core Dental TeethObservation ValueSet",
   "status" : "active",

@@ -1,4 +1,4 @@
-# jp-coverage-insuredpersonsymbol-sp - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-coverage-insuredpersonsymbol-sp - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/SearchParameter/JP_Coverage_InsuredPersonSymbol_SP
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Coverage_InsuredPersonSymbol_SP
 * **項目**: *Status*
@@ -46,7 +46,7 @@ CoverageリソースのInsuredPersonSymbol(健康保険における被保険者�
   "resourceType" : "SearchParameter",
   "id" : "jp-coverage-insuredpersonsymbol-sp",
   "url" : "http://jpfhir.jp/fhir/core/SearchParameter/JP_Coverage_InsuredPersonSymbol_SP",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Coverage_InsuredPersonSymbol_SP",
   "status" : "active",
   "date" : "2024-12-30",

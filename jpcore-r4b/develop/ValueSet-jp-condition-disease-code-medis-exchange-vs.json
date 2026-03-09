@@ -3,10 +3,10 @@
   "id" : "jp-condition-disease-code-medis-exchange-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jp-condition-disease-code-medis-exchange-vs</b></p><a name=\"jp-condition-disease-code-medis-exchange-vs\"> </a><a name=\"hcjp-condition-disease-code-medis-exchange-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-jp-condition-disease-code-medis-exchange-cs.html\"><code>urn:oid:1.2.392.200119.4.101.6</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2.0.0-dev-temp</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jp-condition-disease-code-medis-exchange-vs</b></p><a name=\"jp-condition-disease-code-medis-exchange-vs\"> </a><a name=\"hcjp-condition-disease-code-medis-exchange-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-jp-condition-disease-code-medis-exchange-cs.html\"><code>urn:oid:1.2.392.200119.4.101.6</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;2.0.0-dev</span></li></ul></div>"
   },
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseCodeMEDISExchange_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseCodeMEDISExchange_VS",
   "title" : "JP Core Condition Disease Code MEDIS Exchange ValueSet",
   "status" : "active",

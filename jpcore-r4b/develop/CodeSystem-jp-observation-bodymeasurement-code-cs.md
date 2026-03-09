@@ -1,4 +1,4 @@
-# JP Core Observation BodyMeasurement Code CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation BodyMeasurement Code CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ObservationBodyMeasurementCode_CS
 * **項目**: *Title*
@@ -37,7 +37,7 @@ Observation（身体計測）で使用する項目コードのコードシステ
   "resourceType" : "CodeSystem",
   "id" : "jp-observation-bodymeasurement-code-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ObservationBodyMeasurementCode_CS",
   "title" : "JP Core Observation BodyMeasurement Code CodeSystem",
   "status" : "active",

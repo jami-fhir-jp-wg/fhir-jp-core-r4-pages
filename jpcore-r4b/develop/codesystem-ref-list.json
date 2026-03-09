@@ -238,7 +238,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/HL70241",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDieaseOutcomeHL70241_CS",
       "title" : "JP Core Condition Disease Outcome HL7 Table 0241 - Patient Outcome CodeSystem",
@@ -250,7 +250,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDieaseOutcomeJHSD0006_CS",
       "title" : "JP Core Condition Disease Outcome JHSD0006 CodeSystem",
@@ -300,7 +300,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "draft",
       "name" : "JP_ChemotherapyRegimen_RegimenType_CS",
       "title" : "JP Core PlanDefinition ChemotherapyRegimen RegimenType CodeSystem",
@@ -311,7 +311,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeICD10_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeICD10_CS",
       "title" : "JP Core Condition Disease Code ICD-10 CodeSystem",
@@ -322,7 +322,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeReceipt_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDieaseCodeReceipt_CS",
       "title" : "JP Core Condition Disease Code Receipt System CodeSystem",
@@ -333,7 +333,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDieaseModifierReceipt_CS",
       "title" : "JP Core Condition Disease Modifier Receipt System CodeSystem",
@@ -345,7 +345,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeReceipt_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDieaseOutcomeReceipt_CS",
       "title" : "JP Core Condition Disease Outcome Receipt CodeSystem",
@@ -367,7 +367,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalBodySiteStatus_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalBodySiteStatus_CS",
       "title" : "JP Core Dental BodySiteStatus CodeSystem",
@@ -378,7 +378,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalBodySite_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalBodySite_CS",
       "title" : "JP Core Dental BodySite CodeSystem",
@@ -389,7 +389,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalFundamentalStatus_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalFundamentalStatus_CS",
       "title" : "JP Core Dental FundamentalStatus CodeSystem",
@@ -400,7 +400,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalMissingTeethObservation_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalMissingTeethObservation_CS",
       "title" : "JP Core Dental MissingTeethObservation CodeSystem",
@@ -412,7 +412,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalPresentTeethObservation_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalPresentTeethObservation_CS",
       "title" : "JP Core Dental PresentTeethObservation CodeSystem",
@@ -424,7 +424,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalRootBodyStructure_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalRootBodyStructure_CS",
       "title" : "JP Core Dental RootBodyStructure CodeSystem",
@@ -435,7 +435,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimpleMissingTeethObservation_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalSimpleMissingTeethObservation_CS",
       "title" : "JP Core Dental SimpleMissingTeethObservation CodeSystem",
@@ -447,7 +447,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimplePresentTeethObservation_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalSipmlePresentTeethObservation_CS",
       "title" : "JP Core Dental SimplePresentTeethObservation CodeSystem",
@@ -459,7 +459,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSurfaceBodyStructure_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_DentalSurfaceBodyStructure_CS",
       "title" : "JP Core Dental Surface BodyStructure CodeSystem",
@@ -582,7 +582,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationBodyMeasurementCode_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationBodyMeasurementCode_CS",
       "title" : "JP Core Observation BodyMeasurement Code CodeSystem",
@@ -593,7 +593,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationDentalCategory_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationDentalCategory_CS",
       "title" : "JP Core ObservationDentalCategory CodeSystem",
@@ -604,7 +604,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramDuration_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationElectrocardiogramDuration_CS",
       "title" : "JP Core Observation Electrocardiogram Duration CodeSystem",
@@ -615,7 +615,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramExtraCategory_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationElectrocardiogramExtraCategory_CS",
       "title" : "JP Core Observation Electrocardiogram Extra Category CodeSystem",
@@ -626,7 +626,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ObservationElectrocardiogramStressType_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ObservationElectrocardiogramStressType_CS",
       "title" : "JP Core Observation Electrocardiogram StressType CodeSystem",
@@ -670,7 +670,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_PhysicalExamCode_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_PhysicalExamCode_CS",
       "title" : "JP Core Physical Exam Code CodeSystem",
@@ -737,7 +737,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureNotPerformedReason_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureNotPerformedReason_CS",
       "title" : "JP Core Procedure Not Performed Reason CodeSystem",
@@ -748,7 +748,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureOutcome_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ProcedureOutcome_CS",
       "title" : "JP Core Procedure Outcome CodeSystem",
@@ -759,7 +759,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_SimpleObservationCategory_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_SimpleObservationCategory_CS",
       "title" : "JP Core Simple Observation Category CodeSystem",
@@ -770,7 +770,7 @@
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_Undefined_CS",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_Undefined_CS",
       "title" : "JP Core Undefined CodeSystem",
@@ -1290,7 +1290,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.101.2",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeMEDISRecordNo_CS",
       "title" : "JP Core Condition Disease Code MEDIS Record No CodeSystem",
@@ -1302,7 +1302,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.101.6",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseCodeMEDISExchange_CS",
       "title" : "JP Core Condition Disease Code MEDIS Exchange CodeSystem",
@@ -1314,7 +1314,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.201.2",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseModifierMEDISRecordNo_CS",
       "title" : "JP Core Condition Disease Modifier MEDIS Record CodeSystem",
@@ -1326,7 +1326,7 @@
     },
     {
       "url" : "urn:oid:1.2.392.200119.4.201.5",
-      "version" : "2.0.0-dev-temp",
+      "version" : "2.0.0-dev",
       "status" : "active",
       "name" : "JP_ConditionDiseaseModifierMEDISExchange_CS",
       "title" : "JP Core Condition Disease Modifier MEDIS Exchange CodeSystem",

@@ -1,4 +1,4 @@
-# JP Core ImagingStudy Endoscopy Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core ImagingStudy Endoscopy Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_ImagingStudy_Endoscopy
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ImagingStudy_Endoscopy
 * **項目**: *Title*
@@ -153,7 +153,7 @@ ImagingStudyはDICOM tagとの対応が重要である。各エレメントとDI
   "resourceType" : "StructureDefinition",
   "id" : "jp-imagingstudy-endoscopy",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_ImagingStudy_Endoscopy",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ImagingStudy_Endoscopy",
   "title" : "JP Core ImagingStudy Endoscopy Profile",
   "status" : "active",
@@ -390,7 +390,7 @@ ImagingStudyはDICOM tagとの対応が重要である。各エレメントとDI
         "comment" : "JED (Japan Endoscopy Database) Projectで定義されている検査種別については、JED基本情報用語の”検査目的”、”治療目的”のコードを使用することを強く推奨する。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ReasonCodesJed_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ReasonCodesJed_VS|2.0.0-dev"
         }
       },
       {

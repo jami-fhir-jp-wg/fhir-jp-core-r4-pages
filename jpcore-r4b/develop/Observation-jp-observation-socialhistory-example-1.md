@@ -1,4 +1,4 @@
-# JP Core Observation SocialHistory Example 社会的背景（喫煙） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation SocialHistory Example 社会的背景（喫煙） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

@@ -1,4 +1,4 @@
-# JP Core PractitionerRole Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core PractitionerRole Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_PractitionerRole
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_PractitionerRole
 * **項目**: *Title*
@@ -163,7 +163,7 @@ PractitionerRoleには、ここで定義されているlocationに住所が含�
   "resourceType" : "StructureDefinition",
   "id" : "jp-practitionerrole",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_PractitionerRole",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_PractitionerRole",
   "title" : "JP Core PractitionerRole Profile",
   "status" : "active",

@@ -1,4 +1,4 @@
-# JP Core Observation DentalOral Missing Tooth Condition Example 口腔診査結果５（欠損歯の状態） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation DentalOral Missing Tooth Condition Example 口腔診査結果５（欠損歯の状態） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

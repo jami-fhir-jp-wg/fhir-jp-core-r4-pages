@@ -1,4 +1,4 @@
-# JP Core Observation BodyMeasurement Example 身体計測（体重） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation BodyMeasurement Example 身体計測（体重） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

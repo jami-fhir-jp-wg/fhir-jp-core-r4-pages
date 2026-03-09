@@ -1,4 +1,4 @@
-# JP Core Condition Diagnosis Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Diagnosis Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Condition_Diagnosis
 * **項目**: *Title*
@@ -432,7 +432,7 @@ GET [base]/Condition?patient=Patient/123
   "resourceType" : "StructureDefinition",
   "id" : "jp-condition-diagnosis",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Condition_Diagnosis",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Condition_Diagnosis",
   "title" : "JP Core Condition Diagnosis Profile",
   "status" : "active",
@@ -692,7 +692,7 @@ GET [base]/Condition?patient=Patient/123
         "max" : "1",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://jpfhir.jp/fhir/core/mhlw/ValueSet/ICD10-2013-full|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/mhlw/ValueSet/ICD10-2013-full|2.0.0-dev"
         }
       },
       {

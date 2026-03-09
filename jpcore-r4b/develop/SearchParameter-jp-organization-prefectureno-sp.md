@@ -1,4 +1,4 @@
-# jp-organization-prefectureno-sp - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-organization-prefectureno-sp - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/SearchParameter/JP_Organization_PrefectureNo_SP
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Organization_PrefectureNo_SP
 * **項目**: *Status*
@@ -46,7 +46,7 @@ OrganizationリソースのPrefectureNo(都道府県番号)に関する検索を
   "resourceType" : "SearchParameter",
   "id" : "jp-organization-prefectureno-sp",
   "url" : "http://jpfhir.jp/fhir/core/SearchParameter/JP_Organization_PrefectureNo_SP",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Organization_PrefectureNo_SP",
   "status" : "active",
   "date" : "2024-12-30",

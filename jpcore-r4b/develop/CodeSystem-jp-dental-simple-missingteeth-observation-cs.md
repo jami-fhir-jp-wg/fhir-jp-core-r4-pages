@@ -1,4 +1,4 @@
-# JP Core Dental SimpleMissingTeethObservation CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Dental SimpleMissingTeethObservation CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimpleMissingTeethObservation_CS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_DentalSimpleMissingTeethObservation_CS
 * **項目**: *Title*
@@ -38,7 +38,7 @@ JP Coreにて定義した歯科のObservationリソースに関する欠損歯�
   "resourceType" : "CodeSystem",
   "id" : "jp-dental-simple-missingteeth-observation-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSimpleMissingTeethObservation_CS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_DentalSimpleMissingTeethObservation_CS",
   "title" : "JP Core Dental SimpleMissingTeethObservation CodeSystem",
   "status" : "active",

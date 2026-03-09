@@ -1,4 +1,4 @@
-# JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS
 * **項目**: *Title*
@@ -30,8 +30,8 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 
 This value set includes codes based on the following rules:
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/HL70241`](CodeSystem-jp-condition-disease-outcome-hl70241-cs.md)version 📦2.0.0-dev-temp
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006`](CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/HL70241`](CodeSystem-jp-condition-disease-outcome-hl70241-cs.md)version 📦2.0.0-dev
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006`](CodeSystem-jp-condition-disease-outcome-jhsd0006-cs.md)version 📦2.0.0-dev
 
  
 
@@ -63,7 +63,7 @@ This value set contains 11 concepts
   "resourceType" : "ValueSet",
   "id" : "jp-condition-disease-outcome-hl70241-jhsd0006-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseOutcomeHL70241_JHSD0006_VS",
   "title" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet",
   "status" : "active",

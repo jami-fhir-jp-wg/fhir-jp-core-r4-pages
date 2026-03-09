@@ -1,4 +1,4 @@
-# JP Core Condition Disease Code MEDIS Record No CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Code MEDIS Record No CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: urn:oid:1.2.392.200119.4.101.2
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDiseaseCodeMEDISRecordNo_CS
 * **項目**: *Title*
@@ -39,7 +39,7 @@ MEDIS ICD10対応標準病名マスター(管理番号) コードシステム
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-code-medis-record-no-cs",
   "url" : "urn:oid:1.2.392.200119.4.101.2",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseCodeMEDISRecordNo_CS",
   "title" : "JP Core Condition Disease Code MEDIS Record No CodeSystem",
   "status" : "active",

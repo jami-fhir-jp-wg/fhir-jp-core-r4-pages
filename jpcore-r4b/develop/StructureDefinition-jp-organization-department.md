@@ -1,4 +1,4 @@
-# JP Core Organization Department Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Organization Department Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Organization_Department
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Organization_Department
 * **項目**: *Title*
@@ -222,7 +222,7 @@ GET [base]/Organization?identifier=http://jami.jp/SS-MIX2/CodeSystem/ClinicalDep
   "resourceType" : "StructureDefinition",
   "id" : "jp-organization-department",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Organization_Department",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Organization_Department",
   "title" : "JP Core Organization Department Profile",
   "status" : "active",

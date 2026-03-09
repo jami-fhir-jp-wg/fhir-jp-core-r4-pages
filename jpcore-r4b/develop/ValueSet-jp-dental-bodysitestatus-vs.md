@@ -1,4 +1,4 @@
-# JP Core Dental BodySiteStatus ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Dental BodySiteStatus ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_DentalBodySiteStatus_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_DentalBodySiteStatus_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@ JP Coreにて定義した歯科のObservationリソースに関する身体部�
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalBodySiteStatus_CS`](CodeSystem-jp-dental-bodysitestatus-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalBodySiteStatus_CS`](CodeSystem-jp-dental-bodysitestatus-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@ JP Coreにて定義した歯科のObservationリソースに関する身体部�
   "resourceType" : "ValueSet",
   "id" : "jp-dental-bodysitestatus-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_DentalBodySiteStatus_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_DentalBodySiteStatus_VS",
   "title" : "JP Core Dental BodySiteStatus ValueSet",
   "status" : "active",

@@ -1,4 +1,4 @@
-# JP Core FamilyMemberHistory Example 家族歴（母親） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core FamilyMemberHistory Example 家族歴（母親） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

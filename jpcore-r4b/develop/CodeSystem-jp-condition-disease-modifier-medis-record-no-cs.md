@@ -1,4 +1,4 @@
-# JP Core Condition Disease Modifier MEDIS Record CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Modifier MEDIS Record CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: urn:oid:1.2.392.200119.4.201.2
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDiseaseModifierMEDISRecordNo_CS
 * **項目**: *Title*
@@ -39,7 +39,7 @@ MEDIS ICD10対応標準病名マスター(修飾語管理番号) コードシス
   "resourceType" : "CodeSystem",
   "id" : "jp-condition-disease-modifier-medis-record-no-cs",
   "url" : "urn:oid:1.2.392.200119.4.201.2",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseModifierMEDISRecordNo_CS",
   "title" : "JP Core Condition Disease Modifier MEDIS Record CodeSystem",
   "status" : "active",

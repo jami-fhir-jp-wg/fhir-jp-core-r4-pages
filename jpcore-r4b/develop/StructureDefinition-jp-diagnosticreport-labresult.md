@@ -1,4 +1,4 @@
-# JP Core DiagnosticReport LabResult Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core DiagnosticReport LabResult Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_LabResult
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_DiagnosticReport_LabResult
 * **項目**: *Title*
@@ -171,7 +171,7 @@ GET [base]/DiagnosticReport?patient=123&category=http://loinc.org|LP29693-6&date
   "resourceType" : "StructureDefinition",
   "id" : "jp-diagnosticreport-labresult",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_LabResult",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_DiagnosticReport_LabResult",
   "title" : "JP Core DiagnosticReport LabResult Profile",
   "status" : "active",

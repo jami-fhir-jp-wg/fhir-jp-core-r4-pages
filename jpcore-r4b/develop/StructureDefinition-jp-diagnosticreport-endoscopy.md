@@ -1,4 +1,4 @@
-# JP Core DiagnosticReport Endoscopy Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core DiagnosticReport Endoscopy Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_Endoscopy
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_DiagnosticReport_Endoscopy
 * **項目**: *Title*
@@ -192,7 +192,7 @@ GET [base]/DiagnosticReport?patient=123&category=LP7796-8
   "resourceType" : "StructureDefinition",
   "id" : "jp-diagnosticreport-endoscopy",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_DiagnosticReport_Endoscopy",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_DiagnosticReport_Endoscopy",
   "title" : "JP Core DiagnosticReport Endoscopy Profile",
   "status" : "active",
@@ -505,7 +505,7 @@ GET [base]/DiagnosticReport?patient=123&category=LP7796-8
         "mustSupport" : true,
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConclusionCodesJed_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConclusionCodesJed_VS|2.0.0-dev"
         }
       },
       {

@@ -1,4 +1,4 @@
-# JP_RelatedPerson - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP_RelatedPerson - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_RelatedPerson
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_RelatedPerson
 * **項目**: *Status*
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-relatedperson.csv
   "resourceType" : "StructureDefinition",
   "id" : "jp-relatedperson",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_RelatedPerson",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_RelatedPerson",
   "status" : "active",
   "date" : "2024-12-30",

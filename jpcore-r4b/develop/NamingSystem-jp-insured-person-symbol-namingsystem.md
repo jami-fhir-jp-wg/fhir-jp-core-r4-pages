@@ -1,4 +1,4 @@
-# jp-insured-person-symbol-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-insured-person-symbol-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-insured-person-symbol-namingsystem
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Insured_Person_Symbol_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@ JP Core Insured Person Symbol NamingSystem 被保険者証記号
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-insured-person-symbol-namingsystem |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_Insured_Person_Symbol_NamingSystem |
 | Status | active |
 | Definition | JP Core Insured Person Symbol NamingSystem 被保険者証記号 |
@@ -61,7 +61,7 @@ JP Core Insured Person Symbol NamingSystem 被保険者証記号
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_Insured_Person_Symbol_NamingSystem",

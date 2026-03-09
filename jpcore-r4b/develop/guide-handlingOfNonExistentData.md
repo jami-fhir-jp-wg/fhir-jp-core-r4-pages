@@ -1,4 +1,4 @@
-# 欠損値（データが存在しない場合）の扱い - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# 欠損値（データが存在しない場合）の扱い - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**ガイダンス**](guidance.md)

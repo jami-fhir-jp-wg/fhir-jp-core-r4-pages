@@ -1,4 +1,4 @@
-# JP Core Procedure Condition ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Procedure Condition ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCondition_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ProcedureCondition_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_Undefined_CS`](CodeSystem-jp-undefined-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_Undefined_CS`](CodeSystem-jp-undefined-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@
   "resourceType" : "ValueSet",
   "id" : "jp-procedure-condition-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCondition_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ProcedureCondition_VS",
   "title" : "JP Core Procedure Condition ValueSet",
   "status" : "active",

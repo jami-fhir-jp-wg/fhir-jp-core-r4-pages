@@ -1,4 +1,4 @@
-# JP Core Condition Disease Modifier MEDIS Exchange ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Modifier MEDIS Exchange ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISExchange_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDiseaseModifierMEDISExchange_VS
 * **項目**: *Title*
@@ -30,8 +30,8 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
 
 This value set includes codes based on the following rules:
 
-* Include all codes defined in [`urn:oid:1.2.392.200119.4.201.5`](CodeSystem-jp-condition-disease-modifier-medis-exchange-cs.md)version 📦2.0.0-dev-temp
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS`](CodeSystem-jp-condition-disease-modifier-receipt-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`urn:oid:1.2.392.200119.4.201.5`](CodeSystem-jp-condition-disease-modifier-medis-exchange-cs.md)version 📦2.0.0-dev
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseModifierReceipt_CS`](CodeSystem-jp-condition-disease-modifier-receipt-cs.md)version 📦2.0.0-dev
 
  
 
@@ -63,7 +63,7 @@ This value set contains at least 3 concepts
   "resourceType" : "ValueSet",
   "id" : "jp-condition-disease-modifier-medis-exchange-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISExchange_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseModifierMEDISExchange_VS",
   "title" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet",
   "status" : "active",

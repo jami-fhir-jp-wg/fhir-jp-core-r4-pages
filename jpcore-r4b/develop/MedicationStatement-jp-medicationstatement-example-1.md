@@ -1,4 +1,4 @@
-# JP Core MedicationStatement Example 服用申告情報 ムコダイン錠２５０ｍｇ - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core MedicationStatement Example 服用申告情報 ムコダイン錠２５０ｍｇ - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

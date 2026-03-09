@@ -1,4 +1,4 @@
-# JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_PlanDefinition_ChemotherapyRegimen_TimingDaysOfCycle
 * **項目**: *Title*
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-plandefinition-ch
   "resourceType" : "StructureDefinition",
   "id" : "jp-plandefinition-chemotherapyregimen-timingdaysofcycle",
   "url" : "http://hl7.org/fhir/StructureDefinition/timing-daysOfCycle",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_PlanDefinition_ChemotherapyRegimen_TimingDaysOfCycle",
   "title" : "JP Core PlanDefinition ChemotherapyRegimen TimingDaysOfCycle Extension",
   "status" : "draft",

@@ -1,4 +1,4 @@
-# JP Core DiagnosticReport Radiology Example 放射線読影レポート - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core DiagnosticReport Radiology Example 放射線読影レポート - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

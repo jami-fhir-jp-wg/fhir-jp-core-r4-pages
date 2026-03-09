@@ -17,7 +17,7 @@
      fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationRatio_DosePerDay"^^xsd:anyURI ;
      fhir:l <http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationRatio_DosePerDay>
   ] ; # 
-  fhir:version [ fhir:v "2.0.0-dev-temp"] ; # 
+  fhir:version [ fhir:v "2.0.0-dev"] ; # 
   fhir:name [ fhir:v "JP_MedicationRatio_DosePerDay"] ; # 
   fhir:title [ fhir:v "JP Core Medication Rate Ratio DosePerDay DataType"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -80,7 +80,7 @@
        ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "2.0.0-dev-temp"
+         fhir:v "2.0.0-dev"
        ]
      ] ) ;
      fhir:element ( [

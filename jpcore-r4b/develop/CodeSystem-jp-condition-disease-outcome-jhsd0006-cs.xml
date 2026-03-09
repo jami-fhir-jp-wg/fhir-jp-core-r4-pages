@@ -6,7 +6,7 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jp-condition-disease-outcome-jhsd0006-cs</b></p><a name="jp-condition-disease-outcome-jhsd0006-cs"> </a><a name="hcjp-condition-disease-outcome-jhsd0006-cs"> </a><p>This case-sensitive code system <code>http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">I<a name="jp-condition-disease-outcome-jhsd0006-cs-I"> </a></td><td>中止</td></tr><tr><td style="white-space:nowrap">M<a name="jp-condition-disease-outcome-jhsd0006-cs-M"> </a></td><td>寛解</td></tr><tr><td style="white-space:nowrap">C<a name="jp-condition-disease-outcome-jhsd0006-cs-C"> </a></td><td>継続</td></tr><tr><td style="white-space:nowrap">O<a name="jp-condition-disease-outcome-jhsd0006-cs-O"> </a></td><td>その他</td></tr></table></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/CodeSystem/JHSD0006"/>
-  <version value="2.0.0-dev-temp"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_ConditionDieaseOutcomeJHSD0006_CS"/>
   <title value="JP Core Condition Disease Outcome JHSD0006 CodeSystem"/>
   <status value="active"/>

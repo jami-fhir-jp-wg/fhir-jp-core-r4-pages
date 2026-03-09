@@ -1,4 +1,4 @@
-# Must SupportとCardinality(多重度)のルール - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# Must SupportとCardinality(多重度)のルール - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**ガイダンス**](guidance.md)

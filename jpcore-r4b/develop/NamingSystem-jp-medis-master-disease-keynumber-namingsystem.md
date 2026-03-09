@@ -1,4 +1,4 @@
-# jp-medis-master-disease-keynumber-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-medis-master-disease-keynumber-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-medis-master-disease-keynumber-namingsystem
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MEDIS_Master_Disease_KeyNumber_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@ JP MEDIS Master Disease KeyNumber NamingSystem MEDIS 病名マスタ 病名管�
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-medis-master-disease-keynumber-namingsystem |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_MEDIS_Master_Disease_KeyNumber_NamingSystem |
 | Status | active |
 | Definition | JP MEDIS Master Disease KeyNumber NamingSystem MEDIS 病名マスタ 病名管理番号 NamingSystem |
@@ -61,7 +61,7 @@ JP MEDIS Master Disease KeyNumber NamingSystem MEDIS 病名マスタ 病名管�
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_MEDIS_Master_Disease_KeyNumber_NamingSystem",

@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="jp-dental-bodysitestatus-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jp-dental-bodysitestatus-vs</b></p><a name="jp-dental-bodysitestatus-vs"> </a><a name="hcjp-dental-bodysitestatus-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-jp-dental-bodysitestatus-cs.html"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalBodySiteStatus_CS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2.0.0-dev-temp</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jp-dental-bodysitestatus-vs</b></p><a name="jp-dental-bodysitestatus-vs"> </a><a name="hcjp-dental-bodysitestatus-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-jp-dental-bodysitestatus-cs.html"><code>http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalBodySiteStatus_CS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2.0.0-dev</span></li></ul></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ValueSet/JP_DentalBodySiteStatus_VS"/>
-  <version value="2.0.0-dev-temp"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_DentalBodySiteStatus_VS"/>
   <title value="JP Core Dental BodySiteStatus ValueSet"/>
   <status value="active"/>

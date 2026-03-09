@@ -1,4 +1,4 @@
-# JP Core Procedure Outcome CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Procedure Outcome CodeSystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureOutcome_CS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ProcedureOutcome_CS
 * **項目**: *Title*
@@ -37,7 +37,7 @@
   "resourceType" : "CodeSystem",
   "id" : "jp-procedure-outcome-cs",
   "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ProcedureOutcome_CS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ProcedureOutcome_CS",
   "title" : "JP Core Procedure Outcome CodeSystem",
   "status" : "active",

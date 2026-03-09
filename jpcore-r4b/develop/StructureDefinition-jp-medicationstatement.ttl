@@ -17,7 +17,7 @@
      fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationStatement"^^xsd:anyURI ;
      fhir:l <http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationStatement>
   ] ; # 
-  fhir:version [ fhir:v "2.0.0-dev-temp"] ; # 
+  fhir:version [ fhir:v "2.0.0-dev"] ; # 
   fhir:name [ fhir:v "JP_MedicationStatement"] ; # 
   fhir:title [ fhir:v "JP Core MedicationStatement Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 

@@ -1,4 +1,4 @@
-# JP Core MedicationRequest DispenseRequest InstructionForDispense Extension - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core MedicationRequest DispenseRequest InstructionForDispense Extension - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DispenseRequest_InstructionForDispense
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MedicationRequest_DispenseRequest_InstructionForDispense
 * **項目**: *Title*
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-medicationrequest
   "resourceType" : "StructureDefinition",
   "id" : "jp-medicationrequest-dispenserequest-instructionfordispense",
   "url" : "http://jpfhir.jp/fhir/core/Extension/StructureDefinition/JP_MedicationRequest_DispenseRequest_InstructionForDispense",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_MedicationRequest_DispenseRequest_InstructionForDispense",
   "title" : "JP Core MedicationRequest DispenseRequest InstructionForDispense Extension",
   "status" : "active",

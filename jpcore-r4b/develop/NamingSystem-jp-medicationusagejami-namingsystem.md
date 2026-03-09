@@ -1,4 +1,4 @@
-# jp-medicationusagejami-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-medicationusagejami-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-medicationusagejami-namingsystem
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MedicationUsageJAMI_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@ JP MedicationUsage JAMI NamingSystem JAMI用法コード表ー１６桁バージ
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-medicationusagejami-namingsystem |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_MedicationUsageJAMI_NamingSystem |
 | Status | active |
 | Definition | JP MedicationUsage JAMI NamingSystem JAMI用法コード表ー１６桁バージョン |
@@ -61,7 +61,7 @@ JP MedicationUsage JAMI NamingSystem JAMI用法コード表ー１６桁バージ
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_MedicationUsageJAMI_NamingSystem",

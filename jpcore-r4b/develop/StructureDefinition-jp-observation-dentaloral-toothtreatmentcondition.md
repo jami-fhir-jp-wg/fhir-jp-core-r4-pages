@@ -1,4 +1,4 @@
-# JP Core Observation DentalOral Tooth Treatment Condition Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation DentalOral Tooth Treatment Condition Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_DentalOral_ToothTreatmentCondition
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Observation_DentalOral_ToothTreatmentCondition
 * **項目**: *Title*
@@ -98,7 +98,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-observation-denta
   "resourceType" : "StructureDefinition",
   "id" : "jp-observation-dentaloral-toothtreatmentcondition",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_DentalOral_ToothTreatmentCondition",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Observation_DentalOral_ToothTreatmentCondition",
   "title" : "JP Core Observation DentalOral Tooth Treatment Condition Profile",
   "status" : "active",

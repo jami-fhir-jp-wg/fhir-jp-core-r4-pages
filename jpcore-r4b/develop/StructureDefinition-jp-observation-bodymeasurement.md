@@ -1,4 +1,4 @@
-# JP Core Observation BodyMeasurement Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation BodyMeasurement Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_BodyMeasurement
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Observation_BodyMeasurement
 * **項目**: *Title*
@@ -107,7 +107,7 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
   "resourceType" : "StructureDefinition",
   "id" : "jp-observation-bodymeasurement",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_BodyMeasurement",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Observation_BodyMeasurement",
   "title" : "JP Core Observation BodyMeasurement Profile",
   "status" : "active",

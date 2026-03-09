@@ -1,4 +1,4 @@
-# JP Core Condition Disease Code ICD-10 ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Code ICD-10 ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/mhlw/ValueSet/ICD10-2013-full
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDiseaseCodeICD10_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@ ICD-10コードを示す値セット
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeICD10_CS`](CodeSystem-jp-condition-disease-code-icd10-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseCodeICD10_CS`](CodeSystem-jp-condition-disease-code-icd10-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@ ICD-10コードを示す値セット
   "resourceType" : "ValueSet",
   "id" : "jp-condition-disease-code-icd10-vs",
   "url" : "http://jpfhir.jp/fhir/core/mhlw/ValueSet/ICD10-2013-full",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseCodeICD10_VS",
   "title" : "JP Core Condition Disease Code ICD-10 ValueSet",
   "status" : "active",

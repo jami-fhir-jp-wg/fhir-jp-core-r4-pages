@@ -1,4 +1,4 @@
-# JP Core Observation Endoscopy Example 所見（大きさ 長径４（ｍｍ）） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation Endoscopy Example 所見（大きさ 長径４（ｍｍ）） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

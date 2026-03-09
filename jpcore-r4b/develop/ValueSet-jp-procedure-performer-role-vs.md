@@ -1,4 +1,4 @@
-# JP Core Procedure Performer Role ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Procedure Performer Role ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedurePerformerRole_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ProcedurePerformerRole_VS
 * **項目**: *Title*
@@ -58,7 +58,7 @@
   "resourceType" : "ValueSet",
   "id" : "jp-procedure-performer-role-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedurePerformerRole_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ProcedurePerformerRole_VS",
   "title" : "JP Core Procedure Performer Role ValueSet",
   "status" : "active",

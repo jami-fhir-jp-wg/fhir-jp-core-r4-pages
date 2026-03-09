@@ -1,4 +1,4 @@
-# JP Core Condition Disease Outcome HL70241 ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Condition Disease Outcome HL70241 ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ConditionDiseaseOutcomeHL70241_VS
 * **項目**: *Title*
@@ -28,7 +28,7 @@ HL7表0241の病名転帰区分を示す値セット
 
 ### Logical Definition (CLD)
 
-* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/HL70241`](CodeSystem-jp-condition-disease-outcome-hl70241-cs.md)version 📦2.0.0-dev-temp
+* Include all codes defined in [`http://jpfhir.jp/fhir/core/CodeSystem/HL70241`](CodeSystem-jp-condition-disease-outcome-hl70241-cs.md)version 📦2.0.0-dev
 
  
 
@@ -58,7 +58,7 @@ HL7表0241の病名転帰区分を示す値セット
   "resourceType" : "ValueSet",
   "id" : "jp-condition-disease-outcome-hl70241-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseOutcomeHL70241_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseOutcomeHL70241_VS",
   "title" : "JP Core Condition Disease Outcome HL70241 ValueSet",
   "status" : "active",

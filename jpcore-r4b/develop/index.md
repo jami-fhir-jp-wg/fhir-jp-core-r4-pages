@@ -1,4 +1,4 @@
-# HL7 FHIR JP Core 実装ガイド - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# HL7 FHIR JP Core 実装ガイド - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * **HL7 FHIR JP Core 実装ガイド**
@@ -8,7 +8,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ImplementationGuide/jpfhir.jp.core
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: FHIRJPCoreImplementationGuide
 * **項目**: *Title*
@@ -187,7 +187,7 @@ JP Core は以下の方々、および各サーブワーキンググループの
   "resourceType" : "ImplementationGuide",
   "id" : "jpfhir.jp.core",
   "url" : "http://jpfhir.jp/fhir/core/ImplementationGuide/jpfhir.jp.core",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "FHIRJPCoreImplementationGuide",
   "title" : "HL7 FHIR JP Core ImplementationGuide",
   "status" : "active",

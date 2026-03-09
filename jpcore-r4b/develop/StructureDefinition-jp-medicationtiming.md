@@ -1,4 +1,4 @@
-# JP Core Medication Timing DataType - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Medication Timing DataType - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationTiming
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_MedicationTiming
 * **項目**: *Title*
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-medicationtiming.
   "resourceType" : "StructureDefinition",
   "id" : "jp-medicationtiming",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_MedicationTiming",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_MedicationTiming",
   "title" : "JP Core Medication Timing DataType",
   "status" : "active",

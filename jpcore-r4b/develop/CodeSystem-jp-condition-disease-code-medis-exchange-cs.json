@@ -6,7 +6,7 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jp-condition-disease-code-medis-exchange-cs</b></p><a name=\"jp-condition-disease-code-medis-exchange-cs\"> </a><a name=\"hcjp-condition-disease-code-medis-exchange-cs\"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">HR19<a name=\"jp-condition-disease-code-medis-exchange-cs-HR19\"> </a></td><td>急性化膿性虫垂炎</td></tr><tr><td style=\"white-space:nowrap\">VSES<a name=\"jp-condition-disease-code-medis-exchange-cs-VSES\"> </a></td><td>大腸炎</td></tr></table></div>"
   },
   "url" : "urn:oid:1.2.392.200119.4.101.6",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ConditionDiseaseCodeMEDISExchange_CS",
   "title" : "JP Core Condition Disease Code MEDIS Exchange CodeSystem",
   "status" : "active",

@@ -1,4 +1,4 @@
-# JP Core Observation Radiology Findings Example 画像診断報告書（所見） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation Radiology Findings Example 画像診断報告書（所見） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

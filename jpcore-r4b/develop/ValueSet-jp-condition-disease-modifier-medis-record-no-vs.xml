@@ -3,10 +3,10 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="jp-condition-disease-modifier-medis-record-no-vs"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jp-condition-disease-modifier-medis-record-no-vs</b></p><a name="jp-condition-disease-modifier-medis-record-no-vs"> </a><a name="hcjp-condition-disease-modifier-medis-record-no-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-jp-condition-disease-modifier-medis-record-no-cs.html"><code>urn:oid:1.2.392.200119.4.201.2</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2.0.0-dev-temp</span></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet jp-condition-disease-modifier-medis-record-no-vs</b></p><a name="jp-condition-disease-modifier-medis-record-no-vs"> </a><a name="hcjp-condition-disease-modifier-medis-record-no-vs"> </a><ul><li>Include all codes defined in <a href="CodeSystem-jp-condition-disease-modifier-medis-record-no-cs.html"><code>urn:oid:1.2.392.200119.4.201.2</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;2.0.0-dev</span></li></ul></div>
   </text>
   <url value="http://jpfhir.jp/fhir/core/ValueSet/JP_ConditionDiseaseModifierMEDISRecordNo_VS"/>
-  <version value="2.0.0-dev-temp"/>
+  <version value="2.0.0-dev"/>
   <name value="JP_ConditionDiseaseModifierMEDISRecordNo_VS"/>
   <title value="JP Core Condition Disease Modifier MEDIS Record No ValueSet"/>
   <status value="active"/>

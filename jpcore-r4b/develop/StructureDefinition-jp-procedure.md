@@ -1,4 +1,4 @@
-# JP Core Procedure Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Procedure Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Procedure
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Procedure
 * **項目**: *Title*
@@ -194,7 +194,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
   "resourceType" : "StructureDefinition",
   "id" : "jp-procedure",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Procedure",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Procedure",
   "title" : "JP Core Procedure Profile",
   "status" : "active",
@@ -323,7 +323,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "comment" : "これは通常、「未完了」、「一時停止」、「中止」などの「例外」ステータスにのみ使用される。イベントを実行する理由は、ここではなく、reasonCodeに設定する。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureNotPerformedReason_VS|2.0.0-dev"
         }
       },
       {
@@ -440,7 +440,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "max" : "1",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCodesICHI_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCodesICHI_VS|2.0.0-dev"
         }
       },
       {
@@ -534,7 +534,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "comment" : "すべての用語の使用がこの一般的なパターンに当てはまるわけではない。場合によっては、モデルはCodeableConceptを使用せず、Codingを直接使用し、テキスト、コーディング、翻訳、要素間の関係や事前・事後の調整を管理するための独自の構造を提供するべきである。  \n 【JP Core仕様】当面利用しない。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedurePerformerRole_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedurePerformerRole_VS|2.0.0-dev"
         }
       },
       {
@@ -593,7 +593,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "comment" : "ひとつのコードが理由を十分に説明している場合は、Procedure.reasonCodeを使用する。  \nリソースを参照する場合は、Procedure.reasonReferenceを使用する。これにより、開始日など、より多くの情報を伝達できる。  \nProcedure.reasonCodeとProcedure.reasonReferenceは、重複することを意図したものではない。単一の理由で、Procedure.reasonCodeまたはProcedure.reasonReferenceのいずれかだけを使用できる。  \nProcedure.reasonCodeは要約コードの場合もあれば、Procedure.reasonReferenceを使用して、Condition | Observation | Procedure | DiagnosticReport | DocumentReference のいずれかにより、非常に精緻な理由の定義を参照することもできる。  \nもしプロシージャの異なる理由を説明しているのであれば、Procedure.reasonCodeとProcedure.reasonReferenceの両方を使用できる。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureReason_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureReason_VS|2.0.0-dev"
         }
       },
       {
@@ -630,7 +630,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "comment" : "結果に叙述的記述トのみが含まれている場合は、CodeableConcept.textを使用してその情報を格納できる。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureOutcome_VS|2.0.0-dev"
         }
       },
       {
@@ -658,7 +658,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "comment" : "合併症が叙述的なテキストによってのみ表現されている場合は、CodeableConcept.textに格納できる。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCondition_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureCondition_VS|2.0.0-dev"
         }
       },
       {
@@ -683,7 +683,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "short" : "今後の処置が特別なフォローアップを必要とする場合（例：抜糸）、フォローアップはシンプルなnote として表現してもよいが、より複雑になる可能性もあり、その場合はケアプランリソースを使用することができる。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureFollowUp_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureFollowUp_VS|2.0.0-dev"
         }
       },
       {
@@ -705,7 +705,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "definition" : "Procedure中にデバイスに起こった変化の種類。【JP Core仕様】https://www.hl7.org/fhir/R4B/procedure.htmlを参照",
         "binding" : {
           "strength" : "preferred",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceAction_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceAction_VS|2.0.0-dev"
         }
       },
       {
@@ -738,7 +738,7 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "comment" : "実際に埋め込まれた、または取り外されたデバイスについては、Procedure.deviceを使用すること。",
         "binding" : {
           "strength" : "example",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceKind_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ProcedureDeviceKind_VS|2.0.0-dev"
         }
       }
     ]

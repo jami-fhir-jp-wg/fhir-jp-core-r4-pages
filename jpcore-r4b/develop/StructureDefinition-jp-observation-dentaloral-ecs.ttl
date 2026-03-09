@@ -17,7 +17,7 @@
      fhir:v "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_DentalOral_eCS"^^xsd:anyURI ;
      fhir:l <http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_DentalOral_eCS>
   ] ; # 
-  fhir:version [ fhir:v "2.0.0-dev-temp"] ; # 
+  fhir:version [ fhir:v "2.0.0-dev"] ; # 
   fhir:name [ fhir:v "JP_Observation_DentalOral_eCS"] ; # 
   fhir:title [ fhir:v "JP Core Observation DentalOral eCS Profile"] ; # 
   fhir:status [ fhir:v "active"] ; # 
@@ -108,7 +108,7 @@
        ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "2.0.0-dev-temp"
+         fhir:v "2.0.0-dev"
        ]
      ] ) ;
      fhir:element ( [
@@ -934,8 +934,8 @@
        fhir:binding [
          fhir:strength [ fhir:v "required" ] ;
          fhir:valueSet [
-           fhir:v "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS|2.0.0-dev-temp"^^xsd:anyURI ;
-           fhir:l <http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS?version=2.0.0-dev-temp>
+           fhir:v "http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS|2.0.0-dev"^^xsd:anyURI ;
+           fhir:l <http://jpfhir.jp/fhir/core/ValueSet/JP_SimpleObservationCategory_VS?version=2.0.0-dev>
          ]
        ] ;
        fhir:mapping ( [

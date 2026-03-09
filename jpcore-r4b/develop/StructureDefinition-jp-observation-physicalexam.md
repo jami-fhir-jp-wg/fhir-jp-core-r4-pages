@@ -1,4 +1,4 @@
-# JP Core Observation PhysicalExam Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation PhysicalExam Profile - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_PhysicalExam
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Observation_PhysicalExam
 * **項目**: *Title*
@@ -103,7 +103,7 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
   "resourceType" : "StructureDefinition",
   "id" : "jp-observation-physicalexam",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_Observation_PhysicalExam",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_Observation_PhysicalExam",
   "title" : "JP Core Observation PhysicalExam Profile",
   "status" : "active",
@@ -205,7 +205,7 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "comment" : "【JP Core仕様】所見の有無を表すコード（固定値）",
         "binding" : {
           "strength" : "preferred",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev"
         }
       },
       {
@@ -232,7 +232,7 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "max" : "1",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev"
         }
       },
       {
@@ -374,7 +374,7 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "comment" : "【JP Core仕様】具体的な所見を表すコード（固定値）",
         "binding" : {
           "strength" : "preferred",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev"
         }
       },
       {
@@ -401,7 +401,7 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "max" : "1",
         "binding" : {
           "strength" : "required",
-          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev-temp"
+          "valueSet" : "http://jpfhir.jp/fhir/core/ValueSet/JP_PhysicalExamCode_VS|2.0.0-dev"
         }
       },
       {

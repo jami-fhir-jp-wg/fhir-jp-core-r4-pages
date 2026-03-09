@@ -1,4 +1,4 @@
-# JP Core Observation DentalOral Tooth Treatment Condition Example 口腔診査結果１（現存歯の処置状態） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation DentalOral Tooth Treatment Condition Example 口腔診査結果１（現存歯の処置状態） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

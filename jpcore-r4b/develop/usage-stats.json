@@ -1,6 +1,6 @@
 {
   "package": "jpfhir.jp.core",
-  "version": "2.0.0-dev-temp",
+  "version": "2.0.0-dev",
   "fhirVersion": "4.3.0",
   "jurisdiction": "JP",
   "extensions": [

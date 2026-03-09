@@ -1,4 +1,4 @@
-# JP Core Observation DentalOral eCS Example 口腔診査結果（診療情報提供書用） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation DentalOral eCS Example 口腔診査結果（診療情報提供書用） - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

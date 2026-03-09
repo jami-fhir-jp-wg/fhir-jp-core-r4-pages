@@ -1,4 +1,4 @@
-# JP Core Observation Electrocardiogram Component Code ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core Observation Electrocardiogram Component Code ValueSet - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationElectrocardiogramComponentCode_VS
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_ObservationElectrocardiogramComponentCode_VS
 * **項目**: *Title*
@@ -60,7 +60,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jp-observation-electrocardiogram-component-code-vs",
   "url" : "http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationElectrocardiogramComponentCode_VS",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_ObservationElectrocardiogramComponentCode_VS",
   "title" : "JP Core Observation Electrocardiogram Component Code ValueSet",
   "status" : "active",

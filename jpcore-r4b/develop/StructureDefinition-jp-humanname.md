@@ -1,4 +1,4 @@
-# JP Core HumanName DataType - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# JP Core HumanName DataType - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/StructureDefinition/JP_HumanName
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_HumanName
 * **項目**: *Title*
@@ -127,7 +127,7 @@ textには氏名全体を結合し格納する。family、given等の各組み�
   "resourceType" : "StructureDefinition",
   "id" : "jp-humanname",
   "url" : "http://jpfhir.jp/fhir/core/StructureDefinition/JP_HumanName",
-  "version" : "2.0.0-dev-temp",
+  "version" : "2.0.0-dev",
   "name" : "JP_HumanName",
   "title" : "JP Core HumanName DataType",
   "status" : "active",

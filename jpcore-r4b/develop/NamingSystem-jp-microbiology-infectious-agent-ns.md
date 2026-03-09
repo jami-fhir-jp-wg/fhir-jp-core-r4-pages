@@ -1,4 +1,4 @@
-# jp-microbiology-infectious-agent-ns - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-microbiology-infectious-agent-ns - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-microbiology-infectious-agent-ns
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_Microbiology_InfectiousAgent_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-microbiology-infectious-agent-ns |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_Microbiology_InfectiousAgent_NamingSystem |
 | Status | active |
 | Definition | 微生物学的検査感染性物質コード(Ver.6.2) 本コードは厚生労働省院内感染対策サーベイランス事業(https://janis.mhlw.go.jp/)で作成されているマスタを編集・加工して利用している |
@@ -61,7 +61,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_Microbiology_InfectiousAgent_NamingSystem",

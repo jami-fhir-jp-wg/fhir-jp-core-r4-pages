@@ -1,4 +1,4 @@
-# jp-insuredpersoncategory-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev-temp
+# jp-insuredpersoncategory-namingsystem - HL7 FHIR JP Core ImplementationGuide v2.0.0-dev
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 * **項目**: *定義URL*
   * **内容**: http://jpfhir.jp/fhir/core/NamingSystem/jp-insuredpersoncategory-namingsystem
 * **項目**: *Version*
-  * **内容**: 2.0.0-dev-temp
+  * **内容**: 2.0.0-dev
 * **項目**: *Name*
   * **内容**: JP_InsuredPersonCategory_NamingSystem
 * **項目**: *Status*
@@ -25,7 +25,7 @@ JP Core InsuredPersonCategory NamingSystem 被保険者区分コード
 | | |
 | :--- | :--- |
 | Defining URL | http://jpfhir.jp/fhir/core/NamingSystem/jp-insuredpersoncategory-namingsystem |
-| Version | 2.0.0-dev-temp |
+| Version | 2.0.0-dev |
 | Name | JP_InsuredPersonCategory_NamingSystem |
 | Status | active |
 | Definition | JP Core InsuredPersonCategory NamingSystem 被保険者区分コード |
@@ -61,7 +61,7 @@ JP Core InsuredPersonCategory NamingSystem 被保険者区分コード
     },
     {
       "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version",
-      "valueString" : "2.0.0-dev-temp"
+      "valueString" : "2.0.0-dev"
     }
   ],
   "name" : "JP_InsuredPersonCategory_NamingSystem",
