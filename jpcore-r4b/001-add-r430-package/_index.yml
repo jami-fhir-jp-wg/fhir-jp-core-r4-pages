@@ -1,7 +1,7 @@
 name: HL7-FHIR-JP-Core-R4B
 version: 2.0.0
 description: FHIR&reg Japanese Core Implementation Guide R4 by Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)
-last_published: Thu Mar 19 12:37:02 UTC 2026
+last_published: Thu Mar 19 12:49:57 UTC 2026
 group: pullrequest
 branch: 001-add-r430-package
 actor: findex-miyakawa
