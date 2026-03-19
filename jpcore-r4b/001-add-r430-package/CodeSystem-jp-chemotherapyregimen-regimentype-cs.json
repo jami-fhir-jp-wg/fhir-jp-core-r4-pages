@@ -1,0 +1,46 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jp-chemotherapyregimen-regimentype-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jp-chemotherapyregimen-regimentype-cs</b></p><a name=\"jp-chemotherapyregimen-regimentype-cs\"> </a><a name=\"hcjp-chemotherapyregimen-regimentype-cs\"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0001<a name=\"jp-chemotherapyregimen-regimentype-cs-0001\"> </a></td><td>aaa</td></tr><tr><td style=\"white-space:nowrap\">0002<a name=\"jp-chemotherapyregimen-regimentype-cs-0002\"> </a></td><td>bbb</td></tr></table></div>"
+  },
+  "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
+  "version" : "2.0.0-dev",
+  "name" : "JP_ChemotherapyRegimen_RegimenType_CS",
+  "title" : "JP Core PlanDefinition ChemotherapyRegimen RegimenType CodeSystem",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2023-11-30",
+  "publisher" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+  "contact" : [{
+    "name" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://jpfhir.jp"
+    },
+    {
+      "system" : "email",
+      "value" : "office@hlfhir.jp"
+    }]
+  }],
+  "description" : "【仮】レジメン種別コード",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "JP",
+      "display" : "Japan"
+    }]
+  }],
+  "copyright" : "Copyright XXX",
+  "caseSensitive" : true,
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "0001",
+    "display" : "aaa"
+  },
+  {
+    "code" : "0002",
+    "display" : "bbb"
+  }]
+}

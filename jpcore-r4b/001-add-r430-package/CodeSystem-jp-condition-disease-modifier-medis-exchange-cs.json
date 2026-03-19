@@ -1,0 +1,50 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "jp-condition-disease-modifier-medis-exchange-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem jp-condition-disease-modifier-medis-exchange-cs</b></p><a name=\"jp-condition-disease-modifier-medis-exchange-cs\"> </a><a name=\"hcjp-condition-disease-modifier-medis-exchange-cs\"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">3216<a name=\"jp-condition-disease-modifier-medis-exchange-cs-3216\"> </a></td><td>過敏性</td></tr><tr><td style=\"white-space:nowrap\">1111<a name=\"jp-condition-disease-modifier-medis-exchange-cs-1111\"> </a></td><td>の初期</td></tr><tr><td style=\"white-space:nowrap\">08MV<a name=\"jp-condition-disease-modifier-medis-exchange-cs-08MV\"> </a></td><td>疾患</td></tr></table></div>"
+  },
+  "url" : "urn:oid:1.2.392.200119.4.201.5",
+  "version" : "2.0.0-dev",
+  "name" : "JP_ConditionDiseaseModifierMEDISExchange_CS",
+  "title" : "JP Core Condition Disease Modifier MEDIS Exchange CodeSystem",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-08-05",
+  "publisher" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+  "contact" : [{
+    "name" : "FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://jpfhir.jp"
+    },
+    {
+      "system" : "email",
+      "value" : "office@hlfhir.jp"
+    }]
+  }],
+  "description" : "MEDIS ICD10対応標準病名マスター(修飾語交換用コード) コードシステム",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "JP",
+      "display" : "Japan"
+    }]
+  }],
+  "copyright" : "Copyright MEDIS-DC 医療情報システム開発センター",
+  "caseSensitive" : true,
+  "content" : "fragment",
+  "concept" : [{
+    "code" : "3216",
+    "display" : "過敏性"
+  },
+  {
+    "code" : "1111",
+    "display" : "の初期"
+  },
+  {
+    "code" : "08MV",
+    "display" : "疾患"
+  }]
+}

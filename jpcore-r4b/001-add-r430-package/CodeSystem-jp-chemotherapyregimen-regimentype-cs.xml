@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="jp-chemotherapyregimen-regimentype-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem jp-chemotherapyregimen-regimentype-cs</b></p><a name="jp-chemotherapyregimen-regimentype-cs"> </a><a name="hcjp-chemotherapyregimen-regimentype-cs"> </a><p>このコードシステム  は以下のコードを含むフラグメントを提供します:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">0001<a name="jp-chemotherapyregimen-regimentype-cs-0001"> </a></td><td>aaa</td></tr><tr><td style="white-space:nowrap">0002<a name="jp-chemotherapyregimen-regimentype-cs-0002"> </a></td><td>bbb</td></tr></table></div>
+  </text>
+  <url value="http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS"/>
+  <version value="2.0.0-dev"/>
+  <name value="JP_ChemotherapyRegimen_RegimenType_CS"/>
+  <title value="JP Core PlanDefinition ChemotherapyRegimen RegimenType CodeSystem"/>
+  <status value="draft"/>
+  <experimental value="false"/>
+  <date value="2023-11-30"/>
+  <publisher value="FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)"/>
+  <contact>
+    <name value="FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://jpfhir.jp"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="office@hlfhir.jp"/>
+    </telecom>
+  </contact>
+  <description value="【仮】レジメン種別コード"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="JP"/>
+      <display value="Japan"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright XXX"/>
+  <caseSensitive value="true"/>
+  <content value="fragment"/>
+  <concept>
+    <code value="0001"/>
+    <display value="aaa"/>
+  </concept>
+  <concept>
+    <code value="0002"/>
+    <display value="bbb"/>
+  </concept>
+</CodeSystem>
