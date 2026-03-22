@@ -1,7 +1,0 @@
-{
-  "version" : "2.0.0-dev",
-  "fhirVersion" : ["4.3.0"],
-  "date" : "20260319125052",
-  "name" : "jpfhir.jp.core",
-  "jurisdiction" : "urn:iso:std:iso:3166#JP"
-}
