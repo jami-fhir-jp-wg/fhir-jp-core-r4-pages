@@ -11,17 +11,17 @@
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Definition" class="hierarchy"/> Slices for category<a name="Observation.category.2"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Content/Rules for all slices</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck135.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: white; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:first" title="Slice first">category:first</a><a name="Observation.category.3"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">内視鏡検査の第1カテゴリはJP_SimpleObservationCategory_VSからprocedureを指定する。</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1341.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:first.coding">coding</a><a name="Observation.category.coding"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:first.coding.code">code</a><a name="Observation.category.coding.code"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Symbol in syntax defined by the system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">procedure</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:first.coding.code">code</a><a name="Observation.category.coding.code"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">システムによって定義された構文のシンボル / Symbol in syntax defined by the system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">procedure</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck125.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slicer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_slice_item.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Slice Item" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:second" title="Slice second: 第2カテゴリはLOINCのPartコードLP7796-8（内視鏡）固定とする。ValueSetは指定しない">category:second</a><a name="Observation.category.4"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">第2カテゴリはLOINCのPartコードLP7796-8（内視鏡）固定とする。ValueSetは指定しない</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1241.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end_slice.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:second.coding">coding</a><a name="Observation.category.coding.2"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12410.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:second.coding.system">system</a><a name="Observation.category.coding.system"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">http://loinc.org</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:second.coding.code">code</a><a name="Observation.category.coding.code.2"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Symbol in syntax defined by the system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">LP7796-8</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12410.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:second.coding.system">system</a><a name="Observation.category.coding.system"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#uri">uri</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">用語システムのアイデンティティ / Identity of the terminology system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">http://loinc.org</span></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12400.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.category:second.coding.code">code</a><a name="Observation.category.coding.code.2"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#code">code</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">システムによって定義された構文のシンボル / Symbol in syntax defined by the system</span><br/><span style="font-weight:bold">Fixed Value: </span><span style="color: darkgreen">LP7796-8</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.code" title="このObservationの対象を特定するコード。">code</a><a name="Observation.code"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">1</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">このObservationの対象を特定するコード。【詳細参照】<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-jp-observation-endoscopy-code-vs.html" title="http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationEndoscopyCode_VS" class="binding">JP Core Observation Endoscopy Code ValueSet</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4B/terminologies.html#preferred" title="Instances are encouraged to draw from the specified codes for interoperability purposes but are not required to do so to be considered conformant." class="binding">preferred</a><span title="null" class="binding">)</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_reference.png" alt="." style="background-color: white; background-color: inherit" title="Reference to another Resource" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.subject">subject</a><a name="Observation.subject"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/references.html">Reference</a>(<a href="StructureDefinition-jp-patient.html">JP Core Patient Profile</a>)</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">このObservationの対象となる患者や患者群、機器、場所に関する情報</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.focus">focus</a><a name="Observation.focus"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/references.html">Reference</a>(<a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/resource.html">Resource</a>)</td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">配偶者、親、胎児、ドナーなど、このObservationのsubject要素が実際の対象でない場合、その実際の対象に関する情報。【詳細参照】</td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_choice.gif" alt="." style="background-color: white; background-color: inherit" title="Choice of Types" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.effective[x]">effective[x]</a><a name="Observation.effective_x_"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">取得された結果が臨床的に確定された日時または期間</span></td></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span title="Base StructureDefinition for dateTime Type: A date, date-time or partial date (e.g. just year or year + month).  If hours and minutes are specified, a time zone SHALL be populated. The format is a union of the schema types gYear, gYearMonth, date and dateTime. Seconds must be provided due to schema type constraints but may be zero-filled and may be ignored.                 Dates SHALL be valid dates.">effectiveDateTime</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="Base StructureDefinition for Period Type: A time period defined by a start and end date and optionally time.">effectivePeriod</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_primitive.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Primitive Data Type" class="hierarchy"/> <span title="dateTime型に関する基本構造の定義：日付、日時、または一部の日付（例：年または年+月のみ）。時間と分が指定されている場合、タイムゾーンを指定する必要があります。フォーマットは、スキーマタイプのgYear、gYearMonth、date、およびdateTimeの連合です。スキーマタイプの制約により、秒数を指定する必要がありますが、ゼロ埋めされ、無視される場合があります。日付が有効である必要があります。 / Base StructureDefinition for dateTime Type: A date, date-time or partial date (e.g. just year or year + month).  If hours and minutes are specified, a time zone SHALL be populated. The format is a union of the schema types gYear, gYearMonth, date and dateTime. Seconds must be provided due to schema type constraints but may be zero-filled and may be ignored.                 Dates SHALL be valid dates.">effectiveDateTime</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">dateTime</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: white; background-color: inherit" title="Data Type" class="hierarchy"/> <span title="期間タイプのベース構造定義：開始日と終了日、およびオプションで定義された期間。 / Base StructureDefinition for Period Type: A time period defined by a start and end date and optionally time.">effectivePeriod</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/datatypes.html#Period">Period</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_datatype.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Data Type" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.value[x]" title="内視鏡検査、治療の観察結果（診断、所見など）の情報を格納する。診断、所見の場合、病変単位で記載することが望ましい。">value[x]</a><a name="Observation.value_x_"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="padding-left: 3px; padding-right: 3px; color: white; background-color: red" title="This element must be supported">S</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">内視鏡検査、治療の観察結果（診断、所見など）の情報を格納する。診断、所見の場合、病変単位で記載することが望ましい。【詳細参照】<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-jp-observation-endoscoy-value-jed-vs.html" title="http://jpfhir.jp/fhir/core/ValueSet/JP_ObservationEndoscopyValueJed_VS" class="binding">JP Core Observation Endoscopy Value JED ValueSet</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4B/terminologies.html#example" title="Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included." class="binding">example</a><span title="null" class="binding">)</span></td></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.referenceRange">referenceRange</a><a name="Observation.referenceRange"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
 <tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Element" class="hierarchy"/> <a href="StructureDefinition-jp-observation-endoscopy-definitions.html#Observation.referenceRange.type" title="参照範囲修飾子。">type</a><a name="Observation.referenceRange.type"> </a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept">CodeableConcept</a></td><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">参照範囲修飾子。</td></tr>
@@ -117,7 +117,7 @@
       <constraint>
         <key value="dom-2"/>
         <severity value="error"/>
-        <human value="If the resource is contained in another resource, it SHALL NOT contain nested Resources"/>
+        <human value="リソースが別のリソースに含まれている場合、ネストされたリソースを含めてはなりません / If the resource is contained in another resource, it SHALL NOT contain nested Resources"/>
         <expression value="contained.contained.empty()"/>
         <xpath value="not(parent::f:contained and f:contained)"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
@@ -125,7 +125,7 @@
       <constraint>
         <key value="dom-3"/>
         <severity value="error"/>
-        <human value="If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource"/>
+        <human value="リソースが別のリソースに含まれている場合、それはリソースの他の場所から参照されるか、含有リソースを参照するものとします / If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource"/>
         <expression value="contained.where(((id.exists() and ('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url)))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(uri) = '#').exists()).not()).trace('unmatched', id).empty()"/>
         <xpath value="not(exists(for $contained in f:contained return $contained[not(exists(parent::*/descendant::f:reference/@value=concat('#', $contained/*/f:id/@value)) or exists(descendant::f:reference[@value='#']))]))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
@@ -133,7 +133,7 @@
       <constraint>
         <key value="dom-4"/>
         <severity value="error"/>
-        <human value="If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated"/>
+        <human value="リソースが別のリソースに含まれている場合、meta.versionidもmeta.lastupdatedも持ってはならない。 / If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated"/>
         <expression value="contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()"/>
         <xpath value="not(exists(f:contained/*/f:meta/f:versionId)) and not(exists(f:contained/*/f:meta/f:lastUpdated))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
@@ -141,7 +141,7 @@
       <constraint>
         <key value="dom-5"/>
         <severity value="error"/>
-        <human value="If a resource is contained in another resource, it SHALL NOT have a security label"/>
+        <human value="別のリソースにリソースが含まれている場合、セキュリティラベルはありません / If a resource is contained in another resource, it SHALL NOT have a security label"/>
         <expression value="contained.meta.security.empty()"/>
         <xpath value="not(exists(f:contained/*/f:meta/f:security))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
@@ -155,7 +155,7 @@
         </extension>
         <key value="dom-6"/>
         <severity value="warning"/>
-        <human value="A resource should have narrative for robust management"/>
+        <human value="リソースには、堅牢な管理のための叙述(Narative)が存在することが望ましい / A resource should have narrative for robust management"/>
         <expression value="text.`div`.exists()"/>
         <xpath value="exists(f:text/h:div)"/>
         <source value="http://hl7.org/fhir/StructureDefinition/DomainResource"/>
@@ -163,7 +163,7 @@
       <constraint>
         <key value="obs-6"/>
         <severity value="error"/>
-        <human value="dataAbsentReason SHALL only be present if Observation.value[x] is not present"/>
+        <human value="dataAbsentReasonは、Observation.value [x]が存在しない場合にのみ存在するものとします / dataAbsentReason SHALL only be present if Observation.value[x] is not present"/>
         <expression value="dataAbsentReason.empty() or value.empty()"/>
         <xpath value="not(exists(f:dataAbsentReason)) or (not(exists(*[starts-with(local-name(.), 'value')])))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
@@ -171,7 +171,7 @@
       <constraint>
         <key value="obs-7"/>
         <severity value="error"/>
-        <human value="If Observation.code is the same as an Observation.component.code then the value element associated with the code SHALL NOT be present"/>
+        <human value="Observation.codeがObservation.component.codeと同じ場合、そのcodeに関連付くvalueは存在してはならない。 / If Observation.code is the same as an Observation.component.code then the value element associated with the code SHALL NOT be present"/>
         <expression value="value.empty() or component.code.where(coding.intersect(%resource.code.coding).exists()).empty()"/>
         <xpath value="not(f:*[starts-with(local-name(.), 'value')] and (for $coding in f:code/f:coding return f:component/f:code/f:coding[f:code/@value=$coding/f:code/@value] [f:system/@value=$coding/f:system/@value]))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
@@ -206,9 +206,9 @@
     </element>
     <element id="Observation.id">
       <path value="Observation.id"/>
-      <short value="Logical id of this artifact"/>
-      <definition value="The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes."/>
-      <comment value="The only time that a resource does not have an id is when it is being submitted to the server using a create operation."/>
+      <short value="このアーティファクトの論理ID / Logical id of this artifact"/>
+      <definition value="リソースのURLで使用されるリソースの論理ID。割り当てられたら、この値は変更されません。 / The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes."/>
+      <comment value="リソースにIDがないのは、IDが作成操作を使用してサーバーに送信されている場合です。 / The only time that a resource does not have an id is when it is being submitted to the server using a create operation."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -228,8 +228,8 @@
     </element>
     <element id="Observation.meta">
       <path value="Observation.meta"/>
-      <short value="Metadata about the resource"/>
-      <definition value="The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource."/>
+      <short value="リソースに関するMetadata / Metadata about the resource"/>
+      <definition value="リソースに関するMetadata。これは、インフラストラクチャによって維持されるコンテンツです。コンテンツの変更は、常にリソースのバージョンの変更に関連付けられているとは限りません。 / The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -243,7 +243,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -254,9 +254,9 @@
     </element>
     <element id="Observation.implicitRules">
       <path value="Observation.implicitRules"/>
-      <short value="A set of rules under which this content was created"/>
-      <definition value="A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc."/>
-      <comment value="Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc."/>
+      <short value="このコンテンツが作成されたルールのセット / A set of rules under which this content was created"/>
+      <definition value="リソースが構築されたときに従った一連のルールへの参照。コンテンツの処理時に理解する必要があります。多くの場合、これは他のプロファイルなどとともに特別なルールを定義する実装ガイドへの参照です。 / A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc."/>
+      <comment value="このルールセットを主張することは、コンテンツが限られた取引パートナーのセットによってのみ理解されることを制限します。これにより、本質的に長期的にデータの有用性が制限されます。ただし、既存の健康エコシステムは非常に破壊されており、一般的に計算可能な意味でデータを定義、収集、交換する準備ができていません。可能な限り、実装者や仕様ライターはこの要素の使用を避ける必要があります。多くの場合、使用する場合、URLは、これらの特別なルールを他のプロファイル、バリューセットなどとともに叙述(Narative)の一部として定義する実装ガイドへの参照です。 / Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -270,21 +270,21 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <mustSupport value="false"/>
       <isModifier value="true"/>
-      <isModifierReason value="This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation"/>
+      <isModifierReason value="暗黙のルールは、意味または解釈を変更するリソースに関する追加の知識を提供する可能性があるため、この要素は修飾子としてラベル付けされています。 / This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation"/>
       <isSummary value="true"/>
     </element>
     <element id="Observation.language">
       <path value="Observation.language"/>
-      <short value="Language of the resource content"/>
-      <definition value="The base language in which the resource is written."/>
-      <comment value="Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      <short value="リソースコンテンツの言語 / Language of the resource content"/>
+      <definition value="リソースが書かれている基本言語。 / The base language in which the resource is written."/>
+      <comment value="言語は、インデックス作成とアクセシビリティをサポートするために提供されます（通常、テキストから音声までのサービスなどのサービスが言語タグを使用します）。叙述(Narative)のHTML言語タグは、叙述(Narative)に適用されます。リソース上の言語タグを使用して、リソース内のデータから生成された他のプレゼンテーションの言語を指定できます。すべてのコンテンツが基本言語である必要はありません。リソース。言語は、叙述(Narative)に自動的に適用されると想定されるべきではありません。言語が指定されている場合、HTMLのDIV要素にも指定されている場合（XML：LangとHTML Lang属性の関係については、HTML5のルールを参照してください）。 / Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -298,7 +298,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -314,15 +314,15 @@
           <valueString value="Language"/>
         </extension>
         <strength value="preferred"/>
-        <description value="IETF language tag"/>
+        <description value="IETF言語タグ / IETF language tag"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/languages|4.3.0"/>
       </binding>
     </element>
     <element id="Observation.text">
       <path value="Observation.text"/>
-      <short value="Text summary of the resource, for human interpretation"/>
-      <definition value="A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety."/>
-      <comment value="Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      <short value="人間の解釈のためのリソースのテキスト概要 / Text summary of the resource, for human interpretation"/>
+      <definition value="リソースの概要を含み、人間へのリソースの内容を表すために使用できる人間の読み取り可能な叙述(Narative)。叙述(Narative)はすべての構造化されたデータをエンコードする必要はありませんが、人間が叙述(Narative)を読むだけで「臨床的に安全」にするために十分な詳細を含める必要があります。リソースの定義は、臨床的安全を確保するために、叙述(Narative)で表現するコンテンツを定義する場合があります。 / A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &quot;clinically safe&quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety."/>
+      <comment value="含まれるリソースには叙述(Narative)がありません。含まれていないリソースには叙述(Narative)が必要です。場合によっては、リソースには、追加の個別のデータがほとんどまたはまったくないテキストのみがあります（すべてのMinoccur = 1要素が満たされている限り）。これは、情報がtext blob (バイナリー ラージ オブジェクト)としてキャプチャされるレガシーシステムからのデータ、またはテキストが生またはナレーションされ、エンコードされた情報が後で追加される場合に必要になる場合があります。 / Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
       <alias value="narrative"/>
       <alias value="html"/>
       <alias value="xhtml"/>
@@ -340,7 +340,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -355,9 +355,9 @@
     </element>
     <element id="Observation.contained">
       <path value="Observation.contained"/>
-      <short value="Contained, inline Resources"/>
-      <definition value="These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope."/>
-      <comment value="This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels."/>
+      <short value="インラインリソースが含まれています / Contained, inline Resources"/>
+      <definition value="これらのリソースには、それらを含むリソースを除いて独立した存在はありません - 独立して特定することはできず、独自の独立したトランザクションスコープを持つこともできません。 / These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope."/>
+      <comment value="識別が失われると、コンテンツを適切に識別できる場合は、これを行うべきではありません。含まれるリソースには、メタ要素にプロファイルとタグがある場合がありますが、セキュリティラベルはありません。 / This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels."/>
       <alias value="inline resources"/>
       <alias value="anonymous resources"/>
       <alias value="contained resources"/>
@@ -374,7 +374,7 @@
       <constraint>
         <key value="dom-r4b"/>
         <severity value="warning"/>
-        <human value="Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems"/>
+        <human value="R4リソース内に新しいR4Bリソースを含めると、インスタンスがR4システムと共有された場合に相互運用性の問題が発生する可能性があります / Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems"/>
         <expression value="($this is Citation or $this is Evidence or $this is EvidenceReport or $this is EvidenceVariable or $this is MedicinalProductDefinition or $this is PackagedProductDefinition or $this is AdministrableProductDefinition or $this is Ingredient or $this is ClinicalUseDefinition or $this is RegulatedAuthorization or $this is SubstanceDefinition or $this is SubscriptionStatus or $this is SubscriptionTopic) implies (%resource is Citation or %resource is Evidence or %resource is EvidenceReport or %resource is EvidenceVariable or %resource is MedicinalProductDefinition or %resource is PackagedProductDefinition or %resource is AdministrableProductDefinition or %resource is Ingredient or %resource is ClinicalUseDefinition or %resource is RegulatedAuthorization or %resource is SubstanceDefinition or %resource is SubscriptionStatus or %resource is SubscriptionTopic)"/>
         <xpath value="not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
@@ -389,9 +389,9 @@
     </element>
     <element id="Observation.extension">
       <path value="Observation.extension"/>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="リソースの基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -407,7 +407,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -415,7 +415,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -430,10 +430,10 @@
     </element>
     <element id="Observation.modifierExtension">
       <path value="Observation.modifierExtension"/>
-      <short value="Extensions that cannot be ignored"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)."/>
+      <short value="無視できない拡張機能 / Extensions that cannot be ignored"/>
+      <definition value="リソースの基本的な定義の一部ではなく、それを含む要素の理解および/または含有要素の子孫の理解を変更するために使用される場合があります。通常、修飾子要素は否定または資格を提供します。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義することが許可されていますが、拡張機能の定義の一部として満たされる一連の要件があります。アプリケーションの処理リソースは、修飾子拡張機能をチェックする必要があります。&#xA;&#xA;モディファイア拡張は、リソースまたはdomainResource上の要素の意味を変更してはなりません（修飾軸自体の意味を変更することはできません）。 / May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="修飾子拡張機能により、安全に無視できる大部分の拡張機能と明確に区別できるように、安全に無視できない拡張機能が可能になります。これにより、実装者が拡張の存在を禁止する必要性を排除することにより、相互運用性が促進されます。詳細については、[修飾子拡張の定義]（拡張性.html＃modifierextension）を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -449,7 +449,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -457,14 +457,14 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <mustSupport value="false"/>
       <isModifier value="true"/>
-      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them"/>
+      <isModifierReason value="モディファイア拡張は、それらを含むリソースの意味または解釈を変更することが期待されています / Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them"/>
       <isSummary value="false"/>
       <mapping>
         <identity value="rim"/>
@@ -475,7 +475,7 @@
       <path value="Observation.identifier"/>
       <short value="内視鏡に関する当該項目に対して、施設内で割り振られる一意の識別子。"/>
       <definition value="内視鏡に関する当該項目に対して、施設内で割り振られる一意の識別子。"/>
-      <requirements value="Allows observations to be distinguished and referenced."/>
+      <requirements value="観測を区別し、参照することを可能にします。 / Allows observations to be distinguished and referenced."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -489,7 +489,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -519,7 +519,7 @@
       <short value="このObservationが実施されることになった依頼や計画、提案に関する情報。【詳細参照】"/>
       <definition value="このObservationが実施されることになった依頼や計画、提案に関する情報。"/>
       <comment value="【JP Core仕様】オーダ情報がある場合、このプロファイルでは ServiceRequest のリソースを参照。"/>
-      <requirements value="Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon."/>
+      <requirements value="イベントの許可を追跡し、提案/勧告が行われたかどうかを追跡することができます。 / Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon."/>
       <alias value="Fulfills"/>
       <min value="0"/>
       <max value="*"/>
@@ -535,7 +535,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -582,7 +582,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -611,7 +611,7 @@
       <short value="結果の状態"/>
       <definition value="結果の状態"/>
       <comment value="このリソースは現在有効でないというマークをするコードを含んでいるため、この要素はモディファイアー（修飾的要素）として位置づけられている。"/>
-      <requirements value="Need to track the status of individual results. Some results are finalized before the whole report is finalized."/>
+      <requirements value="個々の結果のステータスを追跡する必要があります。レポート全体が最終決定される前に、いくつかの結果が確定します。 / Need to track the status of individual results. Some results are finalized before the whole report is finalized."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -625,21 +625,21 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
       </constraint>
       <mustSupport value="false"/>
       <isModifier value="true"/>
-      <isModifierReason value="This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
+      <isModifierReason value="この要素は、リソースを有効として扱うべきではないことを意味するステータスに入力されたステータスを含むステータス要素であるため、修飾子としてラベル付けされています。 / This element is labeled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid"/>
       <isSummary value="true"/>
       <binding>
         <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
           <valueString value="ObservationStatus"/>
         </extension>
         <strength value="required"/>
-        <description value="Codes providing the status of an observation."/>
+        <description value="観察のステータスを提供するコード。 / Codes providing the status of an observation."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-status|4.3.0"/>
       </binding>
       <mapping>
@@ -675,7 +675,7 @@
       <short value="このObservationを分類するコード【詳細参照】"/>
       <definition value="このObservationを分類するコード"/>
       <comment value="内視鏡検査の第1カテゴリはJP_SimpleObservationCategory_VSからprocedureを指定、第2カテゴリはLOINCのPartコードLP7796-8（内視鏡）固定とする。"/>
-      <requirements value="Used for filtering what observations are retrieved and displayed."/>
+      <requirements value="どの観測値が取得されて表示されるかをフィルタリングするために使用されます。 / Used for filtering what observations are retrieved and displayed."/>
       <min value="2"/>
       <max value="*"/>
       <base>
@@ -689,7 +689,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -702,7 +702,7 @@
           <valueString value="ObservationCategory"/>
         </extension>
         <strength value="preferred"/>
-        <description value="Codes for high level observation categories."/>
+        <description value="高レベルの観測カテゴリのコード。 / Codes for high level observation categories."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-category|4.3.0"/>
       </binding>
       <mapping>
@@ -718,9 +718,9 @@
       <path value="Observation.category"/>
       <sliceName value="first"/>
       <short value="内視鏡検査の第1カテゴリはJP_SimpleObservationCategory_VSからprocedureを指定する。"/>
-      <definition value="A code that classifies the general type of observation being made."/>
-      <comment value="In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
-      <requirements value="Used for filtering what observations are retrieved and displayed."/>
+      <definition value="行われている一般的なタイプの観測を分類するコード。 / A code that classifies the general type of observation being made."/>
+      <comment value="必要なカテゴリバリューセットに加えて、この要素は、所有者のカテゴリの定義に基づいてさまざまな分類スキームを許可し、効果的に複数のカテゴリを一度に使用できます。粒度のレベルは、値セットのカテゴリの概念によって定義されます。 / In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
+      <requirements value="どの観測値が取得されて表示されるかをフィルタリングするために使用されます。 / Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
       <max value="*"/>
       <base>
@@ -734,7 +734,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -758,8 +758,8 @@
     <element id="Observation.category:first.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -790,9 +790,9 @@
         <description value="Extensions are always sliced by (at least) url"/>
         <rules value="open"/>
       </slicing>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -808,7 +808,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -816,7 +816,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -830,10 +830,10 @@
     </element>
     <element id="Observation.category:first.coding">
       <path value="Observation.category.coding"/>
-      <short value="Code defined by a terminology system"/>
-      <definition value="A reference to a code defined by a terminology system."/>
-      <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
-      <requirements value="Allows for alternative encodings within a code system, and translations to other code systems."/>
+      <short value="用語システムによって定義されたコード / Code defined by a terminology system"/>
+      <definition value="用語システムによって定義されたコードへの参照。 / A reference to a code defined by a terminology system."/>
+      <comment value="コードは、列挙されたCTなどの非常に正式な定義まで、列挙またはコードリストで非常にさりげなく定義される場合があります。詳細については、HL7 V3コアプリンシップを参照してください。コーディングの順序付けは未定義であり、意味を推測するために使用されません。一般に、せいぜい、コーディング値の1つのみがuserselected = trueとしてラベル付けされます。 / Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
+      <requirements value="コードシステム内の代替エンコーディング、および他のコードシステムへの翻訳が可能になります。 / Allows for alternative encodings within a code system, and translations to other code systems."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -847,7 +847,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -870,8 +870,8 @@
     <element id="Observation.category:first.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -902,9 +902,9 @@
         <description value="Extensions are always sliced by (at least) url"/>
         <rules value="open"/>
       </slicing>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -920,7 +920,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -928,7 +928,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -942,10 +942,10 @@
     </element>
     <element id="Observation.category:first.coding.system">
       <path value="Observation.category.coding.system"/>
-      <short value="Identity of the terminology system"/>
-      <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
-      <comment value="The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously."/>
-      <requirements value="Need to be unambiguous about the source of the definition of the symbol."/>
+      <short value="用語システムのアイデンティティ / Identity of the terminology system"/>
+      <definition value="コード内のシンボルの意味を定義するコードシステムの識別。 / The identification of the code system that defines the meaning of the symbol in the code."/>
+      <comment value="uriは、oid（urn：oid：...）またはuuid（urn：uuid：...）である場合があります。OIDとUUIDは、HL7 OIDレジストリへの参照となります。それ以外の場合、URIは、FHIRの特別なURIを定義したHL7のリストから来るか、システムを明確かつ明確に確立する定義を参照する必要があります。 / The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously."/>
+      <requirements value="シンボルの定義のソースについて明確である必要があります。 / Need to be unambiguous about the source of the definition of the symbol."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -960,7 +960,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -982,9 +982,9 @@
     </element>
     <element id="Observation.category:first.coding.version">
       <path value="Observation.category.coding.version"/>
-      <short value="Version of the system - if relevant"/>
-      <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
-      <comment value="Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date."/>
+      <short value="システムのバージョン - 関連する場合 / Version of the system - if relevant"/>
+      <definition value="このコードを選択するときに使用されたコードシステムのバージョン。コードの意味がバージョン全体で一貫しているため、適切にメンテナンスしたコードシステムでは報告されたバージョンを必要としないことに注意してください。ただし、これは一貫して保証することはできず、意味が一貫していることが保証されていない場合、バージョンを交換する必要があります。 / The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
+      <comment value="用語がコードシステムバージョンを識別するために使用する文字列を明確に定義していない場合、推奨は、そのバージョンがバージョンの日付として公式に公開された日付（FHIR日付形式で表現）を使用することです。 / Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -998,7 +998,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1023,9 +1023,9 @@
         <valueBoolean value="true"/>
       </extension>
       <path value="Observation.category.coding.code"/>
-      <short value="Symbol in syntax defined by the system"/>
-      <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
-      <requirements value="Need to refer to a particular code in the system."/>
+      <short value="システムによって定義された構文のシンボル / Symbol in syntax defined by the system"/>
+      <definition value="システムによって定義された構文のシンボル。シンボルは、定義されたコードまたはコーディングシステムによって定義された構文の式（例：調整後）である場合があります。 / A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
+      <requirements value="システム内の特定のコードを参照する必要があります。 / Need to refer to a particular code in the system."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1040,7 +1040,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1068,9 +1068,9 @@
         <valueBoolean value="true"/>
       </extension>
       <path value="Observation.category.coding.display"/>
-      <short value="Representation defined by the system"/>
-      <definition value="A representation of the meaning of the code in the system, following the rules of the system."/>
-      <requirements value="Need to be able to carry a human-readable meaning of the code for readers that do not know  the system."/>
+      <short value="システムによって定義された表現 / Representation defined by the system"/>
+      <definition value="システムのルールに従って、システム内のコードの意味の表現。 / A representation of the meaning of the code in the system, following the rules of the system."/>
+      <requirements value="システムを知らない読者のために、コードの人間の読み取り可能な意味を持ち込むことができる必要があります。 / Need to be able to carry a human-readable meaning of the code for readers that do not know  the system."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1084,7 +1084,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1106,10 +1106,10 @@
     </element>
     <element id="Observation.category:first.coding.userSelected">
       <path value="Observation.category.coding.userSelected"/>
-      <short value="If this coding was chosen directly by the user"/>
-      <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
-      <comment value="Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely."/>
-      <requirements value="This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing."/>
+      <short value="このコーディングがユーザーによって直接選択された場合 / If this coding was chosen directly by the user"/>
+      <definition value="このコーディングがユーザーによって直接選択されたことを示します。利用可能なアイテムのピックリスト（コードまたはディスプレイ）。 / Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
+      <comment value="一連の代替案の中で、直接選択されたコードが新しい翻訳の最も適切な出発点です。この要素の使用とその結果をより完全に明確にするためには、「直接選択された」ことについては曖昧さがあり、取引パートナー契約が必要になる場合があります。 / Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely."/>
+      <requirements value="これは、臨床安全基準として特定されています - この正確なシステム/コードペアは、いくつかのルールまたは言語処理に基づいてシステムによって推測されるのではなく、明示的に選択されたことです。 / This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1123,7 +1123,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1151,10 +1151,10 @@
         <valueBoolean value="true"/>
       </extension>
       <path value="Observation.category.text"/>
-      <short value="Plain text representation of the concept"/>
-      <definition value="A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user."/>
-      <comment value="Very often the text is the same as a displayName of one of the codings."/>
-      <requirements value="The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source."/>
+      <short value="コンセプトの単純なテキスト表現 / Plain text representation of the concept"/>
+      <definition value="データを入力したユーザー、および/またはユーザーの意図された意味を表すユーザーによって見られる/選択/発言された概念の人間の言語表現。 / A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user."/>
+      <comment value="多くの場合、テキストはコーディングの1つの表示名と同じです。 / Very often the text is the same as a displayName of one of the codings."/>
+      <requirements value="用語からのコードは、それらを使用する人間のすべてのニュアンスを使用して、常に正しい意味をキャプチャするとは限りません。または、適切なコードがまったくない場合があります。これらの場合、テキストはソースの完全な意味をキャプチャするために使用されます。 / The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1168,7 +1168,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1194,7 +1194,7 @@
       <short value="第2カテゴリはLOINCのPartコードLP7796-8（内視鏡）固定とする。ValueSetは指定しない"/>
       <definition value="第2カテゴリはLOINCのPartコードLP7796-8（内視鏡）固定とする。ValueSetは指定しない"/>
       <comment value="階層的にカテゴリーを設定することで粒度のレベルを概念定義できる。"/>
-      <requirements value="Used for filtering what observations are retrieved and displayed."/>
+      <requirements value="どの観測値が取得されて表示されるかをフィルタリングするために使用されます。 / Used for filtering what observations are retrieved and displayed."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1208,7 +1208,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1221,7 +1221,7 @@
           <valueString value="ObservationCategory"/>
         </extension>
         <strength value="preferred"/>
-        <description value="Codes for high level observation categories."/>
+        <description value="高レベルの観測カテゴリのコード。 / Codes for high level observation categories."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-category|4.3.0"/>
       </binding>
       <mapping>
@@ -1236,8 +1236,8 @@
     <element id="Observation.category:second.id">
       <path value="Observation.category.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1268,9 +1268,9 @@
         <description value="Extensions are always sliced by (at least) url"/>
         <rules value="open"/>
       </slicing>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -1286,7 +1286,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1294,7 +1294,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -1308,10 +1308,10 @@
     </element>
     <element id="Observation.category:second.coding">
       <path value="Observation.category.coding"/>
-      <short value="Code defined by a terminology system"/>
-      <definition value="A reference to a code defined by a terminology system."/>
-      <comment value="Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
-      <requirements value="Allows for alternative encodings within a code system, and translations to other code systems."/>
+      <short value="用語システムによって定義されたコード / Code defined by a terminology system"/>
+      <definition value="用語システムによって定義されたコードへの参照。 / A reference to a code defined by a terminology system."/>
+      <comment value="コードは、列挙されたCTなどの非常に正式な定義まで、列挙またはコードリストで非常にさりげなく定義される場合があります。詳細については、HL7 V3コアプリンシップを参照してください。コーディングの順序付けは未定義であり、意味を推測するために使用されません。一般に、せいぜい、コーディング値の1つのみがuserselected = trueとしてラベル付けされます。 / Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true."/>
+      <requirements value="コードシステム内の代替エンコーディング、および他のコードシステムへの翻訳が可能になります。 / Allows for alternative encodings within a code system, and translations to other code systems."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1325,7 +1325,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1348,8 +1348,8 @@
     <element id="Observation.category:second.coding.id">
       <path value="Observation.category.coding.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1380,9 +1380,9 @@
         <description value="Extensions are always sliced by (at least) url"/>
         <rules value="open"/>
       </slicing>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -1398,7 +1398,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1406,7 +1406,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -1420,10 +1420,10 @@
     </element>
     <element id="Observation.category:second.coding.system">
       <path value="Observation.category.coding.system"/>
-      <short value="Identity of the terminology system"/>
-      <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
-      <comment value="The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously."/>
-      <requirements value="Need to be unambiguous about the source of the definition of the symbol."/>
+      <short value="用語システムのアイデンティティ / Identity of the terminology system"/>
+      <definition value="コード内のシンボルの意味を定義するコードシステムの識別。 / The identification of the code system that defines the meaning of the symbol in the code."/>
+      <comment value="uriは、oid（urn：oid：...）またはuuid（urn：uuid：...）である場合があります。OIDとUUIDは、HL7 OIDレジストリへの参照となります。それ以外の場合、URIは、FHIRの特別なURIを定義したHL7のリストから来るか、システムを明確かつ明確に確立する定義を参照する必要があります。 / The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously."/>
+      <requirements value="シンボルの定義のソースについて明確である必要があります。 / Need to be unambiguous about the source of the definition of the symbol."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1438,7 +1438,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1460,9 +1460,9 @@
     </element>
     <element id="Observation.category:second.coding.version">
       <path value="Observation.category.coding.version"/>
-      <short value="Version of the system - if relevant"/>
-      <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
-      <comment value="Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date."/>
+      <short value="システムのバージョン - 関連する場合 / Version of the system - if relevant"/>
+      <definition value="このコードを選択するときに使用されたコードシステムのバージョン。コードの意味がバージョン全体で一貫しているため、適切にメンテナンスしたコードシステムでは報告されたバージョンを必要としないことに注意してください。ただし、これは一貫して保証することはできず、意味が一貫していることが保証されていない場合、バージョンを交換する必要があります。 / The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
+      <comment value="用語がコードシステムバージョンを識別するために使用する文字列を明確に定義していない場合、推奨は、そのバージョンがバージョンの日付として公式に公開された日付（FHIR日付形式で表現）を使用することです。 / Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1476,7 +1476,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1501,9 +1501,9 @@
         <valueBoolean value="true"/>
       </extension>
       <path value="Observation.category.coding.code"/>
-      <short value="Symbol in syntax defined by the system"/>
-      <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
-      <requirements value="Need to refer to a particular code in the system."/>
+      <short value="システムによって定義された構文のシンボル / Symbol in syntax defined by the system"/>
+      <definition value="システムによって定義された構文のシンボル。シンボルは、定義されたコードまたはコーディングシステムによって定義された構文の式（例：調整後）である場合があります。 / A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
+      <requirements value="システム内の特定のコードを参照する必要があります。 / Need to refer to a particular code in the system."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1518,7 +1518,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1546,9 +1546,9 @@
         <valueBoolean value="true"/>
       </extension>
       <path value="Observation.category.coding.display"/>
-      <short value="Representation defined by the system"/>
-      <definition value="A representation of the meaning of the code in the system, following the rules of the system."/>
-      <requirements value="Need to be able to carry a human-readable meaning of the code for readers that do not know  the system."/>
+      <short value="システムによって定義された表現 / Representation defined by the system"/>
+      <definition value="システムのルールに従って、システム内のコードの意味の表現。 / A representation of the meaning of the code in the system, following the rules of the system."/>
+      <requirements value="システムを知らない読者のために、コードの人間の読み取り可能な意味を持ち込むことができる必要があります。 / Need to be able to carry a human-readable meaning of the code for readers that do not know  the system."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1562,7 +1562,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1584,10 +1584,10 @@
     </element>
     <element id="Observation.category:second.coding.userSelected">
       <path value="Observation.category.coding.userSelected"/>
-      <short value="If this coding was chosen directly by the user"/>
-      <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
-      <comment value="Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely."/>
-      <requirements value="This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing."/>
+      <short value="このコーディングがユーザーによって直接選択された場合 / If this coding was chosen directly by the user"/>
+      <definition value="このコーディングがユーザーによって直接選択されたことを示します。利用可能なアイテムのピックリスト（コードまたはディスプレイ）。 / Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
+      <comment value="一連の代替案の中で、直接選択されたコードが新しい翻訳の最も適切な出発点です。この要素の使用とその結果をより完全に明確にするためには、「直接選択された」ことについては曖昧さがあり、取引パートナー契約が必要になる場合があります。 / Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely."/>
+      <requirements value="これは、臨床安全基準として特定されています - この正確なシステム/コードペアは、いくつかのルールまたは言語処理に基づいてシステムによって推測されるのではなく、明示的に選択されたことです。 / This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1601,7 +1601,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1629,10 +1629,10 @@
         <valueBoolean value="true"/>
       </extension>
       <path value="Observation.category.text"/>
-      <short value="Plain text representation of the concept"/>
-      <definition value="A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user."/>
-      <comment value="Very often the text is the same as a displayName of one of the codings."/>
-      <requirements value="The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source."/>
+      <short value="コンセプトの単純なテキスト表現 / Plain text representation of the concept"/>
+      <definition value="データを入力したユーザー、および/またはユーザーの意図された意味を表すユーザーによって見られる/選択/発言された概念の人間の言語表現。 / A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user."/>
+      <comment value="多くの場合、テキストはコーディングの1つの表示名と同じです。 / Very often the text is the same as a displayName of one of the codings."/>
+      <requirements value="用語からのコードは、それらを使用する人間のすべてのニュアンスを使用して、常に正しい意味をキャプチャするとは限りません。または、適切なコードがまったくない場合があります。これらの場合、テキストはソースの完全な意味をキャプチャするために使用されます。 / The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1646,7 +1646,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1671,7 +1671,7 @@
       <short value="このObservationの対象を特定するコード。【詳細参照】"/>
       <definition value="このObservationの対象を特定するコード。"/>
       <comment value="19778-0（Indications description Narrative Endoscopy（所見））、19811-9（Diagnosis Endoscopy Procedure Narrative（診断））、およびLOINC申請中のJED用語の臓器毎のFindings、Diagnosis（Characterization）から選択する。JED用語のLOINCコードが取得できたらCodableConceptとして拡張予定。"/>
-      <requirements value="Knowing what kind of observation is being made is essential to understanding the observation."/>
+      <requirements value="どのような観察が行われているかを知ることは、観察を理解するために不可欠です。 / Knowing what kind of observation is being made is essential to understanding the observation."/>
       <alias value="Name"/>
       <min value="1"/>
       <max value="1"/>
@@ -1686,7 +1686,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1728,7 +1728,7 @@
       <short value="このObservationの対象となる患者や患者群、機器、場所に関する情報"/>
       <definition value="このObservationの対象となる患者や患者群、機器、場所に関する情報"/>
       <comment value="この要素は1..1のcardinalityになるはずと考えられる。この要素が欠損値になる唯一の状況は、対象患者が不明なデバイスによって観察が行われるケースである。この場合、観察は何らかのコンテキスト/チャネルマッチング技術を介して患者にマッチングされる必要があり、患者にマッチングされれば、その時点で本要素を更新する必要がある。"/>
-      <requirements value="Observations have no value if you don't know who or what they're about."/>
+      <requirements value="あなたが彼らが誰または何をしているのかわからない場合、観察には価値がありません。 / Observations have no value if you don't know who or what they're about."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1743,7 +1743,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1791,7 +1791,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1821,7 +1821,7 @@
       <short value="診察や入院など、このObservationが実施されるきっかけとなった診療イベントに関する情報"/>
       <definition value="診察や入院など、このObservationが実施されるきっかけとなった診療イベントに関する情報"/>
       <comment value="通常、イベントが発生したEncounterであるが、一部のイベントは、Encounterの正式な完了の前または後に開始される場合があり、その場合でもEncounterのコンテキストに関連付けられている（例：入院前の臨床検査）。"/>
-      <requirements value="For some observations it may be important to know the link between an observation and a particular encounter."/>
+      <requirements value="一部の観察では、観察と特定のEncounterの間のリンクを知ることが重要かもしれません。 / For some observations it may be important to know the link between an observation and a particular encounter."/>
       <alias value="Context"/>
       <min value="0"/>
       <max value="1"/>
@@ -1837,7 +1837,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1867,7 +1867,7 @@
       <short value="取得された結果が臨床的に確定された日時または期間"/>
       <definition value="取得された結果が臨床的に確定された日時または期間"/>
       <comment value="【JP Core仕様】effectiveDateTime：診断、所見を記載した際の日時。effectivePeriod：診断、所見以外の観察結果を記載する際、必要に応じて使用。"/>
-      <requirements value="Knowing when an observation was deemed true is important to its relevance as well as determining trends."/>
+      <requirements value="観察が真実と見なされた時期を知ることは、その関連性にとって重要であり、傾向を決定します。 / Knowing when an observation was deemed true is important to its relevance as well as determining trends."/>
       <alias value="Occurrence"/>
       <min value="0"/>
       <max value="1"/>
@@ -1885,7 +1885,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1928,7 +1928,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -1954,7 +1954,7 @@
       <short value="このObservationの責任者/実施者に関する情報"/>
       <definition value="このObservationの責任者/実施者に関する情報"/>
       <comment value="参照は、実際のFHIRリソースへの参照である必要があり、解決可能（内容に到達可能）である必要がある（アクセス制御、一時的な使用不可などを考慮に入れる）。解決は、URLから取得するか、リソースタイプによって該当する場合は、絶対参照を正規URLとして扱い、ローカルレジストリ/リポジトリで検索することによって行うことができる。"/>
-      <requirements value="May give a degree of confidence in the observation and also indicates where follow-up questions should be directed."/>
+      <requirements value="観察にある程度の自信を与える可能性があり、また、フォローアップの質問をどこに向けるべきかを示します。 / May give a degree of confidence in the observation and also indicates where follow-up questions should be directed."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1974,7 +1974,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2004,7 +2004,7 @@
       <short value="内視鏡検査、治療の観察結果（診断、所見など）の情報を格納する。診断、所見の場合、病変単位で記載することが望ましい。【詳細参照】"/>
       <definition value="内視鏡検査、治療の観察結果（診断、所見など）の情報を格納する。診断、所見の場合、病変単位で記載することが望ましい。"/>
       <comment value="【JP Core仕様】主に診断、所見情報記載時に使用。text記載は必須とし、必要に応じてcodingも使用する。"/>
-      <requirements value="An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations."/>
+      <requirements value="観測は値を持つように存在しますが、それが誤っている場合、または観測のグループを表す場合はそうではありません。 / An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2019,7 +2019,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2053,7 +2053,7 @@
       <short value="このObservationのvalue[x]要素に期待される結果が存在しなかった場合、その理由"/>
       <definition value="このObservationのvalue[x]要素に期待される結果が存在しなかった場合、その理由"/>
       <comment value="ヌル値または例外値は、FHIRオブザベーションで2つの方法で表すことができる。 1つの方法は、それらを値セットに含めて、値の例外を表す方法である。たとえば、血清学的検査の測定値は、「検出された」、「検出されなかった」、「決定的でない」、または「検体が不十分」である可能性がある。別の方法は、実際の観測にvalue要素を使用し、明示的なdataAbsentReason要素を使用して例外的な値を記録することである。たとえば、測定が完了しなかった場合、dataAbsentReasonコード「error」を使用できる。この場合には、観測値は、報告する値がある場合にのみ報告される可能性があることに注意する必要がある。たとえば、差分セルカウント値は&gt; 0の場合にのみ報告される場合がある。これらのオプションのため、nullまたは例外値の一般的な観測値を解釈するにはユースケースの合意が必要である。"/>
-      <requirements value="For many results it is necessary to handle exceptional values in measurements."/>
+      <requirements value="多くの結果には、測定で例外的な値を処理する必要があります。 / For many results it is necessary to handle exceptional values in measurements."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2068,7 +2068,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2081,7 +2081,7 @@
           <valueString value="ObservationValueAbsentReason"/>
         </extension>
         <strength value="extensible"/>
-        <description value="Codes specifying why the result (`Observation.value[x]`) is missing."/>
+        <description value="結果（ `Observation.value[x]`）が欠落している理由を指定するコード。 / Codes specifying why the result (`Observation.value[x]`) is missing."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/data-absent-reason|4.3.0"/>
       </binding>
       <mapping>
@@ -2113,7 +2113,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2126,7 +2126,7 @@
           <valueString value="ObservationInterpretation"/>
         </extension>
         <strength value="extensible"/>
-        <description value="Codes identifying interpretations of observations."/>
+        <description value="観測の解釈を識別するコード。 / Codes identifying interpretations of observations."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0"/>
       </binding>
       <mapping>
@@ -2165,7 +2165,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2186,7 +2186,7 @@
       <path value="Observation.bodySite"/>
       <short value="対象となった身体部位"/>
       <definition value="対象となった身体部位"/>
-      <comment value="Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   &#xA;&#xA;If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/R4B/extension-bodysite.html)."/>
+      <comment value="観察結果で見つかったコードで暗黙的ではない場合にのみ使用されます。多くのシステムでは、これはインラインコンポーネントの代わりに関連する観察として表される場合があります。&#xA;&#xA;ユースケースでは、ボディサイトを個別のリソースとして処理する必要がある場合（たとえば、個別に識別および追跡するため）、標準の拡張[BodySite]（Extension-BodySite.html）を使用します。 / Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.   &#xA;&#xA;If the use case requires BodySite to be handled as a separate resource (e.g. to identify and track separately) then use the standard extension[ bodySite](http://hl7.org/fhir/R4B/extension-bodysite.html)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2200,7 +2200,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2213,7 +2213,7 @@
           <valueString value="BodySite"/>
         </extension>
         <strength value="example"/>
-        <description value="SNOMED CT Body site concepts"/>
+        <description value="SNOMED CT身体部位概念 / SNOMED CT Body site concepts"/>
         <valueSet value="http://hl7.org/fhir/ValueSet/body-site|4.3.0"/>
       </binding>
       <mapping>
@@ -2237,8 +2237,8 @@
       <path value="Observation.method"/>
       <short value="このObservationの実施方法"/>
       <definition value="このObservationの実施方法"/>
-      <comment value="Only used if not implicit in code for Observation.code."/>
-      <requirements value="In some cases, method can impact results and is thus used for determining whether results can be compared or determining significance of results."/>
+      <comment value="CODERATION.CODEのコードに暗黙的ではない場合にのみ使用されます。 / Only used if not implicit in code for Observation.code."/>
+      <requirements value="場合によっては、メソッドは結果に影響を与える可能性があるため、結果を比較できるか、結果の重要性を決定できるかどうかを判断するために使用されます。 / In some cases, method can impact results and is thus used for determining whether results can be compared or determining significance of results."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2252,7 +2252,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2265,7 +2265,7 @@
           <valueString value="ObservationMethod"/>
         </extension>
         <strength value="example"/>
-        <description value="Methods for simple observations."/>
+        <description value="単純な観測の方法。 / Methods for simple observations."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-methods|4.3.0"/>
       </binding>
       <mapping>
@@ -2296,7 +2296,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2341,7 +2341,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2385,7 +2385,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children unless an empty Parameters resource"/>
+        <human value="空のParametersリソースでない限り、すべてのFHIR要素には@valueまたはchildrenが必要です / All FHIR elements must have a @value or children unless an empty Parameters resource"/>
         <expression value="hasValue() or (children().count() &gt; id.count()) or $this is Parameters"/>
         <xpath value="@value|f:*|h:div|self::f:Parameters"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2393,7 +2393,7 @@
       <constraint>
         <key value="obs-3"/>
         <severity value="error"/>
-        <human value="Must have at least a low or a high or text"/>
+        <human value="少なくともlow, high, textのいずれかが必要です / Must have at least a low or a high or text"/>
         <expression value="low.exists() or high.exists() or text.exists()"/>
         <xpath value="(exists(f:low) or exists(f:high)or exists(f:text))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
@@ -2413,8 +2413,8 @@
     <element id="Observation.referenceRange.id">
       <path value="Observation.referenceRange.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2437,9 +2437,9 @@
     </element>
     <element id="Observation.referenceRange.extension">
       <path value="Observation.referenceRange.extension"/>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -2455,7 +2455,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2463,7 +2463,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -2477,10 +2477,10 @@
     </element>
     <element id="Observation.referenceRange.modifierExtension">
       <path value="Observation.referenceRange.modifierExtension"/>
-      <short value="Extensions that cannot be ignored even if unrecognized"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)."/>
+      <short value="認識されていなくても無視できない拡張機能 / Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="要素の基本的な定義の一部ではなく、それが含まれている要素の理解、および/または含まれる要素の子孫の理解を変更するために使用される場合があります。通常、修飾子要素は否定または資格を提供します。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。アプリケーションの処理リソースは、修飾子拡張機能をチェックする必要があります。&#xA;&#xA;モディファイア拡張は、リソースまたはdomainResource上の要素の意味を変更してはなりません（修飾軸自体の意味を変更することはできません）。 / May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="修飾子拡張機能により、安全に無視できる大部分の拡張機能と明確に区別できるように、安全に無視できない拡張機能が可能になります。これにより、実装者が拡張の存在を禁止する必要性を排除することにより、相互運用性が促進されます。詳細については、[修飾子拡張の定義]（拡張性.html＃modifierextension）を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -2497,7 +2497,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2505,13 +2505,13 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="true"/>
-      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isModifierReason value="修飾子拡張は、それらを含む要素の意味または解釈を変更することが期待されています / Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
       <isSummary value="true"/>
       <mapping>
         <identity value="rim"/>
@@ -2520,8 +2520,8 @@
     </element>
     <element id="Observation.referenceRange.low">
       <path value="Observation.referenceRange.low"/>
-      <short value="Low Range, if relevant"/>
-      <definition value="The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is &gt;=5 - &lt;=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is &lt;=2.3)."/>
+      <short value="関連する場合は低レンジ / Low Range, if relevant"/>
+      <definition value="参照範囲の低境界の値。参照範囲のエンドポイントの低い境界には、値が含まれています（例：参照範囲は&gt; = 5- &lt;= 9）。下限が省略されている場合、それは意味がないと想定されます（例：参照範囲は&lt;= 2.3）。 / The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is &gt;=5 - &lt;=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is &lt;=2.3)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2537,7 +2537,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2556,8 +2556,8 @@
     </element>
     <element id="Observation.referenceRange.high">
       <path value="Observation.referenceRange.high"/>
-      <short value="High Range, if relevant"/>
-      <definition value="The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is &gt;=5 - &lt;=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is &gt;= 2.3)."/>
+      <short value="関連する場合、高レンジ / High Range, if relevant"/>
+      <definition value="参照範囲の強境界の値。参照範囲のエンドポイントの高境界には、値が含まれています（例：参照範囲は&gt; = 5- &lt;= 9）。高バウンドが省略されている場合、それは無意味であると想定されます（例：参照範囲は&gt; = 2.3）。 / The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is &gt;=5 - &lt;=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is &gt;= 2.3)."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2573,7 +2573,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2594,8 +2594,8 @@
       <path value="Observation.referenceRange.type"/>
       <short value="参照範囲修飾子。"/>
       <definition value="参照範囲修飾子。"/>
-      <comment value="This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed."/>
-      <requirements value="Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation."/>
+      <comment value="複数の範囲がある場合は、これに浸透する必要があります。この要素が存在しない場合、通常の範囲が想定されます。 / This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed."/>
+      <requirements value="適切な解釈のために、これが正常、推奨、治療など、どのような参照範囲を言うことができる必要があります。 / Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2609,7 +2609,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2622,7 +2622,7 @@
           <valueString value="ObservationRangeMeaning"/>
         </extension>
         <strength value="preferred"/>
-        <description value="Code for the meaning of a reference range."/>
+        <description value="参照範囲の意味のコード。 / Code for the meaning of a reference range."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/referencerange-meaning|4.3.0"/>
       </binding>
       <mapping>
@@ -2640,10 +2640,10 @@
     </element>
     <element id="Observation.referenceRange.appliesTo">
       <path value="Observation.referenceRange.appliesTo"/>
-      <short value="Reference range population"/>
-      <definition value="Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.  Multiple `appliesTo`  are interpreted as an &quot;AND&quot; of the target populations.  For example, to represent a target population of African American females, both a code of female and a code for African American would be used."/>
-      <comment value="This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed."/>
-      <requirements value="Need to be able to identify the target population for proper interpretation."/>
+      <short value="参照範囲の母集団 / Reference range population"/>
+      <definition value="この参照範囲が適用される対象母集団を示すコード。たとえば、参照範囲は、通常の集団または特定の性別または人種に基づいている場合があります。複数の「Applesto」は、ターゲット集団の「および」として解釈されます。たとえば、アフリカ系アメリカ人の女性の対象集団を代表するために、女性のコードとアフリカ系アメリカ人のコードの両方が使用されます。 / Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.  Multiple `appliesTo`  are interpreted as an &quot;AND&quot; of the target populations.  For example, to represent a target population of African American females, both a code of female and a code for African American would be used."/>
+      <comment value="複数の範囲がある場合は、これに浸透する必要があります。この要素が存在しない場合、通常の母集団が想定されます。 / This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed."/>
+      <requirements value="適切な解釈のためにターゲット母集団を特定できる必要があります。 / Need to be able to identify the target population for proper interpretation."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2657,7 +2657,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2670,7 +2670,7 @@
           <valueString value="ObservationRangeType"/>
         </extension>
         <strength value="example"/>
-        <description value="Codes identifying the population the reference range applies to."/>
+        <description value="参照範囲が適用される母集団を識別するコード。 / Codes identifying the population the reference range applies to."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/referencerange-appliesto|4.3.0"/>
       </binding>
       <mapping>
@@ -2690,7 +2690,7 @@
       <path value="Observation.referenceRange.age"/>
       <short value="該当する場合、適用年齢。"/>
       <definition value="該当する場合、適用年齢。"/>
-      <requirements value="Some analytes vary greatly over age."/>
+      <requirements value="一部の分析物は、年齢によって大きく異なります。 / Some analytes vary greatly over age."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2704,7 +2704,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2719,8 +2719,8 @@
     </element>
     <element id="Observation.referenceRange.text">
       <path value="Observation.referenceRange.text"/>
-      <short value="Text based reference range in an observation"/>
-      <definition value="Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of &quot;Negative&quot; or a list or table of &quot;normals&quot;."/>
+      <short value="観察中のテキストベースの参照範囲 / Text based reference range in an observation"/>
+      <definition value="テキストベースの参照範囲の観測では、定量的範囲が観測に適していない場合に使用される場合があります。例は、「ネガティブ」の参照値、または「通常」のリストまたはテーブルです。 / Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of &quot;Negative&quot; or a list or table of &quot;normals&quot;."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2734,7 +2734,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2771,7 +2771,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2812,7 +2812,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2848,7 +2848,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children unless an empty Parameters resource"/>
+        <human value="空のParametersリソースでない限り、すべてのFHIR要素には@valueまたはchildrenが必要です / All FHIR elements must have a @value or children unless an empty Parameters resource"/>
         <expression value="hasValue() or (children().count() &gt; id.count()) or $this is Parameters"/>
         <xpath value="@value|f:*|h:div|self::f:Parameters"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2868,8 +2868,8 @@
     <element id="Observation.component.id">
       <path value="Observation.component.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2892,9 +2892,9 @@
     </element>
     <element id="Observation.component.extension">
       <path value="Observation.component.extension"/>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -2910,7 +2910,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2918,7 +2918,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -2932,10 +2932,10 @@
     </element>
     <element id="Observation.component.modifierExtension">
       <path value="Observation.component.modifierExtension"/>
-      <short value="Extensions that cannot be ignored even if unrecognized"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
-      <requirements value="Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)."/>
+      <short value="認識されていなくても無視できない拡張機能 / Extensions that cannot be ignored even if unrecognized"/>
+      <definition value="要素の基本的な定義の一部ではなく、それが含まれている要素の理解、および/または含まれる要素の子孫の理解を変更するために使用される場合があります。通常、修飾子要素は否定または資格を提供します。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。アプリケーションの処理リソースは、修飾子拡張機能をチェックする必要があります。&#xA;&#xA;モディファイア拡張は、リソースまたはdomainResource上の要素の意味を変更してはなりません（修飾軸自体の意味を変更することはできません）。 / May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.&#xA;&#xA;Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself)."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <requirements value="修飾子拡張機能により、安全に無視できる大部分の拡張機能と明確に区別できるように、安全に無視できない拡張機能が可能になります。これにより、実装者が拡張の存在を禁止する必要性を排除することにより、相互運用性が促進されます。詳細については、[修飾子拡張の定義]（拡張性.html＃modifierextension）を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <alias value="modifiers"/>
@@ -2952,7 +2952,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -2960,13 +2960,13 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
       </constraint>
       <isModifier value="true"/>
-      <isModifierReason value="Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
+      <isModifierReason value="修飾子拡張は、それらを含む要素の意味または解釈を変更することが期待されています / Modifier extensions are expected to modify the meaning or interpretation of the element that contains them"/>
       <isSummary value="true"/>
       <mapping>
         <identity value="rim"/>
@@ -2975,10 +2975,10 @@
     </element>
     <element id="Observation.component.code">
       <path value="Observation.component.code"/>
-      <short value="Type of component observation (code / type)"/>
-      <definition value="Describes what was observed. Sometimes this is called the observation &quot;code&quot;."/>
-      <comment value="*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."/>
-      <requirements value="Knowing what kind of observation is being made is essential to understanding the observation."/>
+      <short value="コンポーネント検査の種類（コード / タイプ） / Type of component observation (code / type)"/>
+      <definition value="観察されたものについて説明します。これは、「コード」と呼ばれることがあります。 / Describes what was observed. Sometimes this is called the observation &quot;code&quot;."/>
+      <comment value="*すべて* code-valueおよびcomponent.code-component.valueペアを考慮する必要があります。観察の意味を正しく理解する必要があります。 / *All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."/>
+      <requirements value="どのような観察が行われているかを知ることは、観察を理解するために不可欠です。 / Knowing what kind of observation is being made is essential to understanding the observation."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2992,7 +2992,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -3005,7 +3005,7 @@
           <valueString value="ObservationCode"/>
         </extension>
         <strength value="example"/>
-        <description value="Codes identifying names of simple observations."/>
+        <description value="単純な観測の名前を識別するコード。 / Codes identifying names of simple observations."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-codes|4.3.0"/>
       </binding>
       <mapping>
@@ -3027,10 +3027,10 @@
     </element>
     <element id="Observation.component.value[x]">
       <path value="Observation.component.value[x]"/>
-      <short value="Actual component result"/>
-      <definition value="The information determined as a result of making the observation, if the information has a simple value."/>
-      <comment value="Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](http://hl7.org/fhir/R4B/observation.html#notes) below."/>
-      <requirements value="An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations."/>
+      <short value="実際のコンポーネントの結果 / Actual component result"/>
+      <definition value="情報が単純な値を持っている場合、観察結果の結果として決定された情報。 / The information determined as a result of making the observation, if the information has a simple value."/>
+      <comment value="観察には一連のコンポーネント観測がある場合に使用されます。観察には、値（APGARスコアなど）とコンポーネントの観測（APGARスコアが導き出された観測）の両方があります。値が存在する場合、この要素のデータ型は、viscervation.codeによって決定する必要があります。フィールドが通常コーディングされている場合、または観測に関連付けられたタイプの場合、文字列の代わりにテキストのみを持つCodeableconecteが使用されます。コードはコード化された値を定義します。追加のガイダンスについては、以下の[[メモ]セクション]（[観察.html＃注）を参照してください。 / Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](http://hl7.org/fhir/R4B/observation.html#notes) below."/>
+      <requirements value="観測は値を持つように存在しますが、それが誤っている場合、または観測のグループを表す場合はそうではありません。 / An observation exists to have a value, though it might not if it is in error, or if it represents a group of observations."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3074,7 +3074,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -3101,10 +3101,10 @@
     </element>
     <element id="Observation.component.dataAbsentReason">
       <path value="Observation.component.dataAbsentReason"/>
-      <short value="Why the component result is missing"/>
-      <definition value="Provides a reason why the expected value in the element Observation.component.value[x] is missing."/>
-      <comment value="&quot;Null&quot; or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  &quot;detected&quot;, &quot;not detected&quot;, &quot;inconclusive&quot;, or  &quot;test not done&quot;. &#xA;&#xA;The alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code &quot;error&quot; could be used when the measurement was not completed.  Because of these options, use-case agreements are required to interpret general observations for exceptional values."/>
-      <requirements value="For many results it is necessary to handle exceptional values in measurements."/>
+      <short value="コンポーネントの結果が欠落している理由 / Why the component result is missing"/>
+      <definition value="Element obervation.component.value [x]の期待値が欠落している理由を提供します。 / Provides a reason why the expected value in the element Observation.component.value[x] is missing."/>
+      <comment value="「null」または例外的な値は、FHIR観測で2つの方法を表すことができます。1つの方法は、それらを単に値セットに含めるだけで、値の例外を表すことです。たとえば、血清学テストの測定値は、「検出」、「検出されない」、「決定的でない」、または「テストなし」です。&#xA;&#xA;別の方法は、実際の観測に値要素を使用し、明示的なDataBsEntreason要素を使用して例外的な値を記録することです。たとえば、測定が完了していないときに、dataAbsentReasonコード「エラー」を使用できます。これらのオプションのため、一般的な観測を例外的な価値のために解釈するには、ユースケース契約が必要です。 / &quot;Null&quot; or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  &quot;detected&quot;, &quot;not detected&quot;, &quot;inconclusive&quot;, or  &quot;test not done&quot;. &#xA;&#xA;The alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code &quot;error&quot; could be used when the measurement was not completed.  Because of these options, use-case agreements are required to interpret general observations for exceptional values."/>
+      <requirements value="多くの結果には、測定で例外的な値を処理する必要があります。 / For many results it is necessary to handle exceptional values in measurements."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3119,7 +3119,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -3132,7 +3132,7 @@
           <valueString value="ObservationValueAbsentReason"/>
         </extension>
         <strength value="extensible"/>
-        <description value="Codes specifying why the result (`Observation.value[x]`) is missing."/>
+        <description value="結果（ `Observation.value[x]`）が欠落している理由を指定するコード。 / Codes specifying why the result (`Observation.value[x]`) is missing."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/data-absent-reason|4.3.0"/>
       </binding>
       <mapping>
@@ -3146,10 +3146,10 @@
     </element>
     <element id="Observation.component.interpretation">
       <path value="Observation.component.interpretation"/>
-      <short value="High, low, normal, etc."/>
-      <definition value="A categorical assessment of an observation value.  For example, high, low, normal."/>
-      <comment value="Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result."/>
-      <requirements value="For some results, particularly numeric results, an interpretation is necessary to fully understand the significance of a result."/>
+      <short value="高、低、正常など。 / High, low, normal, etc."/>
+      <definition value="観測値のカテゴリー評価。たとえば、高、低、正常。 / A categorical assessment of an observation value.  For example, high, low, normal."/>
+      <comment value="歴史的に実験室の結果（「異常なフラグ」と呼ばれる）に使用されていたため、その使用は、コード化された解釈が関連する他のユースケースにまで及びます。多くの場合、1つ以上の単純なコンパクトコードとして報告されているこの要素は、結果の意味/正常性のステータスを示すレポートとフローシートの結果値に隣接することがよくあります。 / Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result."/>
+      <requirements value="いくつかの結果、特に数値の結果については、結果の重要性を完全に理解するために解釈が必要です。 / For some results, particularly numeric results, an interpretation is necessary to fully understand the significance of a result."/>
       <alias value="Abnormal Flag"/>
       <min value="0"/>
       <max value="*"/>
@@ -3164,7 +3164,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -3177,7 +3177,7 @@
           <valueString value="ObservationInterpretation"/>
         </extension>
         <strength value="extensible"/>
-        <description value="Codes identifying interpretations of observations."/>
+        <description value="観測の解釈を識別するコード。 / Codes identifying interpretations of observations."/>
         <valueSet value="http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0"/>
       </binding>
       <mapping>
@@ -3201,8 +3201,8 @@
       <path value="Observation.component.referenceRange"/>
       <short value="コンポーネント結果の解釈のためのガイドの提供。"/>
       <definition value="コンポーネント結果の解釈のためのガイドの提供。"/>
-      <comment value="Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties."/>
-      <requirements value="Knowing what values are considered &quot;normal&quot; can help evaluate the significance of a particular result. Need to be able to provide multiple reference ranges for different contexts."/>
+      <comment value="ほとんどの観測には、一般的な参照範囲が1つしかありません。システムは、患者に関する知識（患者の年齢、性別、体重、その他の要因に固有）に基づいて、関連する参照範囲のみを供給することを制限することを選択できますが、これは不可能または適切ではない場合があります。複数の参照範囲が提供される場合は、それらの間の違いを参照範囲および/または年齢特性で提供する必要があります。 / Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties."/>
+      <requirements value="どの値が「正常」と見なされるかを知ることは、特定の結果の重要性を評価するのに役立ちます。さまざまなコンテキストに複数の参照範囲を提供できる必要があります。 / Knowing what values are considered &quot;normal&quot; can help evaluate the significance of a particular result. Need to be able to provide multiple reference ranges for different contexts."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3214,7 +3214,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>

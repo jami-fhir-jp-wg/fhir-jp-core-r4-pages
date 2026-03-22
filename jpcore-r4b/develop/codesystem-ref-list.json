@@ -22,8 +22,8 @@
       "oids" : ["1.2.840.10008.2.16.4"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType",
-      "ValueSet-jp-dicommodality-vs.html" : "JP Core DICOM Modality ValueSet"
+      "ValueSet-jp-dicommodality-vs.html" : "JP Core DICOM Modality ValueSet",
+      "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType"
     },
     {
       "url" : "http://hl7.org/fhir/event-status",
@@ -257,8 +257,8 @@
       "description" : "JAHIS病名情報データ交換規約Ver.3.1C JHSD表00006-転帰区分 コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-outcome-jhsd0006-vs.html" : "JP Core Condition Disease Outcome JHSD0006 ValueSet",
-      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet"
+      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet",
+      "ValueSet-jp-condition-disease-outcome-jhsd0006-vs.html" : "JP Core Condition Disease Outcome JHSD0006 ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSI0001",
@@ -293,10 +293,10 @@
       "description" : "処置の対象となる身体部位のコード（今後用語を実装予定）",
       "uses" : {
       },
-      "ValueSet-jp-procedure-body-site-vs.html" : "JP Core Procedure BodySite ValueSet",
+      "ValueSet-jp-observation-bodysite-vs.html" : "JP Core Observation BodySite ValueSet",
       "ValueSet-jp-condition-bodysite-vs.html" : "JP Core Condition BodySite ValueSet",
-      "ValueSet-jp-imagingstudy-radiology-bodysite-vs.html" : "JP Core ImagingStudy Radiology BodySite ValueSet",
-      "ValueSet-jp-observation-bodysite-vs.html" : "JP Core Observation BodySite ValueSet"
+      "ValueSet-jp-procedure-body-site-vs.html" : "JP Core Procedure BodySite ValueSet",
+      "ValueSet-jp-imagingstudy-radiology-bodysite-vs.html" : "JP Core ImagingStudy Radiology BodySite ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
@@ -340,8 +340,8 @@
       "description" : "レセプト電算用修飾語マスター コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-modifier-receipt-vs.html" : "JP Core Condition Disease Modifier Receipt System ValueSet",
-      "ValueSet-jp-condition-disease-modifier-medis-exchange-vs.html" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet"
+      "ValueSet-jp-condition-disease-modifier-medis-exchange-vs.html" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet",
+      "ValueSet-jp-condition-disease-modifier-receipt-vs.html" : "JP Core Condition Disease Modifier Receipt System ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeReceipt_CS",
@@ -419,8 +419,8 @@
       "description" : "JP Coreにて定義した歯科のObservationリソースに関する現存歯の観察結果コード",
       "uses" : {
       },
-      "ValueSet-jp-dental-presentteeth-observation-vs.html" : "JP Core Dental PresentTeethObservation ValueSet",
-      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet"
+      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet",
+      "ValueSet-jp-dental-presentteeth-observation-vs.html" : "JP Core Dental PresentTeethObservation ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalRootBodyStructure_CS",
@@ -454,8 +454,8 @@
       "description" : "JP Coreにて定義した歯科のObservationリソースに関する現存歯の観察結果コード（簡易版）",
       "uses" : {
       },
-      "ValueSet-jp-dental-simple-presentteeth-observation-vs.html" : "JP Core Dental SimplePresentTeethObservation ValueSet",
-      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet"
+      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet",
+      "ValueSet-jp-dental-simple-presentteeth-observation-vs.html" : "JP Core Dental SimplePresentTeethObservation ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSurfaceBodyStructure_CS",
@@ -777,13 +777,13 @@
       "description" : "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。",
       "uses" : {
       },
-      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
-      "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet",
-      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
-      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
+      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet",
       "ValueSet-jp-procedure-devicekind-vs.html" : "JP Core Procedure Device Kind ValueSet",
       "ValueSet-jp-procedure-codes-ichi-vs.html" : "JP Core Procedure Codes ICHI ValueSet",
-      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet"
+      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
+      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
+      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
+      "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/YCM/JP_JfagyMedicationAllergen_CS",
@@ -906,11 +906,11 @@
       "uses" : {
       },
       "ValueSet-jp-observation-electrocardiogram-component-code-vs.html" : "JP Core Observation Electrocardiogram Component Code ValueSet",
-      "ValueSet-jp-observation-radiology-code-vs.html" : "JP Core Observation Radiology Code ValueSet",
-      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
+      "ValueSet-jp-observation-endoscopy-code-vs.html" : "JP Core Observation Endoscopy Code ValueSet",
       "http://hl7.org/fhir/R4B/valueset-consent-category.html" : "Consent Category Codes",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.4.0&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DiagnosticReportCategory_VS" : "JP Core Diagnostic Report Category ValueSet",
-      "ValueSet-jp-observation-endoscopy-code-vs.html" : "JP Core Observation Endoscopy Code ValueSet"
+      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
+      "ValueSet-jp-observation-radiology-code-vs.html" : "JP Core Observation Radiology Code ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.4.0&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DiagnosticReportCategory_VS" : "JP Core Diagnostic Report Category ValueSet"
     },
     {
       "url" : "http://medis.or.jp/CodeSystem/master-HOT13",
@@ -1034,8 +1034,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-bodysite-laterality.html" : "Laterality",
       "http://hl7.org/fhir/R4B/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4B/valueset-bodysite-laterality.html" : "Laterality",
       "http://hl7.org/fhir/R4B/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
       "http://hl7.org/fhir/R4B/valueset-specimen-container-type.html" : "SpecimenContainer"
     },
@@ -1120,7 +1120,7 @@
       "oids" : ["2.16.840.1.113883.18.229"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
@@ -1144,7 +1144,7 @@
       "oids" : ["2.16.840.1.113883.18.311"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0487.html" : "hl7VS-specimenType"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
@@ -1156,7 +1156,7 @@
       "oids" : ["2.16.840.1.113883.18.317"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
@@ -1168,7 +1168,7 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
@@ -1180,11 +1180,11 @@
       "oids" : ["2.16.840.1.113883.18.422"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "ParticipationFunction",
       "title" : "ParticipationFunction",
@@ -1196,7 +1196,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-      "version" : "5.0.0",
+      "version" : "6.0.0",
       "status" : "active",
       "name" : "ParticipationType",
       "title" : "ParticipationType",
@@ -1208,7 +1208,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Race",
-      "version" : "4.0.0",
+      "version" : "5.0.0",
       "status" : "active",
       "name" : "Race",
       "title" : "Race",
@@ -1216,11 +1216,11 @@
       "oids" : ["2.16.840.1.113883.5.104"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-Race.html" : "Race"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-Race.html" : "Race"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-      "version" : "4.0.0",
+      "version" : "5.0.0",
       "status" : "active",
       "name" : "RoleClass",
       "title" : "RoleClass",
@@ -1232,7 +1232,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "RoleCode",
       "title" : "RoleCode",
@@ -1358,10 +1358,10 @@
       "oids" : ["1.2.392.200270.4.1000.1"],
       "uses" : {
       },
-      "ValueSet-jp-reason-codes-jed-vs.html" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet",
       "ValueSet-jp-conclusion-codes-jed-vs.html" : "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet",
       "ValueSet-jp-observation-endoscopy-code-vs.html" : "JP Core Observation Endoscopy Code ValueSet",
-      "ValueSet-jp-observation-endoscoy-value-jed-vs.html" : "JP Core Observation Endoscopy Value JED ValueSet"
+      "ValueSet-jp-observation-endoscoy-value-jed-vs.html" : "JP Core Observation Endoscopy Value JED ValueSet",
+      "ValueSet-jp-reason-codes-jed-vs.html" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet"
     }
   ]
 }

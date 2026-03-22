@@ -394,7 +394,7 @@
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;dom-2&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;If the resource is contained in another resource, it SHALL NOT contain nested Resources&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;もしリソースが他のリソースに含まれている場合、そのリソースにはネストされたリソースを含めてはなりません (moshi risōsu ga hoka no risōsu ni fukumarete iru baai, sono risōsu ni wa nesuto sareta risōsu o fukumete wa narimasen). / If the resource is contained in another resource, it SHALL NOT contain nested Resources&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;contained.contained.empty()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;not(parent::f:contained and f:contained)&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.source">source</a>
@@ -404,7 +404,7 @@
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;dom-3&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;もしリソースが他のリソースに含まれている場合、それはリソースの他の場所から参照されるか、含まれるリソースに参照されるべきです。 / If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;contained.where(((id.exists() and ('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url)))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(uri) = '#').exists()).not()).trace('unmatched', id).empty()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>
@@ -416,7 +416,7 @@
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;dom-4&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;もしリソースが別のリソースの中に含まれる場合、meta.versionIdまたはmeta.lastUpdatedを持つべきではありません。 / If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>
@@ -428,7 +428,7 @@
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;dom-5&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;If a resource is contained in another resource, it SHALL NOT have a security label&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;もしリソースが他のリソースに含まれている場合、セキュリティラベルを持つべきではありません。 / If a resource is contained in another resource, it SHALL NOT have a security label&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;contained.meta.security.empty()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;not(exists(f:contained/*/f:meta/f:security))&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.source">source</a>
@@ -447,7 +447,7 @@
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;dom-6&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;warning&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;A resource should have narrative for robust management&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;資源は堅牢な管理のために物語を持つべきである。 / A resource should have narrative for robust management&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;text.`div`.exists()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;exists(f:text/h:div)&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.source">source</a>
@@ -476,11 +476,11 @@
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.id&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.id&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Logical id of this artifact&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;このアーティファクトの論理ID / Logical id of this artifact&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースのURLで使用される論理ID。一度割り当てられたら、この値は変更されません。 / The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;The only time that a resource does not have an id is when it is being submitted to the server using a create operation.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースにIDがないのは、作成操作を使用してサーバーに送信されているときだけです。 / The only time that a resource does not have an id is when it is being submitted to the server using a create operation.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -501,9 +501,9 @@
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.meta&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.meta&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Metadata about the resource&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;リソースに関するMetadata / Metadata about the resource&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースに関するMetadata。これはインフラストラクチャによって維持されるコンテンツです。 コンテンツの変更は、リソースのバージョン変更と常に関連しているわけではありません。 / The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -517,7 +517,8 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -529,11 +530,12 @@
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.implicitRules&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.implicitRules&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;A set of rules under which this content was created&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>
+             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;このコンテンツが作成されたルールセット / A set of rules under which this content was created&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソース構築時に遵守された一連のルールを指すものであり、コンテンツを処理する際に理解する必要があります。しばしば、特別なルールを定義する実装ガイドとその他のプロファイルなどを含むものです。 / A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;このルールセットを主張することで、取引先の限られた集団にしか内容を理解させることができず、長期的にはデータの有用性が制限されます。しかしながら、現存するヘルスエコシステムは高度に分断化しており、一般的に計算可能な形式でデータを定義、収集、交換する準備が整っていません。できる限り、実装者および/または仕様ライターはこの要素の使用を避けるべきです。使用する場合、URLは、そのナラティブとともに他のプロファイル、値セットなどを含む実装ガイドを定義する参照となります。 / Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -547,7 +549,8 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -556,16 +559,16 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isModifierReason">isModifierReason</a>
-                        <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation&quot;/&gt;
+                        <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;この要素は、暗黙のルールがリソースの意味や解釈を変更する追加の知識を提供する可能性があるため、修飾子としてラベル付けされている / This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isSummary">isSummary</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.language&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.language&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Language of the resource content&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;リソースコンテンツの言語 / Language of the resource content&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;The base language in which the resource is written.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースが書かれている基本言語。 / The base language in which the resource is written.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;言語はインデックスとアクセシビリティをサポートするために提供されます（通常、テキスト読み上げなどのサービスは言語タグを使用します）。物語のHTML言語タグは、物語に適用されます。リソース上の言語タグは、リソース内のデータから生成される他のプレゼンテーションの言語を指定するために使用できます。すべてのコンテンツが基本言語である必要はありません。Resource.languageは自動的に物語に適用されたと想定してはいけません。言語が指定されている場合、HTMLのdiv要素にも指定する必要があります（xml：langとhtml lang属性の関係に関する情報はHTML5の規則を参照）。 / Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -579,7 +582,8 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -598,17 +602,18 @@
           &lt;<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Language&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.strength">strength</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;preferred&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;IETF language tag&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;人間の言語。 / IETF language tag&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/languages|4.3.0&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.text&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.text&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Text summary of the resource, for human interpretation&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>
+             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;人間の解釈のためのリソースのテキスト要約 / Text summary of the resource, for human interpretation&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &amp;quot;clinically safe&amp;quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースの要約を含む人が読めるナビゲーションであり、リソースの内容を人に表現するために使用できます。ナビゲーションはすべての構造化されたデータをエンコードする必要はありませんが、人間がナビゲーションを読むだけで「臨床的に安全」であるために十分な詳細を含む必要があります。リソース定義には、臨床的な安全性を確保するためにナビゲーションで表現する必要があるコンテンツが定義される場合があります。 / A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it &amp;quot;clinically safe&amp;quot; for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &amp;quot;text blob&amp;quot; or where text is additionally entered raw or narrated and encoded information is added later.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;含まれるリソースには説明がありません。含まれないリソースには説明が必要です。場合によっては、リソースが少量のデータしか含まず、テキストだけで表現されることがあります（minOccurs = 1要素がすべて満たされている限り）。これは、情報が「テキストの塊」としてキャプチャされるレガシーシステムからのデータや、テキストが生またはナレーションされて符号化された情報が後で追加される場合に必要な場合があります。 / Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &amp;quot;text blob&amp;quot; or where text is additionally entered raw or narrated and encoded information is added later.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;narrative&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;html&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;xhtml&quot;/&gt;
@@ -626,7 +631,8 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -642,11 +648,11 @@
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.contained&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.contained&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Contained, inline Resources&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;含まれている、インラインのリソース / Contained, inline Resources&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;これらのリソースは、それらを含むリソースから独立した存在を持ちません。それらは独立して識別することはできず、独自の独立したトランザクション範囲を持つこともできません。 / These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;コンテンツが適切に識別できる場合には、これを行うべきではありません。識別が失われると、再び復元することは非常に困難であり（文脈に依存します）、メタ要素にプロファイルとタグを持つことができますが、セキュリティのラベルを持っていてはいけません。 / This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;inline resources&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;anonymous resources&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;contained resources&quot;/&gt;
@@ -664,7 +670,7 @@
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;dom-r4b&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;warning&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;R4リソース内に新しいR4Bリソースを含めると、インスタンスがR4システムと共有された場合に相互運用性の問題が発生する可能性があります / Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;($this is Citation or $this is Evidence or $this is EvidenceReport or $this is EvidenceVariable or $this is MedicinalProductDefinition or $this is PackagedProductDefinition or $this is AdministrableProductDefinition or $this is Ingredient or $this is ClinicalUseDefinition or $this is RegulatedAuthorization or $this is SubstanceDefinition or $this is SubscriptionStatus or $this is SubscriptionTopic) implies (%resource is Citation or %resource is Evidence or %resource is EvidenceReport or %resource is EvidenceVariable or %resource is MedicinalProductDefinition or %resource is PackagedProductDefinition or %resource is AdministrableProductDefinition or %resource is Ingredient or %resource is ClinicalUseDefinition or %resource is RegulatedAuthorization or %resource is SubstanceDefinition or %resource is SubscriptionStatus or %resource is SubscriptionTopic)&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>
@@ -681,11 +687,12 @@
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.extension&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.extension&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Additional content defined by implementations&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a>
+             <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;実装によって定義される追加コンテンツ / Additional content defined by implementations&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.&quot;/&gt;
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースの基本的な定義の一部ではない追加情報を表すために使用することができます。拡張機能の使用を安全かつ管理可能にするために、定義と使用の一定のガバナンスが適用されます。実装者はどんな拡張機能でも定義できますが、拡張機能の定義の一部として満たす必要がある要件があります / May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;extensions&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;user content&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
@@ -701,7 +708,8 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -710,7 +718,8 @@
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ext-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Must have either extensions or value[x], not both&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;extension.exists() != value.exists()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>
                <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;exists(f:extension)!=exists(f:*[starts-with(local-name(.), &amp;quot;value&amp;quot;)])&quot;/&gt;
@@ -726,15 +735,15 @@
     &lt;/<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4B/structuredefinition.html#StructureDefinition.snapshot.element">element</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">id</a>=&quot;Media.modifierExtension&quot;&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.path">path</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Media.modifierExtension&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Extensions that cannot be ignored&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;無視できない拡張機能 / Extensions that cannot be ignored&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
-                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
+                  <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;リソースの基本的な定義に含まれない、要素の理解や、それを含む要素の子孫の理解を修正する追加情報を表すためにも使用されることがあります。通常、修飾要素は否定や修飾を提供します。拡張機能の使用を安全で管理しやすくするために、拡張機能の定義と使用に対して厳格な統治が適用されます。実装者は拡張機能を定義することが許可されていますが、拡張機能の定義の一部として満たす必要がある要件があります。リソースを処理するアプリケーションは、修飾子拡張をチェックする必要があります。修飾子拡張は、リソースまたはドメインリソースの任意の要素の意味を変更してはなりません（修飾子拡張自体の意味も変更できません）。 / May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
 
 Modifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;修飾子拡張により、安全に無視できない拡張を、安全に無視できる大多数の拡張と明確に区別することができます。これにより、実装者が拡張の存在を禁止する必要がなくなり、相互運用性が促進されます。詳細については、[修飾子拡張の定義](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;extensions&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;user content&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
@@ -750,7 +759,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -759,7 +769,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ext-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Must have either extensions or value[x], not both&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;extension.exists() != value.exists()&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a>
                <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;exists(f:extension)!=exists(f:*[starts-with(local-name(.), &amp;quot;value&amp;quot;)])&quot;/&gt;
@@ -768,7 +779,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isModifierReason">isModifierReason</a>
-                        <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them&quot;/&gt;
+                        <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;修飾子拡張は、それを含むリソースの意味または解釈を変更することが期待されます / Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isSummary">isSummary</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mapping.identity">identity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;rim&quot;/&gt;
@@ -782,7 +793,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a>
                   <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;製品またはシステムが管理する、施設内で画像（JPEG等）、映像（MPEG等）、音声ファイルなどのメディアを一意に識別するためのID。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;The identifier label and use can be used to determine what kind of identifier it is.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;identifierのラベルと使用法によって、どの種類のidentifierであるかを判断することができます。 / The identifier label and use can be used to determine what kind of identifier it is.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -796,7 +807,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -829,7 +841,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
                <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;通常、依頼元となるServiceRequestリソースを参照する。他のシステムと連携していない場合は参照不要。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;イベントの承認の追跡および提案/推奨が実行されたかどうかの追跡を可能にする。 / Allows tracing of authorization for the event and tracking whether proposals/recommendations were acted upon.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;fulfills&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
@@ -848,7 +860,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -873,7 +886,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
                <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;使用する場合は、基底にある Definition、Requirement、Comments の内容を参考に使用する。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;E.g. Drug administration as part of a procedure, procedure as part of observation, etc.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;例：プロシージャの一部としての薬剤投与、検査の一部としてのプロシージャなど。 / E.g. Drug administration as part of a procedure, procedure as part of observation, etc.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;container&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
@@ -890,7 +903,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -927,7 +941,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -936,7 +951,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mustSupport">mustSupport</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isModifier">isModifier</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isModifierReason">isModifierReason</a>
-                        <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid&quot;/&gt;
+                        <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;この要素はリソースが有効として扱われるべきではないことを意味するentered-in-errorステータスを含むステータス要素であるため、修飾子としてラベル付けされています / This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.isSummary">isSummary</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>
@@ -945,7 +960,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.strength">strength</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;required&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a>
-                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Codes identifying the lifecycle stage of an event.&quot;/&gt;
+                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;イベントのライフサイクルの段階を識別するコード。 / Codes identifying the lifecycle stage of an event.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/event-status|4.3.0&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
@@ -971,7 +986,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;メディアの種類。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;使用する場合は、メディアの種類を image, video, audio から選択する。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
-                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Used for filtering what observations are retrieved and displayed.&quot;/&gt;
+                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;取得および表示される検査のフィルタリングに使用される。 / Used for filtering what observations are retrieved and displayed.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -985,7 +1000,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1000,7 +1016,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           &lt;<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;MediaType&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.strength">strength</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;extensible&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Codes for high level media categories.&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a>
+                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;高水準メディアカテゴリのコード。 / Codes for high level media categories.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/media-type|4.3.0&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
@@ -1030,7 +1047,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1080,7 +1098,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1096,7 +1115,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
         &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.strength">strength</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;example&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a>
-                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;Imaging view (projection) used when collecting an image.&quot;/&gt;
+                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;画像を収集する際に使用される投影イメージングビュー。 / Imaging view (projection) used when collecting an image.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/media-view|4.3.0&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
@@ -1124,7 +1143,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1159,7 +1179,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;このメディアが生成されるきっかけとなった情報。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;このメディアが生成されるきっかけとなった情報。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;JP Core Encounterリソースを参照する。&quot;/&gt;
-      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.requirements">requirements</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Links the Media to the Encounter context.&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.requirements">requirements</a>
+                    <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;MediaをEncounterコンテキストにリンクする。 / Links the Media to the Encounter context.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.alias">alias</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;context&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
@@ -1176,7 +1197,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1221,7 +1243,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1261,7 +1284,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1304,7 +1328,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1348,7 +1373,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1363,7 +1389,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           &lt;<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;MediaReason&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.strength">strength</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;example&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;The reason for the media.&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;メディアの理由。 / The reason for the media.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.valueSet">valueSet</a>
                   <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/procedure-reason|4.3.0&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
@@ -1398,7 +1424,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1413,7 +1440,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
           &lt;<a href="http://hl7.org/fhir/R4B/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;BodySite&quot;/&gt;
         &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.extension">extension</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.strength">strength</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;example&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;SNOMED CT Body site concepts&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.description">description</a>
+                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;解剖学的位置を記述するコード。左右対称性を含む場合があります。 / SNOMED CT Body site concepts&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/ValueSet/body-site|4.3.0&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.binding">binding</a>&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.mapping">mapping</a>&gt;
@@ -1447,7 +1475,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1490,7 +1519,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1530,7 +1560,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1567,7 +1598,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1605,7 +1637,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1625,7 +1658,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ビデオ映像・音声向けの、秒単位の録画・記録時間。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;ビデオ映像・音声向けの、秒単位の録画・記録時間。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;The duration might differ from occurrencePeriod if recording was paused.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;録画が一時停止した場合、期間が発生期間と異なる場合があります。 / The duration might differ from occurrencePeriod if recording was paused.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1639,7 +1672,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1663,7 +1697,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;埋め込まれたメディアの実際のコンテンツ、またはメディアソースファイルへの直接参照。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;埋め込まれたメディアの実際のコンテンツ、またはメディアソースファイルへの直接参照。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Recommended content types: image/jpeg, image/png, image/tiff, video/mpeg, audio/mp4, application/dicom. Application/dicom can contain the transfer syntax as a parameter.  For media that covers a period of time (video/sound), the content.creationTime is the end time. Creation time is used for tracking, organizing versions and searching.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;推奨コンテンツタイプ：image/jpeg、image/png、image/tiff、video/mpeg、audio/mp4、application/dicom。application/dicomには転送構文をパラメータとして含めることができます。時間をカバーするメディア（動画/音声）の場合、content.creationTimeは終了時間です。作成時間は追跡、バージョンの整理および検索に使用されます。 / Recommended content types: image/jpeg, image/png, image/tiff, video/mpeg, audio/mp4, application/dicom. Application/dicom can contain the transfer syntax as a parameter.  For media that covers a period of time (video/sound), the content.creationTime is the end time. Creation time is used for tracking, organizing versions and searching.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;1&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1677,7 +1711,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1696,7 +1731,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.short">short</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;メディアについてのコメント。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.definition">definition</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;メディアについてのコメント。&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.comment">comment</a>
-               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;Not to be used for observations, conclusions, etc. Instead use an [Observation](http://hl7.org/fhir/R4B/observation.html) based on the Media/ImagingStudy resource.&quot;/&gt;
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;観察、結論などに使用しないでください。代わりに、Media/ImagingStudyリソースに基づく[観察]を使用してください。 / Not to be used for observations, conclusions, etc. Instead use an [Observation](http://hl7.org/fhir/R4B/observation.html) based on the Media/ImagingStudy resource.&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.min">min</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;0&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.max">max</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;*&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.base">base</a>&gt;
@@ -1710,7 +1745,8 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
       &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint">constraint</a>&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.key">key</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;ele-1&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.severity">severity</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;error&quot;/&gt;
-        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;All FHIR elements must have a @value or children&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.human">human</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.expression">expression</a>
                     <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;hasValue() or (children().count() &amp;gt; id.count())&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4B/elementdefinition.html#ElementDefinition#ElementDefinition.constraint.xpath">xpath</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;@value|f:*|h:div&quot;/&gt;
@@ -1921,7 +1957,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0-dev based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4B/">FHIR 4.3.0</a>. Generated <span title="Mon, Mar 9, 2026 11:33+0000">2026-03-09</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://jpfhir.jp">FHIR Japanese implementation research working group in Japan Association of Medical Informatics (JAMI)</a>.  Package jpfhir.jp.core#2.0.0-dev based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4B/">FHIR 4.3.0</a>. Generated <span title="Sun, Mar 22, 2026 22:07+0000">2026-03-22</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

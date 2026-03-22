@@ -265,9 +265,19 @@ GET [base]/Procedure?identifier=http://myhospital.com/fhir/procedure|123
         "definition" : "患者に対して、または患者のために実行されているか実行されたアクション。これは、手術のような身体的介入、または長期サービス、カウンセリング、催眠療法のような低侵襲性である可能性がある。"
       },
       {
+        "id" : "Procedure.id",
+        "path" : "Procedure.id",
+        "short" : "Logical id of this artifact"
+      },
+      {
         "id" : "Procedure.text",
         "path" : "Procedure.text",
         "short" : "このリソースを人間が解釈するためのテキスト要約"
+      },
+      {
+        "id" : "Procedure.contained",
+        "path" : "Procedure.contained",
+        "short" : "Contained, inline Resources"
       },
       {
         "id" : "Procedure.identifier",

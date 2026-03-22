@@ -217,8 +217,15 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
         "definition" : "A record of a healthcare consumer’s choices or choices made on their behalf by a third party, which permits or denies identified recipient(s) or recipient role(s) to perform one or more actions within a given policy context, for specific purposes and periods of time."
       },
       {
+        "id" : "Consent.status",
+        "path" : "Consent.status",
+        "short" : "draft | proposed | active | rejected | inactive | entered-in-error",
+        "definition" : "Indicates the current state of this consent."
+      },
+      {
         "id" : "Consent.scope",
         "path" : "Consent.scope",
+        "short" : "Which of the four areas this resource covers (extensible)",
         "definition" : "A selector of the type of consent being presented: ADR, Privacy, Treatment, Research. This list is now extensible.",
         "binding" : {
           "strength" : "extensible",
@@ -228,6 +235,8 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.category",
         "path" : "Consent.category",
+        "short" : "Classification of the consent statement - for indexing/retrieval",
+        "definition" : "A classification of the type of consents found in the statement. This element supports indexing and retrieval of consent statements.",
         "binding" : {
           "strength" : "extensible",
           "valueSet" : "http://hl7.org/fhir/ValueSet/consent-category"
@@ -236,6 +245,8 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.patient",
         "path" : "Consent.patient",
+        "short" : "Who the consent applies to",
+        "definition" : "The patient/healthcare consumer to whom this consent applies.",
         "type" : [
           {
             "code" : "Reference",
@@ -246,6 +257,8 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.performer",
         "path" : "Consent.performer",
+        "short" : "Who is agreeing to the policy and rules",
+        "definition" : "Either the Grantor, which is the entity responsible for granting the rights listed in a Consent Directive or the Grantee, which is the entity responsible for complying with the Consent Directive, including any obligations or limitations on authorizations and enforcement of prohibitions.",
         "type" : [
           {
             "code" : "Reference",
@@ -262,6 +275,8 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.organization",
         "path" : "Consent.organization",
+        "short" : "Custodian of the consent",
+        "definition" : "The organization that manages the consent, and the framework within which it is executed.",
         "type" : [
           {
             "code" : "Reference",
@@ -274,6 +289,8 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.source[x]",
         "path" : "Consent.source[x]",
+        "short" : "Source from which this consent is taken",
+        "definition" : "The source on which this consent statement is based. The source might be a scanned original paper form, or a reference to a consent that links back to such a source, a reference to a document repository (e.g. XDS) that stores the original consent document.",
         "type" : [
           {
             "code" : "Reference",
@@ -295,6 +312,8 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.verification.verifiedWith",
         "path" : "Consent.verification.verifiedWith",
+        "short" : "Person who verified",
+        "definition" : "Who verified the instruction (Patient, Relative or other Authorized Person).",
         "type" : [
           {
             "code" : "Reference",
@@ -306,13 +325,21 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
         ]
       },
       {
+        "id" : "Consent.provision",
+        "path" : "Consent.provision",
+        "short" : "Constraints to the base Consent.policyRule",
+        "definition" : "An exception to the base policy of this consent. An exception can be an addition or removal of access permissions."
+      },
+      {
         "id" : "Consent.provision.type",
         "path" : "Consent.provision.type",
+        "short" : "deny | permit",
         "definition" : "Action stipulated by this rule. The type can be 'permit' or 'deny' to determine if the rule allows or prohibits the specified operations."
       },
       {
         "id" : "Consent.provision.period",
         "path" : "Consent.provision.period",
+        "short" : "Timeframe for this rule",
         "definition" : "The timeframe in which the data is controlled by this provision."
       },
       {
@@ -325,6 +352,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
         "id" : "Consent.provision.actor.role",
         "path" : "Consent.provision.actor.role",
         "short" : "Role using the content",
+        "definition" : "How the individual is involved in the resources content that is described in the exception.",
         "binding" : {
           "strength" : "extensible",
           "valueSet" : "http://hl7.org/fhir/ValueSet/security-role-type"
@@ -354,6 +382,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.provision.action",
         "path" : "Consent.provision.action",
+        "short" : "Actions controlled by this rule",
         "definition" : "A list of actions controlled by this rule, which are controlled by this provision."
       },
       {
@@ -366,6 +395,7 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
         "id" : "Consent.provision.code",
         "path" : "Consent.provision.code",
         "short" : "e.g. Read, Update, Delete",
+        "definition" : "If this code is found in an instance, then the rule applies.",
         "binding" : {
           "strength" : "example",
           "valueSet" : "http://hl7.org/fhir/ValueSet/consent-content-code"
@@ -374,11 +404,13 @@ Other representations of profile: [CSV](StructureDefinition-jp-consent.csv), [Ex
       {
         "id" : "Consent.provision.dataPeriod",
         "path" : "Consent.provision.dataPeriod",
+        "short" : "Timeframe for data controlled by this rule",
         "definition" : "The timeframe for data controlled by this provision."
       },
       {
         "id" : "Consent.provision.data",
         "path" : "Consent.provision.data",
+        "short" : "Data controlled by this rule",
         "definition" : "The resources controlled by this rule, if specific resources are referenced."
       }
     ]

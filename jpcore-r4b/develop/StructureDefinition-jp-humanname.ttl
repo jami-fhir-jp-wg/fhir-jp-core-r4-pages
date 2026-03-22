@@ -107,7 +107,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children unless an empty Parameters resource" ] ;
+         fhir:human [ fhir:v "空のParametersリソースでない限り、すべてのFHIR要素には@valueまたはchildrenが必要です / All FHIR elements must have a @value or children unless an empty Parameters resource" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count()) or $this is Parameters" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div|self::f:Parameters" ] ;
          fhir:source [
@@ -133,8 +133,8 @@
        fhir:id [ fhir:v "HumanName.id" ] ;
        fhir:path [ fhir:v "HumanName.id" ] ;
        fhir:representation ( [ fhir:v "xmlAttr" ] ) ;
-       fhir:short [ fhir:v "Unique id for inter-element referencing" ] ;
-       fhir:definition [ fhir:v "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
+       fhir:short [ fhir:v "要素間参照のための一意のID / Unique id for inter-element referencing" ] ;
+       fhir:definition [ fhir:v "リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -176,9 +176,9 @@
          fhir:description [ fhir:v "Extensions are always sliced by (at least) url" ] ;
          fhir:rules [ fhir:v "open" ]
        ] ;
-       fhir:short [ fhir:v "Additional content defined by implementations" ] ;
-       fhir:definition [ fhir:v "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
-       fhir:comment [ fhir:v "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
+       fhir:short [ fhir:v "実装で定義された追加のコンテンツ / Additional content defined by implementations" ] ;
+       fhir:definition [ fhir:v "要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." ] ;
+       fhir:comment [ fhir:v "拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." ] ;
        fhir:alias ( [ fhir:v "extensions" ] [ fhir:v "user content" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -196,7 +196,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -206,7 +206,7 @@
        ] [
          fhir:key [ fhir:v "ext-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:human [ fhir:v "両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
          fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
@@ -247,7 +247,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -257,7 +257,7 @@
        ] [
          fhir:key [ fhir:v "ext-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "Must have either extensions or value[x], not both" ] ;
+         fhir:human [ fhir:v "両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both" ] ;
          fhir:expression [ fhir:v "extension.exists() != value.exists()" ] ;
          fhir:xpath [ fhir:v "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])" ] ;
          fhir:source [
@@ -274,10 +274,10 @@
      ] [
        fhir:id [ fhir:v "HumanName.use" ] ;
        fhir:path [ fhir:v "HumanName.use" ] ;
-       fhir:short [ fhir:v "usual | official | temp | nickname | anonymous | old | maiden" ] ;
-       fhir:definition [ fhir:v "Identifies the purpose for this name." ] ;
-       fhir:comment [ fhir:v "Applications can assume that a name is current unless it explicitly says that it is temporary or old." ] ;
-       fhir:requirements [ fhir:v "Allows the appropriate name for a particular context of use to be selected from among a set of names." ] ;
+       fhir:short [ fhir:v "通常|公式|一時的|ニックネーム|匿名|古い|旧姓 / usual | official | temp | nickname | anonymous | old | maiden" ] ;
+       fhir:definition [ fhir:v "この名前の目的を特定します。 / Identifies the purpose for this name." ] ;
+       fhir:comment [ fhir:v "アプリケーションは、一時的または古いものであると明示的に言わない限り、名前が最新であると想定できます。 / Applications can assume that a name is current unless it explicitly says that it is temporary or old." ] ;
+       fhir:requirements [ fhir:v "特定の使用のコンテキストに適切な名前を許可します。名前のセットの中から選択できます。 / Allows the appropriate name for a particular context of use to be selected from among a set of names." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -294,7 +294,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -303,7 +303,7 @@
          ]
        ] ) ;
        fhir:isModifier [ fhir:v true ] ;
-       fhir:isModifierReason [ fhir:v "This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old name etc.for a current/permanent one" ] ;
+       fhir:isModifierReason [ fhir:v "これは、アプリケーションが一時的または古い名前などを間違えないでください。 / This is labeled as \"Is Modifier\" because applications should not mistake a temporary or old name etc.for a current/permanent one" ] ;
        fhir:isSummary [ fhir:v true ] ;
        fhir:binding [
          fhir:extension ( [
@@ -344,10 +344,10 @@
      ] [
        fhir:id [ fhir:v "HumanName.text" ] ;
        fhir:path [ fhir:v "HumanName.text" ] ;
-       fhir:short [ fhir:v "Text representation of the full name" ] ;
-       fhir:definition [ fhir:v "Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts." ] ;
-       fhir:comment [ fhir:v "Can provide both a text representation and parts. Applications updating a name SHALL ensure that when both text and parts are present,  no content is included in the text that isn't found in a part." ] ;
-       fhir:requirements [ fhir:v "A renderable, unencoded form." ] ;
+       fhir:short [ fhir:v "フルネームのテキスト表現 / Text representation of the full name" ] ;
+       fhir:definition [ fhir:v "表示する必要があるため、名前全体を指定します。アプリケーションUIで。これは、特定の部分の代わりに、または特定の部分と同様に提供される場合があります。 / Specifies the entire name as it should be displayed e.g. on an application UI. This may be provided instead of or as well as the specific parts." ] ;
+       fhir:comment [ fhir:v "テキスト表現とパーツの両方を提供できます。名前を更新するアプリケーションは、テキストとパーツの両方が存在する場合、一部に見つからないテキストにコンテンツが含まれていないことを保証するものとします。 / Can provide both a text representation and parts. Applications updating a name SHALL ensure that when both text and parts are present,  no content is included in the text that isn't found in a part." ] ;
+       fhir:requirements [ fhir:v "レンダリング可能で、不コード化されていないフォーム。 / A renderable, unencoded form." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -364,7 +364,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -384,9 +384,9 @@
      ] [
        fhir:id [ fhir:v "HumanName.family" ] ;
        fhir:path [ fhir:v "HumanName.family" ] ;
-       fhir:short [ fhir:v "Family name (often called 'Surname')" ] ;
-       fhir:definition [ fhir:v "The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father." ] ;
-       fhir:comment [ fhir:v "Family Name may be decomposed into specific parts using extensions (de, nl, es related cultures)." ] ;
+       fhir:short [ fhir:v "姓 / Family name (often called 'Surname')" ] ;
+       fhir:definition [ fhir:v "系図にリンクする名前の部分。一部の文化（例：エリトリア）では、息子の姓は父親の名です。 / The part of a name that links to the genealogy. In some cultures (e.g. Eritrea) the family name of a son is the first name of his father." ] ;
+       fhir:comment [ fhir:v "姓は、拡張機能（DE、NL、ES関連の培養）を使用して特定の部品に分解できます。 / Family Name may be decomposed into specific parts using extensions (de, nl, es related cultures)." ] ;
        fhir:alias ( [ fhir:v "surname" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
@@ -404,7 +404,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -427,9 +427,9 @@
      ] [
        fhir:id [ fhir:v "HumanName.given" ] ;
        fhir:path [ fhir:v "HumanName.given" ] ;
-       fhir:short [ fhir:v "Given names (not always 'first'). Includes middle names" ] ;
-       fhir:definition [ fhir:v "Given name." ] ;
-       fhir:comment [ fhir:v "If only initials are recorded, they may be used in place of the full name parts. Initials may be separated into multiple given names but often aren't due to paractical limitations.  This element is not called \"first name\" since given names do not always come first." ] ;
+       fhir:short [ fhir:v "指定された名前（常に「最初」ではありません）。ミドルネームが含まれています / Given names (not always 'first'). Includes middle names" ] ;
+       fhir:definition [ fhir:v "名。 / Given name." ] ;
+       fhir:comment [ fhir:v "イニシャルのみが記録されている場合、フルネームパーツの代わりに使用できます。イニシャルは複数の指定された名前に分離される場合がありますが、多くの場合、特定の制限によるものではありません。指定された名前が常に最初に来るとは限らないため、この要素は「名」とは呼ばれません。 / If only initials are recorded, they may be used in place of the full name parts. Initials may be separated into multiple given names but often aren't due to paractical limitations.  This element is not called \"first name\" since given names do not always come first." ] ;
        fhir:alias ( [ fhir:v "first name" ] [ fhir:v "middle name" ] ) ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
@@ -448,7 +448,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -471,8 +471,8 @@
      ] [
        fhir:id [ fhir:v "HumanName.prefix" ] ;
        fhir:path [ fhir:v "HumanName.prefix" ] ;
-       fhir:short [ fhir:v "Parts that come before the name" ] ;
-       fhir:definition [ fhir:v "Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name." ] ;
+       fhir:short [ fhir:v "名前の前に来るパーツ / Parts that come before the name" ] ;
+       fhir:definition [ fhir:v "アカデミック、リーガル、雇用、または貴族のステータスなどのためにタイトルとして取得され、名前の冒頭に表示される名前の一部。 / Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the start of the name." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -490,7 +490,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -513,8 +513,8 @@
      ] [
        fhir:id [ fhir:v "HumanName.suffix" ] ;
        fhir:path [ fhir:v "HumanName.suffix" ] ;
-       fhir:short [ fhir:v "Parts that come after the name" ] ;
-       fhir:definition [ fhir:v "Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name." ] ;
+       fhir:short [ fhir:v "名前の後に来るパーツ / Parts that come after the name" ] ;
+       fhir:definition [ fhir:v "アカデミック、リーガル、雇用、または貴族のステータスなどのためにタイトルとして取得され、名前の最後に表示される名前の一部。 / Part of the name that is acquired as a title due to academic, legal, employment or nobility status, etc. and that appears at the end of the name." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -532,7 +532,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [
@@ -552,9 +552,9 @@
      ] [
        fhir:id [ fhir:v "HumanName.period" ] ;
        fhir:path [ fhir:v "HumanName.period" ] ;
-       fhir:short [ fhir:v "Time period when name was/is in use" ] ;
-       fhir:definition [ fhir:v "Indicates the period of time when this name was valid for the named person." ] ;
-       fhir:requirements [ fhir:v "Allows names to be placed in historical context." ] ;
+       fhir:short [ fhir:v "名前が使用されていた期間 / Time period when name was/is in use" ] ;
+       fhir:definition [ fhir:v "この名前が指定者に対して有効である期間を示します。 / Indicates the period of time when this name was valid for the named person." ] ;
+       fhir:requirements [ fhir:v "名前を履歴上の文脈に配置できます。 / Allows names to be placed in historical context." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -571,7 +571,7 @@
        fhir:constraint ( [
          fhir:key [ fhir:v "ele-1" ] ;
          fhir:severity [ fhir:v "error" ] ;
-         fhir:human [ fhir:v "All FHIR elements must have a @value or children" ] ;
+         fhir:human [ fhir:v "すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children" ] ;
          fhir:expression [ fhir:v "hasValue() or (children().count() > id.count())" ] ;
          fhir:xpath [ fhir:v "@value|f:*|h:div" ] ;
          fhir:source [

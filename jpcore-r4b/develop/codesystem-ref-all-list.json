@@ -22,8 +22,8 @@
       "oids" : ["1.2.840.10008.2.16.4"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType",
-      "ValueSet-jp-dicommodality-vs.html" : "JP Core DICOM Modality ValueSet"
+      "ValueSet-jp-dicommodality-vs.html" : "JP Core DICOM Modality ValueSet",
+      "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType"
     },
     {
       "url" : "http://hl7.org/fhir/CodeSystem/medication-statement-status",
@@ -431,8 +431,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.110"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-immunization-status.html" : "Immunization Status Codes",
-      "http://hl7.org/fhir/R4B/valueset-event-status.html" : "EventStatus"
+      "http://hl7.org/fhir/R4B/valueset-event-status.html" : "EventStatus",
+      "http://hl7.org/fhir/R4B/valueset-immunization-status.html" : "Immunization Status Codes"
     },
     {
       "url" : "http://hl7.org/fhir/event-timing",
@@ -672,9 +672,9 @@
       "description" : "One of the resource types defined as part of this version of FHIR.",
       "uses" : {
       },
+      "http://hl7.org/fhir/R4B/valueset-consent-content-class.html" : "Consent Content Class",
       "http://hl7.org/fhir/R4B/valueset-subject-type.html" : "Subject type",
-      "http://hl7.org/fhir/R4B/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind",
-      "http://hl7.org/fhir/R4B/valueset-consent-content-class.html" : "Consent Content Class"
+      "http://hl7.org/fhir/R4B/valueset-care-plan-activity-kind.html" : "Care Plan Activity Kind"
     },
     {
       "url" : "http://hl7.org/fhir/specimen-status",
@@ -908,8 +908,8 @@
       "description" : "JAHIS病名情報データ交換規約Ver.3.1C JHSD表00006-転帰区分 コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-outcome-jhsd0006-vs.html" : "JP Core Condition Disease Outcome JHSD0006 ValueSet",
-      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet"
+      "ValueSet-jp-condition-disease-outcome-hl70241-jhsd0006-vs.html" : "JP Core Condition Disease Outcome HL70241+JHSD0006 ValueSet",
+      "ValueSet-jp-condition-disease-outcome-jhsd0006-vs.html" : "JP Core Condition Disease Outcome JHSD0006 ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JHSI0001",
@@ -944,10 +944,10 @@
       "description" : "処置の対象となる身体部位のコード（今後用語を実装予定）",
       "uses" : {
       },
-      "ValueSet-jp-procedure-body-site-vs.html" : "JP Core Procedure BodySite ValueSet",
+      "ValueSet-jp-observation-bodysite-vs.html" : "JP Core Observation BodySite ValueSet",
       "ValueSet-jp-condition-bodysite-vs.html" : "JP Core Condition BodySite ValueSet",
-      "ValueSet-jp-imagingstudy-radiology-bodysite-vs.html" : "JP Core ImagingStudy Radiology BodySite ValueSet",
-      "ValueSet-jp-observation-bodysite-vs.html" : "JP Core Observation BodySite ValueSet"
+      "ValueSet-jp-procedure-body-site-vs.html" : "JP Core Procedure BodySite ValueSet",
+      "ValueSet-jp-imagingstudy-radiology-bodysite-vs.html" : "JP Core ImagingStudy Radiology BodySite ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ChemotherapyRegimen_RegimenType_CS",
@@ -991,8 +991,8 @@
       "description" : "レセプト電算用修飾語マスター コードシステム",
       "uses" : {
       },
-      "ValueSet-jp-condition-disease-modifier-receipt-vs.html" : "JP Core Condition Disease Modifier Receipt System ValueSet",
-      "ValueSet-jp-condition-disease-modifier-medis-exchange-vs.html" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet"
+      "ValueSet-jp-condition-disease-modifier-medis-exchange-vs.html" : "JP Core Condition Disease Modifier MEDIS Exchange ValueSet",
+      "ValueSet-jp-condition-disease-modifier-receipt-vs.html" : "JP Core Condition Disease Modifier Receipt System ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_ConditionDiseaseOutcomeReceipt_CS",
@@ -1070,8 +1070,8 @@
       "description" : "JP Coreにて定義した歯科のObservationリソースに関する現存歯の観察結果コード",
       "uses" : {
       },
-      "ValueSet-jp-dental-presentteeth-observation-vs.html" : "JP Core Dental PresentTeethObservation ValueSet",
-      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet"
+      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet",
+      "ValueSet-jp-dental-presentteeth-observation-vs.html" : "JP Core Dental PresentTeethObservation ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalRootBodyStructure_CS",
@@ -1105,8 +1105,8 @@
       "description" : "JP Coreにて定義した歯科のObservationリソースに関する現存歯の観察結果コード（簡易版）",
       "uses" : {
       },
-      "ValueSet-jp-dental-simple-presentteeth-observation-vs.html" : "JP Core Dental SimplePresentTeethObservation ValueSet",
-      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet"
+      "ValueSet-jp-dental-teethobservation-vs.html" : "JP Core Dental TeethObservation ValueSet",
+      "ValueSet-jp-dental-simple-presentteeth-observation-vs.html" : "JP Core Dental SimplePresentTeethObservation ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/JP_DentalSurfaceBodyStructure_CS",
@@ -1428,13 +1428,13 @@
       "description" : "未定義のコードシステム。使用する予定のコードシステムが利用できない場合や方針未決定の場合等に割り振る特別なリソースである。",
       "uses" : {
       },
-      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
-      "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet",
-      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
-      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
+      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet",
       "ValueSet-jp-procedure-devicekind-vs.html" : "JP Core Procedure Device Kind ValueSet",
       "ValueSet-jp-procedure-codes-ichi-vs.html" : "JP Core Procedure Codes ICHI ValueSet",
-      "ValueSet-jp-procedure-reason-vs.html" : "JP Core Procedure Reason ValueSet"
+      "ValueSet-jp-undefined-vs.html" : "JP Core Undefined ValueSet",
+      "ValueSet-jp-procedure-followup-vs.html" : "JP Core Procedure Follow Up ValueSet",
+      "ValueSet-jp-procedure-condition-vs.html" : "JP Core Procedure Condition ValueSet",
+      "ValueSet-jp-procedure-device-action-vs.html" : "JP Core Procedure Device Action ValueSet"
     },
     {
       "url" : "http://jpfhir.jp/fhir/core/CodeSystem/YCM/JP_JfagyMedicationAllergen_CS",
@@ -1557,14 +1557,14 @@
       "uses" : {
       },
       "ValueSet-jp-observation-electrocardiogram-component-code-vs.html" : "JP Core Observation Electrocardiogram Component Code ValueSet",
-      "ValueSet-jp-observation-radiology-code-vs.html" : "JP Core Observation Radiology Code ValueSet",
-      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
-      "http://hl7.org/fhir/R4B/valueset-consent-category.html" : "Consent Category Codes",
-      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.4.0&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DiagnosticReportCategory_VS" : "JP Core Diagnostic Report Category ValueSet",
-      "http://hl7.org/fhir/R4B/valueset-doc-classcodes.html" : "Document Class Value Set",
       "ValueSet-jp-observation-endoscopy-code-vs.html" : "JP Core Observation Endoscopy Code ValueSet",
       "http://hl7.org/fhir/R4B/valueset-observation-codes.html" : "LOINC Codes",
-      "http://hl7.org/fhir/R4B/valueset-doc-typecodes.html" : "FHIR Document Type Codes"
+      "http://hl7.org/fhir/R4B/valueset-consent-category.html" : "Consent Category Codes",
+      "http://hl7.org/fhir/R4B/valueset-consent-content-code.html" : "Consent Content Codes",
+      "ValueSet-jp-observation-radiology-code-vs.html" : "JP Core Observation Radiology Code ValueSet",
+      "https://simplifier.net/resolve?scope=jpfhir-terminology@1.4.0&canonical=http://jpfhir.jp/fhir/core/ValueSet/JP_DiagnosticReportCategory_VS" : "JP Core Diagnostic Report Category ValueSet",
+      "http://hl7.org/fhir/R4B/valueset-doc-typecodes.html" : "FHIR Document Type Codes",
+      "http://hl7.org/fhir/R4B/valueset-doc-classcodes.html" : "Document Class Value Set"
     },
     {
       "url" : "http://medis.or.jp/CodeSystem/master-HOT13",
@@ -1688,41 +1688,41 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
-      "http://hl7.org/fhir/R4B/valueset-condition-stage-type.html" : "Condition Stage Type",
-      "http://hl7.org/fhir/R4B/valueset-immunization-reason.html" : "Immunization Reason Codes",
-      "http://hl7.org/fhir/R4B/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set",
-      "http://hl7.org/fhir/R4B/valueset-reason-medication-not-given-codes.html" : "SNOMED CT Reason Medication Not Given Codes",
-      "http://hl7.org/fhir/R4B/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
-      "http://hl7.org/fhir/R4B/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-      "http://hl7.org/fhir/R4B/valueset-substance-code.html" : "Substance Code",
-      "http://hl7.org/fhir/R4B/valueset-servicerequest-category.html" : "Service Request Category Codes",
-      "http://hl7.org/fhir/R4B/valueset-condition-outcome.html" : "Condition Outcome Codes",
-      "http://hl7.org/fhir/R4B/valueset-care-plan-category.html" : "Care Plan Category",
-      "http://hl7.org/fhir/R4B/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4B/valueset-condition-stage.html" : "Condition Stage",
-      "http://hl7.org/fhir/R4B/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes",
-      "http://hl7.org/fhir/R4B/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4B/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
-      "http://hl7.org/fhir/R4B/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-      "http://hl7.org/fhir/R4B/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
-      "http://hl7.org/fhir/R4B/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
-      "http://hl7.org/fhir/R4B/valueset-observation-methods.html" : "Observation Methods",
-      "http://hl7.org/fhir/R4B/valueset-immunization-status-reason.html" : "Immunization Status Reason Codes",
-      "http://hl7.org/fhir/R4B/valueset-goal-start-event.html" : "GoalStartEvent",
-      "http://hl7.org/fhir/R4B/valueset-media-view.html" : "Media Collection View/Projection",
-      "http://hl7.org/fhir/R4B/valueset-encounter-reason.html" : "Encounter Reason Codes",
-      "http://hl7.org/fhir/R4B/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
-      "http://hl7.org/fhir/R4B/valueset-device-type.html" : "Device Type",
-      "http://hl7.org/fhir/R4B/valueset-bodysite-laterality.html" : "Laterality",
-      "http://hl7.org/fhir/R4B/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
       "http://hl7.org/fhir/R4B/valueset-approach-site-codes.html" : "SNOMED CT Anatomical Structure for Administration Site Codes",
-      "http://hl7.org/fhir/R4B/valueset-administration-method-codes.html" : "SNOMED CT Administration Method Codes",
-      "http://hl7.org/fhir/R4B/valueset-immunization-target-disease.html" : "Immunization Target Disease Codes",
+      "http://hl7.org/fhir/R4B/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+      "http://hl7.org/fhir/R4B/valueset-body-site.html" : "SNOMED CT Body Structures",
       "http://hl7.org/fhir/R4B/valueset-route-codes.html" : "SNOMED CT Route Codes",
+      "http://hl7.org/fhir/R4B/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+      "http://hl7.org/fhir/R4B/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes",
+      "http://hl7.org/fhir/R4B/valueset-manifestation-or-symptom.html" : "Manifestation and Symptom Codes",
+      "http://hl7.org/fhir/R4B/valueset-condition-outcome.html" : "Condition Outcome Codes",
+      "http://hl7.org/fhir/R4B/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4B/valueset-care-plan-activity-outcome.html" : "Care Plan Activity Outcome",
+      "http://hl7.org/fhir/R4B/valueset-substance-code.html" : "Substance Code",
+      "http://hl7.org/fhir/R4B/valueset-care-plan-category.html" : "Care Plan Category",
+      "http://hl7.org/fhir/R4B/valueset-encounter-reason.html" : "Encounter Reason Codes",
+      "http://hl7.org/fhir/R4B/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "http://hl7.org/fhir/R4B/valueset-bodysite-laterality.html" : "Laterality",
+      "http://hl7.org/fhir/R4B/valueset-goal-start-event.html" : "GoalStartEvent",
+      "http://hl7.org/fhir/R4B/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+      "http://hl7.org/fhir/R4B/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+      "http://hl7.org/fhir/R4B/valueset-observation-methods.html" : "Observation Methods",
+      "http://hl7.org/fhir/R4B/valueset-condition-stage-type.html" : "Condition Stage Type",
       "http://hl7.org/fhir/R4B/valueset-procedure-reason.html" : "Procedure Reason Codes",
+      "http://hl7.org/fhir/R4B/valueset-clinical-findings.html" : "SNOMED CT Clinical Findings",
+      "http://hl7.org/fhir/R4B/valueset-immunization-reason.html" : "Immunization Reason Codes",
+      "http://hl7.org/fhir/R4B/valueset-immunization-status-reason.html" : "Immunization Status Reason Codes",
+      "http://hl7.org/fhir/R4B/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+      "http://hl7.org/fhir/R4B/valueset-administration-method-codes.html" : "SNOMED CT Administration Method Codes",
+      "http://hl7.org/fhir/R4B/valueset-servicerequest-category.html" : "Service Request Category Codes",
+      "http://hl7.org/fhir/R4B/valueset-reason-medication-not-given-codes.html" : "SNOMED CT Reason Medication Not Given Codes",
+      "http://hl7.org/fhir/R4B/valueset-media-view.html" : "Media Collection View/Projection",
+      "http://hl7.org/fhir/R4B/valueset-device-type.html" : "Device Type",
+      "http://hl7.org/fhir/R4B/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+      "http://hl7.org/fhir/R4B/valueset-immunization-target-disease.html" : "Immunization Target Disease Codes",
+      "http://hl7.org/fhir/R4B/valueset-condition-stage.html" : "Condition Stage",
       "http://hl7.org/fhir/R4B/valueset-specimen-container-type.html" : "SpecimenContainer",
-      "http://hl7.org/fhir/R4B/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes"
+      "http://hl7.org/fhir/R4B/valueset-c80-facilitycodes.html" : "Facility Type Code Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/action-code",
@@ -1894,8 +1894,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/contactentity-type",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "2.0.0",
+      "status" : "active",
       "name" : "ContactEntityType",
       "title" : "Contact entity type",
       "description" : "This example value set defines a set of codes that can be used to indicate the purpose for which you would contact a contact party.",
@@ -1978,8 +1978,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/device-status-reason",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "2.0.0",
+      "status" : "active",
       "name" : "FHIRDeviceStatusReason",
       "title" : "FHIRDeviceStatusReason",
       "description" : "The availability status reason of the device.",
@@ -2373,8 +2373,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-objective-type",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "2.0.0",
+      "status" : "active",
       "name" : "ResearchStudyObjectiveType",
       "title" : "ResearchStudyObjectiveType",
       "description" : "Codes for the kind of study objective.",
@@ -2397,8 +2397,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-prim-purp-type",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "2.0.0",
+      "status" : "active",
       "name" : "ResearchStudyPrimaryPurposeType",
       "title" : "ResearchStudyPrimaryPurposeType",
       "description" : "Codes for the main intent of the study.",
@@ -2409,8 +2409,8 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/research-study-reason-stopped",
-      "version" : "1.0.0",
-      "status" : "draft",
+      "version" : "2.0.0",
+      "status" : "active",
       "name" : "ResearchStudyReasonStopped",
       "title" : "ResearchStudyReasonStopped",
       "description" : "Codes for why the study ended prematurely.",
@@ -2465,7 +2465,7 @@
       "oids" : ["2.16.840.1.113883.18.36"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0092.html" : "hl7VS-re-admissionIndicator"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0116",
@@ -2477,7 +2477,7 @@
       "oids" : ["2.16.840.1.113883.18.47"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0116.html" : "hl7VS-bedStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
@@ -2514,7 +2514,7 @@
       "oids" : ["2.16.840.1.113883.18.229"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
@@ -2550,7 +2550,7 @@
       "oids" : ["2.16.840.1.113883.18.311"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0487.html" : "hl7VS-specimenType"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
@@ -2562,7 +2562,7 @@
       "oids" : ["2.16.840.1.113883.18.317"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0532",
@@ -2574,7 +2574,7 @@
       "oids" : ["2.16.840.1.113883.18.347"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0136.html" : "hl7VS-yes-no-Indicator"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
@@ -2586,25 +2586,25 @@
       "oids" : ["2.16.840.1.113883.18.422"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-      "version" : "9.9.0",
+      "version" : "10.0.0",
       "status" : "active",
       "name" : "ActCode",
       "title" : "ActCode",
-      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.Conceptually, the Act.code must be a specialization of the Act.classCode.",
+      "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
       "oids" : ["2.16.840.1.113883.5.4"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ActPharmacySupplyType.html" : "ActPharmacySupplyType",
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActPharmacySupplyType.html" : "ActPharmacySupplyType",
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActCode.html" : "v3 Code System ActCode",
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActEncounterCode.html" : "ActEncounterCode"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "ActPriority",
       "title" : "ActPriority",
@@ -2612,11 +2612,11 @@
       "oids" : ["2.16.840.1.113883.5.7"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ActPriority.html" : "ActPriority"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActPriority.html" : "ActPriority"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-      "version" : "3.1.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "ActReason",
       "title" : "ActReason",
@@ -2624,13 +2624,13 @@
       "oids" : ["2.16.840.1.113883.5.8"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason",
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-PurposeOfUse.html" : "PurposeOfUse",
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-SubstanceAdminSubstitutionReason.html" : "SubstanceAdminSubstitutionReason",
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-PurposeOfUse.html" : "PurposeOfUse",
       "http://hl7.org/fhir/R4B/valueset-immunization-status-reason.html" : "Immunization Status Reason Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EncounterSpecialCourtesy",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "EncounterSpecialCourtesy",
       "title" : "EncounterSpecialCourtesy",
@@ -2642,7 +2642,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-GTSAbbreviation",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "GTSAbbreviation",
       "title" : "GTSAbbreviation",
@@ -2654,7 +2654,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "MaritalStatus",
       "title" : "MaritalStatus",
@@ -2666,7 +2666,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "NullFlavor",
       "title" : "NullFlavor",
@@ -2674,12 +2674,12 @@
       "oids" : ["2.16.840.1.113883.5.1008"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-marital-status.html" : "MaritalStatus",
-      "http://hl7.org/fhir/R4B/valueset-encounter-special-courtesy.html" : "SpecialCourtesy"
+      "http://hl7.org/fhir/R4B/valueset-encounter-special-courtesy.html" : "SpecialCourtesy",
+      "http://hl7.org/fhir/R4B/valueset-marital-status.html" : "MaritalStatus"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "ObservationInterpretation",
       "title" : "ObservationInterpretation",
@@ -2691,7 +2691,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "ParticipationFunction",
       "title" : "ParticipationFunction",
@@ -2703,7 +2703,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-      "version" : "5.0.0",
+      "version" : "6.0.0",
       "status" : "active",
       "name" : "ParticipationType",
       "title" : "ParticipationType",
@@ -2711,13 +2711,13 @@
       "oids" : ["2.16.840.1.113883.5.90"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-encounter-participant-type.html" : "ParticipantType",
       "http://hl7.org/fhir/R4B/valueset-series-performer-function.html" : "ImagingStudy series performer function",
+      "http://hl7.org/fhir/R4B/valueset-encounter-participant-type.html" : "ParticipantType",
       "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-Race",
-      "version" : "4.0.0",
+      "version" : "5.0.0",
       "status" : "active",
       "name" : "Race",
       "title" : "Race",
@@ -2725,11 +2725,11 @@
       "oids" : ["2.16.840.1.113883.5.104"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-Race.html" : "Race"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-Race.html" : "Race"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-      "version" : "4.0.0",
+      "version" : "5.0.0",
       "status" : "active",
       "name" : "RoleClass",
       "title" : "RoleClass",
@@ -2741,7 +2741,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "RoleCode",
       "title" : "RoleCode",
@@ -2749,14 +2749,14 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
       "http://hl7.org/fhir/R4B/valueset-relatedperson-relationshiptype.html" : "PatientRelationshipType",
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-FamilyMember.html" : "FamilyMember",
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType",
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-FamilyMember.html" : "FamilyMember",
       "http://hl7.org/fhir/R4B/valueset-security-role-type.html" : "SecurityRoleType"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "RouteOfAdministration",
       "title" : "RouteOfAdministration",
@@ -2768,7 +2768,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "TimingEvent",
       "title" : "TimingEvent",
@@ -2780,7 +2780,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "status" : "active",
       "name" : "SubstanceAdminSubstitution",
       "title" : "Substance Admin Substitution",
@@ -2788,7 +2788,7 @@
       "oids" : ["2.16.840.1.113883.5.1070"],
       "uses" : {
       },
-      "http://terminology.hl7.org/7.0.1/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
+      "http://terminology.hl7.org/7.1.0/ValueSet-v3-ActSubstanceAdminSubstitutionCode.html" : "ActSubstanceAdminSubstitutionCode"
     },
     {
       "url" : "http://unitsofmeasure.org",
@@ -2810,8 +2810,8 @@
       "description" : "mime type",
       "uses" : {
       },
-      "http://hl7.org/fhir/R4B/valueset-mimetypes.html" : "MimeType",
-      "http://hl7.org/fhir/R4B/valueset-consent-content-class.html" : "Consent Content Class"
+      "http://hl7.org/fhir/R4B/valueset-consent-content-class.html" : "Consent Content Class",
+      "http://hl7.org/fhir/R4B/valueset-mimetypes.html" : "MimeType"
     },
     {
       "url" : "urn:ietf:bcp:47",
@@ -2929,10 +2929,10 @@
       "oids" : ["1.2.392.200270.4.1000.1"],
       "uses" : {
       },
-      "ValueSet-jp-reason-codes-jed-vs.html" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet",
       "ValueSet-jp-conclusion-codes-jed-vs.html" : "JP Core DiagnosticReport Endoscopy Conclusion Codes JED ValueSet",
       "ValueSet-jp-observation-endoscopy-code-vs.html" : "JP Core Observation Endoscopy Code ValueSet",
-      "ValueSet-jp-observation-endoscoy-value-jed-vs.html" : "JP Core Observation Endoscopy Value JED ValueSet"
+      "ValueSet-jp-observation-endoscoy-value-jed-vs.html" : "JP Core Observation Endoscopy Value JED ValueSet",
+      "ValueSet-jp-reason-codes-jed-vs.html" : "JP Core ImagingStudy Endoscopy Reason Code JED ValueSet"
     }
   ]
 }

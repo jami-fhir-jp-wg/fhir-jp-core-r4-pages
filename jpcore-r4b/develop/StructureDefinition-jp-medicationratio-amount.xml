@@ -71,7 +71,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children unless an empty Parameters resource"/>
+        <human value="空のParametersリソースでない限り、すべてのFHIR要素には@valueまたはchildrenが必要です / All FHIR elements must have a @value or children unless an empty Parameters resource"/>
         <expression value="hasValue() or (children().count() &gt; id.count()) or $this is Parameters"/>
         <xpath value="@value|f:*|h:div|self::f:Parameters"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -79,7 +79,7 @@
       <constraint>
         <key value="rat-1"/>
         <severity value="error"/>
-        <human value="Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present"/>
+        <human value="分子と分母の両方が存在するか、両方が存在します。両方が欠席している場合、いくつかの拡張が存在するものとします / Numerator and denominator SHALL both be present, or both are absent. If both are absent, there SHALL be some extension present"/>
         <expression value="(numerator.exists() and denominator.exists()) or (numerator.empty() and denominator.empty() and extension.exists())"/>
         <xpath value="(count(f:numerator) = count(f:denominator)) and ((count(f:numerator) &gt; 0) or (count(f:extension) &gt; 0))"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Ratio"/>
@@ -101,8 +101,8 @@
     <element id="Ratio.id">
       <path value="Ratio.id"/>
       <representation value="xmlAttr"/>
-      <short value="Unique id for inter-element referencing"/>
-      <definition value="Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
+      <short value="要素間参照のための一意のID / Unique id for inter-element referencing"/>
+      <definition value="リソース内の要素の一意のID（内部参照用）。これは、スペースを含まない文字列値である場合があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -133,9 +133,9 @@
         <description value="Extensions are always sliced by (at least) url"/>
         <rules value="open"/>
       </slicing>
-      <short value="Additional content defined by implementations"/>
-      <definition value="May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
-      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
+      <short value="実装で定義された追加のコンテンツ / Additional content defined by implementations"/>
+      <definition value="要素の基本的な定義の一部ではない追加情報を表すために使用できます。拡張機能を安全で管理しやすくするために、拡張機能の定義と使用に適用される厳格なガバナンスセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たされる一連の要件があります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension."/>
+      <comment value="拡張機能を使用または定義する機関や管轄権に関係なく、アプリケーション、プロジェクト、または標準による拡張機能の使用に関連するスティグマはありません。拡張機能の使用は、FHIR仕様がすべての人にコアレベルのシンプルさを保持できるようにするものです。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone."/>
       <alias value="extensions"/>
       <alias value="user content"/>
       <min value="0"/>
@@ -151,7 +151,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -159,7 +159,7 @@
       <constraint>
         <key value="ext-1"/>
         <severity value="error"/>
-        <human value="Must have either extensions or value[x], not both"/>
+        <human value="両方ではなく、拡張または値[x]が必要です / Must have either extensions or value[x], not both"/>
         <expression value="extension.exists() != value.exists()"/>
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Extension"/>
@@ -174,7 +174,7 @@
     <element id="Ratio.numerator">
       <path value="Ratio.numerator"/>
       <short value="投与量"/>
-      <definition value="The value of the numerator."/>
+      <definition value="分子の値。 / The value of the numerator."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -189,7 +189,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
@@ -204,7 +204,7 @@
     <element id="Ratio.denominator">
       <path value="Ratio.denominator"/>
       <short value="パッケージ量"/>
-      <definition value="The value of the denominator."/>
+      <definition value="分母の値。 / The value of the denominator."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -219,7 +219,7 @@
       <constraint>
         <key value="ele-1"/>
         <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
+        <human value="すべてのFHIR要素には、@valueまたは子要素が必要です / All FHIR elements must have a @value or children"/>
         <expression value="hasValue() or (children().count() &gt; id.count())"/>
         <xpath value="@value|f:*|h:div"/>
         <source value="http://hl7.org/fhir/StructureDefinition/Element"/>

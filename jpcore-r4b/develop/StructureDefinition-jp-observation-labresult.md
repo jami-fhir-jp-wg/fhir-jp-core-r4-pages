@@ -431,6 +431,11 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "comment" : "【JP Core仕様】標準コードの場合、JLAC10を表すURIを設定。  \nURIは本WGで定義する。"
       },
       {
+        "id" : "Observation.code.coding.version",
+        "path" : "Observation.code.coding.version",
+        "comment" : "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date."
+      },
+      {
         "id" : "Observation.code.coding.code",
         "path" : "Observation.code.coding.code",
         "comment" : "Note that FHIR strings SHALL NOT exceed 1MB in size"
@@ -599,6 +604,11 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "comment" : "May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation."
       },
       {
+        "id" : "Observation.note.author[x]",
+        "path" : "Observation.note.author[x]",
+        "comment" : "Organization is used when there's no need for specific attribution as to who made the comment."
+      },
+      {
         "id" : "Observation.note.time",
         "path" : "Observation.note.time"
       },
@@ -653,12 +663,14 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
       {
         "id" : "Observation.referenceRange.type",
         "path" : "Observation.referenceRange.type",
-        "definition" : "対象となる母集団のどの部分に適用するかを示すコード。正常範囲、要治療範囲、など。"
+        "definition" : "対象となる母集団のどの部分に適用するかを示すコード。正常範囲、要治療範囲、など。",
+        "comment" : "This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed."
       },
       {
         "id" : "Observation.referenceRange.appliesTo",
         "path" : "Observation.referenceRange.appliesTo",
-        "definition" : "基準値が適用される母集団を示すコード。人種、性別など。"
+        "definition" : "基準値が適用される母集団を示すコード。人種、性別など。",
+        "comment" : "This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed."
       },
       {
         "id" : "Observation.referenceRange.age",
@@ -689,6 +701,26 @@ ObservationリソースのOperation一覧の定義はユースケースに依存
         "path" : "Observation.component",
         "definition" : "一度のタイミングでの1回の検査で複数の結果を同時に得る場合にのみ使用される。例えば、血圧の収縮期、拡張期。新生児のApgarスコア。質問に対する複数の回答（飲んだアルコールの種類、など）。",
         "comment" : "For a discussion on the ways Observations can be assembled in groups together see [Notes](observation.html#notes) below."
+      },
+      {
+        "id" : "Observation.component.code",
+        "path" : "Observation.component.code",
+        "comment" : "*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."
+      },
+      {
+        "id" : "Observation.component.value[x]",
+        "path" : "Observation.component.value[x]",
+        "comment" : "Used when observation has a set of component observations. An observation may have both a value (e.g. an  Apgar score)  and component observations (the observations from which the Apgar score was derived). If a value is present, the datatype for this element should be determined by Observation.code. A CodeableConcept with just a text would be used instead of a string if the field was usually coded, or if the type associated with the Observation.code defines a coded value.  For additional guidance, see the [Notes section](observation.html#notes) below."
+      },
+      {
+        "id" : "Observation.component.interpretation",
+        "path" : "Observation.component.interpretation",
+        "comment" : "Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result."
+      },
+      {
+        "id" : "Observation.component.referenceRange",
+        "path" : "Observation.component.referenceRange",
+        "comment" : "Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties."
       }
     ]
   }

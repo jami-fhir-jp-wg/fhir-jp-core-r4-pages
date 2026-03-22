@@ -1646,7 +1646,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0136",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "Hl7VSYesNoIndicator",
       "title" : "hl7VS-yes-no-Indicator",
@@ -1660,7 +1660,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0371",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "Hl7VSAdditivePreservative",
       "title" : "hl7VS-additivePreservative",
@@ -1674,7 +1674,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0487",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "Hl7VSSpecimenType",
       "title" : "hl7VS-specimenType",
@@ -1688,7 +1688,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0493",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "Hl7VSSpecimenCondition",
       "title" : "hl7VS-specimenCondition",
@@ -1702,7 +1702,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0916",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "Hl7VSRelevantClincialInformation",
       "title" : "hl7VS-relevantClincialInformation",

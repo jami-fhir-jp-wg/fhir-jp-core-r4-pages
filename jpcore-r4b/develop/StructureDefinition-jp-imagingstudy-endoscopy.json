@@ -72,7 +72,7 @@
       "id" : "ImagingStudy",
       "path" : "ImagingStudy",
       "short" : "内視鏡を使用したDICOM画像検査に関する情報",
-      "definition" : "Representation of the content produced in a DICOM imaging study. A study comprises a set of series, each of which includes a set of Service-Object Pair Instances (SOP Instances - images or other data) acquired or produced in a common context.  A series is of only one modality (e.g. X-ray, CT, MR, ultrasound), but a study may have multiple series of different modalities.",
+      "definition" : "DICOM画像研究で生成されたコンテンツの表現。 研究には、共通の文脈で収集または生成されたサービスオブジェクトペアインスタンス（SOPインスタンス - 画像またはその他のデータ）のセットで構成される一連のシリーズが含まれます。 シリーズは1つのモダリティのみ（X線、CT、MR、超音波など）、研究には複数の異なるモダリティのシリーズが含まれる場合があります。 / Representation of the content produced in a DICOM imaging study. A study comprises a set of series, each of which includes a set of Service-Object Pair Instances (SOP Instances - images or other data) acquired or produced in a common context.  A series is of only one modality (e.g. X-ray, CT, MR, ultrasound), but a study may have multiple series of different modalities.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -83,7 +83,7 @@
       "constraint" : [{
         "key" : "dom-2",
         "severity" : "error",
-        "human" : "If the resource is contained in another resource, it SHALL NOT contain nested Resources",
+        "human" : "もしリソースが他のリソースに含まれている場合、そのリソースにはネストされたリソースを含めてはなりません (moshi risōsu ga hoka no risōsu ni fukumarete iru baai, sono risōsu ni wa nesuto sareta risōsu o fukumete wa narimasen). / If the resource is contained in another resource, it SHALL NOT contain nested Resources",
         "expression" : "contained.contained.empty()",
         "xpath" : "not(parent::f:contained and f:contained)",
         "source" : "http://hl7.org/fhir/StructureDefinition/DomainResource"
@@ -91,7 +91,7 @@
       {
         "key" : "dom-3",
         "severity" : "error",
-        "human" : "If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource",
+        "human" : "もしリソースが他のリソースに含まれている場合、それはリソースの他の場所から参照されるか、含まれるリソースに参照されるべきです。 / If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource",
         "expression" : "contained.where(((id.exists() and ('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url)))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(uri) = '#').exists()).not()).trace('unmatched', id).empty()",
         "xpath" : "not(exists(for $contained in f:contained return $contained[not(exists(parent::*/descendant::f:reference/@value=concat('#', $contained/*/f:id/@value)) or exists(descendant::f:reference[@value='#']))]))",
         "source" : "http://hl7.org/fhir/StructureDefinition/DomainResource"
@@ -99,7 +99,7 @@
       {
         "key" : "dom-4",
         "severity" : "error",
-        "human" : "If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated",
+        "human" : "もしリソースが別のリソースの中に含まれる場合、meta.versionIdまたはmeta.lastUpdatedを持つべきではありません。 / If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated",
         "expression" : "contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()",
         "xpath" : "not(exists(f:contained/*/f:meta/f:versionId)) and not(exists(f:contained/*/f:meta/f:lastUpdated))",
         "source" : "http://hl7.org/fhir/StructureDefinition/DomainResource"
@@ -107,7 +107,7 @@
       {
         "key" : "dom-5",
         "severity" : "error",
-        "human" : "If a resource is contained in another resource, it SHALL NOT have a security label",
+        "human" : "もしリソースが他のリソースに含まれている場合、セキュリティラベルを持つべきではありません。 / If a resource is contained in another resource, it SHALL NOT have a security label",
         "expression" : "contained.meta.security.empty()",
         "xpath" : "not(exists(f:contained/*/f:meta/f:security))",
         "source" : "http://hl7.org/fhir/StructureDefinition/DomainResource"
@@ -123,7 +123,7 @@
         }],
         "key" : "dom-6",
         "severity" : "warning",
-        "human" : "A resource should have narrative for robust management",
+        "human" : "資源は堅牢な管理のために物語を持つべきである。 / A resource should have narrative for robust management",
         "expression" : "text.`div`.exists()",
         "xpath" : "exists(f:text/h:div)",
         "source" : "http://hl7.org/fhir/StructureDefinition/DomainResource"
@@ -155,9 +155,9 @@
     {
       "id" : "ImagingStudy.id",
       "path" : "ImagingStudy.id",
-      "short" : "Logical id of this artifact",
-      "definition" : "The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.",
-      "comment" : "The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
+      "short" : "このアーティファクトの論理ID / Logical id of this artifact",
+      "definition" : "リソースのURLで使用される論理ID。一度割り当てられたら、この値は変更されません。 / The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.",
+      "comment" : "リソースにIDがないのは、作成操作を使用してサーバーに送信されているときだけです。 / The only time that a resource does not have an id is when it is being submitted to the server using a create operation.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -179,8 +179,8 @@
     {
       "id" : "ImagingStudy.meta",
       "path" : "ImagingStudy.meta",
-      "short" : "Metadata about the resource",
-      "definition" : "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.",
+      "short" : "リソースに関するMetadata / Metadata about the resource",
+      "definition" : "リソースに関するMetadata。これはインフラストラクチャによって維持されるコンテンツです。 コンテンツの変更は、リソースのバージョン変更と常に関連しているわけではありません。 / The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -194,7 +194,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -206,9 +206,9 @@
     {
       "id" : "ImagingStudy.implicitRules",
       "path" : "ImagingStudy.implicitRules",
-      "short" : "A set of rules under which this content was created",
-      "definition" : "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.",
-      "comment" : "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.",
+      "short" : "このコンテンツが作成されたルールセット / A set of rules under which this content was created",
+      "definition" : "リソース構築時に遵守された一連のルールを指すものであり、コンテンツを処理する際に理解する必要があります。しばしば、特別なルールを定義する実装ガイドとその他のプロファイルなどを含むものです。 / A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.",
+      "comment" : "このルールセットを主張することで、取引先の限られた集団にしか内容を理解させることができず、長期的にはデータの有用性が制限されます。しかしながら、現存するヘルスエコシステムは高度に分断化しており、一般的に計算可能な形式でデータを定義、収集、交換する準備が整っていません。できる限り、実装者および/または仕様ライターはこの要素の使用を避けるべきです。使用する場合、URLは、そのナラティブとともに他のプロファイル、値セットなどを含む実装ガイドを定義する参照となります。 / Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -222,22 +222,22 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
       "mustSupport" : false,
       "isModifier" : true,
-      "isModifierReason" : "This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation",
+      "isModifierReason" : "この要素は、暗黙のルールがリソースの意味や解釈を変更する追加の知識を提供する可能性があるため、修飾子としてラベル付けされている / This element is labeled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation",
       "isSummary" : true
     },
     {
       "id" : "ImagingStudy.language",
       "path" : "ImagingStudy.language",
-      "short" : "Language of the resource content",
-      "definition" : "The base language in which the resource is written.",
-      "comment" : "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
+      "short" : "リソースコンテンツの言語 / Language of the resource content",
+      "definition" : "リソースが書かれている基本言語。 / The base language in which the resource is written.",
+      "comment" : "言語はインデックスとアクセシビリティをサポートするために提供されます（通常、テキスト読み上げなどのサービスは言語タグを使用します）。物語のHTML言語タグは、物語に適用されます。リソース上の言語タグは、リソース内のデータから生成される他のプレゼンテーションの言語を指定するために使用できます。すべてのコンテンツが基本言語である必要はありません。Resource.languageは自動的に物語に適用されたと想定してはいけません。言語が指定されている場合、HTMLのdiv要素にも指定する必要があります（xml：langとhtml lang属性の関係に関する情報はHTML5の規則を参照）。 / Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -251,7 +251,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -269,16 +269,16 @@
           "valueString" : "Language"
         }],
         "strength" : "preferred",
-        "description" : "IETF language tag",
+        "description" : "人間の言語。 / IETF language tag",
         "valueSet" : "http://hl7.org/fhir/ValueSet/languages|4.3.0"
       }
     },
     {
       "id" : "ImagingStudy.text",
       "path" : "ImagingStudy.text",
-      "short" : "Text summary of the resource, for human interpretation",
-      "definition" : "A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
-      "comment" : "Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.",
+      "short" : "人間の解釈のためのリソースのテキスト要約 / Text summary of the resource, for human interpretation",
+      "definition" : "リソースの要約を含む人が読めるナビゲーションであり、リソースの内容を人に表現するために使用できます。ナビゲーションはすべての構造化されたデータをエンコードする必要はありませんが、人間がナビゲーションを読むだけで「臨床的に安全」であるために十分な詳細を含む必要があります。リソース定義には、臨床的な安全性を確保するためにナビゲーションで表現する必要があるコンテンツが定義される場合があります。 / A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it \"clinically safe\" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.",
+      "comment" : "含まれるリソースには説明がありません。含まれないリソースには説明が必要です。場合によっては、リソースが少量のデータしか含まず、テキストだけで表現されることがあります（minOccurs = 1要素がすべて満たされている限り）。これは、情報が「テキストの塊」としてキャプチャされるレガシーシステムからのデータや、テキストが生またはナレーションされて符号化された情報が後で追加される場合に必要な場合があります。 / Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.",
       "alias" : ["narrative",
       "html",
       "xhtml",
@@ -296,7 +296,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -312,9 +312,9 @@
     {
       "id" : "ImagingStudy.contained",
       "path" : "ImagingStudy.contained",
-      "short" : "Contained, inline Resources",
-      "definition" : "These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.",
-      "comment" : "This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.",
+      "short" : "含まれている、インラインのリソース / Contained, inline Resources",
+      "definition" : "これらのリソースは、それらを含むリソースから独立した存在を持ちません。それらは独立して識別することはできず、独自の独立したトランザクション範囲を持つこともできません。 / These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.",
+      "comment" : "コンテンツが適切に識別できる場合には、これを行うべきではありません。識別が失われると、再び復元することは非常に困難であり（文脈に依存します）、メタ要素にプロファイルとタグを持つことができますが、セキュリティのラベルを持っていてはいけません。 / This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.",
       "alias" : ["inline resources",
       "anonymous resources",
       "contained resources"],
@@ -331,7 +331,7 @@
       "constraint" : [{
         "key" : "dom-r4b",
         "severity" : "warning",
-        "human" : "Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems",
+        "human" : "R4リソース内に新しいR4Bリソースを含めると、インスタンスがR4システムと共有された場合に相互運用性の問題が発生する可能性があります / Containing new R4B resources within R4 resources may cause interoperability issues if instances are shared with R4 systems",
         "expression" : "($this is Citation or $this is Evidence or $this is EvidenceReport or $this is EvidenceVariable or $this is MedicinalProductDefinition or $this is PackagedProductDefinition or $this is AdministrableProductDefinition or $this is Ingredient or $this is ClinicalUseDefinition or $this is RegulatedAuthorization or $this is SubstanceDefinition or $this is SubscriptionStatus or $this is SubscriptionTopic) implies (%resource is Citation or %resource is Evidence or %resource is EvidenceReport or %resource is EvidenceVariable or %resource is MedicinalProductDefinition or %resource is PackagedProductDefinition or %resource is AdministrableProductDefinition or %resource is Ingredient or %resource is ClinicalUseDefinition or %resource is RegulatedAuthorization or %resource is SubstanceDefinition or %resource is SubscriptionStatus or %resource is SubscriptionTopic)",
         "xpath" : "not(f:Citation|f:Evidence|f:EvidenceReport|f:EvidenceVariable|f:MedicinalProductDefinition|f:PackagedProductDefinition|f:AdministrableProductDefinition|f:Ingredient|f:ClinicalUseDefinition|f:RegulatedAuthorization|f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic) or not(parent::f:Citation|parent::f:Evidence|parent::f:EvidenceReport|parent::f:EvidenceVariable|parent::f:MedicinalProductDefinition|parent::f:PackagedProductDefinition|parent::f:AdministrableProductDefinition|parent::f:Ingredient|parent::f:ClinicalUseDefinition|parent::f:RegulatedAuthorization|parent::f:SubstanceDefinition|f:SubscriptionStatus|f:SubscriptionTopic)",
         "source" : "http://hl7.org/fhir/StructureDefinition/ImagingStudy"
@@ -347,9 +347,9 @@
     {
       "id" : "ImagingStudy.extension",
       "path" : "ImagingStudy.extension",
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "short" : "実装によって定義される追加コンテンツ / Additional content defined by implementations",
+      "definition" : "リソースの基本的な定義の一部ではない追加情報を表すために使用することができます。拡張機能の使用を安全かつ管理可能にするために、定義と使用の一定のガバナンスが適用されます。実装者はどんな拡張機能でも定義できますが、拡張機能の定義の一部として満たす必要がある要件があります / May be used to represent additional information that is not part of the basic definition of the resource. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
       "alias" : ["extensions",
       "user content"],
       "min" : 0,
@@ -365,7 +365,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -373,7 +373,7 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
@@ -389,10 +389,10 @@
     {
       "id" : "ImagingStudy.modifierExtension",
       "path" : "ImagingStudy.modifierExtension",
-      "short" : "Extensions that cannot be ignored",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
+      "short" : "無視できない拡張機能 / Extensions that cannot be ignored",
+      "definition" : "リソースの基本的な定義に含まれない、要素の理解や、それを含む要素の子孫の理解を修正する追加情報を表すためにも使用されることがあります。通常、修飾要素は否定や修飾を提供します。拡張機能の使用を安全で管理しやすくするために、拡張機能の定義と使用に対して厳格な統治が適用されます。実装者は拡張機能を定義することが許可されていますが、拡張機能の定義の一部として満たす必要がある要件があります。リソースを処理するアプリケーションは、修飾子拡張をチェックする必要があります。修飾子拡張は、リソースまたはドメインリソースの任意の要素の意味を変更してはなりません（修飾子拡張自体の意味も変更できません）。 / May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "修飾子拡張により、安全に無視できない拡張を、安全に無視できる大多数の拡張と明確に区別することができます。これにより、実装者が拡張の存在を禁止する必要がなくなり、相互運用性が促進されます。詳細については、[修飾子拡張の定義](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
       "alias" : ["extensions",
       "user content"],
       "min" : 0,
@@ -408,7 +408,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -416,14 +416,14 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "mustSupport" : false,
       "isModifier" : true,
-      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them",
+      "isModifierReason" : "修飾子拡張は、それを含むリソースの意味または解釈を変更することが期待されます / Modifier extensions are expected to modify the meaning or interpretation of the resource that contains them",
       "isSummary" : false,
       "mapping" : [{
         "identity" : "rim",
@@ -436,7 +436,7 @@
       "short" : "DICOM画像検査全体を一意に識別するためのID【詳細参照】",
       "definition" : "DICOM画像検査全体を一意に識別するためのID。",
       "comment" : "Study Instance UIDの値を指定する。",
-      "requirements" : "If one or more series elements are present in the ImagingStudy, then there shall be one DICOM Study UID identifier (see [DICOM PS 3.3 C.7.2](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.2.html).",
+      "requirements" : "ImagingStudyに1つ以上のseries要素が存在する場合、1つのDICOM Study UID識別子が存在しなければならない（[DICOM PS 3.3 C.7.2](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.2.html)を参照）。 / If one or more series elements are present in the ImagingStudy, then there shall be one DICOM Study UID identifier (see [DICOM PS 3.3 C.7.2](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.2.html).",
       "alias" : ["StudyInstanceUID",
       "AccessionNumber"],
       "min" : 0,
@@ -452,7 +452,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -482,7 +482,7 @@
       "path" : "ImagingStudy.status",
       "short" : "DICOM画像検査のステータス",
       "definition" : "DICOM画像検査のステータス。",
-      "comment" : "Unknown does not represent \"other\" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.",
+      "comment" : "不明」は「その他」を表すものではありません-定義された状態の1つが適用される必要があります。「不明」は、制作システムが現在の状態を確信できない場合に使用されます。 / Unknown does not represent \"other\" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.",
       "min" : 1,
       "max" : "1",
       "base" : {
@@ -496,14 +496,14 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
       "mustSupport" : false,
       "isModifier" : true,
-      "isModifierReason" : "This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid",
+      "isModifierReason" : "この要素はリソースが有効として扱われるべきではないことを意味するentered-in-errorステータスを含むステータス要素であるため、修飾子としてラベル付けされています / This element is labelled as a modifier because it is a status element that contains status entered-in-error which means that the resource should not be treated as valid",
       "isSummary" : true,
       "binding" : {
         "extension" : [{
@@ -511,7 +511,7 @@
           "valueString" : "ImagingStudyStatus"
         }],
         "strength" : "required",
-        "description" : "The status of the ImagingStudy.",
+        "description" : "ImagingStudyの状態。 / The status of the ImagingStudy.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/imagingstudy-status|4.3.0"
       },
       "mapping" : [{
@@ -551,7 +551,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -600,7 +600,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -649,7 +649,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -698,7 +698,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -729,7 +729,7 @@
       "short" : "他のシステムから依頼されたオーダ情報【詳細参照】",
       "definition" : "他のシステムから依頼されたオーダ情報。",
       "comment" : "通常、依頼元となるServiceRequestリソースを参照する。他のシステムと連携していない場合は参照不要。",
-      "requirements" : "To support grouped procedures (one imaging study supporting multiple ordered procedures, e.g. chest/abdomen/pelvis CT).",
+      "requirements" : "グループ化されたプロシージャ（複数のオーダーされたプロシージャをサポートする1つの画像検査、例：胸部/腹部/骨盤CT）をサポートするため。 / To support grouped procedures (one imaging study supporting multiple ordered procedures, e.g. chest/abdomen/pelvis CT).",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -748,7 +748,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -794,7 +794,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -836,7 +836,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -863,7 +863,7 @@
       "short" : "このDICOM画像検査リソースが存在する位置【詳細参照】",
       "definition" : "このDICOM画像検査リソースが存在する位置。",
       "comment" : "基本的には1つ指定する。",
-      "requirements" : "Access methods for viewing (e.g., IHE’s IID profile) or retrieving (e.g., DICOM’s WADO-URI and WADO-RS) the study or the study’s series or instances. The study-level baseLocation applies to each series in the study, unless overridden in series by a series-level baseLocation of the same type.",
+      "requirements" : "スタディまたはスタディのシリーズやインスタンスの表示（例：IHEのIIDプロファイル）または取得（例：DICOMのWADO-URIおよびWADO-RS）のためのアクセス方法。スタディレベルのbaseLocationは、同じタイプのシリーズレベルのbaseLocationでシリーズ内でオーバーライドされない限り、スタディ内の各シリーズに適用される。 / Access methods for viewing (e.g., IHE’s IID profile) or retrieving (e.g., DICOM’s WADO-URI and WADO-RS) the study or the study’s series or instances. The study-level baseLocation applies to each series in the study, unless overridden in series by a series-level baseLocation of the same type.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -878,7 +878,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -910,7 +910,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -946,7 +946,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -983,7 +983,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1024,7 +1024,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1055,7 +1055,7 @@
       "short" : "DICOM画像検査が実施された場所【詳細参照】",
       "definition" : "DICOM画像検査が実施された場所。",
       "comment" : "使用する場合には、JP Core Locationリソースを参照する。",
-      "requirements" : "Ties the event to where the records are likely kept and provides context around the event occurrence (e.g. if it occurred inside or outside a dedicated healthcare setting).",
+      "requirements" : "イベントをレコードが保管されている可能性が高い場所に結びつけ、イベントの発生に関するコンテキスト（例：専用の医療施設の内外のいずれで発生したか）を提供する。 / Ties the event to where the records are likely kept and provides context around the event occurrence (e.g. if it occurred inside or outside a dedicated healthcare setting).",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1070,7 +1070,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1118,7 +1118,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1167,7 +1167,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1210,7 +1210,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1247,7 +1247,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1282,7 +1282,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children unless an empty Parameters resource",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children unless an empty Parameters resource",
         "expression" : "hasValue() or (children().count() > id.count()) or $this is Parameters",
         "xpath" : "@value|f:*|h:div|self::f:Parameters",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1299,8 +1299,8 @@
       "id" : "ImagingStudy.series.id",
       "path" : "ImagingStudy.series.id",
       "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "short" : "エレメント相互参照のためのユニークID / Unique id for inter-element referencing",
+      "definition" : "リソース内の要素の固有ID（内部参照用）。これは、スペースを含まない任意の文字列値である可能性があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1325,9 +1325,9 @@
     {
       "id" : "ImagingStudy.series.extension",
       "path" : "ImagingStudy.series.extension",
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "short" : "実装によって定義される追加コンテンツ / Additional content defined by implementations",
+      "definition" : "要素の基本的な定義に含まれない追加情報を表すために使用されることがあります。拡張機能の使用を安全かつ管理しやすくするために、定義および使用に適用される厳格なガバナンスのセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たす必要のある要件のセットがあります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
       "alias" : ["extensions",
       "user content"],
       "min" : 0,
@@ -1343,7 +1343,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1351,7 +1351,7 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
@@ -1366,10 +1366,10 @@
     {
       "id" : "ImagingStudy.series.modifierExtension",
       "path" : "ImagingStudy.series.modifierExtension",
-      "short" : "Extensions that cannot be ignored even if unrecognized",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
+      "short" : "認識されなくても無視できない拡張機能 / Extensions that cannot be ignored even if unrecognized",
+      "definition" : "基本的な要素の定義に含まれない追加情報を表すために使用されることがあり、それによって、その要素自体または取り込んでいる要素の子孫の理解を修正する。修飾子要素は通常、否定または修飾を提供します。拡張機能の安全で管理しやすい使用を実現するために、定義および使用に厳しいガバナンスセットが適用されています。どの実装者でも拡張機能を定義できますが、拡張機能の定義の一部として満たす必要がある要件があります。リソースを処理するアプリケーションは、修飾子拡張子をチェックする必要があります。\n\n修飾子拡張機能は、リソースまたはドメインリソースの任意の要素の意味を変更してはなりません（修飾子拡張自体の意味を変更することもできません）。 / May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "修飾子拡張により、安全に無視できない拡張を、安全に無視できる大多数の拡張と明確に区別することができます。これにより、実装者が拡張の存在を禁止する必要がなくなり、相互運用性が促進されます。詳細については、[修飾子拡張の定義](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
       "alias" : ["extensions",
       "user content",
       "modifiers"],
@@ -1386,7 +1386,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1394,13 +1394,13 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : true,
-      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
+      "isModifierReason" : "修飾子拡張は、それを含む要素の意味または解釈を変更することが期待されます / Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1413,7 +1413,7 @@
       "short" : "シリーズを一意に識別するためのUID【詳細参照】",
       "definition" : "シリーズを一意に識別するためのUID。",
       "comment" : "Series Instance UID (0020,000E) の値を指定する。",
-      "requirements" : "DICOM Series Instance UID.",
+      "requirements" : "DICOM Series Instance UID。 / DICOM Series Instance UID.",
       "alias" : ["SeriesInstanceUID"],
       "min" : 1,
       "max" : "1",
@@ -1432,7 +1432,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1472,7 +1472,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1509,7 +1509,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1553,7 +1553,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1589,7 +1589,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1611,8 +1611,8 @@
       "path" : "ImagingStudy.series.endpoint",
       "short" : "このシリーズのリソースが存在する位置",
       "definition" : "このシリーズのリソースが存在する位置。",
-      "comment" : "Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG) formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach; and DICOM QIDO-RS, which allows RESTful query for DICOM information without retrieving the actual instances.",
-      "requirements" : "Access methods for retrieving (e.g., DICOM’s WADO-URI and WADO-RS) the series or the series’ instances. A baseLocation specified at the series level has precedence over a baseLocation of the same type specified at the study level.",
+      "comment" : "典型的なエンドポイントタイプには、レストフルAPIを使用してネイティブまたはレンダリング（例：JPG、PNG）形式のDICOMインスタンスを取得するために使用されるDICOM WADO-RSが含まれ、HTTPクエリベースのアプローチを使用して同様のネイティブまたはレンダリングインスタンスを取得することができるDICOM WADO-URIが含まれ、DICOM情報のRESTfulクエリを可能にするDICOM QIDO-RSが含まれます。 / Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG) formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach; and DICOM QIDO-RS, which allows RESTful query for DICOM information without retrieving the actual instances.",
+      "requirements" : "シリーズまたはシリーズのインスタンスの取得（例：DICOMのWADO-URIおよびWADO-RS）のためのアクセス方法。シリーズレベルで指定されたbaseLocationは、スタディレベルで指定された同じタイプのbaseLocationよりも優先される。 / Access methods for retrieving (e.g., DICOM’s WADO-URI and WADO-RS) the series or the series’ instances. A baseLocation specified at the series level has precedence over a baseLocation of the same type specified at the study level.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -1627,7 +1627,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1660,7 +1660,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1674,7 +1674,7 @@
           "valueString" : "BodySite"
         }],
         "strength" : "example",
-        "description" : "SNOMED CT Body site concepts",
+        "description" : "解剖学的位置を記述するコード。左右対称性を含む場合があります。 / SNOMED CT Body site concepts",
         "valueSet" : "http://hl7.org/fhir/ValueSet/body-site|4.3.0"
       },
       "mapping" : [{
@@ -1705,7 +1705,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1719,7 +1719,7 @@
           "valueString" : "Laterality"
         }],
         "strength" : "example",
-        "description" : "Codes describing body site laterality (left, right, etc.).",
+        "description" : "適用される部位の側性を示すコード（左側、右側など） / Codes describing body site laterality (left, right, etc.).",
         "valueSet" : "http://hl7.org/fhir/ValueSet/bodysite-laterality|4.3.0"
       },
       "mapping" : [{
@@ -1751,7 +1751,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1787,7 +1787,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1810,7 +1810,7 @@
       "short" : "このシリーズの実施医【詳細参照】",
       "definition" : "このシリーズの実施医。",
       "comment" : "内視鏡では省略してよい。",
-      "requirements" : "The performer is recorded at the series level, since each series in a study may be performed by a different performer, at different times, and using different devices. A series may be performed by multiple performers.",
+      "requirements" : "スタディ内の各シリーズは異なる実施者によって異なる時間に異なるデバイスを使用して実施される可能性があるため、実施者はシリーズレベルで記録される。シリーズは複数の実施者によって実施される場合がある。 / The performer is recorded at the series level, since each series in a study may be performed by a different performer, at different times, and using different devices. A series may be performed by multiple performers.",
       "alias" : ["PerformingPhysicianName",
       "OperatorName"],
       "min" : 0,
@@ -1826,7 +1826,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children unless an empty Parameters resource",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children unless an empty Parameters resource",
         "expression" : "hasValue() or (children().count() > id.count()) or $this is Parameters",
         "xpath" : "@value|f:*|h:div|self::f:Parameters",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1851,8 +1851,8 @@
       "id" : "ImagingStudy.series.performer.id",
       "path" : "ImagingStudy.series.performer.id",
       "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "short" : "エレメント相互参照のためのユニークID / Unique id for inter-element referencing",
+      "definition" : "リソース内の要素の固有ID（内部参照用）。これは、スペースを含まない任意の文字列値である可能性があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1877,9 +1877,9 @@
     {
       "id" : "ImagingStudy.series.performer.extension",
       "path" : "ImagingStudy.series.performer.extension",
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "short" : "実装によって定義される追加コンテンツ / Additional content defined by implementations",
+      "definition" : "要素の基本的な定義に含まれない追加情報を表すために使用されることがあります。拡張機能の使用を安全かつ管理しやすくするために、定義および使用に適用される厳格なガバナンスのセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たす必要のある要件のセットがあります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
       "alias" : ["extensions",
       "user content"],
       "min" : 0,
@@ -1895,7 +1895,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1903,7 +1903,7 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
@@ -1918,10 +1918,10 @@
     {
       "id" : "ImagingStudy.series.performer.modifierExtension",
       "path" : "ImagingStudy.series.performer.modifierExtension",
-      "short" : "Extensions that cannot be ignored even if unrecognized",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
+      "short" : "認識されなくても無視できない拡張機能 / Extensions that cannot be ignored even if unrecognized",
+      "definition" : "基本的な要素の定義に含まれない追加情報を表すために使用されることがあり、それによって、その要素自体または取り込んでいる要素の子孫の理解を修正する。修飾子要素は通常、否定または修飾を提供します。拡張機能の安全で管理しやすい使用を実現するために、定義および使用に厳しいガバナンスセットが適用されています。どの実装者でも拡張機能を定義できますが、拡張機能の定義の一部として満たす必要がある要件があります。リソースを処理するアプリケーションは、修飾子拡張子をチェックする必要があります。\n\n修飾子拡張機能は、リソースまたはドメインリソースの任意の要素の意味を変更してはなりません（修飾子拡張自体の意味を変更することもできません）。 / May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "修飾子拡張により、安全に無視できない拡張を、安全に無視できる大多数の拡張と明確に区別することができます。これにより、実装者が拡張の存在を禁止する必要がなくなり、相互運用性が促進されます。詳細については、[修飾子拡張の定義](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
       "alias" : ["extensions",
       "user content",
       "modifiers"],
@@ -1938,7 +1938,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1946,13 +1946,13 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : true,
-      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
+      "isModifierReason" : "修飾子拡張は、それを含む要素の意味または解釈を変更することが期待されます / Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -1965,7 +1965,7 @@
       "short" : "このシリーズの実施医の役割【詳細参照】",
       "definition" : "このシリーズの実施医の役割。",
       "comment" : "内視鏡では省略してよい。",
-      "requirements" : "Allows disambiguation of the types of involvement of different performers.",
+      "requirements" : "異なる実施者の関与タイプの曖昧さの解消を可能にする。 / Allows disambiguation of the types of involvement of different performers.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1979,7 +1979,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -1993,7 +1993,7 @@
           "valueString" : "EventPerformerFunction"
         }],
         "strength" : "extensible",
-        "description" : "The type of involvement of the performer.",
+        "description" : "パフォーマーの関与のタイプ / The type of involvement of the performer.",
         "valueSet" : "http://hl7.org/fhir/ValueSet/series-performer-function|4.3.0"
       },
       "mapping" : [{
@@ -2027,7 +2027,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2066,7 +2066,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children unless an empty Parameters resource",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children unless an empty Parameters resource",
         "expression" : "hasValue() or (children().count() > id.count()) or $this is Parameters",
         "xpath" : "@value|f:*|h:div|self::f:Parameters",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2083,8 +2083,8 @@
       "id" : "ImagingStudy.series.instance.id",
       "path" : "ImagingStudy.series.instance.id",
       "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "short" : "エレメント相互参照のためのユニークID / Unique id for inter-element referencing",
+      "definition" : "リソース内の要素の固有ID（内部参照用）。これは、スペースを含まない任意の文字列値である可能性があります。 / Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -2109,9 +2109,9 @@
     {
       "id" : "ImagingStudy.series.instance.extension",
       "path" : "ImagingStudy.series.instance.extension",
-      "short" : "Additional content defined by implementations",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "short" : "実装によって定義される追加コンテンツ / Additional content defined by implementations",
+      "definition" : "要素の基本的な定義に含まれない追加情報を表すために使用されることがあります。拡張機能の使用を安全かつ管理しやすくするために、定義および使用に適用される厳格なガバナンスのセットがあります。実装者は拡張機能を定義できますが、拡張機能の定義の一部として満たす必要のある要件のセットがあります。 / May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
       "alias" : ["extensions",
       "user content"],
       "min" : 0,
@@ -2127,7 +2127,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2135,7 +2135,7 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
@@ -2150,10 +2150,10 @@
     {
       "id" : "ImagingStudy.series.instance.modifierExtension",
       "path" : "ImagingStudy.series.instance.modifierExtension",
-      "short" : "Extensions that cannot be ignored even if unrecognized",
-      "definition" : "May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
-      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
-      "requirements" : "Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
+      "short" : "認識されなくても無視できない拡張機能 / Extensions that cannot be ignored even if unrecognized",
+      "definition" : "基本的な要素の定義に含まれない追加情報を表すために使用されることがあり、それによって、その要素自体または取り込んでいる要素の子孫の理解を修正する。修飾子要素は通常、否定または修飾を提供します。拡張機能の安全で管理しやすい使用を実現するために、定義および使用に厳しいガバナンスセットが適用されています。どの実装者でも拡張機能を定義できますが、拡張機能の定義の一部として満たす必要がある要件があります。リソースを処理するアプリケーションは、修飾子拡張子をチェックする必要があります。\n\n修飾子拡張機能は、リソースまたはドメインリソースの任意の要素の意味を変更してはなりません（修飾子拡張自体の意味を変更することもできません）。 / May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.\n\nModifier extensions SHALL NOT change the meaning of any elements on Resource or DomainResource (including cannot change the meaning of modifierExtension itself).",
+      "comment" : "どのようなアプリケーション、プロジェクト、または標準が拡張機能を使用しているかに関わらず、拡張機能の使用には決して汚名が付くわけではありません - それらを使用または定義する機関または管轄区域に関係なく。拡張機能の使用こそが、FHIR仕様を誰にとっても簡単なコアレベルで維持することを可能にします。 / There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "requirements" : "修飾子拡張により、安全に無視できない拡張を、安全に無視できる大多数の拡張と明確に区別することができます。これにより、実装者が拡張の存在を禁止する必要がなくなり、相互運用性が促進されます。詳細については、[修飾子拡張の定義](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension)を参照してください。 / Modifier extensions allow for extensions that *cannot* be safely ignored to be clearly distinguished from the vast majority of extensions which can be safely ignored.  This promotes interoperability by eliminating the need for implementers to prohibit the presence of extensions. For further information, see the [definition of modifier extensions](http://hl7.org/fhir/R4B/extensibility.html#modifierExtension).",
       "alias" : ["extensions",
       "user content",
       "modifiers"],
@@ -2170,7 +2170,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2178,13 +2178,13 @@
       {
         "key" : "ext-1",
         "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
+        "human" : "extensionまたはvalue[x]のいずれかが必要です。両方ではありません。 / Must have either extensions or value[x], not both",
         "expression" : "extension.exists() != value.exists()",
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : true,
-      "isModifierReason" : "Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
+      "isModifierReason" : "修飾子拡張は、それを含む要素の意味または解釈を変更することが期待されます / Modifier extensions are expected to modify the meaning or interpretation of the element that contains them",
       "isSummary" : true,
       "mapping" : [{
         "identity" : "rim",
@@ -2197,7 +2197,7 @@
       "short" : "インスタンス（画像）のユニークID【詳細参照】",
       "definition" : "インスタンス（画像）のユニークID。",
       "comment" : "SOP Instance UID (0008,0018) に入力されている値を指定する。",
-      "requirements" : "DICOM SOP Instance UID.",
+      "requirements" : "DICOM SOP Instance UID。 / DICOM SOP Instance UID.",
       "alias" : ["SOPInstanceUID"],
       "min" : 1,
       "max" : "1",
@@ -2216,7 +2216,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2253,7 +2253,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2298,7 +2298,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
@@ -2334,7 +2334,7 @@
       "constraint" : [{
         "key" : "ele-1",
         "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
+        "human" : "すべてのFHIR要素は、@valueまたはchildrenを持っている必要があります。 / All FHIR elements must have a @value or children",
         "expression" : "hasValue() or (children().count() > id.count())",
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
